@@ -158,4 +158,29 @@ The strategy document is the artifact you carry into Chapter 9 (visual identity)
 
 ---
 
+## 📌 LLM Exercise — Path-fork note
+
+**Project:** This chapter is the Startup Brand variant of the path fork. The book ships with one default running-project track — *Self-as-Project* — which follows the **Personal Brand path**. If you are reading this Startup variant, you have committed to building a startup brand around the AI tool you shipped in Part II rather than to building yourself as the running project.
+
+**For Startup Brand readers, adapt the Chapter 8 exercise as follows:**
+
+Use the same eight-section structure (mission, vision, values, UVP, archetype, voice, positioning, negative space) plus tagline and domain — but write the document for **your startup**, not yourself. The output is *Startup Brand Strategy v1 — [Company Name]*, not *Personal Brand Strategy v1 — [Your Name]*.
+
+The substantive differences:
+
+- **Mission and vision** describe the *company's* aim and the world the *company* changes — not your career direction.
+- **Values** are the commitments the *company* maintains across product decisions — what you ship, what you decline to ship, who you hire, who you decline to hire.
+- **UVP** is what your *product* offers that competitors don't — not what you offer that other engineers don't.
+- **Archetype** applies to the *company*. Stripe (the case in this chapter) is a Sage as a company; Patrick Collison's personal archetype is adjacent but distinct.
+- **Naming** is load-bearing for a startup in a way it isn't for a person — you already have a name; your startup may not. Run the bar-test, lawyer-test, and domain-test described in this chapter against any candidate name.
+- **Negative space** for a startup is the customers you decline to serve, the features you refuse to build, the compromises you won't make to close a deal. Stripe's "no" to enterprise customization in the early years is the canonical example.
+
+The full prompt structure mirrors the Personal Brand exercise; substitute startup-level subjects for personal-level subjects throughout. Output the document to your Claude Project as `Startup Brand Strategy v1 — [Company Name]`.
+
+For instructors and readers who want a fully separate Startup Brand running track, see `exercises/2026-05-02-running-project-planning.md` for the alternative project tracks (Brand Reverse-Engineering Dossier, Synthetic Startup Pitch Book, Three-Brand Comparative Audit, Thought-Leadership Publication Arc) — the Synthetic Startup Pitch Book is the closest match to a startup-brand running project.
+
+**Preview of next chapter:** Chapter 9 turns the strategy into a visual identity system — palette, type, mood, wireframe — applied to your startup's brand.
+
+---
+
 **Tags:** brand-strategy · startup-brand · stripe · sage-archetype · developer-first · negative-space · UVP · mission-vision-values · naming · INFO-7375

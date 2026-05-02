@@ -195,4 +195,54 @@ The other limit: the portfolio strategy I describe rewards consistency over time
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A **deployed portfolio at a public URL**, archetype-aligned, with the AI tool you built (the book's main thread) integrated as a centerpiece case study.
+**Tool:** Claude Code OR v0.app (recommend v0 for most learners; Claude Code if you want to fully own the codebase).
+
+**The Prompt:**
+
+```
+[FOR v0.app: paste this into v0 directly, in the "Generate" prompt field]
+[FOR Claude Code: open Claude Code in your portfolio directory and paste this]
+[FOR Claude Project: this generates the prompt + content; you'll use v0 separately]
+
+Generate a personal portfolio site for me using React + Tailwind + shadcn/ui. The site should match the Personal Visual System v1 I produced in Chapter 9 (palette, typography, layout grid, archetype) and use the content I produced in Chapter 10 (origin story, case study, thought-leadership piece).
+
+Pages required:
+1. HOME. Above the fold: my name, my one-sentence positioning (from Brand Strategy Ch 8), a clear primary CTA. Below: a "Selected Work" section with 3 project cards (use placeholders if I haven't filled them in yet). A "Writing" section with at least one published piece.
+2. ABOUT. My origin story (from Chapter 10). Photo placeholder. Optional values list (drawn from Brand Strategy values). Contact-me CTA.
+3. WORK / CASE STUDIES. List of all case studies as cards. One detail page per case study (use my Chapter 10 case study as the template).
+4. WRITING. Index of published pieces. Each piece links out to its actual published location (LinkedIn, Substack, etc.) — do not republish in full on the portfolio.
+5. CONTACT. Email, LinkedIn, GitHub, optionally Twitter/X. No contact form unless I want one (most don't get used).
+
+Visual constraints:
+- PALETTE: [paste your Chapter 9 palette hex codes]
+- TYPOGRAPHY: [paste your Chapter 9 type pair, with sizes]
+- ARCHETYPE: [paste your archetype name]
+- TONE: [paste 3 tone words from Ch 9 brief]
+
+Behavior constraints:
+- Mobile-responsive at 375px, 768px, 1280px.
+- WCAG AA contrast across all text.
+- All images have alt text.
+- The site is keyboard-navigable end-to-end.
+- Lighthouse performance score 90+ on the deployed version (no full-bleed video, no auto-playing media).
+
+Generate the React components for all five pages plus a shared header/footer. Use shadcn/ui components where appropriate. Use Tailwind utility classes. No CSS-in-JS.
+
+After generating: deploy to Vercel (v0 makes this one click), or output the file structure for me to deploy via Claude Code. Give me the public URL when it's live.
+
+Then audit your own output: name three things you'd change before sending recruiters there. I want self-criticism, not affirmation.
+```
+
+**What this produces:** A live, deployed portfolio at a public URL. The most important single artifact you'll produce in the semester for the job search.
+
+**How to adapt:** If you already own a `.dev` or `.com` domain, point it at the v0 deployment. If you don't, register one this week — your name, your name + your role, or an archetype-aligned word. The whole semester's work compounds here.
+
+**Preview of next chapter:** Chapter 12 builds your two-version resume, finalizes LinkedIn, and produces your 10/20/30 final pitch deck — all consistent with the deployed portfolio.
+
+---
+
 **Tags:** portfolio · v0-vercel · framer-ai · brittany-chiang · linkedin-optimization · case-study · AI-image-generation · WCAG · INFO-7375

@@ -157,4 +157,47 @@ The strategy document is the artifact you carry into Chapter 9 (visual identity)
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** Your one-page **Personal Brand Strategy** — the master document everything else (visual identity, storytelling, portfolio, presentation) will derive from.
+**Tool:** Claude Project.
+
+**The Prompt:**
+
+```
+Write my one-page Personal Brand Strategy. This is the master document for the rest of the semester. Every later artifact has to be consistent with what we lock here.
+
+The eight required sections:
+
+1. MISSION (one sentence). The work I exist to do. NOT my job description. The actual aim.
+2. VISION (1–2 sentences). The world I'm working toward.
+3. VALUES (3–5 commitments). Each value must imply at least two specific decisions I would make differently from someone with different values. "Integrity" is not a value; it's a wish. "I will not work for companies whose product I cannot defend at a dinner party" is a value.
+4. UVP — Unique Value Proposition (one sentence). What I specifically offer that another engineer at my level does not.
+5. ARCHETYPE (named, with two sentences of expression). My Chapter 3 archetype, applied with strategic depth. Plus one sentence on the shadow as a known failure mode I'm watching.
+6. VOICE (notes). Sentence rhythm, vocabulary preferences, formats I favor and reject.
+7. POSITIONING (one paragraph). Who I compete with, who I complement, where in the field I sit.
+8. NEGATIVE SPACE — the no-list. At least 5 specific things I will not do that another engineer at my level might. The negative space is the brand. This section does most of the work.
+
+Plus:
+- A one-sentence TAGLINE I could put under my name on a resume or portfolio.
+- A DOMAIN decision: what URL my personal site will live at, with one-sentence reasoning.
+
+Use my full prior context — Personal Brand Baseline (Ch 1), Career Architecture (Ch 2), Archetype Commitment (Ch 3), Career PRD (Ch 4), Career Pipeline (Ch 5), Search Assistants config (Ch 6), Surface Audit (Ch 7) — as the source material.
+
+Two non-negotiable tests when you write the doc:
+1. The negative-space section must let a reader predict three specific things I would say no to. If the reader can't predict, the section is decoration.
+2. Every value must imply at least two concrete decisions. If the value is unactionable, replace it.
+
+Output a Markdown document called "Personal Brand Strategy v1 — [my name]". One page. If it goes to two pages, you have not yet specified enough — you are listing instead of deciding.
+```
+
+**What this produces:** A one-page master document. Every chapter from here forward references it. Recruiters who ask "tell me about yourself" get a version of this read aloud.
+
+**How to adapt:** Run this prompt twice — once "honest" (what is true now), once "aspirational" (what you're building toward over 18 months). Compare. The gap is the work plan.
+
+**Preview of next chapter:** Chapter 9 turns the strategy into a visual identity system — palette, type, mood, wireframe for your personal site.
+
+---
+
 **Tags:** brand-strategy · personal-brand · karpathy · sage-archetype · negative-space · UVP · mission-vision-values · INFO-7375

@@ -145,4 +145,48 @@ Before you ship:
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A **Surface Alignment Audit** of every public interface a recruiter or hiring manager touches, plus one immediate fix to your most-used surface (typically LinkedIn).
+**Tool:** Claude Project for the audit; Cowork or your browser for the actual LinkedIn updates.
+
+**The Prompt:**
+
+```
+Run a Surface Alignment Audit on every interface between me and the people who decide whether to hire me. Use Chapter 7's framework: an interface promises something; the underlying system has to keep the promise; misalignment is brand damage compounding at session frequency.
+
+The surfaces to audit:
+
+1. LinkedIn — headline, photo, banner, About section, Featured section, current role description, skills, recommendations.
+2. Resume — both versions if I have them (ATS + designer).
+3. GitHub — profile README, pinned repos, contribution graph, organization memberships, starred repos.
+4. Personal website — if it exists; if not, note "absent" as a separate finding.
+5. Email signature — what an interviewer sees in our scheduling thread.
+6. Twitter/X or other social — only if I'm active there professionally.
+7. Any portfolio I've shared in the last 12 months.
+
+For each surface, produce:
+- What does it currently PROMISE? (the implicit claim a viewer reads from it)
+- What does my underlying reality DELIVER? (the work, archetype, and capability behind the claim)
+- ALIGNMENT VERDICT: aligned / overpromise / underpromise / misaligned-archetype
+- ONE SPECIFIC FIX I can make today
+
+Apply my Chapter 3 archetype as the alignment standard. A Sage's interfaces should not promise Hero outcomes. A Magician's interfaces should not read like a Caregiver's.
+
+Then — pick the surface with the worst alignment score and write me the EXACT REPLACEMENT TEXT for it. Don't suggest "rewrite the headline to emphasize X." Write the new headline. Don't suggest "improve the About section." Write the new About section, in my voice, archetype-aligned, ready to paste in.
+
+The replacement should be production-ready. I should be able to copy it into the surface and ship it before I sleep tonight.
+
+Output a Markdown document called "Surface Alignment Audit — [my name] — [date]" with the audit table, the chosen surface, and the production-ready replacement text.
+```
+
+**What this produces:** An audit + one shipped fix the same day. The audit becomes a checklist you re-run quarterly.
+
+**How to adapt:** If certain surfaces don't apply (no Twitter, no website yet), mark them as "future work" and audit only what exists. Tests the archetype (Ch 3) and Career PRD (Ch 4) against actual public artifacts.
+
+**Preview of next chapter:** Chapter 8 writes the master one-page Personal Brand Strategy — the document that all surfaces from now on will answer to.
+
+---
+
 **Tags:** interface-design · streamlit · gradio · deployment · interface-brand-alignment · google-bard · snapchat-redesign · microsoft-tay · INFO-7375

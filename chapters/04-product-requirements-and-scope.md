@@ -128,4 +128,46 @@ Bring the PRD to Chapter 5. Chapter 5 builds the data pipeline that the PRD's To
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A one-page **Career PRD** treating your job search as a product launch.
+**Tool:** Claude Project.
+
+**The Prompt:**
+
+```
+Apply Chapter 4's PRD framework to my job search. Treat ME as the product, the job market as the launch target, and the next 6 months as the MVP window.
+
+A PRD has four sections:
+1. Problem
+2. Gap analysis
+3. Tool (the product)
+4. MVP boundary (in-scope vs. explicitly out-of-scope)
+
+Write my Career PRD with these constraints:
+
+PROBLEM. The user is a hiring manager, not me. What problem do they have that hiring me would solve? Be specific. "Companies need AI engineers" is not a PRD; it's a wish. Frame the problem at the level of "Series-B fintech startups need engineers who can ship a multi-agent pipeline in 90 days and also explain to a non-technical CEO why the architecture choices matter." If I don't know enough to specify this, list the three things I need to research before I can.
+
+GAP ANALYSIS. Who else fits this problem? Name 3–5 candidate-archetypes I'm competing against (e.g., the senior engineer with five years in multi-agent systems but no design sense; the design-school graduate with brand instincts but no shipped code). Where do they fall short of what hiring managers want? Where do I exceed them? Where do I fall short of them?
+
+TOOL. One sentence describing what I, the product, deliver. NOT a list of skills. A specific value claim. *"A creative engineer who ships multi-agent AI pipelines and writes the brand strategy that makes them sellable."* — that level of specificity. Not "AI engineer with strong communication skills."
+
+MVP BOUNDARY. Two columns.
+- IN SCOPE for the next 6 months: roles I will pursue, salary floor I will accept, locations I will consider, technologies I will deepen.
+- OUT OF SCOPE: roles I will decline even if offered, comp I won't accept, locations I won't move to, technologies I won't pretend to be expert in.
+
+The OUT column should have at least 5 items. The exercise from Chapter 4 is the "$100,000 no" — what's the role I would decline at $X compensation because it would damage my brand? Name it specifically.
+
+Output a Markdown document called "Career PRD — [my name] — [date]". Single page. No marketing language. If a sentence could appear in a corporate LinkedIn post, rewrite it.
+```
+
+**What this produces:** A one-page Career PRD that doubles as your decision filter for the next six months. Every job posting can be checked against it.
+
+**How to adapt:** The MVP window can shorten (3 months for an aggressive search) or lengthen (12 months for a more strategic move). Uses the archetype from Chapter 3 to filter the IN/OUT columns.
+
+**Preview of next chapter:** Chapter 5 turns your application and networking activity into a documented workflow with explicit contracts.
+
+---
+
 **Tags:** PRD · scope-discipline · MVP · lean-startup · linear · cagan · madison-architecture · INFO-7375

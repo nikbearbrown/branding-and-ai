@@ -160,4 +160,43 @@ Pick yours. Carry it forward.
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** An "Archetype Commitment" — your final archetype call after stress-testing against your actual work, plus a documented shadow watchlist.
+**Tool:** Claude Project.
+
+**The Prompt:**
+
+```
+In Chapter 1 I committed provisionally to an archetype based on my public footprint. Now I want to stress-test that pick.
+
+Step 1 — I'll paste 3–5 samples of my actual writing below. Could be email drafts, code comments, project READMEs, social media posts, anything I wrote without trying to perform an archetype. Read them. Tell me what archetype the writing actually expresses, and how confident you are.
+
+Step 2 — Compare your reading of my actual writing to the provisional archetype I committed to in Chapter 1. If they match, tell me. If they don't, tell me which one wins and why. ("Wins" means: which archetype is more honest? Which one can I sustain over years?)
+
+Step 3 — For my final archetype pick (whether it's the same as Chapter 1 or revised), write me a Shadow Watchlist. Include:
+- The shadow's name (e.g., the Sage's shadow is dogmatism; the Hero's is bullying; the Caregiver's is martyrdom)
+- Three specific behaviors that would be early warning signs I'm slipping into the shadow
+- One ritual or habit I can install to catch the shadow before it lands
+
+Step 4 — Write a one-paragraph "Archetype Manifesto" — first person, my voice, naming my archetype and what it means I commit to. Should be specific enough that someone reading it could predict three things I would say no to. No "passionate" or "innovative." No marketing-speak.
+
+Output a Markdown document called "Archetype Commitment — [my name]" with:
+- The committed archetype + confidence level + reasoning
+- The Shadow Watchlist
+- The Archetype Manifesto
+
+Here are my writing samples:
+[PASTE 3–5 SAMPLES]
+```
+
+**What this produces:** A locked archetype with a falsifiable test (the manifesto's "predict three nos" check) plus a shadow watchlist you'll reference all year.
+
+**How to adapt:** If you don't have writing samples, paste the longest piece of professional communication you've sent in the last month. Validates or revises Chapter 1's provisional archetype.
+
+**Preview of next chapter:** Chapter 4 turns your job search into a one-page PRD with a "$100,000 no" clause.
+
+---
+
 **Tags:** brand-archetypes · jung · mark-pearson · tropicana · gap · new-coke · innocent · sage · archetype-drift · INFO-7375

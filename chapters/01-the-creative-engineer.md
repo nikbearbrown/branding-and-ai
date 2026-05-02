@@ -136,4 +136,46 @@ That is the Creative Engineer.
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project — *you are the running project*
+**What you're building this chapter:** A baseline snapshot of your current professional state — what a recruiter sees today and a provisional archetype hypothesis.
+**Tool:** Claude Project (set one up named *"My Personal Brand — [Your Name]"* and use it for every chapter from here on).
+
+**The Prompt:**
+
+```
+This is the first exercise in my personal-brand build. I want a baseline snapshot — what a recruiter currently sees when they search for me, and where the gaps are.
+
+Step 1 — Audit my current public footprint. I'll paste below my:
+- LinkedIn URL (or the contents of my LinkedIn About + Headline + most recent role description)
+- GitHub username (or my pinned repos and profile bio)
+- Personal website URL if I have one (or "none yet")
+- Any other public profile that comes up when someone googles my name
+
+Read all of it. Then write me a one-paragraph "what a recruiter sees" summary, in plain language, as if you were a hiring manager scanning me for 90 seconds.
+
+Step 2 — Apply the four-verb framework from Chapter 1: Ideate, Build, Brand, Ship. Score me 1–5 on each verb based on the evidence visible in my public artifacts. Justify each score with the specific evidence (or absence of evidence) you found. Be honest. A score of 5 on Build with no shipped product visible is a lie.
+
+Step 3 — Propose a provisional Jungian archetype for me from the 12 (Hero, Sage, Explorer, Innocent, Creator, Ruler, Caregiver, Magician, Lover, Jester, Everyman, Rebel). Base it on:
+- The kind of work I describe wanting in my public bio
+- The voice I use in my own writing
+- The negative space — what I do NOT describe or showcase
+
+Justify the archetype pick with three specific pieces of evidence. Then name the SHADOW of that archetype — the failure mode I'm most likely to produce — and what early warning signs would tell me I'm slipping into it.
+
+Output a single Markdown document called "Personal Brand Baseline — [my name] — [today's date]" with three sections: Recruiter Snapshot, Four-Verb Scorecard, Provisional Archetype + Shadow.
+
+Here is what's currently public about me:
+[PASTE LINKEDIN, GITHUB, ANY OTHER PROFILES]
+```
+
+**What this produces:** A baseline document you'll return to every chapter. By Chapter 12 you re-run a version of this prompt and the difference is the artifact of your work.
+
+**How to adapt:** If your public footprint is sparse, paste a summary of your resume instead — the four-verb scorecard and archetype hypothesis are the load-bearing parts. For ChatGPT or Gemini, drop the "Project" reference and paste your public material directly.
+
+**Preview of next chapter:** Chapter 2 takes your archetype and uses it to choose which Madison agent layer (Intelligence, Content, Research, Experience, Performance) maps to your career strategy.
+
+---
+
 **Tags:** creative-engineer · signaling-theory · AI-tooling · GitHub-Copilot · brand-strategy · Anthropic · Constitutional-AI · labor-market · INFO-7375

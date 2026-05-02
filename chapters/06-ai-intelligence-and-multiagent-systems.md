@@ -172,4 +172,49 @@ Bring the mitigated workflow to Chapter 7, where the interface design layer goes
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project (will spawn three sub-Projects)
+**What you're building this chapter:** A working **Career Search Assistant** — three specialized Claude Projects with custom instructions that automate the most repetitive parts of your search.
+**Tool:** Claude Projects (a NEW one for each Assistant) + Claude chat for testing.
+
+**The Prompt:**
+
+```
+Design an AI assistant system to support my job search. Use Chapter 6's autonomy/orchestration framework.
+
+I want THREE specialized assistants, not one mega-assistant. Each is a Claude Project with its own custom instructions. The orchestration is me — I send the right work to the right Project.
+
+For each of the three, write:
+1. The Project name
+2. The Custom Instructions (system prompt) — paste-ready, ready to drop into Claude's "Custom Instructions" field
+3. The kind of work I send it
+4. Three example messages I might send it
+5. The anti-hallucination guards built into its instructions
+
+The three assistants:
+
+ASSISTANT 1 — Application Drafter. Takes a job description + my Career PRD + the role description and produces a tailored resume bullet rewrite, a cover note, and a LinkedIn outreach message to anyone I know at the company.
+
+ASSISTANT 2 — Interview Researcher. Takes a company name and produces: their recent funding/news, their published technical posts, their CEO's last 3 interviews, the team I'd join, intelligent questions I should ask. Forces "I cannot verify" labels on anything not in its training data and not provided by me.
+
+ASSISTANT 3 — Reflection Coach. After every interview or networking conversation, I drop in my notes. The Coach asks me 3 sharp questions about what happened, what I noticed, what I would change next time. Forces specificity. No "great job!" affirmations.
+
+For each assistant, the custom instructions should:
+- Reference my archetype (so the voice stays consistent)
+- Use my Career PRD as the filter for in-scope/out-of-scope work
+- Include explicit instructions about NOT inventing things
+- Include explicit instructions about pushing back on weak input
+
+Output a Markdown document called "Career Search Assistants — [my name]" containing all three Project names, their full custom instructions ready to paste, the example messages, and a one-paragraph "how I orchestrate them" section explaining the workflow between them.
+```
+
+**What this produces:** Three deployed Claude Projects (after you paste the custom instructions in) plus the orchestration logic. This is the most immediately useful artifact of the semester for an active job search.
+
+**How to adapt:** Add or remove assistants based on your career stage. A senior engineer might want a Negotiation Assistant; a career-changer might want a Translation Assistant. For ChatGPT or Gemini, replace "Claude Project" with "Custom GPT" or "Gem."
+
+**Preview of next chapter:** Chapter 7 audits all the *interfaces* between you and the world — LinkedIn, GitHub, email signature, resume PDF — for alignment with what you're actually offering.
+
+---
+
 **Tags:** multi-agent · CrewAI · AutoGPT · agent-architecture · orchestrated-vs-autonomous · madison-marketmind · production-reliability · INFO-7375

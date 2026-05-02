@@ -164,4 +164,46 @@ The other limit: visual identity choices age. A logo designed in 2026 may need r
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A **Personal Visual System** — palette, typography, mood board, and wireframe for your personal website.
+**Tool:** Claude Project for the system; Figma (or Excalidraw / Whimsical / pen and paper) for the wireframe.
+
+**The Prompt:**
+
+```
+Build a Personal Visual System for me, derived from my Personal Brand Strategy v1. The deliverables here will feed the portfolio site I build in Chapter 11.
+
+Five components, each constrained by my archetype:
+
+1. CREATIVE BRIEF (1 page). The strategy-to-design translation. Sections:
+   - Brand strategy summary (pulled from Chapter 8 doc — 3–4 sentences)
+   - Project scope (what I'm designing: personal site + LinkedIn banner + resume header)
+   - Audience (named — who is reading my materials)
+   - Tone words (3–5 archetype-aligned adjectives — "innovative" and "modern" forbidden; force specificity)
+   - 3 references (link or describe — work I want my materials to feel like, with one-line notes on what specifically about each one works)
+   - 3 anti-references (work I want my materials to NOT feel like, with one-line notes on why each one fails the brief)
+
+2. COLOR PALETTE. Primary, two accents, neutrals (near-black, near-white, two grays). Specify each color as both a name (e.g., "Forest Slate") and a hex code. Test every text-on-background combination against WCAG AA minimum (4.5:1 for normal text, 3:1 for large text and UI). Document the contrast ratios. If a combination fails, propose an adjusted hex that passes.
+
+3. TYPOGRAPHY PAIR. One display face for headlines, one body face for running text. Both should be free or have a free option (Google Fonts, open-source releases). Justify each choice against my archetype. Specify weights: at minimum a heavy display weight, a regular body weight, and one alternate (italic or medium) for emphasis. Specify sizes for h1, h2, h3, body, caption, UI.
+
+4. MOOD BOARD INSTRUCTIONS. Tell me to pull together 6–10 images that capture the visual feel. List specifically what to look for (e.g., "find 2 examples of personal sites by Sage-archetype practitioners that use serif typography for body text and a single accent color"). Caption requirements for each image: what about it works for me.
+
+5. WIREFRAME for my personal site. Low fidelity. Pages: home, about, projects/case studies, writing/thought leadership, contact. For each page: section blocks in order, layout grid (column count, max content width), visual hierarchy, components reused across pages. Format the wireframe as either ASCII boxes or a structured Markdown description detailed enough that I could build it in v0 from your description alone.
+
+Apply my archetype as the constraint throughout. A Sage palette is restrained and high-contrast. A Hero palette is saturated with strong primaries. A Magician palette uses jewel tones with intentional gradient affordances. Match.
+
+Output a Markdown document called "Personal Visual System v1 — [my name]" with all five components.
+```
+
+**What this produces:** A complete visual identity spec ready to be implemented in v0 (Chapter 11).
+
+**How to adapt:** If you already have visual brand work (a logo, a chosen typeface), provide it as input and ask for an audit + alignment fix instead of a from-scratch design. Brand Strategy from Chapter 8 is the source. Surface Audit from Chapter 7 tells you which existing surfaces need refresh first.
+
+**Preview of next chapter:** Chapter 10 writes your origin story, one customer-as-hero case study, and your first published thought-leadership piece.
+
+---
+
 **Tags:** visual-identity · creative-brief · pepsi-logo · yahoo-30-logos · WCAG-accessibility · color-palette · typography · wireframe · INFO-7375

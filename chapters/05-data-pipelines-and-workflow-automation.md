@@ -146,4 +146,48 @@ Bring the working workflow and the contracts document to Chapter 6, where the AI
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A **Career Pipeline** spec — the workflow that takes you from "discovers an opportunity" to "signs an offer," with documented contracts and degraded modes.
+**Tool:** Claude Project for the design pass; Cowork for actually setting up the tracking spreadsheet.
+
+**The Prompt:**
+
+```
+Design my job-search pipeline using the Chapter 5 framework: every external dependency is a contract; every contract can break; every break has a degraded mode.
+
+The pipeline has stages. For each stage, document: what enters, what exits, what external contract it depends on, what failure mode would break it, and what my degraded mode is.
+
+Stages to map:
+
+1. DISCOVERY. How job opportunities reach me. Sources: job boards, LinkedIn alerts, referrals, recruiter cold-outreach, my own published work.
+2. QUALIFICATION. The PRD-filter pass. Does this role fit my Career PRD's IN list? Yes/no decision.
+3. APPLICATION. The actual application work — resume tailoring, cover note, portfolio link, network warm-up.
+4. NETWORK ACTIVATION. Reaching out to anyone I know at the company before or during the application.
+5. INTERVIEW PREPARATION. Research, talking points, technical practice.
+6. INTERVIEW EXECUTION. The conversation itself, follow-up notes.
+7. NEGOTIATION. Offer, counter, accept/decline.
+8. ONBOARDING / TRANSITION. The first 30 days at the new role, or the post-decline cleanup.
+
+For each stage:
+- What's the input?
+- What's the output?
+- What external contract does it depend on? (E.g., "LinkedIn's recruiter messaging works"; "the company's ATS parses my PDF correctly"; "my reference at Company X is reachable.")
+- What's the most likely failure mode?
+- What's my degraded mode?
+
+Then — recommend 3 tools or systems that would automate or augment this pipeline. Could be a Notion database, an Airtable tracker, a Cowork-managed spreadsheet, an n8n workflow, or a custom Claude Project. For each, name the specific stage(s) it would help and what the setup cost is.
+
+Output a Markdown document called "Career Pipeline — [my name]" with the eight stages mapped, plus the tool recommendations.
+```
+
+**What this produces:** A documented pipeline you can build a tracking system around. Many students stall in Stage 5 (interview prep) without realizing it; the pipeline view exposes where the bottleneck is.
+
+**How to adapt:** If you're not job-searching, replace the stages with the equivalent for your goal (PhD application: discovery → qualification → personal-statement drafting → recommender activation → submission → interview → decision). Uses the Career PRD from Chapter 4 as the qualification filter.
+
+**Preview of next chapter:** Chapter 6 builds an AI-powered career-search assistant on top of this pipeline.
+
+---
+
 **Tags:** n8n · data-pipeline · workflow-automation · reddit-api · apollo · pipeline-fragility · external-contracts · madison-intelligence-agent · INFO-7375

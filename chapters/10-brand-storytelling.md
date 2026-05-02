@@ -154,4 +154,61 @@ The other limit: storytelling frameworks are tools, not formulas. The Hero's Jou
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** Three stories — your **origin story**, one **case study** (in customer-as-hero format), and one **published thought-leadership piece**.
+**Tool:** Claude Project for drafting; LinkedIn / Substack / your blog for publishing.
+
+**The Prompt:**
+
+```
+Write three pieces of brand storytelling for me. All three must be archetype-aligned per my Personal Brand Strategy v1.
+
+PIECE 1 — ORIGIN STORY (300–500 words).
+How I became the engineer/designer/practitioner I am. Use the Hero's Journey simplified arc: ordinary world (where I started), call (the moment something pulled me toward this work), threshold crossing (the first real commitment), tests and allies (the work that shaped me), the boon I bring back (what I now offer).
+
+The story must be true. No invented turning points. If I don't have a clear "call" moment, write the version that's closest to true and flag the synthetic compression.
+
+The story must NOT be a resume in prose. A resume lists. A story shows. The reader should feel one specific scene clearly enough to picture it.
+
+PIECE 2 — CASE STUDY (800–1,200 words).
+Pick ONE project from my history (could be a class project, an internship project, my AI tool from this course, an open-source contribution, anything I've shipped). Write it as a customer-as-hero case study.
+
+Format:
+- Customer (the team / user / class / community I served — they are the protagonist)
+- Problem they had (specific, recognizable, with stakes)
+- What they tried before that didn't work
+- Approach I brought (the work I did — but framed as serving the customer, not showcasing me)
+- Transformation (what changed because of the work — specific outcomes, numbers if I have them)
+- What I learned (the meta-lesson the project produced)
+
+I am the GUIDE in this story, not the hero. Yoda, not Luke. Most engineers get this backwards. Hold the line.
+
+PIECE 3 — THOUGHT-LEADERSHIP PIECE (800–1,500 words).
+Write one substantive piece of public-facing writing. Topic must be archetype-aligned and connected to the kind of work I want to be hired for. Sage-archetype Substack post — explain a mechanism. Hero-archetype LinkedIn article — make a case for a position the field hasn't fully accepted. Magician-archetype blog post — show a transformation that surprised me.
+
+The piece is not allowed to be:
+- A "lessons learned from my AI tool project" post (lazy, every student writes this)
+- A summary of a paper I read (no original work)
+- An "I'm excited to announce" post (announcement, not thinking)
+
+The piece should advance one specific idea I have about my field that not everyone holds. It should be defensible — a hostile reader could push back, but I have the evidence.
+
+Output three Markdown documents:
+1. "Origin Story — [my name]"
+2. "Case Study — [project name] — [my name]"
+3. "[Piece title] — [my name]"
+
+For each, suggest the publication channel (LinkedIn article / Substack / personal blog / Medium) and the optimal day-of-week and time-of-day to publish it for my archetype's typical audience.
+```
+
+**What this produces:** Three pieces of finished writing. One published before Chapter 11. The other two slot directly into your portfolio's About and Case Studies sections.
+
+**How to adapt:** Iterate on each piece separately. Run Piece 3 multiple times with different topics until one feels right. Pulls voice from Chapter 8 strategy.
+
+**Preview of next chapter:** Chapter 11 deploys your portfolio site using v0 or Framer, with these stories as content.
+
+---
+
 **Tags:** brand-storytelling · heros-journey · campbell · storybrand · pepsi-jenner · bud-light · jaguar · narrative-archetype-match · INFO-7375

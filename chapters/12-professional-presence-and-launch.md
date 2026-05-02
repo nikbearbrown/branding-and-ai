@@ -208,4 +208,56 @@ Now go ship.
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** The launch package — **two-version resume**, **finalized LinkedIn**, **10/20/30 pitch deck of yourself**, and a **launch announcement post**.
+**Tool:** Claude Project for drafting; Google Docs / Word for the resume PDF; Pitch / Beautiful.ai / Google Slides for the deck; Cowork for assembling final files.
+
+**The Prompt:**
+
+```
+Build my complete launch package. This is the final integration. Every artifact must be consistent with the Personal Brand Strategy v1 (Ch 8), the Visual System (Ch 9), and the deployed portfolio (Ch 11).
+
+DELIVERABLE 1 — RESUME, ATS-OPTIMIZED VERSION.
+Single column. Standard section headers (Experience, Education, Skills, Projects). No graphics, no two-column layouts. Plain text saved as both .docx and .pdf. Keyword-rich for the kind of role described in my Career PRD (Ch 4).
+For each role, write 3–5 outcome-oriented bullets, not responsibility-oriented bullets. Outcome example: "Built data pipeline ingesting 870 articles per day with 90% deduplication rate." Responsibility example: "Worked on data engineering tasks." First is hireable; second is not.
+If I don't have specific numbers for a bullet, leave a [verify with X] tag rather than inventing a number.
+
+DELIVERABLE 2 — RESUME, DESIGNER VERSION.
+Same content, visually distinctive. Uses my palette (from Ch 9) and type pair. Uses my tagline from the Brand Strategy. Saved as PDF only. Should signal craft within 5 seconds of opening.
+
+DELIVERABLE 3 — LINKEDIN FINALIZATION.
+Paste-ready text for: headline (under 220 characters), about section (under 2,000 characters), the "Featured" section's three pinned items (portfolio URL, AI-tool URL, published thought-leadership piece). Plus rewrites of my current role description and one prior role description. All archetype-aligned.
+
+DELIVERABLE 4 — 10/20/30 PITCH DECK OF MYSELF.
+Ten slides. 20 minutes spoken. 30-point font minimum.
+Slide structure for a "pitch yourself" deck:
+1. Title — name, role-claim, one-sentence positioning
+2. Problem — what hiring teams in my target market struggle with
+3. Solution — me as the answer, expressed in one specific value claim
+4. How it works — my methodology (the Madison-pattern reference if relevant; the four-verb framework from Ch 1)
+5. Demo / proof — my AI tool URL, screenshot, one-line outcome
+6. Brand position — archetype, voice, what I refuse to do
+7. Track record — work history compressed to its three most relevant accomplishments
+8. Roadmap — what I want to be doing 12 months from now
+9. Team / collaborators — one slide on who I work well with and why
+10. Ask — what I want from the audience (interview, referral, advisor relationship, partnership)
+
+For each slide, give me the headline (large, 30+ pt), the body content (3 bullets max OR a single image / chart description), and the speaker note (what I'd say while the slide is on screen — should fit in 1.5–2 minutes).
+
+DELIVERABLE 5 — LAUNCH POST.
+A single LinkedIn post (or Substack post if my archetype is Sage-publication-leaning) announcing the portfolio + AI tool + intent. Opens in a scene, not in a "I'm excited to announce." 200–400 words. Includes the portfolio URL and the AI tool URL. Ends with a specific ask.
+
+Output five Markdown files, one per deliverable, ready to paste or convert. After all five, write me a one-paragraph "How to use this package over the next 30 days" — what I do with it, in what order.
+```
+
+**What this produces:** Five finished artifacts. Combined, they are the launch.
+
+**How to adapt:** If you're applying to fewer than 10 roles, drop Deliverable 1 (ATS version) and lean on Deliverable 2 alone. ATS resume-tailoring matters at scale, not at single-digit application counts.
+
+**Preview of next chapter:** None — this is the last. The next exercise is real life. Send the launch post. Go to interviews. Iterate.
+
+---
+
 **Tags:** professional-presence · pitch-deck · airbnb · kawasaki-10-20-30 · resume · ATS · launch · final-presentation · INFO-7375

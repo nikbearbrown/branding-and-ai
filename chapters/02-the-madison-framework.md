@@ -158,4 +158,49 @@ For 2026, though, Madison is the cleanest reference architecture I have found th
 
 ---
 
+## 📌 LLM Exercise — Self-as-Project
+
+**Project:** Self-as-Project
+**What you're building this chapter:** A "Personal Career Architecture" doc that treats your job search as a multi-agent system you orchestrate.
+**Tool:** Claude Project (your *"My Personal Brand"* project from Chapter 1).
+
+**The Prompt:**
+
+```
+Use my Personal Brand Baseline (already in this project's files / context) as the starting point.
+
+Chapter 2 teaches the Madison framework: a five-layer agent architecture (Intelligence, Content, Research, Experience, Performance) plus an orchestration layer. Each layer is a specialized role.
+
+I want to apply that pattern to my own job search. Treat me as the orchestration layer. Treat the work my career requires as a set of specialized roles I either staff with my own time or delegate to AI tools.
+
+For each of the five Madison layers, write:
+
+1. Intelligence — what I need to know about the AI / tech / brand-AI job market. What signals matter (job posting trends, companies hiring, recent funding, recent layoffs, technology shifts). What sources feed this. How often I should refresh.
+
+2. Content — what I need to publish to be visible. What kinds of artifacts (blog posts, GitHub commits, LinkedIn updates, portfolio pieces, comments on others' work). What cadence is sustainable for me.
+
+3. Research — what I need to learn about specific employers I'm targeting. How I research a company before applying or before an interview. What I should know that most candidates won't bother to find.
+
+4. Experience — what the people-facing work looks like. Networking conversations, informational interviews, follow-ups, recruiter relationships. Who I should talk to. How often.
+
+5. Performance — what I measure. Application count is wrong; outcomes per application is closer. Networking conversations per week. Response rate on outreach. What metrics actually predict offers.
+
+For each layer, give me:
+- One concrete weekly action I commit to
+- One AI tool that could augment that layer (Claude, Cursor, an n8n workflow, a custom GPT, etc.) — name it specifically
+- One failure mode I should watch for in that layer
+
+Then — based on my archetype from Chapter 1 — tell me which layer is most load-bearing for my brand. A Sage gets traction through Intelligence + Content. A Hero through Performance + Experience. A Magician through Content + Experience. A Caregiver through Experience + Research. Pick mine and justify.
+
+Output a Markdown document called "Personal Career Architecture — [my name]" with the five layer plans + the load-bearing-layer call.
+```
+
+**What this produces:** A career-systems document. Five named layers, weekly commitments, tool suggestions, failure-mode watch list, and a clear answer to "where should I put the most energy."
+
+**How to adapt:** If you're not job-searching (e.g., applying to PhD programs or starting a company), reframe the layers — Intelligence becomes program/market research; Performance becomes publication count or revenue. Builds directly on the archetype from Chapter 1.
+
+**Preview of next chapter:** Chapter 3 stress-tests your provisional archetype against richer evidence and forces you to commit (or revise).
+
+---
+
 **Tags:** madison-framework · multi-agent-systems · ReAct · n8n · architecture-as-brand · cursor · devin · agent-loop · INFO-7375
