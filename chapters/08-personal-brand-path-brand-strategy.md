@@ -69,7 +69,23 @@ The Stripe case that opens this chapter is the canonical example in this book be
 **Positioning** is where in the market the company sits — relative to competitors, substitutes, and the *actual* alternatives the customer considers. This last part is the one most founders get wrong. The actual alternative is often not another named product. For Stripe in 2010, the actual alternative was not PayPal; it was *writing your own payment integration* or *not building the feature that needed payments*. Positioning against the actual alternative produces a different strategy than positioning against a named competitor.
 
 <!-- → [TABLE: seven components of a startup brand strategy — columns: Component, One-Line Definition, Stripe Example, What Breaks Without It. Seven rows, one per component. Student uses this as a reference when filling in their own strategy document.] -->
+
+*Figure 8.1*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Seven components of a startup brand strategy — columns: Component** | _fill in_ | _fill in_ |
+| **One-Line Definition** | _fill in_ | _fill in_ |
+| **Stripe Example** | _fill in_ | _fill in_ |
+| **What Breaks Without It. Seven rows** | _fill in_ | _fill in_ |
+| **One per component. Student uses this as a reference when filling in their own strategy document.** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 <!-- → [DIAGRAM: dependency chain — seven components arranged vertically with downward arrows showing constraint direction: Mission constrains Vision; Vision constrains Values; Values constrain UVP; UVP + Archetype constrain Voice; Voice + Values constrain Positioning; all six constrain Negative Space. Student should see that Negative Space is downstream of everything — and that a contradiction anywhere upstream propagates down.] -->
+
+![Figure 8.2 — dependency chain](images/08-personal-brand-path-brand-strategy-fig-02.jpg)
+
 
 ### What the components do together
 
@@ -122,7 +138,26 @@ Your brand strategy document requires at least five items in the negative-space 
 The useful test: show your draft negative-space list to a classmate without the rest of the strategy document. Ask them to infer your archetype from the list alone. If they guess correctly, the list is doing its job. If they cannot tell, the list is too vague or too random to encode identity.
 
 <!-- → [TABLE: negative-space list evaluation rubric — columns: Criterion, What "Passes", What "Fails", Stripe Example. Rows: Specific / Can a new engineer make a decision from it / Cannot be violated because it is vague / "No enterprise sales process" vs "We value simplicity"; Archetype-consistent / Predictable from the archetype / Random or contradicts the archetype / Sage: "no rapid product proliferation"; Costly / Meaningful business pressure to say yes / Nobody wanted it anyway / "No celebrity-CEO theatrics"; Testable / Checkable in two years / Unmeasurable / "No rapid product proliferation — check 2016–2022 launch cadence".] -->
+
+*Figure 8.3*
+
+| | **Negative-space list evaluation rubric — columns: Criterion, What "Passes", What "Fails", Stripe Example. Rows: Specific / Can a new engineer make a decision from it / Cannot be violated because it is vague / "No enterprise sales process"** | **"We value simplicity"; Archetype-consistent / Predictable from the archetype / Random or contradicts the archetype / Sage: "no rapid product proliferation"; Costly / Meaningful business pressure to say yes / Nobody wanted it anyway / "No celebrity-CEO theatrics"; Testable / Checkable in two years / Unmeasurable / "No rapid product proliferation** |
+|---|---|---|
+| **Specific / Can a new engineer make a decision from it / Cannot be violated because it is vague / "No enterprise sales process" vs "We value simplicity"** | _fill in_ | _fill in_ |
+
+: {.infographic-table}
+
 <!-- → [INFOGRAPHIC: the Stripe inversion — two-column layout titled "What Stripe Built" vs "What Stripe Declined." Left column: clean API, developer docs, self-serve onboarding, technically-precise blog, slow product cadence. Right column: enterprise sales team, broad-audience marketing, consumer trust signals, rapid product proliferation, marketing-style content. Visual weight should be roughly equal, making the point that the right column is as definitional as the left.] -->
+
+*Figure 8.4*
+
+| | **The Stripe inversion — two-column layout titled "What Stripe Built"** | **"What Stripe Declined." Left column: clean API, developer docs, self-serve onboarding, technically-precise blog, slow product cadence. Right column: enterprise sales team, broad-audience marketing, consumer trust signals, rapid product proliferation, marketing-style content. Visual weight should be roughly equal, making the point that the right column is as definitional as the left.** |
+|---|---|---|
+| **Row 1** | _fill in_ | _fill in_ |
+| **Row 2** | _fill in_ | _fill in_ |
+
+: {.infographic-table}
+
 
 ---
 
@@ -154,6 +189,15 @@ Your tool's audience has a role they need the company to play. The archetype fra
 4. What does this audience *reward*? Developers reward demonstrated competence; consumers reward emotional resonance; enterprises reward reliability and risk reduction. The reward structure points toward the archetype.
 
 <!-- → [TABLE: archetype-to-audience matching — columns: Audience Type, What They Fear, What They Want, What They Distrust, What They Reward, Archetype Fit. Rows: Developers / Being sold to / Competence + reliability / Marketing-speak / Demonstrated depth / Sage; First-time founders in hostile markets / Hidden friction / Friction removed / Complexity / Anticipatory care / Caregiver; Incumbent-dominated market buyers / Status quo lock-in / Escape + alternative / The incumbent / Disruption + naming the unsaid / Rebel. Student reads this as a worked example of the four-question method before applying it to their own audience.] -->
+
+*Figure 8.5*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Developers / Being sold to / Competence + reliability / Marketing-speak / Demonstrated depth / Sage** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ### The shadow as a known failure mode
 
@@ -192,7 +236,34 @@ Your AI tool may need a product name distinct from the company name. Stripe-the-
 For your tool: if you have one product and one company, use one name. If you anticipate multiple products within two years, you may want a company name that is broader than the product name. The Stripe model (company name = product name) works until the second product arrives, at which point Stripe Atlas and Stripe Issuing needed qualifiers. Plan for the second product before you need to.
 
 <!-- → [TABLE: name evaluation worksheet — columns: Candidate Name, Bar Test (Pass/Fail + notes), Lawyer Test (TESS status), Domain Test (.com status + cost), Archetype Alignment (Pass/Fail + one sentence). Five rows for five candidates. Student fills this in as part of the naming exercise.] -->
+
+*Figure 8.6*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Name evaluation worksheet — columns: Candidate Name** | _fill in_ | _fill in_ |
+| **Bar Test (Pass/Fail + notes)** | _fill in_ | _fill in_ |
+| **Lawyer Test (TESS status)** | _fill in_ | _fill in_ |
+| **Domain Test (.com status + cost)** | _fill in_ | _fill in_ |
+| **Archetype Alignment (Pass/Fail + one sentence). Five rows for five candidates. Student fills this in as part of the naming exercise.** | _fill in_ | _fill in_ |
+
+: {.comparison-table}
+
 <!-- → [TABLE: name archetypes in the wild — columns: Company Name, Archetype, Why the Name Fits the Archetype, What Would Violate It. Rows: Stripe / Sage / Simple, precise, no emotional charge, technical register / BlazingFast, Conquer, Dominate; Notion / Creator / Blank-slate suggestion, creating something from nothing / HyperCharge, DisruptBase; Basecamp / Rebel / Named after a starting point for a challenge, implies going against established routes / Enterprise Suite, CorporateHub; Caregiver example: Calm / Caregiver / Immediate emotional register of relief + safety / BattleMode, HustleHard. Student uses this table to calibrate their own name candidate assessment.] -->
+
+*Figure 8.7*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Stripe / Sage / Simple** | _fill in_ | _fill in_ |
+| **Precise** | _fill in_ | _fill in_ |
+| **No emotional charge** | _fill in_ | _fill in_ |
+| **Technical register / BlazingFast** | _fill in_ | _fill in_ |
+| **Conquer** | _fill in_ | _fill in_ |
+| **Dominate** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 
@@ -232,7 +303,19 @@ Before you submit the document, run the internal consistency check. Read each co
 If any pair contradicts, the document is not yet coherent. Revise until it is. The document is a hypothesis, not a final answer — but the hypothesis needs to be internally consistent to be useful as a decision-making tool.
 
 <!-- → [DIAGRAM: circular consistency check — seven components arranged in a circle; each adjacent pair connected by an arrow; each arrow labeled with the consistency question for that pair. The circle should close: voice connects back to archetype, archetype connects back to mission. If any arrow has a contradiction, the circle breaks.] -->
+
+![Figure 8.8 — circular consistency check](images/08-personal-brand-path-brand-strategy-fig-08.jpg)
+
 <!-- → [TABLE: internal consistency check worksheet — columns: Component Pair, Consistency Question, Pass/Fail, Contradiction Found (if any), Revision Made. Seven rows, one per adjacent pair: Mission↔UVP / Does the UVP describe a way of doing what the mission says?; Values↔Negative Space / Can each "no" be traced back to a specific value?; Archetype↔Voice / Does the voice sound like this archetype?; Positioning↔UVP / Does the UVP differentiate from the actual alternatives?; Mission↔Vision / Is the vision the world the mission creates?; UVP↔Positioning / Does the positioning make the UVP's differentiation legible?; Values↔Archetype / Are the values expressions of this archetype's core drive? Student fills this in before submitting the strategy document.] -->
+
+*Figure 8.9*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Mission↔UVP / Does the UVP describe a way of doing what the mission says?** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 
@@ -245,7 +328,21 @@ The connection is direct. The tool you built through Chapters 4–7 is the artif
 The brand strategy also determines which parts of the portfolio story to tell and how to tell them. Chapter 9 (visual identity) takes the archetype and voice from this document and translates them into palette, type, and visual language. Chapter 10 (storytelling) takes the mission, vision, and UVP from this document and turns them into the narrative you tell investors, press, and early users. Both chapters depend on *this* document being specific. A vague strategy produces a vague visual identity and a vague story. The specificity you put in here compounds forward.
 
 <!-- → [DIAGRAM: linear flow — Chapter 4 (Career PRD / Ideate) → Chapter 5 (Pipeline / Build) → Chapter 6 (AI Layer / Build) → Chapter 7 (Interface / Build + Ship) → Chapter 8 (Brand Strategy / Brand) → Chapter 9 (Visual Identity / Brand) → Chapter 10 (Storytelling / Ship). Arrow widths increase from Chapter 8 forward to show that the strategy document is the scaffold the rest depends on.] -->
+
+![Figure 8.10 — linear flow](images/08-personal-brand-path-brand-strategy-fig-10.jpg)
+
 <!-- → [TABLE: what each downstream chapter takes from Chapter 8 — columns: Chapter, What It Takes From Chapter 8, What Goes Wrong If Chapter 8 Is Vague. Rows: Chapter 9 (Visual Identity) / Archetype + Voice → palette, typography, mood / Visual decisions become arbitrary aesthetic preferences with no strategic anchor; Chapter 10 (Storytelling) / Mission + Vision + UVP → investor pitch, press narrative, onboarding / Story has no spine — every telling differs, audience cannot predict what the company is; Part IV Portfolio / All seven components → portfolio narrative + job/investor materials / Portfolio is a collection of projects, not a company story.] -->
+
+*Figure 8.11*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Chapter 9 (Visual Identity) / Archetype + Voice → palette** | _fill in_ | _fill in_ |
+| **Typography** | _fill in_ | _fill in_ |
+| **Mood / Visual decisions become arbitrary aesthetic preferences with no strategic anchor** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 

@@ -71,7 +71,19 @@ This is the definition I will use for the rest of this chapter, and the one I wa
 That last clause is the part engineering curricula tend to omit. The contracts are not yours. You depend on them; you do not control them. Designing a good pipeline means designing for the day a contract changes — not pretending it will not.
 
 <!-- → [DIAGRAM: horizontal pipeline showing five nodes connected by arrows; each arrow is labeled "contract"; one arrow is highlighted red with a "?" to indicate the failure point. The node after the failure shows degraded output rather than a crash. Student should see the contract-chain structure and the degraded-mode principle in the same image.] -->
+
+![Figure 5.1 — horizontal pipeline showing five nodes connected by arrows](images/05-data-pipelines-and-workflow-automation-fig-01.jpg)
+
 <!-- → [TABLE: four-row pipeline taxonomy — columns: Type, Tools, Throughput/Frequency, Typical Use Case, Used in Madison?. Rows: ETL / Airflow·dbt·Fivetran / Batch / Large-dataset warehouse loads / No; Stream / Kafka·Flink / Continuous / Real-time fraud detection / No; Workflow-automation / n8n·Zapier·Make / Scheduled or event-driven / API glue + orchestration / Yes; Inference / LangChain·LlamaIndex / On-demand / LLM calls + vector retrieval / Yes (as a step). Student uses this as a quick-reference when choosing the right tool for a build.] -->
+
+*Figure 5.2*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **ETL / Airflow·dbt·Fivetran / Batch / Large-dataset warehouse loads / No** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 
@@ -100,7 +112,20 @@ There is also an asymmetry worth naming: the upstream actor that caused the fail
 This is the brand argument for pipeline discipline. You are not building a pipeline just because clean architecture is good practice. You are building a pipeline with explicit contracts and degraded modes because a pipeline failure is a brand failure, and the brand that pays is yours.
 
 <!-- → [TABLE: three-column comparison — Actor, Type of Damage, Duration. Row 1: Reddit (upstream), Diffuse reputational damage, Months-long blowback that recovered. Row 2: Apollo (downstream), Product death + user loss, Permanent. Row 3: Selig personally, Net positive (transparency), Ongoing. Student should see the asymmetry clearly.] -->
+
+*Figure 5.3*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Row 1** | _fill in_ | _fill in_ |
+| **Row 2** | _fill in_ | _fill in_ |
+
+: {.infographic-table}
+
 <!-- → [TIMELINE: horizontal axis June–July 2023, annotated with key events: April 2023 Reddit announces API pricing → May 31 Selig publishes the math → June 8 Apollo shutdown announced → June 12 subreddit blackout → June 30 Apollo closes → July third-party ecosystem gone. Student should see the velocity of the collapse from contract change to product death.] -->
+
+![Figure 5.4 — horizontal axis June–July 2023, annotated with key events: April 2023 Reddit ...](images/05-data-pipelines-and-workflow-automation-fig-04.jpg)
+
 
 ### A worked pattern: three platform-API ruptures
 
@@ -156,7 +181,27 @@ A workflow can be running successfully — every node returns 200, every connect
 You want alerts on contract-level events, not just on execution failures. n8n has error-workflow hooks for execution failures. External services typically have changelogs, status pages, and pricing-alert systems. OpenAI has billing alerts; many APIs have status pages with incident histories. Wire these up. A five-minute setup that routes an API's status-page RSS feed into your monitoring channel will tell you about a contract change before it crashes your pipeline.
 
 <!-- → [TABLE: three-row checklist — Discipline, What It Catches, How to Implement in n8n. Row 1: Document the contract / Contract existence and terms / README + node description. Row 2: Design a degraded mode / Contract failure impact / Error workflow + fallback node. Row 3: Monitor the contract / Silent contract drift / Status-page RSS feed + billing alert.] -->
+
+*Figure 5.5*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Row 1** | _fill in_ | _fill in_ |
+| **Row 2** | _fill in_ | _fill in_ |
+
+: {.comparison-table}
+
 <!-- → [TABLE: degraded-mode taxonomy — four rows, columns: Mode Name, What It Does, Minimum Implementation, When to Use It. Rows: Informative Failure / Shows user a clear error message / Error output node + user-facing message / All pipelines, minimum bar; Partial Degradation / Disables the broken feature, rest continues / Conditional branch after error output / When only one feature depends on the contract; Fallback Source / Replaces broken source with alternative / Second HTTP Request node on error path / When an alternative data source exists; Graceful Staleness / Serves last successful result with timestamp / Cache node + timestamp display / When stale data is better than no data.] -->
+
+*Figure 5.6*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Informative Failure / Shows user a clear error message / Error output node + user-facing message / All pipelines** | _fill in_ | _fill in_ |
+| **Minimum bar** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 
@@ -183,7 +228,13 @@ In an n8n workflow, every dependency is a node with a clearly defined input and 
 This is not a claim that n8n is superior to Python for all purposes. It is a claim about the learning objective here: making the contracts visible so you build with awareness of what you depend on. A Python pipeline can achieve the same result with sufficient discipline. n8n makes the discipline structural rather than optional.
 
 <!-- → [DIAGRAM: side-by-side of two pipeline implementations — left: a Python script with ten API calls, data manipulation, and a write all in one file, dependencies unlabeled; right: an n8n workflow graph with the same dependencies as distinct, labeled, replaceable nodes. Arrow pointing to a single node on the right: "swap this without touching the rest."] -->
+
+![Figure 5.7 — side-by-side of two pipeline implementations](images/05-data-pipelines-and-workflow-automation-fig-07.jpg)
+
 <!-- → [IMAGE: annotated screenshot of the n8n node editor interface — callouts pointing to: (1) the node panel on the left showing available node types, (2) a node on the canvas with its input/output ports labeled, (3) the connection between two nodes labeled "data flows here", (4) the node description field where the contract should be documented. Student who has never opened n8n should recognize the interface before they install it.] -->
+
+![Figure 5.8 — annotated screenshot of the n8n node editor interface](images/05-data-pipelines-and-workflow-automation-fig-08.jpg)
+
 
 ### Setting up n8n
 
@@ -265,7 +316,19 @@ These are the design choices you should be studying, not the node count. Each ch
 Your pipeline in this chapter does not need all of these. It needs to be shaped like Madison's — trigger, ingestion, transformation, output, with documented contracts and at least one degraded mode.
 
 <!-- → [IMAGE: screenshot or mockup of the Madison Intelligence Agent's n8n workflow graph, with labeled callouts pointing to: (1) parallel ingestion branches, (2) deduplication node, (3) LLM scoring node, (4) output nodes. Student should see the visual architecture of a production-grade workflow.] -->
+
+![Figure 5.9 — screenshot or mockup of the Madison Intelligence Agent's n8n workflow graph, ...](images/05-data-pipelines-and-workflow-automation-fig-09.jpg)
+
 <!-- → [TABLE: Madison workflow design choices and their failure-mode rationale — columns: Design Choice, Failure Mode It Addresses, What Happens Without It. Rows: Parallel ingestion branches / Single source goes down / Entire pipeline stalls waiting for one dead API; Seen-URL store / Item appears in multiple sources / Same item scored and written multiple times, inflating results; Run log / Pipeline silently stops running / No visibility into whether workflow executed today; Six-hour schedule (not real-time) / Rate limit exhaustion / Hitting API caps on high-frequency sources. Student reads each choice as an architectural decision, not an arbitrary preference.] -->
+
+*Figure 5.10*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Parallel ingestion branches / Single source goes down / Entire pipeline stalls waiting for one dead API** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 
@@ -328,7 +391,20 @@ The design disciplines from Part 3 — document the contracts, build degraded mo
 The Creative Engineer from Chapter 1 — the one who Ideates, Builds, Brands, and Ships — builds the pipeline that is still running six months after launch, because they designed for the contracts they do not control.
 
 <!-- → [DIAGRAM: three-level stack echoing the Chapter 1 integration diagram — bottom: contract documentation (why it matters); middle: degraded mode design (what to do when it fails); top: contract monitoring (how to know before users do). Arrows connecting each layer upward, parallel structure to the Spence/Four-Verb/Archetype stack.] -->
+
+![Figure 5.11 — three-level stack echoing the Chapter 1 integration diagram](images/05-data-pipelines-and-workflow-automation-fig-11.jpg)
+
 <!-- → [TABLE: pipeline-as-brand-asset summary — two columns: Pipeline Property, Brand Consequence. Rows: Silent, reliable execution / Product feels trustworthy — user never thinks about the infrastructure; Undocumented dependency breaks / User sees your product fail, not the upstream service; Informative failure mode / User understands what happened, brand survives the incident; No degraded mode / User loses trust in the product entirely, brand pays the full cost; Run log + monitoring / You catch failures before users do — brand-damaging incidents become internal incidents.] -->
+
+*Figure 5.12*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Silent** | _fill in_ | _fill in_ |
+| **Reliable execution / Product feels trustworthy — user never thinks about the infrastructure** | _fill in_ | _fill in_ |
+
+: {.comparison-table}
+
 
 ---
 

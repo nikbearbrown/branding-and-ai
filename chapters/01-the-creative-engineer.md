@@ -54,7 +54,20 @@ Here is the reaction I want you to have: *"What exactly got cheaper, and what do
 Those are different questions. The first is about individual performance. The second is about market structure. This chapter is about the second question.
 
 <!-- → [CHART: bar chart — task completion time in minutes, Control Group (161 min) vs. Copilot Group (71 min). Label the 56% reduction explicitly. Clean, no decoration — the number is the point.] -->
+
+*Figure 1.1*
+
+| | **Bar chart — task completion time in minutes, Control Group (161 min)** | **Copilot Group (71 min). Label the 56% reduction explicitly. Clean, no decoration** |
+|---|---|---|
+| **Row 1** | _fill in_ | _fill in_ |
+| **Row 2** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 <!-- → [CALLOUT BOX: Pull quote — "56% is not a rounding error. It is a peer-reviewed, randomized controlled experiment on professional developers doing real work." Position as a margin note or inline block to arrest the reader before the Spence pivot.] -->
+
+![Figure 1.2 — Pull quote — "56% is not a rounding error. It is a peer-reviewed, randomized ...](images/01-the-creative-engineer-fig-02.jpg)
+
 
 ---
 
@@ -75,7 +88,13 @@ Here is the critical insight, and the one that matters for you: **a signal works
 Spence called this a *separating equilibrium*: a state in which signals successfully separate high-productivity candidates from lower-productivity ones. When the cost-structure of the signal is disrupted, the separating equilibrium collapses. You get a *pooling equilibrium* — everyone looks the same on the credential, and the credential stops doing its job.
 
 <!-- → [DIAGRAM: two-column schematic — Separating Equilibrium (costly signal, high signal cost for low-productivity candidates, employer can sort) vs. Pooling Equilibrium (cheap signal, low signal cost for everyone, employer cannot sort). Arrows show the disruption event collapsing the left into the right.] -->
+
+![Figure 1.3 — two-column schematic](images/01-the-creative-engineer-fig-03.jpg)
+
 <!-- → [TIMELINE: horizontal axis = years 2004–2024, annotated with the key disruption events that collapsed the GitHub signal: GitHub launches (2008), Copilot launches (2021), Peng et al. study (2022), Stack Overflow 82% survey result (2024). Student should see the compression of the signal collapse.] -->
+
+![Figure 1.4 — horizontal axis = years 2004–2024, annotated with the key disruption events t...](images/01-the-creative-engineer-fig-04.jpg)
+
 
 ### The GitHub signal
 
@@ -142,7 +161,22 @@ The Creative Engineer is an engineer who has noticed that the costly signals hav
 The framework has four verbs: **Ideate. Build. Brand. Ship.**
 
 <!-- → [INFOGRAPHIC: four-quadrant or linear framework showing the four verbs in sequence, with a brief phrase under each: Ideate (scope a problem worth solving), Build (produce a working artifact), Brand (position it for an audience), Ship (get it to real users). Mark "Build" as the verb AI cheapened. Mark the other three as still costly.] -->
+
+![Figure 1.5 — four-quadrant or linear framework showing the four verbs in sequence, with a ...](images/01-the-creative-engineer-fig-05.jpg)
+
 <!-- → [TABLE: four-verb self-assessment rubric — rows: each verb (Ideate, Build, Brand, Ship); columns: Score 1 (no evidence), Score 3 (some evidence), Score 5 (clear public artifact). Student uses this table as a scoring guide before Exercise W2.] -->
+
+*Figure 1.6*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Each verb (Ideate** | _fill in_ | _fill in_ |
+| **Build** | _fill in_ | _fill in_ |
+| **Brand** | _fill in_ | _fill in_ |
+| **Ship)** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ### Ideate — scope a problem someone actually has
 
@@ -205,7 +239,23 @@ The point is not that one brand strategy is better than the other. The point is 
 This is what the Creative Engineer does at the scale of a career. Not a company. A career. The same mechanism — explicit audience, differentiated positioning, chosen archetype — determines which slice of the market can recognize you, want you, and hire you.
 
 <!-- → [TABLE: Anthropic vs. OpenAI — columns: Company, Primary Audience, Brand Positioning, Flagship Signal (Constitutional AI vs. GPT capability announcements), Market Captured. Five rows including a header.] -->
+
+*Figure 1.7*
+
+| | **Anthropic** | **GPT capability announcements), Market Captured. Five rows including a header.** |
+|---|---|---|
+| **Anthropic vs. OpenAI — columns: Company** | _fill in_ | _fill in_ |
+| **Primary Audience** | _fill in_ | _fill in_ |
+| **Brand Positioning** | _fill in_ | _fill in_ |
+| **Flagship Signal (Constitutional AI vs. GPT capability announcements)** | _fill in_ | _fill in_ |
+| **Market Captured. Five rows including a header.** | _fill in_ | _fill in_ |
+
+: {.infographic-table}
+
 <!-- → [IMAGE: side-by-side screenshot or mockup of Anthropic's and OpenAI's homepage hero sections — student should see the brand differentiation in the actual language and visual register of each, not just in the analytical description above.] -->
+
+![Figure 1.8 — side-by-side screenshot or mockup of Anthropic's and OpenAI's homepage hero sections](images/01-the-creative-engineer-fig-08.jpg)
+
 
 ---
 
@@ -226,7 +276,23 @@ Second, the twelve are internally coherent — each comes with a shadow, a failu
 What the framework does *not* do: it does not tell you which archetype to choose. That choice requires evidence from your actual work, your actual voice, your actual patterns. The archetype is descriptive before it is prescriptive. You are not inventing a persona. You are identifying one that is already latent in how you work and communicate.
 
 <!-- → [TABLE: the twelve archetypes — columns: Archetype, Core Drive, Signature Phrase, Shadow Failure Mode. Twelve rows, one per archetype. Student will use this as a reference during the exercise.] -->
+
+*Figure 1.9*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **The twelve archetypes — columns: Archetype** | _fill in_ | _fill in_ |
+| **Core Drive** | _fill in_ | _fill in_ |
+| **Signature Phrase** | _fill in_ | _fill in_ |
+| **Shadow Failure Mode. Twelve rows** | _fill in_ | _fill in_ |
+| **One per archetype. Student will use this as a reference during the exercise.** | _fill in_ | _fill in_ |
+
+: {.comparison-table}
+
 <!-- → [INFOGRAPHIC: archetype wheel — the twelve archetypes arranged in a circle grouped by their dominant orientation (e.g., ego-driven: Hero, Rebel, Magician; soul-driven: Sage, Explorer, Innocent; self-driven: Creator, Ruler, Caregiver; social-driven: Everyman, Jester, Lover). Student should see the relational structure, not just a list.] -->
+
+![Figure 1.10 — archetype wheel](images/01-the-creative-engineer-fig-10.jpg)
+
 
 ### The twelve at a glance
 
@@ -289,7 +355,20 @@ Shadow to watch for: in the Everyman's case, it is the universal-approval proble
 Neither archetype is better. Both are coherent strategic positions. The value of the framework is not that it ranks archetypes but that it makes your existing pattern legible so you can work with it intentionally.
 
 <!-- → [TABLE: side-by-side comparison of Engineer A (Rebel archetype) and Engineer B (Everyman archetype) — columns: Evidence Source (GitHub, LinkedIn, Writing), What It Reveals, Archetype Implication, Shadow to Watch For.] -->
+
+*Figure 1.11*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Row 1** | _fill in_ | _fill in_ |
+| **Row 2** | _fill in_ | _fill in_ |
+
+: {.infographic-table}
+
 <!-- → [IMAGE: annotated mockup of two GitHub profile pages — Engineer A (sparse, critical tone, unfinished repos, no README warmth) and Engineer B (tutorial-style READMEs, complete repos, accessibility framing). Annotations point to the specific signals that reveal each archetype.] -->
+
+![Figure 1.12 — annotated mockup of two GitHub profile pages](images/01-the-creative-engineer-fig-12.jpg)
+
 
 ---
 
@@ -304,7 +383,20 @@ The connection between the four verbs and the archetype is this: Brand without a
 And the Spence layer underneath both explains why any of this matters. If building were still a separating signal, you would not need Brand and you would not need archetype. You would just build more and better things, and the market would find you. The reason you need these additional layers is that the build signal has cheapened — which means the separation work has moved upstream and downstream of build, into Ideate and Brand and Ship.
 
 <!-- → [DIAGRAM: three-level stack — bottom layer: Spence Mechanism (explains why), middle layer: Four-Verb Framework (explains what), top layer: Archetype System (explains how). Arrows connecting each layer upward, showing how each is built on the one below.] -->
+
+![Figure 1.13 — three-level stack](images/01-the-creative-engineer-fig-13.jpg)
+
 <!-- → [TABLE: summary integration table — three columns: Framework, Question It Answers, What Breaks Without It. Three rows: Spence Mechanism / Why brand matters / Without it, the student treats brand as optional decoration; Four-Verb Framework / What the portfolio must demonstrate / Without it, the student has identity but no market action; Archetype System / How to execute brand / Without it, brand decisions are arbitrary style choices with no strategic foundation.] -->
+
+*Figure 1.14*
+
+| | **Property** | **Value** |
+|---|---|---|
+| **Spence Mechanism / Why brand matters / Without it** | _fill in_ | _fill in_ |
+| **The student treats brand as optional decoration** | _fill in_ | _fill in_ |
+
+: {.data-table}
+
 
 ---
 

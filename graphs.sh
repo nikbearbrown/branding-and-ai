@@ -12,14 +12,10 @@
 #   - DIAGRAM / IMAGE / non-tabular INFOGRAPHIC / spatial CHART
 #       → placeholder .jpg written to images/, image reference inserted
 #
-# Skips chapters with no figure comments.
-# Writes chapters/BASENAME-updated.md — originals untouched.
+# Overwrites originals in place (safe: writes to tmp first, then mv).
 # Appends a CSS log to styles/kindle-book.css on each run.
 #
-# Promote when ready:
-#   for f in chapters/*-updated.md; do mv "$f" "${f/-updated/}"; done
-#
-# Dependencies: ImageMagick (convert), bash 3.2+ (macOS compatible)
+# Dependencies: ImageMagick v7 (magick), bash 3.2+ (macOS compatible)
 # ─────────────────────────────────────────────────────────────────────────────
 set -e
 
@@ -47,15 +43,22 @@ if [[ -n "$1" ]]; then
     exit 1
   fi
 else
-  while IFS= read -r -d '' f; do
+  while IFS= read -r f; do
     FILES+=("$f")
-  done < <(find "$CHAPTERS_DIR" -maxdepth 1 -name "*.md" -print0 | sort -z)
+  done < <(find "$CHAPTERS_DIR" -maxdepth 1 -name "*.md" | sort)
 fi
 
 if [[ ${#FILES[@]} -eq 0 ]]; then
   echo "No .md files found in $CHAPTERS_DIR" >&2
   exit 1
 fi
+
+echo "" >&2
+echo "Found ${#FILES[@]} chapter file(s):" >&2
+for f in "${FILES[@]}"; do
+  echo "  $f" >&2
+done
+echo "" >&2
 
 IMG_W=1600
 IMG_H=900
@@ -91,7 +94,7 @@ make_placeholder() {
   local wrapped
   wrapped=$(echo "$short_desc" | fold -s -w 40)
 
-  convert \
+  magick \
     -size ${IMG_W}x${IMG_H} xc:"$IMG_BG" \
     -font "Helvetica" \
     -pointsize 28 -fill "$IMG_ACCENT" -gravity North \
@@ -102,7 +105,10 @@ make_placeholder() {
     -annotate +0-40 "$wrapped" \
     -strokewidth 3 -stroke "$IMG_ACCENT" -fill none \
     -draw "rectangle 40,40 $((IMG_W-40)),$((IMG_H-40))" \
-    "$filepath" 2>/dev/null
+    "$filepath" 2>/dev/null || {
+      echo "    ⚠ magick failed for $(basename "$filepath") — writing empty placeholder" >&2
+      touch "$filepath"
+    }
 
   echo "    → image: $(basename "$filepath")" >&2
 }
@@ -201,13 +207,12 @@ for CHAPTER_FILE in "${FILES[@]}"; do
 
   BASENAME=$(basename "$CHAPTER_FILE" .md)
   CHAPTER_SLUG="${BASENAME#chapter-}"
-  CHAPTER_NUM=$(echo "$CHAPTER_SLUG" | grep -oE '^[0-9]+' | sed 's/^0*//')
+  CHAPTER_NUM=$(echo "$CHAPTER_SLUG" | grep -oE '^[0-9]+' | sed 's/^0*//' || echo "0")
   [[ -z "$CHAPTER_NUM" ]] && CHAPTER_NUM="0"
 
-  OUT_FILE="${CHAPTERS_DIR}/${BASENAME}-updated.md"
+  TMP_FILE=$(mktemp)
   FIG_COUNT=0
 
-  echo "" >&2
   echo "Processing: $BASENAME" >&2
 
   while IFS= read -r line; do
@@ -249,9 +254,10 @@ for CHAPTER_FILE in "${FILES[@]}"; do
       echo "$line"
     fi
 
-  done < "$CHAPTER_FILE" > "$OUT_FILE"
+  done < "$CHAPTER_FILE" > "$TMP_FILE"
 
-  echo "  Written: $OUT_FILE" >&2
+  mv "$TMP_FILE" "$CHAPTER_FILE"
+  echo "  Updated: $CHAPTER_FILE (${FIG_COUNT} figure(s))" >&2
 
 done
 
@@ -271,7 +277,4 @@ echo "Done." >&2
 echo "  Skipped (no comments) : $TOTAL_SKIPPED" >&2
 echo "  Tables rendered       : $TOTAL_TABLES" >&2
 echo "  Images generated      : $TOTAL_IMAGES" >&2
-echo "" >&2
-echo "Review -updated.md files, then promote:" >&2
-echo '  for f in chapters/*-updated.md; do mv "$f" "${f/-updated/}"; done' >&2
 echo "────────────────────────────────────────────" >&2
