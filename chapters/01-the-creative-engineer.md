@@ -164,18 +164,12 @@ The framework has four verbs: **Ideate. Build. Brand. Ship.**
 
 ![Figure 1.5 — four-quadrant or linear framework showing the four verbs in sequence, with a ...](images/01-the-creative-engineer-fig-05.jpg)
 
-<!-- → [TABLE: four-verb self-assessment rubric — rows: each verb (Ideate, Build, Brand, Ship); columns: Score 1 (no evidence), Score 3 (some evidence), Score 5 (clear public artifact). Student uses this table as a scoring guide before Exercise W2.] -->
-
-*Figure 1.6*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Each verb (Ideate** | _fill in_ | _fill in_ |
-| **Build** | _fill in_ | _fill in_ |
-| **Brand** | _fill in_ | _fill in_ |
-| **Ship)** | _fill in_ | _fill in_ |
-
-: {.data-table}
+| Verb | Score 1 — no evidence | Score 3 — some evidence | Score 5 — clear public artifact |
+|---|---|---|---|
+| **Ideate** | Project topics chosen by technology or assignment, not user need; no documented problem discovery | README or write-up frames why the project exists, but not tied to external validation or user contact | Public artifact showing user research, gap identification, or problem discovery before building (interview notes, problem statement, iteration log) |
+| **Build** | No complete, functional projects in any public repository | At least one complete, deployed project; partial portfolio with some finished work alongside abandoned repos | Multiple complete projects with documented technical decisions; production-grade deployment visible; code is readable by a stranger |
+| **Brand** | No consistent positioning; bio is generic or absent; no recognizable voice or audience across artifacts | Some consistency in tone or topic area; bio names a specialization; writing samples suggest an emerging voice | Coherent public identity across platforms; a specific audience is identifiable from the work; a stranger could describe your positioning without prompting |
+| **Ship** | No public-facing deployment; projects exist only as repos or class submissions | At least one project live at a public URL; limited evidence of actual users beyond the builder | Deployed product with real users; documented iteration based on use; public metrics, testimonials, or engagement visible |
 
 
 ### Ideate — scope a problem someone actually has
@@ -238,19 +232,12 @@ The point is not that one brand strategy is better than the other. The point is 
 
 This is what the Creative Engineer does at the scale of a career. Not a company. A career. The same mechanism — explicit audience, differentiated positioning, chosen archetype — determines which slice of the market can recognize you, want you, and hire you.
 
-<!-- → [TABLE: Anthropic vs. OpenAI — columns: Company, Primary Audience, Brand Positioning, Flagship Signal (Constitutional AI vs. GPT capability announcements), Market Captured. Five rows including a header.] -->
-
-*Figure 1.7*
-
-| | **Anthropic** | **GPT capability announcements), Market Captured. Five rows including a header.** |
+| | **Anthropic** | **OpenAI** |
 |---|---|---|
-| **Anthropic vs. OpenAI — columns: Company** | _fill in_ | _fill in_ |
-| **Primary Audience** | _fill in_ | _fill in_ |
-| **Brand Positioning** | _fill in_ | _fill in_ |
-| **Flagship Signal (Constitutional AI vs. GPT capability announcements)** | _fill in_ | _fill in_ |
-| **Market Captured. Five rows including a header.** | _fill in_ | _fill in_ |
-
-: {.infographic-table}
+| **Primary audience** | Enterprise buyers, regulated industries, safety-conscious deployers; organizations where reputational or regulatory risk is high | Consumer market, developer ecosystem, frontier-capability accounts; organizations betting on AGI proximity |
+| **Brand positioning** | "Honest, harmless, helpful" — safety as a first-order commitment, not a constraint bolted on after capability research | "Ensure AGI benefits all of humanity" — frontier capability first; safety as an outcome of reaching AGI responsibly |
+| **Flagship signal** | Constitutional AI (Bai et al., 2022) — a published, named method for value alignment; the constitution itself as a public artifact | GPT capability announcements (GPT-3, ChatGPT, GPT-4) — benchmark performance, release velocity, and consumer adoption numbers as primary signals |
+| **Market captured** | Enterprise and API accounts where compliance, auditability, and brand safety matter; partners in healthcare, legal, and financial services | Consumer mindshare (ChatGPT as the category-defining product); developer-first integrations; accounts prioritizing raw capability at the frontier |
 
 <!-- → [IMAGE: side-by-side screenshot or mockup of Anthropic's and OpenAI's homepage hero sections — student should see the brand differentiation in the actual language and visual register of each, not just in the analytical description above.] -->
 
@@ -275,19 +262,20 @@ Second, the twelve are internally coherent — each comes with a shadow, a failu
 
 What the framework does *not* do: it does not tell you which archetype to choose. That choice requires evidence from your actual work, your actual voice, your actual patterns. The archetype is descriptive before it is prescriptive. You are not inventing a persona. You are identifying one that is already latent in how you work and communicate.
 
-<!-- → [TABLE: the twelve archetypes — columns: Archetype, Core Drive, Signature Phrase, Shadow Failure Mode. Twelve rows, one per archetype. Student will use this as a reference during the exercise.] -->
-
-*Figure 1.9*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **The twelve archetypes — columns: Archetype** | _fill in_ | _fill in_ |
-| **Core Drive** | _fill in_ | _fill in_ |
-| **Signature Phrase** | _fill in_ | _fill in_ |
-| **Shadow Failure Mode. Twelve rows** | _fill in_ | _fill in_ |
-| **One per archetype. Student will use this as a reference during the exercise.** | _fill in_ | _fill in_ |
-
-: {.comparison-table}
+| Archetype | Core drive | Signature phrase | Shadow failure mode |
+|---|---|---|---|
+| **Hero** | Mastery and winning through effort | "I'll find a way to win." | Treats every obstacle as a challenge to defeat regardless of whether that framing serves the problem; recklessness dressed as determination |
+| **Sage** | Understanding, truth, and the sharing of insight | "Let me show you how this actually works." | Withholds output while waiting for certainty that never arrives; analysis without action |
+| **Explorer** | Freedom, discovery, and the avoidance of constraint | "There's something better out there." | Perpetual searching that never commits; novelty mistaken for progress; seventeen unfinished repositories |
+| **Innocent** | Safety, simplicity, and doing things the right way | "If we just do this right, it will work out." | Avoids necessary conflict by assuming good faith where skepticism is warranted; naivety as comfort |
+| **Creator** | Making things of enduring quality and craft | "It's not ready yet." | Perfectionism that never ships; treats publication as failure because the work is never finished |
+| **Ruler** | Order, control, and the building of lasting systems | "Here's how this should be structured." | Defends structure past the point where the structure serves anyone; rigidity over responsiveness |
+| **Caregiver** | Service and the removal of friction for others | "What do you need right now?" | Neglects own sustainability in the pursuit of others' comfort; martyrdom as identity |
+| **Magician** | Transformation and making the impossible possible | "What if we changed the frame entirely?" | Uses transformation as a vehicle for self-aggrandizement rather than genuine value delivery |
+| **Lover** | Connection, intimacy, and specificity of address | "This is made for you, specifically." | Loses distinctiveness to avoid rejection; sacrifices necessary edge in pursuit of warmth and acceptance |
+| **Jester** | Joy, levity, and using humor to reveal truth | "Can't we see how absurd this is?" | Uses humor to deflect accountability; refuses to be taken seriously precisely when it matters most |
+| **Everyman** | Belonging and making complexity accessible to all | "Anyone can do this — let me show you." | Avoids the sharp choices that would serve some users well at the cost of alienating others; populism over precision |
+| **Rebel** | Disruption and breaking rules that deserve breaking | "That rule deserves to be broken." | Breaks things for the pleasure of destruction without a constructive alternative; nihilism without a next move |
 
 <!-- → [INFOGRAPHIC: archetype wheel — the twelve archetypes arranged in a circle grouped by their dominant orientation (e.g., ego-driven: Hero, Rebel, Magician; soul-driven: Sage, Explorer, Innocent; self-driven: Creator, Ruler, Caregiver; social-driven: Everyman, Jester, Lover). Student should see the relational structure, not just a list.] -->
 
@@ -354,16 +342,10 @@ Shadow to watch for: in the Everyman's case, it is the universal-approval proble
 
 Neither archetype is better. Both are coherent strategic positions. The value of the framework is not that it ranks archetypes but that it makes your existing pattern legible so you can work with it intentionally.
 
-<!-- → [TABLE: side-by-side comparison of Engineer A (Rebel archetype) and Engineer B (Everyman archetype) — columns: Evidence Source (GitHub, LinkedIn, Writing), What It Reveals, Archetype Implication, Shadow to Watch For.] -->
-
-*Figure 1.11*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Row 1** | _fill in_ | _fill in_ |
-| **Row 2** | _fill in_ | _fill in_ |
-
-: {.infographic-table}
+| Evidence source | What it reveals | Archetype implication | Shadow to watch for |
+|---|---|---|---|
+| **Engineer A** — GitHub: seventeen repositories, fourteen unfinished; three complete with tight code, minimal features, and clean commit messages. LinkedIn: "I like solving problems the right way." Writing: X/Twitter posts critiquing poorly-designed APIs and framework antipatterns; no tutorials published. | Strong opinions about what is broken and deserves fixing; competence shown through critique rather than construction; absence of teaching or community-building output; completion rate signals that starting is easier than finishing. | **Rebel.** Motivated by identifying dysfunction and attacking it; voice is adversarial and diagnostic; positions as someone who sees what everyone else is tolerating. The negative space — no tutorials, no guides, no community presence — confirms the pattern as much as the critique posts do. | Fourteen unfinished repositories: breaking the wrong way of doing something is only half the job. A Rebel who never ships a replacement is a complaint, not a contribution. The shadow is destruction without construction — sharp critique that stops before the follow-through that would make the critique useful. |
+| **Engineer B** — GitHub: four repositories, all complete; two with tutorial-style READMEs explaining design decisions and setup in step-by-step detail. LinkedIn: framing around "making complex systems accessible to people who need to use them." Stack Overflow: two hundred answers, meeting questioners at their level of understanding. | Teaching impulse and accessibility framing appear consistently across every channel; completes what is started; meets people where they are rather than instructing from above; 200 Stack Overflow answers signal sustained investment in others' competence. | **Everyman.** Motivated by belonging and the removal of barriers; wants others to feel capable, not impressed; positions as a guide alongside rather than an expert above. The disambiguation from Sage rests on the Stack Overflow evidence: he is meeting questioners where they are, not elevating them toward understanding. | Universal-approval trap: may find it difficult to take an unpopular position, ship something that is not ready for everyone, or make the sharp choices that would serve some users well at the cost of alienating others. Populism as a failure mode — refusing necessary edge in the pursuit of universal accessibility. |
 
 <!-- → [IMAGE: annotated mockup of two GitHub profile pages — Engineer A (sparse, critical tone, unfinished repos, no README warmth) and Engineer B (tutorial-style READMEs, complete repos, accessibility framing). Annotations point to the specific signals that reveal each archetype.] -->
 
