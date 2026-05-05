@@ -441,3 +441,29 @@ with all five components.
 ---
 
 **Tags:** visual-identity · creative-brief · pepsi-logo · yahoo-logos · tropicana-redesign · WCAG-accessibility · color-palette · typography · wireframe · archetype-expression · INFO-7375
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and went on to define the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue* over the next four decades. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
+
+![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/cipe-pineles.jpg)
+*Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Cipe Pineles, and how does her work building cover-to-cover visual systems for *Glamour*, *Seventeen*, and *Vogue* connect to the chapter's argument that visual identity is a system of disciplined choices rather than a logo plus a palette? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
+```
+
+→ Search **"Cipe Pineles"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain why a visual *system* outperforms a visual *style* over time, in plain language
+- Ask it to compare Pineles's editorial-design discipline to the visual-identity rules this chapter teaches for AI products
+- Add a constraint: "Answer as if you're writing the visual-system rules for your Madison-style AI tool, governed by the archetype from Chapter 8"
+
+What changes? What gets better? What gets worse?
+

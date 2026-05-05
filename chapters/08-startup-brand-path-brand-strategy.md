@@ -488,3 +488,29 @@ For instructors and readers who want a fully separate Startup Brand running trac
 ---
 
 *Tags: brand-strategy · startup-brand · stripe · sage-archetype · developer-first · negative-space · UVP · mission-vision-values · naming · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Bill Bernbach** co-founded DDB in 1949 and over the next two decades built the work that defined what disruptive-startup brand could look like — *Think Small* for Volkswagen, *We Try Harder* for Avis, *You Don't Have to Be Jewish to Love Levy's*. Each campaign worked the same move: name the thing the incumbent's brand refused to acknowledge (the car is small, we are #2, the bread is Jewish), and turn the refusal into the position. Bernbach's central practice — writing brand strategy from the audience's existing skepticism rather than from the company's preferred self-image — is the chapter's working method. The Stripe inversion is an instance of it. The negative-space list is the deliberate version of it.
+
+![Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/bill-bernbach.jpg)
+*Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Bill Bernbach, and how do his disruptive-startup campaigns (*Think Small*, *We Try Harder*) connect to the chapter's argument that a startup brand strategy is built from what the incumbent refuses to say — and that the *refusal* is the position? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Bill Bernbach DDB"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain why startup brands win by *naming* the thing the incumbent refuses to admit, in plain language
+- Ask it to compare Bernbach's *Think Small* to the Stripe inversion analyzed in this chapter
+- Add a constraint: "Answer as if you're writing the positioning paragraph for a startup competing against an entrenched incumbent"
+
+What changes? What gets better? What gets worse?
+

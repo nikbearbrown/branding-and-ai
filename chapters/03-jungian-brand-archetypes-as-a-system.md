@@ -498,3 +498,29 @@ Here are my writing samples:
 ---
 
 *Tags: brand-archetypes · jung · mark-pearson · tropicana · gap · new-coke · innocent · sage · archetype-drift · shadow · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Carl Jung** is the source the chapter has been borrowing from. The twelve archetypes Margaret Mark and Carol Pearson catalogued for marketing in *The Hero and the Outlaw* (2001) are downstream of Jung's argument that certain figures — Hero, Sage, Caregiver, Trickster, Lover — recur across cultures because they correspond to durable patterns in human psychology, not to any particular author's invention. The chapter has used the framework as a strategic instrument; Jung intended it as a description of the unconscious. The shadow side of the archetype, which the chapter takes seriously, is also Jung's idea — the failure mode that the strength of an archetype tends to produce when taken too far.
+
+![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/carl-jung.jpg)
+*Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Carl Jung, and how does his concept of *archetypes* connect to using a twelve-figure framework as a strategic anchor for brand decisions — including the chapter's argument that the *shadow* of an archetype is as load-bearing as the archetype itself? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Carl Jung archetypes"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain *the collective unconscious* in plain language, as if you've never read psychoanalytic theory
+- Ask it to compare Jung's account of the shadow to the chapter's worked examples of archetypes failing under pressure
+- Add a constraint: "Answer as if you're writing the warning about archetype-shadow risk in a startup's brand strategy doc"
+
+What changes? What gets better? What gets worse?
+

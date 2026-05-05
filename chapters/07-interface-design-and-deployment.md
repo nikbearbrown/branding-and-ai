@@ -443,3 +443,29 @@ production-ready replacement text.
 ---
 
 **Tags:** interface-design · streamlit · gradio · deployment · interface-brand-alignment · google-bard · snapchat-redesign · microsoft-tay · alignment-audit · INFO-7375
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Vannevar Bush** published *As We May Think* in *The Atlantic* in July 1945 — the essay that imagined the *memex*, a desk-sized machine in which a researcher could store every book, document, and communication, link them into associative trails, and consult the trails later as a kind of externalized memory. The memex never shipped; the argument shaped every interface that followed. Bush's central claim is the chapter's: the interface is not a finishing layer on a finished product. It is the contract between the machine's capability and the human's attention, and a poorly written contract makes the capability inaccessible regardless of how powerful it is.
+
+![Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/vannevar-bush.jpg)
+*Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Vannevar Bush, and how does his vision of the *memex* connect to the chapter's claim that an interface is a contract between the system's capability and the user's attention — and that the contract has to be designed before the deployment, not after? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Vannevar Bush memex"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain the *memex* in plain language, as if you've never read *As We May Think*
+- Ask it to compare Bush's associative-trails idea to a modern AI tool's chat-history-as-context model
+- Add a constraint: "Answer as if you're writing the interface-design rationale for the deployed Madison tool"
+
+What changes? What gets better? What gets worse?
+

@@ -396,3 +396,29 @@ sending recruiters there. Self-criticism, not affirmation.
 ---
 
 **Tags:** portfolio · v0-vercel · framer-ai · brittany-chiang · linkedin-optimization · case-study · compounding · negative-space · coherence-audit · INFO-7375
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Charles and Ray Eames** built their portfolio across furniture, film, exhibitions, photography, and graphic design — the molded plywood chair, the Lounge Chair, the *Powers of Ten* short film, the IBM World's Fair pavilion, the Eames House itself — over four decades from 1941 onward. The portfolio reads as a single body of work, despite covering categories that have nothing to do with each other, because every piece is governed by the same design philosophy: rigorous problem framing, materials honestly used, the human experience as the unit of measurement. The chapter's argument that the portfolio is a *product* — a coherent artifact that compounds over time, not a directory of unrelated projects — is the Eames operating principle, applied to the Creative Engineer's first decade.
+
+![Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/charles-and-ray-eames.jpg)
+*Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who were Charles and Ray Eames, and how does their portfolio — varied across furniture, film, and exhibition design but unified by a single design philosophy — connect to the chapter's argument that the portfolio is itself a product, with one coherent thesis underneath every artifact? Keep it to three paragraphs. End with the single most surprising thing about their career or ideas.
+```
+
+→ Search **"Charles and Ray Eames"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain how a portfolio across unrelated mediums can still cohere, in plain language
+- Ask it to compare the Eameses' *Powers of Ten* to a Creative Engineer's case-study writing
+- Add a constraint: "Answer as if you're writing the connecting thesis statement for a Creative Engineer's first ten-piece portfolio"
+
+What changes? What gets better? What gets worse?
+

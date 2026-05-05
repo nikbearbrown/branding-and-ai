@@ -555,3 +555,29 @@ Output a Markdown document called "Career Search Assistants — [my name]" conta
 ---
 
 *Tags: multi-agent · CrewAI · AutoGPT · agent-architecture · orchestrated-vs-autonomous · madison-marketmind · production-reliability · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Herbert Simon** spent five decades arguing that intelligent action — by humans, by organizations, by machines — is what *bounded rationality* allows under real constraints of attention, time, and computation. His 1969 *The Sciences of the Artificial* is the foundational text on designing systems whose intelligence is distributed across specialized parts that cooperate. The Madison framework's five-agent architecture is in that lineage: no single agent is general-purpose; each is bounded to a competence; their cooperation is the system's intelligence. Simon also predicted, in 1965, that machines would be capable of doing any work a human could do within twenty years — a prediction the field is still arguing about. The chapter's caution — that multiagent does not mean omniagent — is Simon's caution.
+
+![Herbert A. Simon, c. 1970s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/herbert-simon.jpg)
+*Herbert A. Simon, c. 1970s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Herbert Simon, and how do his concepts of *bounded rationality* and *near-decomposability* connect to the design of multi-agent AI systems where each agent is deliberately specialized rather than general-purpose? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Herbert A. Simon"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain *bounded rationality* in plain language, as if you've never read decision theory
+- Ask it to compare Simon's near-decomposability argument to the role split across the five Madison agents
+- Add a constraint: "Answer as if you're writing the design rationale for why your multi-agent system has five roles instead of one general agent"
+
+What changes? What gets better? What gets worse?
+

@@ -440,3 +440,29 @@ with the five layer plans plus the load-bearing-layer call.
 ---
 
 **Tags:** madison-framework · multi-agent-systems · ReAct · n8n · architecture-as-brand · cursor · devin · agent-loop · orchestration · INFO-7375
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Marshall McLuhan** spent the 1960s arguing — to a public that mostly didn't yet have the vocabulary for it — that the *medium* shapes the message it carries, and that the architecture of a communication system is the message far more than any individual transmission through it. The Madison framework's central claim is the same shape, applied to AI tooling: the structural choices in the workflow (parallel ingestion branches, audit logs, the role split across the five agents) are the brand long before the marketing copy is written.
+
+![Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/marshall-mcluhan.jpg)
+*Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Marshall McLuhan, and how does his claim that *the medium is the message* connect to the Madison framework's argument that an AI system's architecture *is* the brand — that the role split, the contracts, the audit trail are the message far more than any UI copy? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Marshall McLuhan"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain "the medium is the message" in plain language, without quoting *Understanding Media*
+- Ask it to compare McLuhan's hot-vs-cool media distinction to the difference between a chatbot interface and an agentic workflow
+- Add a constraint: "Answer as if you're writing the architectural rationale for a five-agent Madison-style system"
+
+What changes? What gets better? What gets worse?
+

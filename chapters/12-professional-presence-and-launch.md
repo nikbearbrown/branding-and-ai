@@ -59,24 +59,16 @@ Paul Graham listened. Y Combinator invested $20,000. Sequoia followed with the s
 
 These three properties — argument coherence, specific numbers, team weight — are not pitch-deck properties. They are *presentation* properties. They apply to your LinkedIn profile, your resume, your portfolio case studies, and the email you send after an interview. The Airbnb deck is the worked example for a principle that runs across every artifact in your professional presence.
 
-<!-- → [TABLE: three coherence properties — columns: Property, What It Looks Like When Present, What It Looks Like When Absent, Where It Applies Beyond the Deck. Rows: Argument coherence / Every element reinforces one claim / Ten slides making ten different arguments / LinkedIn, resume, portfolio narrative; Specific numbers / "87 bookings in six weeks" / "strong early user interest" / Resume bullets, portfolio outcomes, case study metrics; Team weight / Named founders with specific relevant history / "experienced team of builders" / The about section, the team slide, the cover note.] -->
+| Property | What It Looks Like When Present | What It Looks Like When Absent | Where It Applies Beyond the Deck |
+|---|---|---|---|
+| **Argument coherence** | Every element reinforces one claim; each slide leans on the previous one | Ten slides making ten different arguments — the audience leaves remembering nothing | LinkedIn headline → about → featured; resume bullets that all support one role thesis; portfolio narrative |
+| **Specific numbers** | *"87 bookings in the first six weeks"* — a claim a reviewer can picture and audit | *"strong early user interest"* — a claim that signals the work was not done | Resume bullets, portfolio outcomes, case-study metrics, follow-up emails |
+| **Team weight** | Named founders with specific, relevant prior work — the team slide *is* the pitch at seed stage | *"experienced team of builders"* — generic, signals nothing | The about section, the team slide, the cover note, the first sentence of any bio |
 
 *Figure 12.1*
 
-| | **Property** | **Value** |
-|---|---|---|
-| **Argument coherence / Every element reinforces one claim / Ten slides making ten different arguments / LinkedIn** | _fill in_ | _fill in_ |
-| **Resume** | _fill in_ | _fill in_ |
-| **Portfolio narrative** | _fill in_ | _fill in_ |
-
-: {.data-table}
-
-<!-- → [DIAGRAM: the Airbnb argument chain — ten boxes arranged horizontally, one per slide, each connected by an arrow labeled "implies." Box labels: Problem → Solution → Validation → Market Size → Product → Business Model → Adoption → Competition → Team → Ask. Student should see that the deck is one continuous logical chain, not ten independent facts.] -->
-
-![Figure 12.2 — the Airbnb argument chain](images/12-professional-presence-and-launch-fig-02.jpg)
-
-
-### Tracing the Airbnb deck slide by slide
+![The Airbnb argument chain — ten slide boxes connected by 'implies' arrows, showing one continuous logical chain rather than ten independent facts](images/12-professional-presence-and-launch-fig-02.png)
+*Figure 12.2 — The Airbnb argument chain*### Tracing the Airbnb deck slide by slide
 
 Read the deck with the chapter's lens, because you will build your own version.
 
@@ -138,34 +130,26 @@ The outcome statement is specific. It contains a number (870 articles), a qualit
 
 For every bullet point in your experience section, ask: does this show what I built and what happened because I built it? If the answer is no, rewrite it until it does. If you do not have specific numbers, use `[verify with X]` as a placeholder rather than inventing a figure. A missing number is honest; a wrong number is disqualifying.
 
-<!-- → [TABLE: outcome vs. responsibility bullets — two columns: Responsibility (Not Hireable) and Outcome (Hireable). Five rows of paired examples, covering data engineering, AI product, frontend work, pipeline design, and brand/launch work. Student reads both columns and immediately sees the gap.] -->
+| Responsibility (Not Hireable) | Outcome (Hireable) |
+|---|---|
+| Worked with the team on data engineering tasks. | Built a data pipeline ingesting 870 articles per day with a 90% deduplication rate, reducing manual curation time by four hours per week. |
+| Helped develop an AI product for the course. | Shipped Madison Intelligence Agent — an n8n + GPT-4o-mini pipeline used by 12 beta users, with a 56% reported reduction in competitor-research time. |
+| Contributed to frontend development. | Designed and shipped a React dashboard with sub-100ms time-to-interactive on slow 3G, used in production by every Madison beta user. |
+| Worked on pipeline design and automation. | Re-architected a brittle Python script into an n8n workflow with documented contracts and three degraded modes; eliminated all four pipeline-failure incidents from the prior quarter. |
+| Supported brand and launch activities. | Wrote the launch post (1,200 reads in week one), built the brand-strategy document, and delivered the final pitch that produced two job interviews. |
 
 *Figure 12.3*
 
-| | **Outcome** | **Responsibility bullets** |
-|---|---|---|
-| **Outcome vs. responsibility bullets — two columns: Responsibility (Not Hireable)** | _fill in_ | _fill in_ |
-| **Outcome (Hireable). Five rows of paired examples** | _fill in_ | _fill in_ |
-| **Covering data engineering** | _fill in_ | _fill in_ |
-| **AI product** | _fill in_ | _fill in_ |
-| **Frontend work** | _fill in_ | _fill in_ |
-| **Pipeline design** | _fill in_ | _fill in_ |
-| **** | _fill in_ | _fill in_ |
-| **Brand/launch work. Student reads both columns** | _fill in_ | _fill in_ |
-| **Immediately sees the gap.** | _fill in_ | _fill in_ |
-
-: {.infographic-table}
-
-<!-- → [TABLE: ATS-optimized resume format checklist — two columns: Requirement and Why It Matters. Rows: Single column / Two-column layouts confuse parsers, text is read out of order; Standard section headers / ATS systems are trained on exact strings like "Experience" not "Where I've Worked"; Standard fonts only / Unusual fonts may not render — text becomes unreadable; Save as PDF + .docx / Different ATS systems have different format preferences — submit both; No headers-footers with critical info / Some parsers skip header and footer regions entirely; Keywords from job description / ATS scores against role vocabulary — if you did the work, use the field's words for it.] -->
+| Requirement | Why It Matters |
+|---|---|
+| **Single column** | Two-column layouts confuse ATS parsers — text gets read out of order, sometimes garbled, sometimes dropped entirely |
+| **Standard section headers** (*Experience*, *Education*, *Skills*, *Projects*) | ATS systems are trained on exact strings — *"Where I've Worked"* may not be parsed as work history |
+| **Standard fonts only** (Times New Roman, Arial, Calibri, Georgia) | Unusual fonts may not render on the parsing system; the resume becomes unreadable to the filter |
+| **Save as PDF + .docx** | Different ATS systems have different format preferences — submit both whenever possible |
+| **No headers/footers with critical info** | Some parsers skip header and footer regions entirely; the contact line at the top of the page is safer than a header |
+| **Keywords from the job description** | ATS scores against role vocabulary — if you did the work, use the field's exact words for it (programming languages, tools, methodologies, role titles) |
 
 *Figure 12.4*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Single column / Two-column layouts confuse parsers** | _fill in_ | _fill in_ |
-| **Text is read out of order** | _fill in_ | _fill in_ |
-
-: {.data-table}
 
 
 ### Version 2: Designer Format
@@ -220,22 +204,19 @@ The profile is a brand artifact, not just a code archive. A viewer who sees seve
 
 The unifying rule across all platforms: every surface should reinforce the same brand. Same headshot. Same bio language. Same voice. A reader who encounters you on LinkedIn, then your portfolio, then your GitHub, then your writing, should find the same person at increasing depth — not four versions of you in different tones trying to appeal to different audiences.
 
-<!-- → [TABLE: archetype-to-platform fit — columns: Archetype, Recommended Primary Platform, Secondary Platform, Platform to Avoid, Cadence Note. Rows: Sage / LinkedIn + Blog-Substack / GitHub / Twitter-X / Monthly long-form; Hero / LinkedIn + Twitter-X / GitHub / Substack / Weekly project updates; Creator / Portfolio + GitHub / LinkedIn / Twitter-X / Quarterly case studies; Rebel / Twitter-X + Substack / GitHub / LinkedIn / Weekly short takes; Caregiver / LinkedIn / Portfolio / Twitter-X / Monthly substantive engagement; Everyman / LinkedIn / GitHub / Substack / Weekly community engagement.] -->
+| Archetype | Recommended Primary | Secondary | Avoid | Cadence Note |
+|---|---|---|---|---|
+| **Sage** | LinkedIn + Blog/Substack | GitHub | Twitter/X | Monthly long-form; comments must add data or argument, never just praise |
+| **Hero** | LinkedIn + Twitter/X | GitHub | Substack | Weekly project updates; show the wins, name the metrics |
+| **Creator** | Portfolio + GitHub | LinkedIn | Twitter/X | Quarterly case studies; the artifact is the post |
+| **Rebel** | Twitter/X + Substack | GitHub | LinkedIn | Weekly short takes; named positions, not hot takes |
+| **Caregiver** | LinkedIn | Portfolio | Twitter/X | Monthly substantive engagement; the comments matter more than the posts |
+| **Everyman** | LinkedIn | GitHub | Substack | Weekly community engagement; show up reliably, not loudly |
 
 *Figure 12.5*
 
-| | **Property** | **Value** |
-|---|---|---|
-| **Sage / LinkedIn + Blog-Substack / GitHub / Twitter-X / Monthly long-form** | _fill in_ | _fill in_ |
-
-: {.comparison-table}
-
-<!-- → [INFOGRAPHIC: the brand-coherence surface stack — a layered illustration showing Portfolio at the bottom (deepest, most detailed), then GitHub, then LinkedIn, then Writing/Blog, then Social (shallowest, most frequent). Each layer labeled with the depth of impression it creates and the cadence at which it is updated. An arrow on the side reads: "A reader enters at any layer and should find the same person at increasing depth." Student should see that the goal is not presence on every platform but vertical coherence across the stack they choose.] -->
-
-![Figure 12.6 — the brand-coherence surface stack](images/12-professional-presence-and-launch-fig-06.jpg)
-
-
----
+![Brand-coherence surface stack — five layers from Social (shallowest) down to Portfolio (deepest), each labeled with its depth and cadence](images/12-professional-presence-and-launch-fig-06.png)
+*Figure 12.6 — The brand-coherence surface stack*---
 
 ## Part 4: The Final Presentation — Your Moment
 
@@ -283,31 +264,28 @@ Close with the ask, delivered directly. After ten slides and twenty minutes, the
 
 Twenty minutes. Two minutes per slide on average. Some slides run longer — the demo, slide nine. Some run shorter — the architecture overview if the audience is non-technical. Practice the full twenty-minute run-through at least twice before the room, ideally three times. Record the second practice and watch it. You will find at least one place where you are reading from the slide rather than presenting; fix it before the third run.
 
-<!-- → [TABLE: slide-by-slide structure guide — columns: Slide, Name, One-Line Content Spec, Speaking Time, The Single Most Important Element. Ten rows, one per slide. Student uses this as a checklist while building the deck.] -->
+| Slide | Name | One-Line Content Spec | Speaking Time | The Single Most Important Element |
+|---|---|---|---|---|
+| 1 | **Title + positioning** | Your name, tool name, one sentence positioning both — *"I build AI tools that help X do Y; T is the first one"* | ~1 min | The positioning sentence — not the name |
+| 2 | **Problem** | One specific moment, one person, one pain — with a number that makes it real | ~2 min | The opening sentence that puts the audience inside the problem |
+| 3 | **Solution (the tool)** | What the user does, what they get, what changes — in user-facing terms, not architecture | ~2 min | One screenshot or demo GIF |
+| 4 | **How it works** | Architecture overview the audience can follow — trigger, pipeline, AI layer, output | ~2 min | One labeled diagram, not a stack list |
+| 5 | **Demo or evidence** | The live URL, screenshots of real use, real output — and one specific user quote if you have it | ~3 min | Real data the tool has actually processed |
+| 6 | **Brand position** | Archetype + audience + voice — *why* the tool looks and reads the way it does | ~2 min | The named archetype and the one thing the brand refuses to do |
+| 7 | **Validation** | Specific numbers, even small ones; specific feedback, even from two users | ~2 min | The specific metric — *"56% reduction in five-person beta"* not *"strong interest"* |
+| 8 | **Roadmap** | One or two next-version items — each connected back to the problem slide | ~1 min | The argument for *why* the next version matters |
+| 9 | **You as the team** | Your archetype, the four-verb framework applied to your work, portfolio URL | ~2 min | The portfolio URL on the slide and the archetype-aligned one-sentence about-you |
+| 10 | **The ask** | Specific request — *"a machine-learning role at a startup building user-facing AI products"* | ~1 min | The specific ask sentence, said directly, not trailed off into thanks |
 
 *Figure 12.7*
 
-| | **Property** | **Value** |
-|---|---|---|
-| **Slide-by-slide structure guide — columns: Slide** | _fill in_ | _fill in_ |
-| **Name** | _fill in_ | _fill in_ |
-| **One-Line Content Spec** | _fill in_ | _fill in_ |
-| **Speaking Time** | _fill in_ | _fill in_ |
-| **The Single Most Important Element. Ten rows** | _fill in_ | _fill in_ |
-| **One per slide. Student uses this as a checklist while building the deck.** | _fill in_ | _fill in_ |
-
-: {.comparison-table}
-
-<!-- → [TABLE: opening line comparison — two columns: Generic Opening (Loses the Room) and Scene Opening (Earns Attention). Three rows of paired examples: Row 1: "Hi, I'm [name] and today I'll be presenting my AI tool" / "It's 7:45 Tuesday. A marketing manager opens her laptop. Forty-five minutes of tab-switching later, she still doesn't know what her competitors shipped last night. My tool does it in ninety seconds."; Row 2: "I built a career-search assistant for this course" / "Three months ago a classmate applied to 47 jobs in six weeks. She got two callbacks. The problem wasn't her resume — it was that she was applying to the wrong 47 jobs."; Row 3: "Today I'll walk you through my project and brand strategy" / "There are 412 AI writing tools on Product Hunt right now. Only one of them was designed specifically for technical documentation writers who hate marketing copy. Here's how I found that gap." Student reads both columns and immediately hears the difference.] -->
+| Generic Opening (Loses the Room) | Scene Opening (Earns Attention) |
+|---|---|
+| *"Hi, I'm [name] and today I'll be presenting my AI tool."* | *"It's 7:45 Tuesday. A marketing manager opens her laptop. Forty-five minutes of tab-switching later, she still doesn't know what her competitors shipped last night. My tool does it in ninety seconds."* |
+| *"I built a career-search assistant for this course."* | *"Three months ago a classmate applied to 47 jobs in six weeks. She got two callbacks. The problem wasn't her resume — it was that she was applying to the wrong 47 jobs."* |
+| *"Today I'll walk you through my project and brand strategy."* | *"There are 412 AI writing tools on Product Hunt right now. Only one of them was designed specifically for technical documentation writers who hate marketing copy. Here's how I found that gap."* |
 
 *Figure 12.8*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Row 1: "Hi** | _fill in_ | _fill in_ |
-| **I'm [name** | _fill in_ | _fill in_ |
-
-: {.infographic-table}
 
 
 ---
@@ -332,26 +310,20 @@ Write it before the final presentation. Not after, when the momentum has dispers
 
 The Creative Engineer version of you in 2027 will be the cumulative product of a thousand small consistencies — every case study added, every published piece, every archetype-aligned decision made under pressure. The course provides the foundation. The compounding is your work.
 
-<!-- → [TABLE: post-course plan template — columns: Commitment Type, Specific Commitment, Deadline, Done/Not Done. Rows: Portfolio addition 1 / [fill] / [date] / ; Portfolio addition 2 / [fill] / [date] / ; Portfolio addition 3 / [fill] / [date] / ; Published piece 1 / [fill] / [date] / ; Published piece 2 / [fill] / [date] / ; Published piece 3 / [fill] / [date] / ; Relationship engagement 1–5 / [fill] / [date] / . Student completes this during the chapter and submits it with the final presentation as evidence of a plan, not just a deliverable.] -->
+| Commitment Type | Specific Commitment | Deadline | Done / Not Done |
+|---|---|---|---|
+| **Portfolio addition 1** | _____________________ | _____________________ | ☐ |
+| **Portfolio addition 2** | _____________________ | _____________________ | ☐ |
+| **Portfolio addition 3** | _____________________ | _____________________ | ☐ |
+| **Published piece 1** | _____________________ | _____________________ | ☐ |
+| **Published piece 2** | _____________________ | _____________________ | ☐ |
+| **Published piece 3** | _____________________ | _____________________ | ☐ |
+| **Relationship engagement 1–5** | _____________________ | _____________________ | ☐☐☐☐☐ |
 
 *Figure 12.9*
 
-| | **Property** | **Value** |
-|---|---|---|
-| **Portfolio addition 1 / [fill** | _fill in_ | _fill in_ |
-
-: {.comparison-table}
-
-<!-- → [CHART: compounding output over time — line chart, x-axis: months 1–36 post-course, y-axis: cumulative published pieces + portfolio additions + relationship touchpoints. Two lines: "consistent monthly cadence" vs "burst then silence." The consistent line ends 3x higher at month 36 despite producing fewer pieces per burst. Student should see that cadence dominates quality at the margin over two-year timescales.] -->
-
-*Figure 12.10*
-
-| | **Compounding output over time — line chart, x-axis: months 1–36 post-course, y-axis: cumulative published pieces + portfolio additions + relationship touchpoints. Two lines: "consistent monthly cadence"** | **"burst then silence." The consistent line ends 3x higher at month 36 despite producing fewer pieces per burst. Student should see that cadence dominates quality at the margin over two-year timescales.** |
-|---|---|---|
-| **Row 1** | _fill in_ | _fill in_ |
-| **Row 2** | _fill in_ | _fill in_ |
-
-: {.data-table}
+![Line chart comparing consistent monthly cadence vs. burst-then-silence over 36 months — the consistent line ends roughly three times higher](images/12-professional-presence-and-launch-fig-10.png)
+*Figure 12.10 — Cadence dominates quality at the margin*
 
 
 ---
@@ -366,19 +338,15 @@ The final presentation is not a school deliverable. It is the first Ship of the 
 
 The Spence signaling argument from Chapter 1 closes here: the signals that separated you from other candidates — not the GitHub repository, but the deployed tool, the positioned brand, the published writing, the coherent presentation — are the costly signals that AI tooling did not make cheap. You have spent a course producing them. They compound forward.
 
-<!-- → [DIAGRAM: the four-verb loop — Ideate → Build → Brand → Ship → (arrow loops back to Ideate). Label each arrow with the chapter(s) where that verb happened. Label the loop itself: "this is the practice, not the project." Student should see that the course completed one loop; the post-course plan starts the next.] -->
-
-![Figure 12.11 — the four-verb loop](images/12-professional-presence-and-launch-fig-11.jpg)
-
-<!-- → [TABLE: where each verb lives in the book — columns: Verb, Chapters, Primary Artifact Produced, Signal It Creates. Rows: Ideate / Ch 4 (Career PRD) / Problem specification + audience definition / "This person knows what to build before building"; Build / Ch 5–7 (Pipeline, AI layer, Interface) / Deployed AI tool / "This person can execute"; Brand / Ch 8–10 (Strategy, Visual Identity, Storytelling) / Brand strategy doc + visual system + published content / "This person knows who the work is for"; Ship / Ch 11–12 (Portfolio, Launch) / Deployed portfolio + presentation + resume + launch post / "This person gets it in front of people." Student sees the full arc from verb to artifact to signal.] -->
+![The four-verb loop — Ideate, Build, Brand, Ship arranged in a circle with arrows back to the start, labeled with the chapters where each verb happened](images/12-professional-presence-and-launch-fig-11.png)
+*Figure 12.11 — The four-verb loop*| Verb | Chapters | Primary Artifact Produced | Signal It Creates |
+|---|---|---|---|
+| **Ideate** | Ch 4 (Career PRD) | Problem specification + audience definition | *"This person knows what to build before building."* |
+| **Build** | Ch 5–7 (Pipeline, AI layer, Interface) | Deployed AI tool | *"This person can execute."* |
+| **Brand** | Ch 8–10 (Strategy, Visual Identity, Storytelling) | Brand strategy doc + visual system + published content | *"This person knows who the work is for."* |
+| **Ship** | Ch 11–12 (Portfolio, Launch) | Deployed portfolio + presentation + resume + launch post | *"This person gets it in front of people."* |
 
 *Figure 12.12*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Ideate / Ch 4 (Career PRD) / Problem specification + audience definition / "This person knows what to build before building"** | _fill in_ | _fill in_ |
-
-: {.data-table}
 
 
 ---
@@ -590,3 +558,29 @@ Now go ship.
 ---
 
 *Tags: professional-presence · pitch-deck · airbnb · kawasaki-10-20-30 · resume · ATS · launch · final-presentation · coherence · four-verb-framework · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Margaret Bourke-White** built a professional presence by deliberately crossing institutional boundaries that her field treated as fixed: first foreign photographer admitted into the Soviet Union (1930), first woman war correspondent attached to the U.S. Army Air Forces, first female photographer at *Life* magazine and the photographer of its first cover (1936), among the first journalists to document the liberation of Buchenwald. None of these crossings were accidents. Each was the result of a clear decision about which assignment to take, which to refuse, and how to make the case for the next one. The chapter's argument — that professional presence is the assembled artifact, not the byproduct of doing good work — is Bourke-White's working method, made explicit.
+
+![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/margaret-bourke-white.jpg)
+*Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Margaret Bourke-White, and how does her deliberate boundary-crossing — choosing the assignments that built a professional presence rather than waiting to be assigned them — connect to the chapter's argument that the resume, the deck, the social-coherence stack are an *assembled artifact* you build with intention, not a byproduct of doing good work? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
+```
+
+→ Search **"Margaret Bourke-White"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain why presence has to be designed rather than earned passively, in plain language
+- Ask it to compare Bourke-White's deliberate assignment choices to a Creative Engineer's portfolio-and-launch sequencing
+- Add a constraint: "Answer as if you're writing the post-course plan that turns the next twelve months into a designed presence"
+
+What changes? What gets better? What gets worse?
+

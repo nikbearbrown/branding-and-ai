@@ -53,20 +53,11 @@ Here is the reaction I want you to have: *"What exactly got cheaper, and what do
 
 Those are different questions. The first is about individual performance. The second is about market structure. This chapter is about the second question.
 
-<!-- → [CHART: bar chart — task completion time in minutes, Control Group (161 min) vs. Copilot Group (71 min). Label the 56% reduction explicitly. Clean, no decoration — the number is the point.] -->
+![Bar chart comparing Control Group (161 minutes) and Copilot Group (71 minutes), with the 56% reduction labeled](images/01-the-creative-engineer-fig-01.png)
+*Figure 1.1 — Task completion time, Peng et al. (2023)*
 
-*Figure 1.1*
-
-| | **Bar chart — task completion time in minutes, Control Group (161 min)** | **Copilot Group (71 min). Label the 56% reduction explicitly. Clean, no decoration** |
-|---|---|---|
-| **Row 1** | _fill in_ | _fill in_ |
-| **Row 2** | _fill in_ | _fill in_ |
-
-: {.data-table}
-
-<!-- → [CALLOUT BOX: Pull quote — "56% is not a rounding error. It is a peer-reviewed, randomized controlled experiment on professional developers doing real work." Position as a margin note or inline block to arrest the reader before the Spence pivot.] -->
-
-![Figure 1.2 — Pull quote — "56% is not a rounding error. It is a peer-reviewed, randomized ...](images/01-the-creative-engineer-fig-02.jpg)
+![Pull quote rendered as a typographic block — "56% is not a rounding error. It is a peer-reviewed, randomized controlled experiment on professional developers doing real work."](images/01-the-creative-engineer-fig-02.png)
+*Figure 1.2 — The number that anchors the chapter*
 
 
 ---
@@ -87,13 +78,11 @@ Here is the critical insight, and the one that matters for you: **a signal works
 
 Spence called this a *separating equilibrium*: a state in which signals successfully separate high-productivity candidates from lower-productivity ones. When the cost-structure of the signal is disrupted, the separating equilibrium collapses. You get a *pooling equilibrium* — everyone looks the same on the credential, and the credential stops doing its job.
 
-<!-- → [DIAGRAM: two-column schematic — Separating Equilibrium (costly signal, high signal cost for low-productivity candidates, employer can sort) vs. Pooling Equilibrium (cheap signal, low signal cost for everyone, employer cannot sort). Arrows show the disruption event collapsing the left into the right.] -->
+![Two-column schematic showing separating equilibrium where the signal sorts versus pooling equilibrium where it does not](images/01-the-creative-engineer-fig-03.png)
+*Figure 1.3 — Separating vs. pooling equilibrium*
 
-![Figure 1.3 — two-column schematic](images/01-the-creative-engineer-fig-03.jpg)
-
-<!-- → [TIMELINE: horizontal axis = years 2004–2024, annotated with the key disruption events that collapsed the GitHub signal: GitHub launches (2008), Copilot launches (2021), Peng et al. study (2022), Stack Overflow 82% survey result (2024). Student should see the compression of the signal collapse.] -->
-
-![Figure 1.4 — horizontal axis = years 2004–2024, annotated with the key disruption events t...](images/01-the-creative-engineer-fig-04.jpg)
+![Horizontal timeline of the GitHub signal collapse, 2004 to 2024 — GitHub launches, Copilot launches, Peng et al. study, Stack Overflow 82% survey](images/01-the-creative-engineer-fig-04.png)
+*Figure 1.4 — The compression of the signal collapse*
 
 
 ### The GitHub signal
@@ -160,11 +149,8 @@ The Creative Engineer is an engineer who has noticed that the costly signals hav
 
 The framework has four verbs: **Ideate. Build. Brand. Ship.**
 
-<!-- → [INFOGRAPHIC: four-quadrant or linear framework showing the four verbs in sequence, with a brief phrase under each: Ideate (scope a problem worth solving), Build (produce a working artifact), Brand (position it for an audience), Ship (get it to real users). Mark "Build" as the verb AI cheapened. Mark the other three as still costly.] -->
-
-![Figure 1.5 — four-quadrant or linear framework showing the four verbs in sequence, with a ...](images/01-the-creative-engineer-fig-05.jpg)
-
-| Verb | Score 1 — no evidence | Score 3 — some evidence | Score 5 — clear public artifact |
+![The four verbs in sequence — Ideate, Build (greyed as the cheapened verb), Brand, Ship — with the cheapening of Build visually marked](images/01-the-creative-engineer-fig-05.png)
+*Figure 1.5 — The four verbs of the Creative Engineer*| Verb | Score 1 — no evidence | Score 3 — some evidence | Score 5 — clear public artifact |
 |---|---|---|---|
 | **Ideate** | Project topics chosen by technology or assignment, not user need; no documented problem discovery | README or write-up frames why the project exists, but not tied to external validation or user contact | Public artifact showing user research, gap identification, or problem discovery before building (interview notes, problem statement, iteration log) |
 | **Build** | No complete, functional projects in any public repository | At least one complete, deployed project; partial portfolio with some finished work alongside abandoned repos | Multiple complete projects with documented technical decisions; production-grade deployment visible; code is readable by a stranger |
@@ -239,12 +225,8 @@ This is what the Creative Engineer does at the scale of a career. Not a company.
 | **Flagship signal** | Constitutional AI (Bai et al., 2022) — a published, named method for value alignment; the constitution itself as a public artifact | GPT capability announcements (GPT-3, ChatGPT, GPT-4) — benchmark performance, release velocity, and consumer adoption numbers as primary signals |
 | **Market captured** | Enterprise and API accounts where compliance, auditability, and brand safety matter; partners in healthcare, legal, and financial services | Consumer mindshare (ChatGPT as the category-defining product); developer-first integrations; accounts prioritizing raw capability at the frontier |
 
-<!-- → [IMAGE: side-by-side screenshot or mockup of Anthropic's and OpenAI's homepage hero sections — student should see the brand differentiation in the actual language and visual register of each, not just in the analytical description above.] -->
-
-![Figure 1.8 — side-by-side screenshot or mockup of Anthropic's and OpenAI's homepage hero sections](images/01-the-creative-engineer-fig-08.jpg)
-
-
----
+![Side-by-side mockup of Anthropic's and OpenAI's homepage hero sections, showing identical capability framed for two different audiences](images/01-the-creative-engineer-fig-08.png)
+*Figure 1.8 — Anthropic / OpenAI brand differentiation*---
 
 ## Part 4: The Twelve Archetypes
 
@@ -277,12 +259,8 @@ What the framework does *not* do: it does not tell you which archetype to choose
 | **Everyman** | Belonging and making complexity accessible to all | "Anyone can do this — let me show you." | Avoids the sharp choices that would serve some users well at the cost of alienating others; populism over precision |
 | **Rebel** | Disruption and breaking rules that deserve breaking | "That rule deserves to be broken." | Breaks things for the pleasure of destruction without a constructive alternative; nihilism without a next move |
 
-<!-- → [INFOGRAPHIC: archetype wheel — the twelve archetypes arranged in a circle grouped by their dominant orientation (e.g., ego-driven: Hero, Rebel, Magician; soul-driven: Sage, Explorer, Innocent; self-driven: Creator, Ruler, Caregiver; social-driven: Everyman, Jester, Lover). Student should see the relational structure, not just a list.] -->
-
-![Figure 1.10 — archetype wheel](images/01-the-creative-engineer-fig-10.jpg)
-
-
-### The twelve at a glance
+![The twelve-archetype wheel arranged in three groups of four — ego-driven, soul-driven, self-driven](images/01-the-creative-engineer-fig-10.png)
+*Figure 1.10 — The twelve archetypes, grouped by orientation*### The twelve at a glance
 
 Here are the twelve, briefly. In Chapter 2, we will use your provisional archetype to choose which layer of the Madison framework maps to your career strategy. For now, read them as a taxonomy — your job is to find yourself in it.
 
@@ -347,12 +325,8 @@ Neither archetype is better. Both are coherent strategic positions. The value of
 | **Engineer A** — GitHub: seventeen repositories, fourteen unfinished; three complete with tight code, minimal features, and clean commit messages. LinkedIn: "I like solving problems the right way." Writing: X/Twitter posts critiquing poorly-designed APIs and framework antipatterns; no tutorials published. | Strong opinions about what is broken and deserves fixing; competence shown through critique rather than construction; absence of teaching or community-building output; completion rate signals that starting is easier than finishing. | **Rebel.** Motivated by identifying dysfunction and attacking it; voice is adversarial and diagnostic; positions as someone who sees what everyone else is tolerating. The negative space — no tutorials, no guides, no community presence — confirms the pattern as much as the critique posts do. | Fourteen unfinished repositories: breaking the wrong way of doing something is only half the job. A Rebel who never ships a replacement is a complaint, not a contribution. The shadow is destruction without construction — sharp critique that stops before the follow-through that would make the critique useful. |
 | **Engineer B** — GitHub: four repositories, all complete; two with tutorial-style READMEs explaining design decisions and setup in step-by-step detail. LinkedIn: framing around "making complex systems accessible to people who need to use them." Stack Overflow: two hundred answers, meeting questioners at their level of understanding. | Teaching impulse and accessibility framing appear consistently across every channel; completes what is started; meets people where they are rather than instructing from above; 200 Stack Overflow answers signal sustained investment in others' competence. | **Everyman.** Motivated by belonging and the removal of barriers; wants others to feel capable, not impressed; positions as a guide alongside rather than an expert above. The disambiguation from Sage rests on the Stack Overflow evidence: he is meeting questioners where they are, not elevating them toward understanding. | Universal-approval trap: may find it difficult to take an unpopular position, ship something that is not ready for everyone, or make the sharp choices that would serve some users well at the cost of alienating others. Populism as a failure mode — refusing necessary edge in the pursuit of universal accessibility. |
 
-<!-- → [IMAGE: annotated mockup of two GitHub profile pages — Engineer A (sparse, critical tone, unfinished repos, no README warmth) and Engineer B (tutorial-style READMEs, complete repos, accessibility framing). Annotations point to the specific signals that reveal each archetype.] -->
-
-![Figure 1.12 — annotated mockup of two GitHub profile pages](images/01-the-creative-engineer-fig-12.jpg)
-
-
----
+![Two GitHub profile mockups — Engineer A reads as Sage shadow / Critic; Engineer B reads as Sage / Teacher](images/01-the-creative-engineer-fig-12.png)
+*Figure 1.12 — Two GitHub profiles, two archetypes*---
 
 ## Integration: The Three Concepts Working Together
 
@@ -364,20 +338,14 @@ The connection between the four verbs and the archetype is this: Brand without a
 
 And the Spence layer underneath both explains why any of this matters. If building were still a separating signal, you would not need Brand and you would not need archetype. You would just build more and better things, and the market would find you. The reason you need these additional layers is that the build signal has cheapened — which means the separation work has moved upstream and downstream of build, into Ideate and Brand and Ship.
 
-<!-- → [DIAGRAM: three-level stack — bottom layer: Spence Mechanism (explains why), middle layer: Four-Verb Framework (explains what), top layer: Archetype System (explains how). Arrows connecting each layer upward, showing how each is built on the one below.] -->
-
-![Figure 1.13 — three-level stack](images/01-the-creative-engineer-fig-13.jpg)
-
-<!-- → [TABLE: summary integration table — three columns: Framework, Question It Answers, What Breaks Without It. Three rows: Spence Mechanism / Why brand matters / Without it, the student treats brand as optional decoration; Four-Verb Framework / What the portfolio must demonstrate / Without it, the student has identity but no market action; Archetype System / How to execute brand / Without it, brand decisions are arbitrary style choices with no strategic foundation.] -->
+![Three-level stack — Spence Mechanism (why), Four-Verb Framework (what), Archetype System (how)](images/01-the-creative-engineer-fig-13.png)
+*Figure 1.13 — Three frames, one argument*| Framework | Question It Answers | What Breaks Without It |
+|---|---|---|
+| **Spence Mechanism** | *Why* brand matters at all in this market | The student treats brand as optional decoration — investing only in build, then wondering why the GitHub no longer separates them from the field |
+| **Four-Verb Framework** | *What* the portfolio must demonstrate (Ideate / Build / Brand / Ship) | The student has identity but no market action — a clear sense of who they are with nothing in the world that proves it |
+| **Archetype System** | *How* to execute Brand specifically — the role you play in your audience's story | Brand decisions are arbitrary style choices with no strategic foundation; portfolio voice drifts and the audience cannot tell who the work is for |
 
 *Figure 1.14*
-
-| | **Property** | **Value** |
-|---|---|---|
-| **Spence Mechanism / Why brand matters / Without it** | _fill in_ | _fill in_ |
-| **The student treats brand as optional decoration** | _fill in_ | _fill in_ |
-
-: {.data-table}
 
 
 ---
@@ -472,3 +440,29 @@ The question this chapter leaves open: is the four-verb framework the right deco
 ---
 
 *Tags: creative-engineer · signaling-theory · spence-mechanism · four-verb-framework · jungian-archetypes · brand-strategy · AI-tooling · GitHub-Copilot · labor-market · portfolio · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Thorstein Veblen** spent the 1890s at the University of Chicago working out a problem the chapter has been working on under a different name: why do humans signal? In *The Theory of the Leisure Class* (1899) Veblen named *conspicuous consumption* — the pattern of acquiring costly things specifically because their cost is observable, and therefore signals capacity to acquire them. Spence formalized the mechanism eighty years later in markets for jobs and credentials. Veblen saw it first in markets for status and class.
+
+![Thorstein Veblen, c. 1880s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/thorstein-veblen.jpg)
+*Thorstein Veblen, c. 1880s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Thorstein Veblen, and how does his account of conspicuous consumption connect to Spence's signaling mechanism — and to the chapter's claim that *what* you signal has to change when the cost-structure of the old signal collapses? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Thorstein Veblen"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain *conspicuous consumption* in plain language, as if you've never read economic sociology
+- Ask it to compare Veblen's leisure-class signaling to the GitHub-as-portfolio era of 2008–2020
+- Add a constraint: "Answer as if you're writing the rationale for why Brand becomes the new costly signal when Build cheapens"
+
+What changes? What gets better? What gets worse?
+

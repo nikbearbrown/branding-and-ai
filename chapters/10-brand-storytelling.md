@@ -521,3 +521,29 @@ For each, suggest the publication channel (LinkedIn article / Substack / persona
 ---
 
 *Tags: brand-storytelling · heros-journey · campbell · storybrand · pepsi-jenner · bud-light · jaguar · narrative-archetype-match · INFO-7375*
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Joseph Campbell** synthesized the comparative mythology of dozens of cultures into the structural argument of *The Hero with a Thousand Faces* (1949): that human beings, across history and geography, tell the same shape of story because the shape corresponds to the experience of becoming someone capable of returning to the world with something the world needed. The chapter borrows the structure as a brand-storytelling tool — call to adventure, refusal, threshold, ordeal, return with the elixir — but Campbell's deeper claim is the one the chapter rests on: the structure works because it is true to a pattern people recognize in themselves, not because it is a clever rhetorical trick. A brand story that follows the structure feels true. One that ignores it feels staged.
+
+![Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joseph-campbell.jpg)
+*Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Joseph Campbell, and how does his Hero's Journey structure connect to the chapter's argument that a brand story works when it lets the *audience* recognize themselves as the hero — not when it positions the founder or the company as the hero? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Joseph Campbell mythologist"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain why audiences recognize the Hero's Journey structure even when they cannot name it, in plain language
+- Ask it to compare Campbell's monomyth stages to the brand-story arc this chapter teaches
+- Add a constraint: "Answer as if you're writing the launch-post narrative for an AI tool, with the user as the hero and the tool as the elixir"
+
+What changes? What gets better? What gets worse?
+

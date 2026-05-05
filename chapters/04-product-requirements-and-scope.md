@@ -466,3 +466,29 @@ corporate LinkedIn post, rewrite it.
 ---
 
 **Tags:** PRD · scope-discipline · MVP · build-measure-learn · lean-startup · linear · cagan · madison-architecture · INFO-7375
+
+---
+
+## 🕰️ AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Adele Goldstine** wrote the *Operator's Manual for the ENIAC* in 1946 — the first complete specification of an electronic computer system. The manual was 168 pages of decisions about what ENIAC could be made to do, what inputs it would accept, what outputs it would produce, what configurations were and were not supported. Half the work was naming what the machine could do. The other half — the part that makes it the foundational PRD of the computing era — was naming, with equal precision, what it could not. The chapter's $100,000 *no* is in the same lineage: scope is defined by the boundary line between what is in and what is out, written down before the build starts.
+
+![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/adele-goldstine.jpg)
+*Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph.*
+
+**Run this:**
+
+```
+Who was Adele Goldstine, and how does her work writing the first ENIAC operator's manual connect to the chapter's argument that a PRD's most important content is the explicit *no* — the boundary that decides what the product is by deciding what it isn't? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
+```
+
+→ Search **"Adele Goldstine"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain why machine specifications need to enumerate negative behavior, in plain language
+- Ask it to compare Goldstine's ENIAC manual structure to the structure of the PRD this chapter teaches
+- Add a constraint: "Answer as if you're writing the *out of scope* section of an AI-tool PRD"
+
+What changes? What gets better? What gets worse?
+

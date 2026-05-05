@@ -111,3 +111,4 @@ What we are not betting on: that the framework substitutes for the underlying te
 The first chapter starts in a controlled experiment with ninety-five developers, two hours and forty-one minutes, and a question about what stops being a costly signal once everyone can produce it.
 
 Turn the page.
+
