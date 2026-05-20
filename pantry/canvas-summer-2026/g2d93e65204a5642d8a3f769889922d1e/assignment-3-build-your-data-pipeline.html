@@ -1,0 +1,328 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Assignment: Assignment 3: Build Your Data Pipeline</title>
+</head>
+<body>
+<h1 class="text-text-100 mt-3 -mb-1 text-[1.375rem] font-bold">Assignment 3: Build Your Data Pipeline</h1>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>"Collect Data for Your Madison Agent"</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">📅 <strong>Due: &nbsp;| Points: 100</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Time to Build:</strong> Assignment 2 was planning. This assignment is data collection. Build a working n8n workflow that gathers the data your Madison agent will need to solve your problem.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>YouTube Tutorial Series:</strong> <a class="underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current" href="https://www.youtube.com/playlist?list=PLgOGgHS58rB_NQsb7xCDhrmJwoTp4tEdO">https://www.youtube.com/playlist?list=PLgOGgHS58rB_NQsb7xCDhrmJwoTp4tEdO</a></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Late Policy:</strong> -5% per day late (max 50% deduction after 10 days)</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Core Philosophy</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Quality Over Quantity:</strong> 50-100 clean, relevant records are better than 1,000 messy records.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Collect Once, Reuse Forever:</strong> Run your workflow once, save the data, then work with that saved data. This prevents API rate limits, bans, and wasted time re-collecting.</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Data Source Tiers</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Before you start, understand which data sources to use:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Tier 1: RECOMMENDED (Start Here)</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Public Datasets: Kaggle, HuggingFace, Google Dataset Search, Data.gov, GitHub</li>
+<li class="whitespace-normal break-words pl-2">RSS Feeds: No authentication, no rate limits, perfect for news aggregation</li>
+<li class="whitespace-normal break-words pl-2">YouTube Data API: Generous free tier (10,000 quota units/day)</li>
+<li class="whitespace-normal break-words pl-2">NewsAPI: 100 requests/day on free tier</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Tier 2: Use With Caution</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Twitter datasets from Kaggle: Archived data, not live API</li>
+<li class="whitespace-normal break-words pl-2">Reddit archives: Pushshift datasets, NOT live scraping</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Tier 3: AVOID</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">LinkedIn API: Complex approval, expensive, inaccessible for learners</li>
+<li class="whitespace-normal break-words pl-2">Twitter/X API free tier: Severe rate limiting, gets banned easily</li>
+<li class="whitespace-normal break-words pl-2">Reddit API live scraping: Known to ban IPs mid-project</li>
+<li class="whitespace-normal break-words pl-2">Business verification APIs: Expensive, complex approval</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Start with Tier 1 sources. You can always add complexity later.</strong></p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Part 1: Working n8n Data Collection Workflow (40 points)</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>"Build Your Data Pipeline"</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Create an n8n workflow that collects data relevant to YOUR specific Madison project:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Core Requirements:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Must collect data that addresses your Assignment 2 problem</li>
+<li class="whitespace-normal break-words pl-2">Must use at least 3 data sources</li>
+<li class="whitespace-normal break-words pl-2">Must save collected data in structured format (JSON/CSV)</li>
+<li class="whitespace-normal break-words pl-2">Must run locally and be reproducible</li>
+<li class="whitespace-normal break-words pl-2">Must collect 50-200 clean, relevant records</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Examples by Project Type:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Brand Analysis:</strong> YouTube transcripts, public brand content datasets from Kaggle</li>
+<li class="whitespace-normal break-words pl-2"><strong>Industry News:</strong> RSS feeds from 3-5 publications, NewsAPI</li>
+<li class="whitespace-normal break-words pl-2"><strong>Sentiment Analysis:</strong> Public sentiment datasets (Kaggle), Reddit archives</li>
+<li class="whitespace-normal break-words pl-2"><strong>Content Generation:</strong> Industry RSS feeds, public article datasets</li>
+<li class="whitespace-normal break-words pl-2"><strong>Customer Service:</strong> Public FAQ datasets, support documentation</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">✅ Completion (40 pts):</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Workflow runs without major errors (15 pts)</li>
+<li class="whitespace-normal break-words pl-2">Collects relevant data for your problem (15 pts)</li>
+<li class="whitespace-normal break-words pl-2">Saves data in usable format (10 pts)</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Part 2: Data Documentation &amp; Demo (24 points)</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>"Prove Your Pipeline Works"</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Required Deliverables:</strong></p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">1. Data Inventory (8 pts)</h3>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">markdown</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-markdown"><span><span class="token">##</span><span class="token"> Project: [Your Madison Project Name]</span>
+</span><span><span class="token">##</span><span class="token"> Problem: [What problem this data helps solve]</span>
+</span>
+<span><span class="token">###</span><span class="token"> Data Collected:</span>
+</span><span><span class="token">**</span><span class="token">Source 1: [Source Name]</span><span class="token">**</span>
+</span><span><span class="token">-</span> Type: [What kind of data]
+</span><span><span class="token">-</span> Amount: [Number of records]
+</span><span><span class="token">-</span> Purpose: [Why you collected it]
+</span><span><span class="token">-</span> Collection method: [How you collected it]
+</span><span><span class="token">-</span> Quality: [X/Y complete records]
+</span>
+<span><span class="token">**</span><span class="token">Source 2: [Source Name]</span><span class="token">**</span>
+</span><span><span class="token">-</span> Type: [What kind of data]
+</span><span><span class="token">-</span> Amount: [Number of records]
+</span><span><span class="token">-</span> Purpose: [Why you collected it]
+</span><span><span class="token">-</span> Collection method: [How you collected it]
+</span><span><span class="token">-</span> Quality: [X/Y complete records]
+</span>
+<span><span class="token">###</span><span class="token"> Statistics:</span>
+</span><span><span class="token">-</span> Total records: [#]
+</span><span><span class="token">-</span> Clean records: [#] ([%] quality rate)
+</span><span><span class="token">-</span> Sources: [#]
+</span><span><span class="token">-</span> Ready for: [How you'll use in Assignment 4]</span></code></pre>
+</div>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">2. Setup Guide (8 pts)</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">How to run your workflow (step-by-step)</li>
+<li class="whitespace-normal break-words pl-2">Required credentials/API keys <span style="color: #b34000;"><strong>(DO NOT SHARE ANY CREDENTIALS/API KEYS PUBLICLY)</strong></span></li>
+<li class="whitespace-normal break-words pl-2">Dependencies and setup steps</li>
+<li class="whitespace-normal break-words pl-2">Common errors and fixes</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">3. Demo Documentation (8 pts):</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Choose ONE option:</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Option A: Video Demo (3 minutes max)</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Show workflow overview</li>
+<li class="whitespace-normal break-words pl-2">Execute the workflow</li>
+<li class="whitespace-normal break-words pl-2">Show output data</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Option B: Screenshot Walkthrough (PDF):</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">5-8 annotated screenshots showing:
+<ul>
+<li class="whitespace-normal break-words pl-2">Full workflow overview</li>
+<li class="whitespace-normal break-words pl-2">Key node configurations</li>
+<li class="whitespace-normal break-words pl-2">Workflow executing/running</li>
+<li class="whitespace-normal break-words pl-2">Sample data output</li>
+</ul>
+</li>
+<li class="whitespace-normal break-words pl-2">Include captions explaining what each screenshot shows</li>
+<li class="whitespace-normal break-words pl-2">Add arrows or highlights to key areas</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">✅ Completion (24 pts): All documentation present</h3>
+<p class="text-text-100 mt-2 -mb-1 text-base font-bold">⭐ Excellence: Professional quality, peer could replicate</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Part 3: Data Quality (16 points)</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>"Clean Data = Usable Data"</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Requirements:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Data is clean and structured consistently (8 pts)</li>
+<li class="whitespace-normal break-words pl-2">Quality metrics documented (8 pts)</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Quality Checklist:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">80%+ of records are complete</li>
+<li class="whitespace-normal break-words pl-2">Required fields present in all records</li>
+<li class="whitespace-normal break-words pl-2">Duplicates removed</li>
+<li class="whitespace-normal break-words pl-2">Dates standardized (ISO-8601 format)</li>
+<li class="whitespace-normal break-words pl-2">Data relevant to your problem</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">✅ Completion (16 pts): Clean, structured data with quality metrics documented</h3>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Excellence Points (20 points)</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>"Go Beyond the Basics"</strong></p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">⭐ Quality Focus (10 pts):</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Data cleanliness and structure (5 pts)</li>
+<li class="whitespace-normal break-words pl-2">Validation implemented (3 pts)</li>
+<li class="whitespace-normal break-words pl-2">Quality metrics documented (2 pts)</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">⭐ Technical Implementation (5 pts):</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Error handling implemented (3 pts)</li>
+<li class="whitespace-normal break-words pl-2">Multiple sources integrated well (2 pts)</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">⭐ Documentation (5 pts):</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Professional, comprehensive documentation (3 pts)</li>
+<li class="whitespace-normal break-words pl-2">Could a peer replicate your work? (2 pts)</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Data Volume Standards</h2>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Minimum Viable:</strong> 50-100 records from 3 sources (sufficient for full credit)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Strong Quality:</strong> 100-200 records from 3 sources (demonstrates excellence)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Outstanding:</strong> 150-300 records from 3+ sources (portfolio-quality)</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Important:</strong> Excellence is 150-300 records, NOT 1000+. Quality beats quantity every time.</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Quick Start Options by Project Type</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>For Brand Voice Analysis:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">YouTube transcripts from 3+ brand channels</li>
+<li class="whitespace-normal break-words pl-2">Public brand content datasets from Kaggle</li>
+<li class="whitespace-normal break-words pl-2">Save as JSON with metadata</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>For Industry News Aggregator:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">RSS feeds from 5+ publications</li>
+<li class="whitespace-normal break-words pl-2">NewsAPI for supplemental sources</li>
+<li class="whitespace-normal break-words pl-2">Filter for relevance</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>For Sentiment Analysis:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Public sentiment datasets from Kaggle</li>
+<li class="whitespace-normal break-words pl-2">Reddit archive datasets (NOT live API)</li>
+<li class="whitespace-normal break-words pl-2">Pre-labeled data preferred</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>For Content Generation:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Industry RSS feeds</li>
+<li class="whitespace-normal break-words pl-2">Public article datasets</li>
+<li class="whitespace-normal break-words pl-2">Blog content archives</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>For Customer Service:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Public FAQ datasets</li>
+<li class="whitespace-normal break-words pl-2">Support documentation archives</li>
+<li class="whitespace-normal break-words pl-2">Simulated data (clearly labeled)</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Technical Requirements</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Minimum Setup:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">n8n installed locally</li>
+</ul>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">bash</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-bash"><span><span class="token">npm</span> <span class="token">install</span> -g n8n
+</span><span>n8n start</span></code></pre>
+</div>
+</div>
+<ul>
+<li class="whitespace-normal break-words pl-2">At least 2 Tier 1 data source connections</li>
+<li class="whitespace-normal break-words pl-2">Data storage
+<ul>
+<li class="whitespace-normal break-words pl-2">JSON files (recommended)</li>
+<li class="whitespace-normal break-words pl-2">CSV for tabular data</li>
+<li class="whitespace-normal break-words pl-2">Include sample output</li>
+</ul>
+</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Submission Requirements</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Submit in Canvas by January 30th, 2026, 11:59 PM:</strong></p>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>n8n Workflow Export (Required)</strong>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">File: LastName_FirstName_A3_Workflow.json</li>
+</ul>
+</li>
+<li class="whitespace-normal break-words pl-2"><strong>Documentation PDF (Required)</strong>
+<ul>
+<li class="whitespace-normal break-words pl-2">Data inventory</li>
+<li class="whitespace-normal break-words pl-2">Setup instructions</li>
+<li class="whitespace-normal break-words pl-2">Quality metrics</li>
+<li class="whitespace-normal break-words pl-2">CSV/JSON file of the collected data</li>
+</ul>
+</li>
+<li class="whitespace-normal break-words pl-2"><strong>Demo Choice (Required):</strong>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Video link OR Screenshot walkthrough PDF</li>
+</ul>
+</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Common Challenges &amp; Solutions</h2>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">"What data should I collect?"</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Review your Assignment 2 problem</li>
+<li class="whitespace-normal break-words pl-2">Search Kaggle for "[your topic] dataset"</li>
+<li class="whitespace-normal break-words pl-2">Find 2-3 relevant RSS feeds</li>
+<li class="whitespace-normal break-words pl-2">Aim for 100-200 total records</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">"APIs seem complicated"</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Start with public datasets and RSS feeds</li>
+<li class="whitespace-normal break-words pl-2">They require no authentication</li>
+<li class="whitespace-normal break-words pl-2">Add APIs only if needed</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">"How much data is enough?"</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Minimum:</strong> 50-100 records</li>
+<li class="whitespace-normal break-words pl-2"><strong>Strong:</strong> 100-200 records</li>
+<li class="whitespace-normal break-words pl-2"><strong>Excellence:</strong> 150-300 records</li>
+<li class="whitespace-normal break-words pl-2"><strong>NOT</strong> 500+ or 1000+ (quality over quantity)</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">"My workflow seems too simple"</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">A 6-node workflow is perfectly acceptable:</p>
+<ul>
+<li class="whitespace-normal break-words pl-2">Manual Trigger</li>
+<li class="whitespace-normal break-words pl-2">3 Data Sources (RSS/HTTP Request)</li>
+<li class="whitespace-normal break-words pl-2">Function (clean and structure)</li>
+<li class="whitespace-normal break-words pl-2">Write Binary File</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Simple and working beats complex and broken.</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Tips for Excellence</h2>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Use Tier 1 sources</strong> - Public datasets, RSS, YouTube API, NewsAPI</li>
+<li class="whitespace-normal break-words pl-2"><strong>Collect once, reuse forever</strong> - Don't re-run your workflow repeatedly</li>
+<li class="whitespace-normal break-words pl-2"><strong>Focus on quality</strong> - Clean, relevant data beats large messy datasets</li>
+<li class="whitespace-normal break-words pl-2"><strong>Document thoroughly</strong> - Someone else should be able to run your workflow</li>
+<li class="whitespace-normal break-words pl-2"><strong>Test 3+ times</strong> - Verify your workflow runs reliably</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Examples of Strong Projects</h2>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Brand Voice Analysis:</strong> 180 records from YouTube API + Kaggle dataset, 95% quality rate</li>
+<li class="whitespace-normal break-words pl-2"><strong>Industry News Aggregator:</strong> 156 records from RSS feeds + NewsAPI, 100% quality rate</li>
+<li class="whitespace-normal break-words pl-2"><strong>Sentiment Analyzer:</strong> 200 labeled records from public datasets, 98.5% quality rate</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">What NOT to Do:</h3>
+<ul>
+<li class="whitespace-normal break-words pl-2">Trying to collect 2000+ tweets from free Twitter API (gets rate limited)</li>
+<li class="whitespace-normal break-words pl-2">Using LinkedIn API without enterprise access (won't work)</li>
+<li class="whitespace-normal break-words pl-2">Live scraping Reddit (gets IP banned)</li>
+<li class="whitespace-normal break-words pl-2">Prioritizing quantity over quality</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Support Resources</h2>
+<ul>
+<li class="whitespace-normal break-words pl-2"><strong>Office Hours:</strong> Monday &amp; Friday (Ari), Friday (Nina), Thursday (Nik)</li>
+<li class="whitespace-normal break-words pl-2"><strong>n8n Documentation:</strong> n8n.io/docs</li>
+<li class="whitespace-normal break-words pl-2"><strong>YouTube Tutorial Series:</strong> <a class="underline underline underline-offset-2 decoration-1 decoration-current/40 hover:decoration-current focus:decoration-current" href="https://www.youtube.com/playlist?list=PLgOGgHS58rB_NQsb7xCDhrmJwoTp4tEdO">https://www.youtube.com/playlist?list=PLgOGgHS58rB_NQsb7xCDhrmJwoTp4tEdO</a></li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Important Reminders</h2>
+<ul>
+<li class="whitespace-normal break-words pl-2">This is about GATHERING data, not analyzing it yet</li>
+<li class="whitespace-normal break-words pl-2">Quality matters more than quantity</li>
+<li class="whitespace-normal break-words pl-2">Document everything - assume we know nothing</li>
+<li class="whitespace-normal break-words pl-2">Test early and often</li>
+<li class="whitespace-normal break-words pl-2">Save backups of your data</li>
+<li class="whitespace-normal break-words pl-2">Collect once, reuse forever</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Nina &amp; Nik's Note</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em>"Focus on getting good, clean data that actually relates to your problem. Don't worry about analysis yet - that's Assignment 4. Think of this as shopping for ingredients before you cook. The better your ingredients, the better your final dish!</em></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em>For the demo requirement, choose the format that works best for you - video or screenshots. We care about seeing that your workflow runs and understanding how it works, not about your production skills. Pick whichever option lets you focus on the actual data collection work.</em></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><em>Remember: 100 clean records from Tier 1 sources is EXCELLENT work. Don't waste hours fighting problematic APIs trying to get 1000+ records. Quality over quantity, always."</em></p>
+</body>
+</html>

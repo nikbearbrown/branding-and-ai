@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g660285d3d5dbcd75ab471ad1afb08531" title="Attendance - Week 7">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>10</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g0c5ebe8a908382fabff51922220451ca" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4007,3549,9029,1321</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gead301ac153259f3cf4398fbd75a26a5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p class="p1"&gt;Why is Peter learning to &lt;strong&gt;BUILD&lt;/strong&gt; AI agents through the HDSR program rather than just marketing AI products?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4007">
+                <material>
+                  <mattext texttype="text/plain">He wants to pivot fully into software engineering and leave marketing behind</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3549">
+                <material>
+                  <mattext texttype="text/plain">He believes fractional CMOs need technical credibility to advise clients on AI strategy</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9029">
+                <material>
+                  <mattext texttype="text/plain">He's developing a SaaS product to compete with existing marketing automation tools</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1321">
+                <material>
+                  <mattext texttype="text/plain">His consulting clients require him to have coding certifications</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3549</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gd863b98cc13f9eaf7e1a5ffa58b9165c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2617,3294,7756,9015</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g87b8413c3a8abb8c2aca95bfaa2da01a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p class="p1"&gt;What was Peter's key advice for students trying to become "Creative Engineers"?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="2617">
+                <material>
+                  <mattext texttype="text/plain">Master technical skills first, then layer on creative thinking later in your career</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3294">
+                <material>
+                  <mattext texttype="text/plain">Choose one lane (creative OR technical) and become the best in that specialty</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7756">
+                <material>
+                  <mattext texttype="text/plain">Stay curious across disciplines and don't let anyone box you into a single role</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9015">
+                <material>
+                  <mattext texttype="text/plain">Get an MBA to bridge the gap between creative and business strategy</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7756</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gafab2b72bb25d847713d92a0618f5671" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5645,4649,3010,3605,557</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gee049ebfb424df9c3158c1fa7f89c80e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p class="p1"&gt;Professor Nik gave a speech about the foolishness of copying another student's assignment and submitting it as your own. What was his main point about why this type of cheating is "stupid" in INFO 7375?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5645">
+                <material>
+                  <mattext texttype="text/plain">Canvas automatically flags duplicate submissions, so you'll get caught immediately and fail the course</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4649">
+                <material>
+                  <mattext texttype="text/plain">You're paying thousands of dollars in tuition to NOT learn the exact skills employers will expect you to have</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3010">
+                <material>
+                  <mattext texttype="text/plain">The student you copied from will likely report you to avoid getting in trouble themselves</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3605">
+                <material>
+                  <mattext texttype="text/plain">Graduate programs share academic integrity violations, which will follow you throughout your career</mattext>
+                </material>
+              </response_label>
+              <response_label ident="557">
+                <material>
+                  <mattext texttype="text/plain">In a class about AI and branding, you're learning to use tools that will do the work FOR you legally. So why cheat?</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4649</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gdd4981eacd007ce5f8c35a18aacb40d6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8435,2783,8904,3370,536</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf60543680089bb2b3f907b1372b4d3d8</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p class="p1"&gt;Guy Kawasaki's Famous 10/20/30 Rule for Presentations&lt;/p&gt;
+&lt;p class="p1"&gt;According to Guy Kawasaki's presentation philosophy explained in class, what does the "30" in the 10/20/30 rule refer to?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8435">
+                <material>
+                  <mattext texttype="text/plain">Present to no more than 30 people at a time for maximum engagement</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2783">
+                <material>
+                  <mattext texttype="text/plain">Use a minimum 30-point font size so you must know your material</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8904">
+                <material>
+                  <mattext texttype="text/plain">Spend no more than 30 seconds per slide to maintain pace</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3370">
+                <material>
+                  <mattext texttype="text/plain">Include no more than 30 words per slide to avoid clutter</mattext>
+                </material>
+              </response_label>
+              <response_label ident="536">
+                <material>
+                  <mattext texttype="text/plain">Practice your presentation at least 30 times before delivering it</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">2783</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf9d4e7421cf314a06c68e963b3b3b718" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>566,3093,5475,9804,3667</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g8b531303ee8f56547e48cc86d16aeb97</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p class="p1"&gt;You have been given 8 minutes to present your Madison Framework midterm project. Based on class guidelines and Guy Kawasaki's presentation principles, what is the best approach to managing this time?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="566">
+                <material>
+                  <mattext texttype="text/plain">Use all 8 minutes for your presentation and answer questions after class if needed</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3093">
+                <material>
+                  <mattext texttype="text/plain">Present for 6-7 minutes and leave 1-2 minutes for Q&amp;A to stay within the time limit</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5475">
+                <material>
+                  <mattext texttype="text/plain">Rush through all your slides to fit everything in, even if some details are unclear</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9804">
+                <material>
+                  <mattext texttype="text/plain">Present for the full 8 minutes and request additional time if you need it</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3667">
+                <material>
+                  <mattext texttype="text/plain">Focus only on your tool's features and skip the problem/value proposition to save time</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">3093</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

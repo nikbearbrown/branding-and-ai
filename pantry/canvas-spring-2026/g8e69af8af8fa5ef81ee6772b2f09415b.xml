@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imsdt_v1p1  http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imsdt_v1p1.xsd">
+  <title>Assignment 5 FAQs: Common Confusions Clarified</title>
+  <text texttype="text/html">&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Q1: Do I need to build a completely new workflow for A5 with just 3 nodes (webhook → LLM → response)?&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;A: No. You're not building a new workflow from scratch. Your A5 Gradio/Streamlit app should connect to your existing A4 workflow via webhook. The webhook replaces your manual trigger, but you should still include the main requirements from A3 and A4 (data fetching, processing, LLM analysis). You're essentially adding Gradio/Streamlit as a user interface layer on top of your A4 workflow, not replacing it entirely.&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Q2: Should users need to know my data schema to use the Gradio app?&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;A: No. Design your interface so it's intuitive. Either use clear input fields with labels that guide users on what to enter, or make your LLM prompts flexible enough to handle free-form text. The user shouldn't need to understand your backend schema. That's the whole point of building a good interface.&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Q3: Should I enable "Continue on Error" on all nodes or just specific ones?&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;A: Use "Continue on Error" strategically for nodes that might fail due to external factors beyond your control (API downtime, rate limits, network issues, missing files). Examples include:&lt;/p&gt;
+&lt;ul class="[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3"&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;HTTP/API requests&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;RSS feeds&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;File read operations&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;External service calls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;Do NOT use it on your core workflow logic nodes. If those fail, it usually indicates a real problem in your workflow that needs to be fixed, not bypassed. Suppressing errors on internal logic can hide bugs and make debugging much harder.&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Q4: Can my Gradio app just simulate or document my A4 logic instead of actually running it?&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;A: No. Your Gradio interface must actually run your A4 logic and produce real results. The assignment requires "Connects to your A4 workflow (or runs it directly)". This means when a user inputs data, they should get actual results from your Madison logic, not a simulation or description. Connect to your n8n workflow via webhook (you can use webhook authentication/API keys for security). The interface must be functional, not just documentation.&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Q5: How do I handle the public deployment requirement if my n8n workflow is running locally?&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;A:&lt;/strong&gt; If your Gradio/Streamlit app is deployed on HuggingFace/Streamlit Cloud but your n8n workflow is on your local computer, they can't communicate directly. You have three options:&lt;/p&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Option 1: Temporary URL (ngrok)&lt;/strong&gt; - Free&lt;/p&gt;
+&lt;ul class="[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3"&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Use a tool like ngrok to create a temporary public URL for your local n8n&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;&lt;strong&gt;Submit a 2-3 minute demo video showing your application working end-to-end&lt;/strong&gt; (since the URL won't be live during grading)&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Note: This URL isn't permanent and can't be used in your portfolio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Option 2: Deploy n8n to a cloud platform&lt;/strong&gt; - Free/Low-cost&lt;/p&gt;
+&lt;ul class="[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3"&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Railway.app (~$5 for the month) or Render.com (free tier)&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Submit your permanent URL in your PDF as originally planned&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Portfolio-ready solution&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Note: Requires some technical setup (Docker, environment variables)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;strong&gt;Option 3: n8n Cloud&lt;/strong&gt; - $20/month&lt;/p&gt;
+&lt;ul class="[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3"&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Easiest deployment option - works immediately&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Submit your permanent URL in your PDF as originally planned&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Cancel after grading if you don't need it long-term&lt;/li&gt;
+&lt;li class="whitespace-normal break-words pl-2"&gt;Portfolio-ready solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;For Options 2 &amp;amp; 3, submit your permanent URL in the PDF and I can test it anytime. For Option 1, include your demo video link in the PDF &lt;strong&gt;AND&lt;/strong&gt; as a comment on canvas. Most students have successfully used Option 1 for their user testing by keeping their applications running during testing sessions.&lt;/p&gt;
+&lt;hr class="border-border-200 border-t-0.5 my-3 mx-1.5"&gt;
+&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt;&lt;em&gt;Note: I'll keep updating this FAQ as more common questions come up, so check back whenever you see the announcement has been modified.&lt;/em&gt;&lt;/p&gt;</text>
+</topic>

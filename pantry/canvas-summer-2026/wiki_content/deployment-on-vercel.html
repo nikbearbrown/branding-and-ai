@@ -1,0 +1,273 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Deployment on Vercel</title>
+<meta name="identifier" content="g5f6d300b54905e7da932a09d55d3b99c"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="unpublished"/>
+</head>
+<body>
+<div class="markdown-heading">
+<h1 class="heading-element">Deployment on Vercel</h1>
+</div>
+<div class="markdown-heading"><a id="user-content-introduction-to-vercel" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#introduction-to-vercel" aria-label="Permalink: Introduction to Vercel"></a></div>
+<p>Vercel is a powerful and user-friendly platform designed for developers to deploy websites and web applications effortlessly. It supports static sites, serverless functions, and advanced frameworks like Next.js. Vercel ensures seamless integration with Git-based workflows, enabling continuous deployment and collaboration. With built-in analytics, automatic scaling, and global content delivery, Vercel optimizes the performance and reliability of your projects.</p>
+<p>This document outlines the step-by-step process for deploying your blog website on Vercel. Whether you're deploying a static site or a dynamic application, these instructions will guide you through the setup and deployment process without relying on CLI commands.</p>
+<div class="markdown-heading">
+<h2 class="heading-element">Prerequisites</h2>
+<a id="user-content-prerequisites" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#prerequisites" aria-label="Permalink: Prerequisites"></a></div>
+<p>Before starting, ensure you have the following:</p>
+<ol>
+<li><strong>A Git Repository:</strong><span>&nbsp;</span>Your blog website's code should be in a GitHub, GitLab, or Bitbucket repository.</li>
+<li><strong>A Vercel Account:</strong><span>&nbsp;</span>Create an account at<span>&nbsp;</span><a href="https://vercel.com/">Vercel</a><span>&nbsp;</span>if you don't have one.</li>
+<li><strong>A Working Project:</strong><span> Your website should run correctly on your local machine before deployment.</span></li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 1: Prepare Your Project for Deployment</h2>
+<a id="user-content-step-1-prepare-your-project-for-deployment" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-1-prepare-your-project-for-deployment" aria-label="Permalink: Step 1: Prepare Your Project for Deployment"></a></div>
+<ol>
+<li>
+<p><strong>Verify Project Readiness</strong>:</p>
+<ul>
+<li>For static sites (HTML, CSS, JS): ensure all files (HTML pages, CSS, JS, images) are organized in a single folder and load correctly in your browser.</li>
+<li>For frameworks (React, Next.js, etc.): install dependencies and confirm your app builds successfully using npm run build.</li>
+</ul>
+</li>
+<li>
+<p><strong>Test Locally</strong>:</p>
+<ul>
+<li>Run your project locally in production mode to confirm it behaves as expected.</li>
+<li>Resolve any issues, such as broken links, missing assets, or JavaScript errors.</li>
+</ul>
+</li>
+<li>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li>Identify sensitive data your project needs, such as API keys, database URLs, or authentication tokens. These must not be hardcoded in your codebase.</li>
+<li>Create a list of environment variables and ensure they are used in your code.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 2: Link Your Repository to Vercel</h2>
+<a id="user-content-step-2-link-your-repository-to-vercel" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-2-link-your-repository-to-vercel" aria-label="Permalink: Step 2: Link Your Repository to Vercel"></a></div>
+<ol>
+<li>
+<p><strong>Sign In to Vercel</strong>:</p>
+<ul>
+<li>Visit<span>&nbsp;</span><a href="https://vercel.com/">Vercel</a><span>&nbsp;</span>and log in using a preferred authentication method (e.g., GitHub, GitLab, or Bitbucket).</li>
+</ul>
+</li>
+<li>
+<p><strong>Import Your Project</strong>:</p>
+<ul>
+<li>After logging in, click on the<span>&nbsp;</span><code>New Project</code><span>&nbsp;</span>button.</li>
+<li>Vercel will prompt you to connect a Git provider. Authorize Vercel to access your repositories if you haven’t done so already.</li>
+<li>Select the repository that contains your blog website.</li>
+</ul>
+</li>
+<li>
+<p><strong>Initial Setup</strong>:</p>
+<ul>
+<li>Vercel will scan your repository to detect the type of project. For instance:
+<ul>
+<li><strong>Static Site</strong>: No framework detected; deployment of static files.</li>
+<li><strong>Framework</strong>: Framework-specific setup, such as Next.js, Nuxt.js, or React.</li>
+</ul>
+</li>
+<li>If Vercel does not auto-detect, manually select the framework or static site option and specify the build and output directories.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 3: Configure Build and Deployment Settings</h2>
+<a id="user-content-step-3-configure-build-and-deployment-settings" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-3-configure-build-and-deployment-settings" aria-label="Permalink: Step 3: Configure Build and Deployment Settings"></a></div>
+<ol>
+<li>
+<p><strong>Specify the Build Command</strong>:</p>
+<ul>
+<li>Most frameworks require a build command to prepare production-ready files.
+<ul>
+<li>For example,<span>&nbsp;</span><code>npm run build</code><span>&nbsp;</span>for React/Next.js projects.</li>
+<li>Static HTML site: no build command needed.</li>
+</ul>
+</li>
+<li>Vercel will prompt you to input this during setup if it hasn’t been automatically detected.</li>
+</ul>
+</li>
+<li>
+<p><strong>Define the Output Directory</strong>:</p>
+<ul>
+<li>For static websites, this is usually a folder named<span>&nbsp;</span><code>build</code>,<span>&nbsp;</span><code>dist</code>, or similar.</li>
+<li>Make sure this directory matches the one specified in your framework or project settings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Set Environment Variables</strong>:</p>
+<ul>
+<li>
+<p>Go to the<span>&nbsp;</span><code>Environment Variables</code><span>&nbsp;</span>section in the Vercel dashboard for your project.</p>
+</li>
+<li>
+<p>Add each key-value pair required for your website to function. For example:</p>
+<ul>
+<li><code>API_KEY: xxxxxxx</code></li>
+<li><code>DATABASE_URL: your-database-url</code></li>
+</ul>
+</li>
+<li>
+<p>Avoid hardcoding these values directly into your project for security reasons.</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 4: Deploy Your Blog Website</h2>
+<a id="user-content-step-4-deploy-your-blog-website" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-4-deploy-your-blog-website" aria-label="Permalink: Step 4: Deploy Your Blog Website"></a></div>
+<ol>
+<li>
+<p><strong>Start Deployment</strong>:</p>
+<ul>
+<li>Once all configurations are complete, click the<span>&nbsp;</span><code>Deploy</code><span>&nbsp;</span>button in Vercel.</li>
+</ul>
+</li>
+<li>
+<p><strong>Monitor Deployment Logs</strong>:</p>
+<ul>
+<li>A progress screen will display the logs of your deployment.</li>
+<li>Look for errors or warnings during this step, as they may indicate issues with your build process or configuration.<span>&nbsp;</span><a href="https://private-user-images.githubusercontent.com/140593209/399507972-100f08d5-dceb-460a-be83-fb1af08d0900.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA3OTcyLTEwMGYwOGQ1LWRjZWItNDYwYS1iZTgzLWZiMWFmMDhkMDkwMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMjAxZDk5YjVmMGY1NDRhNWRlNTRmMDY4MzFmNTVmZGU0YzJmODQ3NjgxMmNkZDE1Yjc0MTA5OTYxODk1ZGRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.7boP7uwmrmiQq7gb6XiWhLktNHB4CA0o2UqLpUgFJ-w" target="_blank"><img src="https://private-user-images.githubusercontent.com/140593209/399507972-100f08d5-dceb-460a-be83-fb1af08d0900.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA3OTcyLTEwMGYwOGQ1LWRjZWItNDYwYS1iZTgzLWZiMWFmMDhkMDkwMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMjAxZDk5YjVmMGY1NDRhNWRlNTRmMDY4MzFmNTVmZGU0YzJmODQ3NjgxMmNkZDE1Yjc0MTA5OTYxODk1ZGRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.7boP7uwmrmiQq7gb6XiWhLktNHB4CA0o2UqLpUgFJ-w" alt="image" loading="lazy"></a></li>
+</ul>
+</li>
+<li>
+<p><strong>Verify Deployment</strong>:</p>
+<ul>
+<li>
+<p>After successful deployment, you’ll be provided with a live URL (<code>https://blog-drab-zeta-48.vercel.app/</code>).<span>&nbsp;</span><a href="https://private-user-images.githubusercontent.com/140593209/399507894-7989384b-b292-4c4c-9e3e-9cee8df86a1a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA3ODk0LTc5ODkzODRiLWIyOTItNGM0Yy05ZTNlLTljZWU4ZGY4NmExYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OTE3OGE5OWIyMWYzYTJmOWQxNjFlNTc1N2VmMDI4MGIyNjFhNDdkNTY2MTg3YjlmOTY5OTk0NmE0NDRiNDRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.AyRVUDEVcnPsd3IbnN7IrqyJTgcF0qCR9aZuUrCjMw4" target="_blank"><img src="https://private-user-images.githubusercontent.com/140593209/399507894-7989384b-b292-4c4c-9e3e-9cee8df86a1a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA3ODk0LTc5ODkzODRiLWIyOTItNGM0Yy05ZTNlLTljZWU4ZGY4NmExYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OTE3OGE5OWIyMWYzYTJmOWQxNjFlNTc1N2VmMDI4MGIyNjFhNDdkNTY2MTg3YjlmOTY5OTk0NmE0NDRiNDRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.AyRVUDEVcnPsd3IbnN7IrqyJTgcF0qCR9aZuUrCjMw4" alt="image" loading="lazy"></a></p>
+</li>
+<li>
+<p>Open the URL in your browser to ensure the website is functioning correctly. This is the Home page<span>&nbsp;</span><a href="https://private-user-images.githubusercontent.com/140593209/399508005-9855dd17-83ad-419b-8f9a-8c98ffad0f4e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA4MDA1LTk4NTVkZDE3LTgzYWQtNDE5Yi04ZjlhLThjOThmZmFkMGY0ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNWYwOWU0N2M2MDJkNWFhZmQyZjc0ZmUwMzgzZDEyOTZkODU3Yzc3M2I5ZGYzOTg0NGU3MzUxZTA5MWNlMzYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.SYIH93zyXX9A5HHuS85Bjd8kJ7dq_Z-YCttTTo9l0xc" target="_blank"><img src="https://private-user-images.githubusercontent.com/140593209/399508005-9855dd17-83ad-419b-8f9a-8c98ffad0f4e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA4MDA1LTk4NTVkZDE3LTgzYWQtNDE5Yi04ZjlhLThjOThmZmFkMGY0ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNWYwOWU0N2M2MDJkNWFhZmQyZjc0ZmUwMzgzZDEyOTZkODU3Yzc3M2I5ZGYzOTg0NGU3MzUxZTA5MWNlMzYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.SYIH93zyXX9A5HHuS85Bjd8kJ7dq_Z-YCttTTo9l0xc" alt="image" loading="lazy"></a></p>
+<p>This is the Blog page</p>
+<p><a href="https://private-user-images.githubusercontent.com/140593209/399508077-6790eca7-2e22-449f-b529-c76ebbdfc7f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA4MDc3LTY3OTBlY2E3LTJlMjItNDQ5Zi1iNTI5LWM3NmViYmRmYzdmMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYjc5ZmJmZDFlNzllZWIwOWE4OTczMzA4N2U3NmY5NjY1NjgyYmQzMGY5MmQ0NGMzMmI0YTBiZTdhNGEzMzNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Z42cW_FHxx3HHWXGoFf3NpbHSRNW_QCwu3txtmdKP1o" target="_blank"><img src="https://private-user-images.githubusercontent.com/140593209/399508077-6790eca7-2e22-449f-b529-c76ebbdfc7f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYwMjU3MzAsIm5iZiI6MTczNjAyNTQzMCwicGF0aCI6Ii8xNDA1OTMyMDkvMzk5NTA4MDc3LTY3OTBlY2E3LTJlMjItNDQ5Zi1iNTI5LWM3NmViYmRmYzdmMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwNFQyMTE3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYjc5ZmJmZDFlNzllZWIwOWE4OTczMzA4N2U3NmY5NjY1NjgyYmQzMGY5MmQ0NGMzMmI0YTBiZTdhNGEzMzNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Z42cW_FHxx3HHWXGoFf3NpbHSRNW_QCwu3txtmdKP1o" alt="image" loading="lazy"></a></p>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 5: Add a Custom Domain (Optional)</h2>
+<a id="user-content-step-5-add-a-custom-domain-optional" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-5-add-a-custom-domain-optional" aria-label="Permalink: Step 5: Add a Custom Domain (Optional)"></a></div>
+<ol>
+<li>
+<p><strong>Navigate to the Domain Settings</strong>:</p>
+<ul>
+<li>Go to the<span>&nbsp;</span><code>Domains</code><span>&nbsp;</span>tab in your project settings on Vercel.</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Your Custom Domain</strong>:</p>
+<ul>
+<li>Input your custom domain name (e.g.,<span>&nbsp;</span><code>www.yourblog.com</code>).</li>
+<li>Follow the instructions to update your domain’s DNS records. Typically, you’ll need to:
+<ul>
+<li>Add an A or CNAME record pointing to Vercel’s servers.</li>
+<li>Update nameservers if required by your domain registrar.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Verify and Secure the Domain</strong>:</p>
+<ul>
+<li>Once the DNS changes propagate (can take 24-48 hours), Vercel will validate the domain.</li>
+<li>Enable HTTPS for a secure connection by default.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 6: Configure Advanced Options</h2>
+<a id="user-content-step-6-configure-advanced-options" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-6-configure-advanced-options" aria-label="Permalink: Step 6: Configure Advanced Options"></a></div>
+<ol>
+<li>
+<p><strong>Analytics</strong>:</p>
+<ul>
+<li>Use Vercel’s analytics tools to track website performance, user interactions, and page load times.</li>
+<li>Navigate to the Analytics tab to enable and configure.</li>
+</ul>
+</li>
+<li>
+<p><strong>Automatic Deployments</strong>:</p>
+<ul>
+<li>Set up automatic deployments so changes in your linked repository automatically trigger redeployments.</li>
+<li>This ensures that every update is live without manual intervention.</li>
+</ul>
+</li>
+<li>
+<p><strong>Redirects and Rewrites</strong>:</p>
+<ul>
+<li>Use Vercel’s configuration to define URL redirects or rewrites, such as:
+<ul>
+<li>Redirecting old URLs to new ones.</li>
+<li>Rewriting URLs for better SEO.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Protected Routes</strong>:</p>
+<ul>
+<li>If you have admin panels or private pages, configure authentication and route protection either in your codebase or using Vercel settings.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Step 7: Ongoing Monitoring and Maintenance</h2>
+<a id="user-content-step-7-ongoing-monitoring-and-maintenance" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#step-7-ongoing-monitoring-and-maintenance" aria-label="Permalink: Step 7: Ongoing Monitoring and Maintenance"></a></div>
+<ol>
+<li>
+<p><strong>Monitor Logs and Errors</strong>:</p>
+<ul>
+<li>Use the Vercel dashboard to view error logs or build failures.</li>
+<li>Regularly check for performance improvements.</li>
+</ul>
+</li>
+<li>
+<p><strong>Update Dependencies</strong>:</p>
+<ul>
+<li>Ensure you periodically update project dependencies and test your updates locally.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimize Assets</strong>:</p>
+<ul>
+<li>Compress images, minify JavaScript and CSS files, and remove unused code to improve website performance.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<div class="markdown-heading">
+<h2 class="heading-element">Advantages and Disadvantages of Vercel</h2>
+<a id="user-content-advantages-and-disadvantages-of-vercel" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#advantages-and-disadvantages-of-vercel" aria-label="Permalink: Advantages and Disadvantages of Vercel"></a></div>
+<div class="markdown-heading">
+<h3 class="heading-element">Advantages:</h3>
+<a id="user-content-advantages" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#advantages" aria-label="Permalink: Advantages:"></a></div>
+<ol>
+<li><strong>Ease of Use:</strong><span>&nbsp;</span>Vercel offers a highly intuitive interface, making it simple for developers to deploy and manage websites without extensive setup.</li>
+<li><strong>Global CDN:</strong><span>&nbsp;</span>Your content is served from a global Content Delivery Network (CDN), ensuring low latency and high performance for users worldwide.</li>
+<li><strong>Automatic Scaling:</strong><span>&nbsp;</span>Vercel handles scaling automatically, so your website can handle traffic spikes without manual intervention.</li>
+</ol>
+<div class="markdown-heading">
+<h3 class="heading-element">Disadvantages:</h3>
+<a id="user-content-disadvantages" class="anchor" href="https://github.com/nikbearbrown/ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning/blob/main/Appendix/Vercel_guide.md#disadvantages" aria-label="Permalink: Disadvantages:"></a></div>
+<ol>
+<li><strong>Free Tier Limitations:</strong><span>&nbsp;</span>While Vercel offers a generous free tier, advanced features and higher usage come with additional costs.</li>
+<li><strong>Vendor Lock-In:</strong><span>&nbsp;</span>Applications using Vercel-specific configurations or serverless functions may require significant changes to migrate to other platforms.</li>
+<li><strong>Limited Backend Support:</strong><span>&nbsp;</span>Vercel is primarily designed for frontend applications, so developers needing robust backend solutions might need to integrate additional services.</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="g98c9f52a2d1a5ad05d692ad07d7dc2d5" xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string>INFO7375 54614 ST: Branding and AI SEC 05 Summer 2026 [VTL-1-OL]</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+      <lomimscc:lifeCycle>
+        <lomimscc:contribute>
+          <lomimscc:date>
+            <lomimscc:dateTime>2026-05-02</lomimscc:dateTime>
+          </lomimscc:date>
+        </lomimscc:contribute>
+      </lomimscc:lifeCycle>
+      <lomimscc:rights>
+        <lomimscc:copyrightAndOtherRestrictions>
+          <lomimscc:value>yes</lomimscc:value>
+        </lomimscc:copyrightAndOtherRestrictions>
+        <lomimscc:description>
+          <lomimscc:string>Private (Copyrighted) - http://en.wikipedia.org/wiki/Copyright</lomimscc:string>
+        </lomimscc:description>
+      </lomimscc:rights>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy">
+      <item identifier="LearningModules">
+        <item identifier="g38ddcb9f8af5f0e81c2e2de6cc53c227">
+          <title>Module 1: Introduction to Branding and AI's Role</title>
+          <item identifier="g4741174565f64cd507639b9c89cb0f3a" identifierref="g2263a7ce260ef12ac014b84a9586e43d">
+            <title>Module 1: Course Introduction &amp; Foundation Setup</title>
+          </item>
+          <item identifier="g1d7a20813d2caf1a8b8a08ec2bce6345" identifierref="g796ed2510c4ddda09b82b91983b2daa5">
+            <title>Assignment 1: Course Introduction &amp; Foundation Setup</title>
+          </item>
+        </item>
+        <item identifier="g3fdbddc5ae75e4d5c9948844c1549800">
+          <title>Module 2: Madison Framework</title>
+          <item identifier="g1d5902cb0c841003d2d575b329323378" identifierref="g0dcee42b9931e33ef048f6c6d3228ff7">
+            <title>Module 2: Madison Framework Integration &amp; n8n Automation Development</title>
+          </item>
+          <item identifier="g025816b4064ba7a1f0fc56be43d66004" identifierref="gee07fccb423d3697dab48bef91c43f22">
+            <title>Assignment 2: "Plan Your Madison Project Like a Pro"</title>
+          </item>
+          <item identifier="gfc7674d9f5060800ce8a71471b62c0ff" identifierref="g2d93e65204a5642d8a3f769889922d1e">
+            <title>Assignment 3: Build Your Data Pipeline</title>
+          </item>
+          <item identifier="g3f9af9a8ce4f25939c1216c8b40dd2b5" identifierref="g91b89ef629f9a1ce81015cb00b85d57e">
+            <title>Assignment 4: "Scale Your Thing &amp; Add Intelligence"</title>
+          </item>
+        </item>
+        <item identifier="gf980d5b62bea6d2b7954a40cf63604ae">
+          <title>Module 3: Creating Your Personal Brand</title>
+          <item identifier="gfaf36979c720b16af0c7af8c2547723a" identifierref="ge177384d8af828dc5d05706f30fcabfb">
+            <title>Module 3: Brand Voice, Storytelling &amp; Visual Identity</title>
+          </item>
+        </item>
+        <item identifier="g8f60814319fe554a7fc001391bd32fb4">
+          <title>Module 4: Building Your Portfolio Website and Social Media Presence</title>
+          <item identifier="gd7319adbace1a749885a37c4509b5ef4" identifierref="g27241a45c1b8164b6df8e428f7f4c968">
+            <title>Module 4: AI-Enhanced Visual Branding &amp; Digital Presence</title>
+          </item>
+          <item identifier="g439299a8b0b5160c9059792c075ebcc3" identifierref="g9ff2aceec904e792dd68bba2dbff86c0">
+            <title>Assignment 8: Brand-Aligned Digital Presence</title>
+          </item>
+          <item identifier="gf81247ce8d11722a8f65a67cca9e50b0" identifierref="g5f6d300b54905e7da932a09d55d3b99c">
+            <title>Deployment on Vercel</title>
+          </item>
+          <item identifier="g6092c90839337ce559806bc36482d5a2" identifierref="ge8ad9e1a2bb68d1521e920b32c87d869">
+            <title>Assignment 9: Brand Storytelling &amp; Content Strategy</title>
+          </item>
+          <item identifier="g3783cab906b208a346c35da4c9cad9d4" identifierref="g9b65fd5ea2635e2134fa325d450a384e">
+            <title>Assignment 10: Show Your Work — Substack as a Brand Platform</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="g8be2195778abafc58c663d38eaae64fc_syllabus" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/syllabus.html" intendeduse="syllabus">
+      <file href="course_settings/syllabus.html"/>
+    </resource>
+    <resource identifier="g8be2195778abafc58c663d38eaae64fc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/course_settings.xml"/>
+      <file href="course_settings/module_meta.xml"/>
+      <file href="course_settings/assignment_groups.xml"/>
+      <file href="course_settings/files_meta.xml"/>
+      <file href="course_settings/events.xml"/>
+      <file href="course_settings/late_policy.xml"/>
+      <file href="course_settings/context.xml"/>
+      <file href="course_settings/media_tracks.xml"/>
+      <file href="course_settings/canvas_export.txt"/>
+    </resource>
+    <resource identifier="g5f6d300b54905e7da932a09d55d3b99c" type="webcontent" href="wiki_content/deployment-on-vercel.html">
+      <file href="wiki_content/deployment-on-vercel.html"/>
+    </resource>
+    <resource identifier="g27241a45c1b8164b6df8e428f7f4c968" type="webcontent" href="wiki_content/module-4-ai-enhanced-visual-branding-and-digital-presence.html">
+      <file href="wiki_content/module-4-ai-enhanced-visual-branding-and-digital-presence.html"/>
+    </resource>
+    <resource identifier="g2263a7ce260ef12ac014b84a9586e43d" type="webcontent" href="wiki_content/module-1-course-introduction-and-foundation-setup.html">
+      <file href="wiki_content/module-1-course-introduction-and-foundation-setup.html"/>
+    </resource>
+    <resource identifier="g0dcee42b9931e33ef048f6c6d3228ff7" type="webcontent" href="wiki_content/module-2-madison-framework-integration-and-n8n-automation-development.html">
+      <file href="wiki_content/module-2-madison-framework-integration-and-n8n-automation-development.html"/>
+    </resource>
+    <resource identifier="ge177384d8af828dc5d05706f30fcabfb" type="webcontent" href="wiki_content/module-3-brand-voice-storytelling-and-visual-identity.html">
+      <file href="wiki_content/module-3-brand-voice-storytelling-and-visual-identity.html"/>
+    </resource>
+    <resource identifier="g9b65fd5ea2635e2134fa325d450a384e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g9b65fd5ea2635e2134fa325d450a384e/assignment-10-show-your-work-substack-as-a-brand-platform.html">
+      <file href="g9b65fd5ea2635e2134fa325d450a384e/assignment-10-show-your-work-substack-as-a-brand-platform.html"/>
+      <file href="g9b65fd5ea2635e2134fa325d450a384e/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g796ed2510c4ddda09b82b91983b2daa5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g796ed2510c4ddda09b82b91983b2daa5/assignment-1-course-introduction-and-foundation-setup.html">
+      <file href="g796ed2510c4ddda09b82b91983b2daa5/assignment-1-course-introduction-and-foundation-setup.html"/>
+      <file href="g796ed2510c4ddda09b82b91983b2daa5/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gee07fccb423d3697dab48bef91c43f22" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gee07fccb423d3697dab48bef91c43f22/assignment-2-plan-your-madison-project-like-a-pro.html">
+      <file href="gee07fccb423d3697dab48bef91c43f22/assignment-2-plan-your-madison-project-like-a-pro.html"/>
+      <file href="gee07fccb423d3697dab48bef91c43f22/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g2d93e65204a5642d8a3f769889922d1e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2d93e65204a5642d8a3f769889922d1e/assignment-3-build-your-data-pipeline.html">
+      <file href="g2d93e65204a5642d8a3f769889922d1e/assignment-3-build-your-data-pipeline.html"/>
+      <file href="g2d93e65204a5642d8a3f769889922d1e/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g91b89ef629f9a1ce81015cb00b85d57e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g91b89ef629f9a1ce81015cb00b85d57e/assignment-4-scale-your-thing-and-add-intelligence.html">
+      <file href="g91b89ef629f9a1ce81015cb00b85d57e/assignment-4-scale-your-thing-and-add-intelligence.html"/>
+      <file href="g91b89ef629f9a1ce81015cb00b85d57e/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ge2b56d7ddbd8d1d822c556fa62e30ad4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge2b56d7ddbd8d1d822c556fa62e30ad4/assignment-5-wrap-your-tool-and-know-your-market.html">
+      <file href="ge2b56d7ddbd8d1d822c556fa62e30ad4/assignment-5-wrap-your-tool-and-know-your-market.html"/>
+      <file href="ge2b56d7ddbd8d1d822c556fa62e30ad4/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g0b849fe8fe4d6257f279cb50f70ef4f3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g0b849fe8fe4d6257f279cb50f70ef4f3/assignment-6-personal-slash-startup-brand-strategy-and-madison-tool-naming.html">
+      <file href="g0b849fe8fe4d6257f279cb50f70ef4f3/assignment-6-personal-slash-startup-brand-strategy-and-madison-tool-naming.html"/>
+      <file href="g0b849fe8fe4d6257f279cb50f70ef4f3/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g5d63ccbb4cf9c626627434c7e0169e2a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g5d63ccbb4cf9c626627434c7e0169e2a/assignment-7-brand-identity-implementation.html">
+      <file href="g5d63ccbb4cf9c626627434c7e0169e2a/assignment-7-brand-identity-implementation.html"/>
+      <file href="g5d63ccbb4cf9c626627434c7e0169e2a/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g9ff2aceec904e792dd68bba2dbff86c0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g9ff2aceec904e792dd68bba2dbff86c0/assignment-8-brand-aligned-digital-presence.html">
+      <file href="g9ff2aceec904e792dd68bba2dbff86c0/assignment-8-brand-aligned-digital-presence.html"/>
+      <file href="g9ff2aceec904e792dd68bba2dbff86c0/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ge8ad9e1a2bb68d1521e920b32c87d869" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge8ad9e1a2bb68d1521e920b32c87d869/assignment-9-brand-storytelling-and-content-strategy.html">
+      <file href="ge8ad9e1a2bb68d1521e920b32c87d869/assignment-9-brand-storytelling-and-content-strategy.html"/>
+      <file href="ge8ad9e1a2bb68d1521e920b32c87d869/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gdeb73ca1760a95310d3fdec332cb2a89" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gdeb73ca1760a95310d3fdec332cb2a89/extra-credit-opportunity-mid-semester-trace-survey-25-points.html">
+      <file href="gdeb73ca1760a95310d3fdec332cb2a89/extra-credit-opportunity-mid-semester-trace-survey-25-points.html"/>
+      <file href="gdeb73ca1760a95310d3fdec332cb2a89/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g8ab5fe75f3840ae7897f72c63914a7f0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g8ab5fe75f3840ae7897f72c63914a7f0/final-exam-brand-portfolio-presentation.html">
+      <file href="g8ab5fe75f3840ae7897f72c63914a7f0/final-exam-brand-portfolio-presentation.html"/>
+      <file href="g8ab5fe75f3840ae7897f72c63914a7f0/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g8f773625c950a2b486bd1778ae38a91f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g8f773625c950a2b486bd1778ae38a91f/make-up-attendance-weeks-1-and-2.html">
+      <file href="g8f773625c950a2b486bd1778ae38a91f/make-up-attendance-weeks-1-and-2.html"/>
+      <file href="g8f773625c950a2b486bd1778ae38a91f/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g2abee8ac02a201bec483f6eb90d3c596" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2abee8ac02a201bec483f6eb90d3c596/midterm-present-your-madison-framework-pitch-deck.html">
+      <file href="g2abee8ac02a201bec483f6eb90d3c596/midterm-present-your-madison-framework-pitch-deck.html"/>
+      <file href="g2abee8ac02a201bec483f6eb90d3c596/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="geaa4ce0f4ee87dfbe533befa4430de7f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="geaa4ce0f4ee87dfbe533befa4430de7f/mini-assignment-enrique-sallent-guest-speaker-participation.html">
+      <file href="geaa4ce0f4ee87dfbe533befa4430de7f/mini-assignment-enrique-sallent-guest-speaker-participation.html"/>
+      <file href="geaa4ce0f4ee87dfbe533befa4430de7f/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gd555f08ea470d4cb73a17f96da5e3dd5" type="imsdt_xmlv1p1">
+      <file href="gd555f08ea470d4cb73a17f96da5e3dd5.xml"/>
+      <dependency identifierref="g72216cfb625cd0751ffec8614d6aa211"/>
+    </resource>
+    <resource identifier="g72216cfb625cd0751ffec8614d6aa211" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g72216cfb625cd0751ffec8614d6aa211.xml">
+      <file href="g72216cfb625cd0751ffec8614d6aa211.xml"/>
+    </resource>
+    <resource identifier="g692944bd06ee025fc308f6a4219bee3f" type="imsdt_xmlv1p1">
+      <file href="g692944bd06ee025fc308f6a4219bee3f.xml"/>
+      <dependency identifierref="g3437c40a0540cdbf0e09004e932db7c8"/>
+    </resource>
+    <resource identifier="g3437c40a0540cdbf0e09004e932db7c8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g3437c40a0540cdbf0e09004e932db7c8.xml">
+      <file href="g3437c40a0540cdbf0e09004e932db7c8.xml"/>
+    </resource>
+    <resource identifier="ge8f64f91363b75b170ce21683a5d2907" type="imsdt_xmlv1p1">
+      <file href="ge8f64f91363b75b170ce21683a5d2907.xml"/>
+      <dependency identifierref="ga1717438e6eb039f89442b82a2d316f7"/>
+    </resource>
+    <resource identifier="ga1717438e6eb039f89442b82a2d316f7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ga1717438e6eb039f89442b82a2d316f7.xml">
+      <file href="ga1717438e6eb039f89442b82a2d316f7.xml"/>
+    </resource>
+    <resource identifier="gad734aaf3b2b921ec1919a4908b07089" type="imsdt_xmlv1p1">
+      <file href="gad734aaf3b2b921ec1919a4908b07089.xml"/>
+      <dependency identifierref="geb4113c495e21e74b787acb402fc9de0"/>
+    </resource>
+    <resource identifier="geb4113c495e21e74b787acb402fc9de0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="geb4113c495e21e74b787acb402fc9de0.xml">
+      <file href="geb4113c495e21e74b787acb402fc9de0.xml"/>
+    </resource>
+    <resource identifier="g06219dc988018e3d95dcff0b98494f82" type="imsdt_xmlv1p1">
+      <file href="g06219dc988018e3d95dcff0b98494f82.xml"/>
+      <dependency identifierref="ga5f9a182ff6a4e3661662fd0eb21d103"/>
+    </resource>
+    <resource identifier="ga5f9a182ff6a4e3661662fd0eb21d103" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ga5f9a182ff6a4e3661662fd0eb21d103.xml">
+      <file href="ga5f9a182ff6a4e3661662fd0eb21d103.xml"/>
+    </resource>
+    <resource identifier="gbfed8e4f55e03e259367b19f2da2bbaf" type="imsdt_xmlv1p1">
+      <file href="gbfed8e4f55e03e259367b19f2da2bbaf.xml"/>
+      <dependency identifierref="gf6b26721926f8295539d9bb6a3f94405"/>
+    </resource>
+    <resource identifier="gf6b26721926f8295539d9bb6a3f94405" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf6b26721926f8295539d9bb6a3f94405.xml">
+      <file href="gf6b26721926f8295539d9bb6a3f94405.xml"/>
+    </resource>
+    <resource identifier="g06b64657d8e755260b55f908a163d62b" type="imsdt_xmlv1p1">
+      <file href="g06b64657d8e755260b55f908a163d62b.xml"/>
+      <dependency identifierref="g0887217da693b59a0a30a9cb0b47b3bd"/>
+    </resource>
+    <resource identifier="g0887217da693b59a0a30a9cb0b47b3bd" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g0887217da693b59a0a30a9cb0b47b3bd.xml">
+      <file href="g0887217da693b59a0a30a9cb0b47b3bd.xml"/>
+    </resource>
+    <resource identifier="g7e67b8b265a3af1488941ab7d37bcd10" type="imsdt_xmlv1p1">
+      <file href="g7e67b8b265a3af1488941ab7d37bcd10.xml"/>
+      <dependency identifierref="g56b1f40fa733da4b4dcc86824eeacba0"/>
+    </resource>
+    <resource identifier="g56b1f40fa733da4b4dcc86824eeacba0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g56b1f40fa733da4b4dcc86824eeacba0.xml">
+      <file href="g56b1f40fa733da4b4dcc86824eeacba0.xml"/>
+    </resource>
+    <resource identifier="gfe1e4019674adbf018d307d4dae207ff" type="imsdt_xmlv1p1">
+      <file href="gfe1e4019674adbf018d307d4dae207ff.xml"/>
+      <dependency identifierref="gc7604e7d698a2709311e53507641f25d"/>
+    </resource>
+    <resource identifier="gc7604e7d698a2709311e53507641f25d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gc7604e7d698a2709311e53507641f25d.xml">
+      <file href="gc7604e7d698a2709311e53507641f25d.xml"/>
+    </resource>
+    <resource identifier="g30f1fa0c2643ebe153aa6d1cac5e7355" type="imsdt_xmlv1p1">
+      <file href="g30f1fa0c2643ebe153aa6d1cac5e7355.xml"/>
+      <dependency identifierref="g94cea8e1ed75e47e748879549a7e334c"/>
+    </resource>
+    <resource identifier="g94cea8e1ed75e47e748879549a7e334c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g94cea8e1ed75e47e748879549a7e334c.xml">
+      <file href="g94cea8e1ed75e47e748879549a7e334c.xml"/>
+    </resource>
+    <resource identifier="geb9d43615e39a792dd6ec166af931cb5" type="imsdt_xmlv1p1">
+      <file href="geb9d43615e39a792dd6ec166af931cb5.xml"/>
+      <dependency identifierref="g331c2f22455b49271c224d05a7765ba6"/>
+    </resource>
+    <resource identifier="g331c2f22455b49271c224d05a7765ba6" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g331c2f22455b49271c224d05a7765ba6.xml">
+      <file href="g331c2f22455b49271c224d05a7765ba6.xml"/>
+    </resource>
+    <resource identifier="g0a729cdeb6e6718eaf8f402981f5786b" type="imsdt_xmlv1p1">
+      <file href="g0a729cdeb6e6718eaf8f402981f5786b.xml"/>
+      <dependency identifierref="g0a1d09e65777ff777f7076c007d08e6d"/>
+    </resource>
+    <resource identifier="g0a1d09e65777ff777f7076c007d08e6d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g0a1d09e65777ff777f7076c007d08e6d.xml">
+      <file href="g0a1d09e65777ff777f7076c007d08e6d.xml"/>
+    </resource>
+    <resource identifier="g7dee903be1092ece5453a1d71305e4bd" type="imsdt_xmlv1p1">
+      <file href="g7dee903be1092ece5453a1d71305e4bd.xml"/>
+      <dependency identifierref="g794dd286856c9571f6960cf0cf0ba1a8"/>
+    </resource>
+    <resource identifier="g794dd286856c9571f6960cf0cf0ba1a8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g794dd286856c9571f6960cf0cf0ba1a8.xml">
+      <file href="g794dd286856c9571f6960cf0cf0ba1a8.xml"/>
+    </resource>
+    <resource identifier="gab191383354f75c57d2d4b14143d80fa" type="imsdt_xmlv1p1">
+      <file href="gab191383354f75c57d2d4b14143d80fa.xml"/>
+      <dependency identifierref="g2519601205780a1d38d3dc48ef81592f"/>
+    </resource>
+    <resource identifier="g2519601205780a1d38d3dc48ef81592f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2519601205780a1d38d3dc48ef81592f.xml">
+      <file href="g2519601205780a1d38d3dc48ef81592f.xml"/>
+    </resource>
+    <resource identifier="g5ea36441e35405c18b8d30f5e4a1afe4" type="imsdt_xmlv1p1">
+      <file href="g5ea36441e35405c18b8d30f5e4a1afe4.xml"/>
+      <dependency identifierref="ga9b86f84aeab3227915e4fc73a52cd79"/>
+    </resource>
+    <resource identifier="ga9b86f84aeab3227915e4fc73a52cd79" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ga9b86f84aeab3227915e4fc73a52cd79.xml">
+      <file href="ga9b86f84aeab3227915e4fc73a52cd79.xml"/>
+    </resource>
+    <resource identifier="g227eef9487cbebc4159020845dd4d955" type="imsdt_xmlv1p1">
+      <file href="g227eef9487cbebc4159020845dd4d955.xml"/>
+      <dependency identifierref="gdba180d5683e73bb0c3510529f4ef5b2"/>
+    </resource>
+    <resource identifier="gdba180d5683e73bb0c3510529f4ef5b2" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gdba180d5683e73bb0c3510529f4ef5b2.xml">
+      <file href="gdba180d5683e73bb0c3510529f4ef5b2.xml"/>
+    </resource>
+    <resource identifier="g483a235bbbf981e18736fa0a9489b61f" type="imsdt_xmlv1p1">
+      <file href="g483a235bbbf981e18736fa0a9489b61f.xml"/>
+      <dependency identifierref="ge5534c6e149fb5c25e181b6c88fe47b7"/>
+    </resource>
+    <resource identifier="ge5534c6e149fb5c25e181b6c88fe47b7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge5534c6e149fb5c25e181b6c88fe47b7.xml">
+      <file href="ge5534c6e149fb5c25e181b6c88fe47b7.xml"/>
+    </resource>
+    <resource identifier="gb61ee03007cb9057e8ac5578a5084e47" type="imsdt_xmlv1p1">
+      <file href="gb61ee03007cb9057e8ac5578a5084e47.xml"/>
+      <dependency identifierref="g76e1fd9e8a849d0b22adbbfe3b5d9681"/>
+    </resource>
+    <resource identifier="g76e1fd9e8a849d0b22adbbfe3b5d9681" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g76e1fd9e8a849d0b22adbbfe3b5d9681.xml">
+      <file href="g76e1fd9e8a849d0b22adbbfe3b5d9681.xml"/>
+    </resource>
+    <resource identifier="g3132bd7c827e050b3bd1536dab8223f5" type="imsdt_xmlv1p1">
+      <file href="g3132bd7c827e050b3bd1536dab8223f5.xml"/>
+      <dependency identifierref="g2bfca0e3e0f03f57f87ba098bd1538e0"/>
+    </resource>
+    <resource identifier="g2bfca0e3e0f03f57f87ba098bd1538e0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2bfca0e3e0f03f57f87ba098bd1538e0.xml">
+      <file href="g2bfca0e3e0f03f57f87ba098bd1538e0.xml"/>
+    </resource>
+    <resource identifier="g4b3ade40ab96d6eb78ad49a8caefab84" type="imsdt_xmlv1p1">
+      <file href="g4b3ade40ab96d6eb78ad49a8caefab84.xml"/>
+      <dependency identifierref="g1bfaf0bb7f4b742cfc054a1f95080700"/>
+    </resource>
+    <resource identifier="g1bfaf0bb7f4b742cfc054a1f95080700" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g1bfaf0bb7f4b742cfc054a1f95080700.xml">
+      <file href="g1bfaf0bb7f4b742cfc054a1f95080700.xml"/>
+    </resource>
+    <resource identifier="gdb246231d0e4ab59833bc93f82d817bb" type="imsdt_xmlv1p1">
+      <file href="gdb246231d0e4ab59833bc93f82d817bb.xml"/>
+      <dependency identifierref="g13bdc9b71d86fa2b3c0c6096922630bf"/>
+    </resource>
+    <resource identifier="g13bdc9b71d86fa2b3c0c6096922630bf" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g13bdc9b71d86fa2b3c0c6096922630bf.xml">
+      <file href="g13bdc9b71d86fa2b3c0c6096922630bf.xml"/>
+    </resource>
+    <resource identifier="g0e8935cb3c5fb8a03235ddffe1593370" type="imsdt_xmlv1p1">
+      <file href="g0e8935cb3c5fb8a03235ddffe1593370.xml"/>
+      <dependency identifierref="g17f9f280e75ea9074ce4a8374cc770ab"/>
+    </resource>
+    <resource identifier="g17f9f280e75ea9074ce4a8374cc770ab" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g17f9f280e75ea9074ce4a8374cc770ab.xml">
+      <file href="g17f9f280e75ea9074ce4a8374cc770ab.xml"/>
+    </resource>
+    <resource identifier="g11d9ef882380f29dcc90a1bd157222d2" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g11d9ef882380f29dcc90a1bd157222d2/assessment_qti.xml"/>
+      <dependency identifierref="ga8c111019170d305a5a641021883a492"/>
+    </resource>
+    <resource identifier="ga8c111019170d305a5a641021883a492" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g11d9ef882380f29dcc90a1bd157222d2/assessment_meta.xml">
+      <file href="g11d9ef882380f29dcc90a1bd157222d2/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g11d9ef882380f29dcc90a1bd157222d2.xml.qti"/>
+    </resource>
+    <resource identifier="g7b487a46d2fc3c8833b7d5e9f99558ed" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g7b487a46d2fc3c8833b7d5e9f99558ed/assessment_qti.xml"/>
+      <dependency identifierref="g48eb7e0ee42ef9aba1697491497cf884"/>
+    </resource>
+    <resource identifier="g48eb7e0ee42ef9aba1697491497cf884" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g7b487a46d2fc3c8833b7d5e9f99558ed/assessment_meta.xml">
+      <file href="g7b487a46d2fc3c8833b7d5e9f99558ed/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g7b487a46d2fc3c8833b7d5e9f99558ed.xml.qti"/>
+    </resource>
+    <resource identifier="g81361b21be87a60378681b6bd16e1ecd" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g81361b21be87a60378681b6bd16e1ecd/assessment_qti.xml"/>
+      <dependency identifierref="g4f106a711e829b6dcc645da3eb054340"/>
+    </resource>
+    <resource identifier="g4f106a711e829b6dcc645da3eb054340" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g81361b21be87a60378681b6bd16e1ecd/assessment_meta.xml">
+      <file href="g81361b21be87a60378681b6bd16e1ecd/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g81361b21be87a60378681b6bd16e1ecd.xml.qti"/>
+    </resource>
+    <resource identifier="g83a146c223dd5a1f6b2474cd6bafeae4" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g83a146c223dd5a1f6b2474cd6bafeae4/assessment_qti.xml"/>
+      <dependency identifierref="gb7c2564958360cd62f593bd11095e827"/>
+    </resource>
+    <resource identifier="gb7c2564958360cd62f593bd11095e827" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g83a146c223dd5a1f6b2474cd6bafeae4/assessment_meta.xml">
+      <file href="g83a146c223dd5a1f6b2474cd6bafeae4/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g83a146c223dd5a1f6b2474cd6bafeae4.xml.qti"/>
+    </resource>
+    <resource identifier="g037ce67d4a12bd14852a858d1b3ce855" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g037ce67d4a12bd14852a858d1b3ce855/assessment_qti.xml"/>
+      <dependency identifierref="gc5e39a17519f605386db2889ad676a10"/>
+    </resource>
+    <resource identifier="gc5e39a17519f605386db2889ad676a10" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g037ce67d4a12bd14852a858d1b3ce855/assessment_meta.xml">
+      <file href="g037ce67d4a12bd14852a858d1b3ce855/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g037ce67d4a12bd14852a858d1b3ce855.xml.qti"/>
+    </resource>
+    <resource identifier="g352884c0fef21d92d0d5ed4b2386c9cb" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g352884c0fef21d92d0d5ed4b2386c9cb/assessment_qti.xml"/>
+      <dependency identifierref="g8e62ffd7fea3ab8dbd9531fd58a1d23f"/>
+    </resource>
+    <resource identifier="g8e62ffd7fea3ab8dbd9531fd58a1d23f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g352884c0fef21d92d0d5ed4b2386c9cb/assessment_meta.xml">
+      <file href="g352884c0fef21d92d0d5ed4b2386c9cb/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g352884c0fef21d92d0d5ed4b2386c9cb.xml.qti"/>
+    </resource>
+    <resource identifier="gf35210e31ac96c7e24df2a4b214fd0a5" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="gf35210e31ac96c7e24df2a4b214fd0a5/assessment_qti.xml"/>
+      <dependency identifierref="ga7b38e5ecb84244710d2dc4d9e30765a"/>
+    </resource>
+    <resource identifier="ga7b38e5ecb84244710d2dc4d9e30765a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf35210e31ac96c7e24df2a4b214fd0a5/assessment_meta.xml">
+      <file href="gf35210e31ac96c7e24df2a4b214fd0a5/assessment_meta.xml"/>
+      <file href="non_cc_assessments/gf35210e31ac96c7e24df2a4b214fd0a5.xml.qti"/>
+    </resource>
+    <resource identifier="ged9e7e554804b3718ee8746fa613e091" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="ged9e7e554804b3718ee8746fa613e091/assessment_qti.xml"/>
+      <dependency identifierref="g5c395720abbe9ffdb45c3798940a17ad"/>
+    </resource>
+    <resource identifier="g5c395720abbe9ffdb45c3798940a17ad" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ged9e7e554804b3718ee8746fa613e091/assessment_meta.xml">
+      <file href="ged9e7e554804b3718ee8746fa613e091/assessment_meta.xml"/>
+      <file href="non_cc_assessments/ged9e7e554804b3718ee8746fa613e091.xml.qti"/>
+    </resource>
+    <resource identifier="g927340a753f19962e67c49ecaac15e92" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g927340a753f19962e67c49ecaac15e92/assessment_qti.xml"/>
+      <dependency identifierref="gd4ca33d736f145108371ca568d1cc719"/>
+    </resource>
+    <resource identifier="gd4ca33d736f145108371ca568d1cc719" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g927340a753f19962e67c49ecaac15e92/assessment_meta.xml">
+      <file href="g927340a753f19962e67c49ecaac15e92/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g927340a753f19962e67c49ecaac15e92.xml.qti"/>
+    </resource>
+    <resource identifier="gef2830f88d80b0992bfa8afbe1029678" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="gef2830f88d80b0992bfa8afbe1029678/assessment_qti.xml"/>
+      <dependency identifierref="g494a6a3479adee28f4dfeff92857a240"/>
+    </resource>
+    <resource identifier="g494a6a3479adee28f4dfeff92857a240" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gef2830f88d80b0992bfa8afbe1029678/assessment_meta.xml">
+      <file href="gef2830f88d80b0992bfa8afbe1029678/assessment_meta.xml"/>
+      <file href="non_cc_assessments/gef2830f88d80b0992bfa8afbe1029678.xml.qti"/>
+    </resource>
+    <resource identifier="g02ce441d82a453b9a4ffa64acd797b33" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g02ce441d82a453b9a4ffa64acd797b33.xml.qti">
+      <file href="non_cc_assessments/g02ce441d82a453b9a4ffa64acd797b33.xml.qti"/>
+    </resource>
+    <resource type="webcontent" identifier="gfc8b01f24a712f16cba6dfe5f4158126" href="web_resources/assessment_questions/image-1.png">
+      <file href="web_resources/assessment_questions/image-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g28ad554ca0f483e79f2ca543603ff474" href="web_resources/assessment_questions/image-1.png">
+      <file href="web_resources/assessment_questions/image-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g866e2d43185810abc1775c190c5291a4" href="web_resources/assessment_questions/image-2.png">
+      <file href="web_resources/assessment_questions/image-2.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gb97b462f26acbcc06d17f42a5ff89e53" href="web_resources/assessment_questions/image-3.png">
+      <file href="web_resources/assessment_questions/image-3.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gaee3538dee8bd27d530e84993c7a97fd" href="web_resources/udoit-1.json">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/udoit-1.json"/>
+    </resource>
+    <resource type="webcontent" identifier="g35c6b0c806617a7e1593efc52ca208ea" href="web_resources/udoit.json">
+      <metadata>
+        <lom:lom>
+          <lom:educational>
+            <lom:intendedEndUserRole>
+              <lom:source>IMSGLC_CC_Rolesv1p1</lom:source>
+              <lom:value>Instructor</lom:value>
+            </lom:intendedEndUserRole>
+          </lom:educational>
+        </lom:lom>
+      </metadata>
+      <file href="web_resources/udoit.json"/>
+    </resource>
+    <resource type="webcontent" identifier="gd17da3d05a3abc9bb93d02f0ebe9f550" href="web_resources/Uploaded Media/Beautiful.ai - INFO7375 Branding and AI - Spring-2.pdf">
+      <file href="web_resources/Uploaded Media/Beautiful.ai - INFO7375 Branding and AI - Spring-2.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="ga083f1f77ac13d4340eb2d208c4b2716" href="web_resources/Uploaded Media/Beautiful.ai - The Many Hats of Creative Engineering Why Wearing Multiple Hats is the Future-3.pdf">
+      <file href="web_resources/Uploaded Media/Beautiful.ai - The Many Hats of Creative Engineering Why Wearing Multiple Hats is the Future-3.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="g45905348caf3373cd32b1883117b86c8" href="web_resources/Uploaded Media/image.png">
+      <file href="web_resources/Uploaded Media/image.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gbe18cca620980bc7485c583d3b2acd75" href="web_resources/Uploaded Media/image-1.png">
+      <file href="web_resources/Uploaded Media/image-1.png"/>
+    </resource>
+    <resource type="webcontent" identifier="g2d4e9f9558b3a00c2806fdd775af9800" href="web_resources/Uploaded Media/image-2.png">
+      <file href="web_resources/Uploaded Media/image-2.png"/>
+    </resource>
+    <resource type="webcontent" identifier="ga77a248b54a1a1421bb5e2a9e9a15541" href="web_resources/Uploaded Media/image-3.png">
+      <file href="web_resources/Uploaded Media/image-3.png"/>
+    </resource>
+    <resource type="webcontent" identifier="gbd10164bd8285b5b9add497a9d133374" href="web_resources/unfiled/Nina_Tool.md">
+      <file href="web_resources/unfiled/Nina_Tool.md"/>
+    </resource>
+    <resource type="webcontent" identifier="g83a7ecc49d77b41bc5bd23074714ac7a" href="web_resources/unfiled/Nina — Complete Assignment 7 Submission.pdf">
+      <file href="web_resources/unfiled/Nina — Complete Assignment 7 Submission.pdf"/>
+    </resource>
+    <resource type="webcontent" identifier="gdd4520b71440a73997f545d168c750dd" href="web_resources/unfiled/ada-sdd-consultant.md">
+      <file href="web_resources/unfiled/ada-sdd-consultant.md"/>
+    </resource>
+    <resource type="webcontent" identifier="g27e79f354462858d7551b97d183dec74" href="web_resources/unfiled/Gru.md">
+      <file href="web_resources/unfiled/Gru.md"/>
+    </resource>
+  </resources>
+</manifest>

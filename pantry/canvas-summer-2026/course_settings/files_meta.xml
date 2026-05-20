@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileMeta xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <folders>
+    <folder path="assessment_questions">
+      <hidden>true</hidden>
+    </folder>
+    <folder path="Uploaded Media">
+      <hidden>true</hidden>
+    </folder>
+  </folders>
+  <files>
+    <file identifier="gaee3538dee8bd27d530e84993c7a97fd">
+      <locked>true</locked>
+      <display_name>udoit-1.json</display_name>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="g35c6b0c806617a7e1593efc52ca208ea">
+      <locked>true</locked>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="gd17da3d05a3abc9bb93d02f0ebe9f550">
+      <hidden>true</hidden>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="ga083f1f77ac13d4340eb2d208c4b2716">
+      <hidden>true</hidden>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="g45905348caf3373cd32b1883117b86c8">
+      <hidden>true</hidden>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="gbe18cca620980bc7485c583d3b2acd75">
+      <hidden>true</hidden>
+      <display_name>image-1.png</display_name>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="g2d4e9f9558b3a00c2806fdd775af9800">
+      <hidden>true</hidden>
+      <display_name>image-2.png</display_name>
+      <category>uncategorized</category>
+    </file>
+    <file identifier="ga77a248b54a1a1421bb5e2a9e9a15541">
+      <hidden>true</hidden>
+      <display_name>image-3.png</display_name>
+      <category>uncategorized</category>
+    </file>
+  </files>
+</fileMeta>

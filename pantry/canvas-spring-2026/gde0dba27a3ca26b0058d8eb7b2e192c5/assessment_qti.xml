@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_qtiasiv1p2p1_v1p0.xsd">
+  <assessment ident="gde0dba27a3ca26b0058d8eb7b2e192c5" title="Attendance - Week 2">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_profile</fieldlabel>
+        <fieldentry>cc.exam.v0p1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_assessmenttype</fieldlabel>
+        <fieldentry>Examination</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_scoretype</fieldlabel>
+        <fieldentry>Percentage</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>15</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g2553e3ad0b961c71fa167b334ef7e80c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;Which signals indicate that UX accessibility is being treated as a strategic function rather than a last-minute fix?&lt;/strong&gt;&lt;br&gt;&lt;i&gt;(Select all that apply.)&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4378">
+                <material>
+                  <mattext texttype="text/plain">Accessibility tied to measurable KPIs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="143">
+                <material>
+                  <mattext texttype="text/plain">Accessibility built into shared design systems</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6202">
+                <material>
+                  <mattext texttype="text/plain">Cross-functional ownership across product, design, and engineering</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9599">
+                <material>
+                  <mattext texttype="text/plain">Accessibility addressed only during QA</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8935">
+                <material>
+                  <mattext texttype="text/plain">Accessibility owned exclusively by legal/compliance teams</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">4378</varequal>
+                <varequal respident="response1">143</varequal>
+                <varequal respident="response1">6202</varequal>
+                <not>
+                  <varequal respident="response1">9599</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">8935</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga1ada3921cf427821c2c3adc59aecebd" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;Which choices demonstrate realistic scoping for the Madison project MVP in Week 3?&lt;/strong&gt;&lt;br&gt;&lt;i&gt;(Select all that apply.)&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4052">
+                <material>
+                  <mattext texttype="text/plain">Defining one clear workflow</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5225">
+                <material>
+                  <mattext texttype="text/plain">Explicitly stating what will not be built</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2959">
+                <material>
+                  <mattext texttype="text/plain">Planning to use 3–5 specific n8n nodes</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3133">
+                <material>
+                  <mattext texttype="text/plain">Attempting to support all possible user personas</mattext>
+                </material>
+              </response_label>
+              <response_label ident="731">
+                <material>
+                  <mattext texttype="text/plain">Designing a system that would require a large engineering team</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">4052</varequal>
+                <varequal respident="response1">5225</varequal>
+                <varequal respident="response1">2959</varequal>
+                <not>
+                  <varequal respident="response1">3133</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">731</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g148d0dc8f474c9c4c7a3df0ed7ed3bf4" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;Why is the PRD treated as a “contract” in this assignment?&lt;/strong&gt;&lt;br&gt;&lt;i&gt;(Select all that apply.)&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="7069">
+                <material>
+                  <mattext texttype="text/plain">It defines scope boundaries and prevents feature creep</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4321">
+                <material>
+                  <mattext texttype="text/plain">It allows someone else to understand and build the solution</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3081">
+                <material>
+                  <mattext texttype="text/plain">It demonstrates professional product thinking</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4591">
+                <material>
+                  <mattext texttype="text/plain">It guarantees technical success</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6700">
+                <material>
+                  <mattext texttype="text/plain">It replaces the need for engineering decisions</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">7069</varequal>
+                <varequal respident="response1">4321</varequal>
+                <varequal respident="response1">3081</varequal>
+                <not>
+                  <varequal respident="response1">4591</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">6700</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g62318900bad9dc747f67e19ce3d8809d" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;What makes a strong set of success metrics in the PRD?&lt;/strong&gt;&lt;br&gt;&lt;i&gt;(Select all that apply.)&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="7980">
+                <material>
+                  <mattext texttype="text/plain">Metrics are measurable and tied to real outcomes</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8778">
+                <material>
+                  <mattext texttype="text/plain">There is a clear baseline and expected improvement</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5486">
+                <material>
+                  <mattext texttype="text/plain">Success can be evaluated after the system runs</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9933">
+                <material>
+                  <mattext texttype="text/plain">Metrics are aspirational but not measurable</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2281">
+                <material>
+                  <mattext texttype="text/plain">Success is defined as “users like it”</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">7980</varequal>
+                <varequal respident="response1">8778</varequal>
+                <varequal respident="response1">5486</varequal>
+                <not>
+                  <varequal respident="response1">9933</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">2281</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gdd5b4cdf1002de3df30cf5c1cedcea29" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>cc_profile</fieldlabel>
+              <fieldentry>cc.multiple_response.v0p1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;Why is active participation during guest speaker sessions emphasized in this course?&lt;/strong&gt;&lt;br&gt;&lt;i&gt;(Select all that apply.)&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="8114">
+                <material>
+                  <mattext texttype="text/plain">Career opportunities often come through relationships</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9080">
+                <material>
+                  <mattext texttype="text/plain">Guest speakers model real professional decision-making</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3311">
+                <material>
+                  <mattext texttype="text/plain">Visibility and communication are hiring signals</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3025">
+                <material>
+                  <mattext texttype="text/plain">Guest speakers are responsible for grading</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3345">
+                <material>
+                  <mattext texttype="text/plain">Attendance alone builds a professional network</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">8114</varequal>
+                <varequal respident="response1">9080</varequal>
+                <varequal respident="response1">3311</varequal>
+                <not>
+                  <varequal respident="response1">3025</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3345</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

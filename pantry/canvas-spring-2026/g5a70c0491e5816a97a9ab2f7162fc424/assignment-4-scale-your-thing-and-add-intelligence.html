@@ -1,0 +1,393 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Assignment: Assignment 4: &quot;Scale Your Thing &amp; Add Intelligence&quot;</title>
+</head>
+<body>
+<h1 class="text-text-100 mt-3 -mb-1 text-[1.375rem] font-bold">Assignment 4: "Scale Your Thing &amp; Add Intelligence"</h1>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">📅 Due: February 6th at 11:59 PM <strong>(Extended to February 9th 11:59PM)</strong> | Points: 100</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">From "It Works!" to "It's Smart!": Assignment 3 was about collecting the data. Assignment 4 is about making it smarter and showing it could handle real-world volume. Time to add the AI magic you've been promising.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Late Policy: -5% per day late (max 50% deduction after 10 days)</p>
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Core Requirements (80 Points) - "Make It Smarter"</h2>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Part 1: Add Real Intelligence (20 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Your Assignment 3 had the data collection flow. Now make it actually smart:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Minimum Requirements:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Add at least ONE AI capability that <strong>transforms or acts on your data</strong></li>
+<li class="whitespace-normal break-words pl-2">Show the AI making decisions, analyzing patterns, or generating outputs</li>
+<li class="whitespace-normal break-words pl-2">Demonstrate clear improvement over Assignment 3</li>
+<li class="whitespace-normal break-words pl-2">Document what the AI learns, decides, or produces</li>
+<li class="whitespace-normal break-words pl-2"><strong>Implement basic error handling for your AI operations</strong></li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Examples of "Real Intelligence":</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Analyzing data → generating insights/recommendations</li>
+<li class="whitespace-normal break-words pl-2">Processing inputs → creating adapted content for different contexts</li>
+<li class="whitespace-normal break-words pl-2">Detecting patterns → triggering actions or alerts</li>
+<li class="whitespace-normal break-words pl-2">Making decisions → routing to different outcomes</li>
+<li class="whitespace-normal break-words pl-2">Sentiment/emotion/archetype detection</li>
+<li class="whitespace-normal break-words pl-2">Pattern recognition or trend analysis</li>
+<li class="whitespace-normal break-words pl-2">Content personalization based on context</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Error Handling Requirements:</strong> Your workflow should gracefully handle common failures:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">API rate limits or timeouts</li>
+<li class="whitespace-normal break-words pl-2">Invalid or missing data</li>
+<li class="whitespace-normal break-words pl-2">AI service errors or unexpected responses</li>
+<li class="whitespace-normal break-words pl-2">Network issues</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Minimum implementation:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Use n8n's error workflow feature OR</li>
+<li class="whitespace-normal break-words pl-2">Add "On Error" branches to critical nodes OR</li>
+<li class="whitespace-normal break-words pl-2">Implement try-catch logic in Function nodes</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Document what happens when things go wrong:</strong></p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">markdown</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-markdown"><span><span class="token">##</span><span class="token"> Error Handling</span>
+</span>
+<span><span class="token">**</span><span class="token">What could go wrong:</span><span class="token">**</span>
+</span><span><span class="token">-</span> API rate limit exceeded
+</span><span><span class="token">-</span> AI returns malformed response
+</span><span><span class="token">-</span> Input data missing required fields
+</span>
+<span><span class="token">**</span><span class="token">How we handle it:</span><span class="token">**</span>
+</span><span><span class="token">-</span> Retry with exponential backoff
+</span><span><span class="token">-</span> Log error and continue with next item
+</span><span><span class="token">-</span> Send notification and pause workflow</span></code></pre>
+</div>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Deliverable:</strong> Enhanced workflow with AI doing something clever AND handling errors gracefully</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Part 2: Complete the Loop - Show Your Output (25 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Your workflow must produce something a human can actually use or see in action.</strong> Raw JSON from an AI node is NOT an output - it's intermediate data.</p>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">What We Mean by "Output":</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">✅ <strong>Good Outputs (What We Want):</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Content posted to a platform (Twitter, Reddit, blog)</li>
+<li class="whitespace-normal break-words pl-2">File generated (PDF report, formatted document, spreadsheet)</li>
+<li class="whitespace-normal break-words pl-2">Email/notification sent to real address</li>
+<li class="whitespace-normal break-words pl-2">Data visualized (chart image, formatted table)</li>
+<li class="whitespace-normal break-words pl-2">Decision + action taken (e.g., "flagged as urgent AND sent to Slack")</li>
+<li class="whitespace-normal break-words pl-2">Human-readable report saved as HTML/PDF</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">❌ <strong>Not Outputs (Don't Submit These):</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Raw JSON from AI node</li>
+<li class="whitespace-normal break-words pl-2">Console logs showing API responses</li>
+<li class="whitespace-normal break-words pl-2">Text stored in n8n variable</li>
+<li class="whitespace-normal break-words pl-2">Unformatted data dumps</li>
+<li class="whitespace-normal break-words pl-2">"It would create X" without actually creating X</li>
+</ul>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">The Test: "Could a non-technical person use this?"</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">If your output requires opening n8n or parsing JSON to understand it, it's not done yet.</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Requirements:</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>A. Demonstrate End-to-End Flow (15 points)</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Run your complete workflow and document:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Input → Processing → Output → Proof</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Example format:</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">markdown</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-markdown"><span><span class="token">##</span><span class="token"> Complete Workflow Run</span>
+</span>
+<span><span class="token">**</span><span class="token">Input Data:</span><span class="token">**</span> 
+</span><span><span class="token">-</span> 5 Reddit posts about Tesla brand sentiment
+</span><span><span class="token">-</span> 3 recent news articles about Tesla
+</span>
+<span><span class="token">**</span><span class="token">AI Processing:</span><span class="token">**</span>
+</span><span><span class="token">-</span> Analyzed sentiment (positive/negative/neutral)
+</span><span><span class="token">-</span> Identified brand archetypes
+</span><span><span class="token">-</span> Generated 3 platform-specific posts
+</span>
+<span><span class="token">**</span><span class="token">Final Output:</span><span class="token">**</span>
+</span><span><span class="token">-</span> 3 posts saved as formatted markdown files
+</span><span><span class="token">-</span> 1 summary report generated as PDF
+</span><span><span class="token">-</span> Posts actually sent to test Twitter account
+</span>
+<span><span class="token">**</span><span class="token">Proof Output Exists:</span><span class="token">**</span>
+</span><span>[Screenshots/links showing the actual files created or posts made]</span></code></pre>
+</div>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>B. Output Gallery (10 points)</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Provide 10-15 examples of <strong>final, usable outputs</strong> such as:</p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Screenshots</strong> of posted content (Twitter posts, Reddit comments)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Generated files</strong> (PDFs, formatted reports, images)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Sent communications</strong> (email confirmations, Slack messages)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Created artifacts</strong> (HTML pages, formatted documents)</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">For each example:</p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">markdown</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-markdown"><span><span class="token">###</span><span class="token"> Example 1: [Brief Description]</span>
+</span><span><span class="token">**</span><span class="token">What was produced:</span><span class="token">**</span> [e.g., "Twitter post about product launch"]
+</span><span><span class="token">**</span><span class="token">Where it went:</span><span class="token">**</span> [e.g., "Posted to @testaccount, tweet ID: 123"]
+</span><span><span class="token">**</span><span class="token">Screenshot/File:</span><span class="token">**</span> [Link or embedded image]
+</span><span><span class="token">**</span><span class="token">Quality check:</span><span class="token">**</span> [Does this actually work? Any issues?]</span></code></pre>
+</div>
+</div>
+<h4 class="text-text-100 mt-2 -mb-1 text-base font-bold">Common Questions:</h4>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Q: "My project doesn't post to social media - what's my output?"</strong> A: Generate files! Create a PDF report, save formatted HTML, export a CSV with recommendations, create a visualization image. Make something a person can open and use.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Q: "Can I use test/sandbox accounts?"</strong> A: Yes! Test Twitter accounts, test email addresses, local files - all good. We just need to see it actually produced something beyond JSON.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Q: "What if my workflow approves/schedules for later?"</strong> A: Show the approval mechanism working and the scheduled item queued. Screenshot the scheduling interface or saved schedule file.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Q: "Do I need to build a UI?"</strong> A: No! But your output should be viewable/usable. A formatted markdown file that a human can read is fine. A blob of JSON is not.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Examples by Project Type:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><strong>Content Generator:</strong> Show 10 generated posts/articles adapted for different platforms (as actual files or posted content)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Brand Analyzer:</strong> Show analysis reports generated as PDFs with specific recommendations</li>
+<li class="whitespace-normal break-words pl-2"><strong>News Aggregator:</strong> Show curated/summarized content packages saved as HTML or sent via email</li>
+<li class="whitespace-normal break-words pl-2"><strong>Customer Service:</strong> Show response suggestions formatted and ready to use</li>
+<li class="whitespace-normal break-words pl-2"><strong>Sentiment Analyzer:</strong> Show scored content with actionable insights in a readable report format</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Part 3: Prove It Can Scale (20 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Show what happens when you 10x the volume:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Stress Test Documentation:</strong></p>
+<div class="relative group/copy bg-bg-000/50 border-0.5 border-border-400 rounded-lg">
+<div class="text-text-500 font-small p-3.5 pb-0">markdown</div>
+<div>
+<pre class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed"><code class="language-markdown"><span><span class="token">##</span><span class="token"> Scale Testing Results</span>
+</span><span><span class="token">-</span> Single request: X seconds
+</span><span><span class="token">-</span> 10 requests: X seconds (total)
+</span><span><span class="token">-</span> 50 requests: X seconds (what broke?)
+</span><span><span class="token">-</span> Maximum capacity: X requests before failure
+</span>
+<span><span class="token">##</span><span class="token"> What Breaks First</span>
+</span><span><span class="token">-</span> API rate limits hit at: X requests
+</span><span><span class="token">-</span> Memory issues at: X requests  
+</span><span><span class="token">-</span> Timeout errors at: X seconds
+</span><span><span class="token">-</span> Cost per 100 requests: $X
+</span>
+<span><span class="token">##</span><span class="token"> Production Readiness</span>
+</span><span><span class="token">-</span> Could this run 24/7? Yes/No because...
+</span><span><span class="token">-</span> Estimated monthly cost at 1000 requests/day: $X
+</span><span><span class="token">-</span> Required monitoring: [what you'd watch]</span></code></pre>
+</div>
+</div>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Deliverable:</strong> Honest stress test results with breaking points documented</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Part 4: Professional Package (15 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Create materials you'd show in a job interview:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Required Components:</strong></p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Executive Summary (1 page in Figma) (6 points)</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Problem solved (2 sentences)</li>
+<li class="whitespace-normal break-words pl-2">Solution approach (bullet points)</li>
+<li class="whitespace-normal break-words pl-2"><strong>Sample outputs/results achieved</strong></li>
+<li class="whitespace-normal break-words pl-2">Current performance metrics</li>
+<li class="whitespace-normal break-words pl-2">Business value delivered</li>
+<li class="whitespace-normal break-words pl-2">"Built with n8n + [AI service]" badge</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Technical Architecture (1 diagram in Figma) (5 points)</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Show data flow</li>
+<li class="whitespace-normal break-words pl-2">Label all AI components</li>
+<li class="whitespace-normal break-words pl-2">Note integration points</li>
+<li class="whitespace-normal break-words pl-2">Include failure paths</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Live Demo / PDF Screenshot Walkthrough (4 points)</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">3-5 minute walkthrough&nbsp;</li>
+<li class="whitespace-normal break-words pl-2">Key points to highlight</li>
+<li class="whitespace-normal break-words pl-2">Backup plan if demo fails</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Deliverable:</strong> Interview-ready materials in Figma + pdf/video</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Excellence Points (20 Points) - "Make Us Say 'Wow'"</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Awarded competitively based on what impresses us most:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Technical Innovation (What makes us lean forward)</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Breakthrough moments - "I didn't know n8n could do that"</li>
+<li class="whitespace-normal break-words pl-2">Elegant solutions - Complex problems solved simply</li>
+<li class="whitespace-normal break-words pl-2">Real AI intelligence - Not just API calls, but actual reasoning</li>
+<li class="whitespace-normal break-words pl-2">Production architecture - Caching, queuing, monitoring, oh my!</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Business Impact (What gets you hired)</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Clear ROI - "This saves 10 hours/week"</li>
+<li class="whitespace-normal break-words pl-2">Scalable solution - "Could handle 10,000 users tomorrow"</li>
+<li class="whitespace-normal break-words pl-2">Market differentiator - "Competitors don't have this"</li>
+<li class="whitespace-normal break-words pl-2">Portfolio piece - "I'd show this to every employer"</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Excellence Examples from Past Students:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">JungAI that identifies brand archetypes AND writes in that voice</li>
+<li class="whitespace-normal break-words pl-2">Customer service bot that remembers context across conversations</li>
+<li class="whitespace-normal break-words pl-2">Content generator that improves based on engagement metrics</li>
+<li class="whitespace-normal break-words pl-2">Multi-agent system where agents debate before deciding</li>
+<li class="whitespace-normal break-words pl-2">Workflow that costs $0.02 per run but replaces $50/hour work</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Remember: Excellence points are competitive. Only the most impressive work gets full points.</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Grading Breakdown</h2>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Core Requirements (80 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Complete the basics = guaranteed points:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">Component</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">Points</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">Minimum Standard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Add Intelligence</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">20</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">AI does something notably smarter</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Show Output</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">25</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Tangible, usable outputs demonstrated</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Scale Testing</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">20</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Honest documentation of limits</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Professional Package</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">15</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">All materials present and polished</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><strong>Total</strong></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top"><strong>80</strong></td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Complete all = 80 points</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">Excellence Scale (20 points)</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">How you compare to classmates:</p>
+<div class="overflow-x-auto w-full px-2 mb-6">
+<table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal">
+<thead class="text-left">
+<tr>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">Percentile</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">Points</th>
+<th class="text-text-100 border-b-0.5 border-border-300/60 py-2 pr-4 align-top font-bold">What This Means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Top 25%</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">20</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">"Woah, that's clever"</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">51-75th</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">15</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">"Definitely hire this person"</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">26-50th</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">10</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">"Solid work, good thinking"</td>
+</tr>
+<tr>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">Bottom 25%</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">5</td>
+<td class="border-b-0.5 border-border-300/30 py-2 pr-4 align-top">"Met requirements, nothing special"</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">What We're Really Looking For</h2>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">For Core 80 Points:</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">✅ Is it smarter than Assignment 3?<br>✅ Does it produce actual usable outputs?<br>✅ Did you honestly test scalability?<br>✅ Would you show this in an interview?<br>✅ Does it demonstrate real technical growth?</p>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">For Excellence 20 Points:</h3>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">🌟 Did you solve a problem we didn't think of?<br>🌟 Is this better than what we built?<br>🌟 Would a company actually pay for this?<br>🌟 Did you make us reconsider what's possible?</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Common Pitfalls to Avoid</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">❌ Adding complexity without adding intelligence<br>❌ Submitting raw JSON as "output"<br>❌ Fake scale testing ("It should handle 1000 requests")<br>❌ Marketing fluff instead of honest documentation<br>❌ AI that just reformats text<br>❌ Claiming 100% success rate without proof</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Success Tips</h2>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">For Core 80 Points:</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Start simple: Add ONE smart feature that works</li>
+<li class="whitespace-normal break-words pl-2">Make your output visible/usable by humans</li>
+<li class="whitespace-normal break-words pl-2">Actually run 50+ requests (use test data)</li>
+<li class="whitespace-normal break-words pl-2">Make your Figma board interview-ready</li>
+<li class="whitespace-normal break-words pl-2">Document reality, not aspirations</li>
+<li class="whitespace-normal break-words pl-2">Show your thinking process</li>
+</ul>
+<h3 class="text-text-100 mt-2 -mb-1 text-base font-bold">For Excellence 20 Points:</h3>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Study production systems in your industry</li>
+<li class="whitespace-normal break-words pl-2">Add intelligence that surprises us</li>
+<li class="whitespace-normal break-words pl-2">Calculate actual business value</li>
+<li class="whitespace-normal break-words pl-2">Build something you'd use yourself</li>
+<li class="whitespace-normal break-words pl-2">Polish until it feels professional</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Nina &amp; Nik's Note:</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">"Your Assignment 4 should make your Assignment 3 look like a rough draft. Not because you rebuild everything, but because you add the intelligence layer that makes it valuable.</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Remember: 80% is adding smarts, showing real outputs, and proving scale. 20% is making us wish we'd thought of it first."</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Submission Checklist</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Before submitting, you must have:</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">□ Enhanced n8n workflow with smart AI features<br>□ 10-15 examples of actual, usable outputs<br>□ Scale testing results (with real numbers)<br>□ Executive summary (1 page Figma)<br>□ Technical architecture diagram (Figma)<br>□ Demo video / Screenshot Walkthrough</p>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">What to Submit</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Figma Board containing:</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Executive summary slide</li>
+<li class="whitespace-normal break-words pl-2">Technical architecture diagram</li>
+<li class="whitespace-normal break-words pl-2">Screenshots of scale testing</li>
+<li class="whitespace-normal break-words pl-2">Output gallery (10-15 examples)</li>
+<li class="whitespace-normal break-words pl-2">Before/after comparison with Assignment 3</li>
+</ul>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"><strong>Files (linked from Figma):</strong></p>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">workflow_v2.json</code> - Your enhanced n8n export</li>
+<li class="whitespace-normal break-words pl-2"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">demo_walkthrough.pdf</code> or <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">demo_video.[mp4/link]</code> - Your pitch</li>
+<li class="whitespace-normal break-words pl-2"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">scale_test_results.md</code> - Real numbers from testing</li>
+<li class="whitespace-normal break-words pl-2"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">outputs/</code> - Folder with sample output files</li>
+</ul>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<div data-test-render-count="1">
+<div class="group">
+<div class="contents">
+<div class="group relative relative pb-3" data-is-streaming="false">
+<div class="font-claude-response relative leading-[1.65rem] [&amp;_pre>div]:bg-bg-000/50 [&amp;_pre>div]:border-0.5 [&amp;_pre>div]:border-border-400 [&amp;_.ignore-pre-bg>div]:bg-transparent [&amp;_.standard-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.standard-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8 [&amp;_.progressive-markdown_:is(p,blockquote,h1,h2,h3,h4,h5,h6)]:pl-2 [&amp;_.progressive-markdown_:is(p,blockquote,ul,ol,h1,h2,h3,h4,h5,h6)]:pr-8">
+<div>
+<div class="standard-markdown grid-cols-1 grid [&amp;_>_*]:min-w-0 gap-3 standard-markdown">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Automatic Deductions</h2>
+<ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Late submission: -5% per day (max -50%)</li>
+<li class="whitespace-normal break-words pl-2">No intelligence improvement from Assignment 3: -20 points</li>
+<li class="whitespace-normal break-words pl-2">Only raw JSON outputs (no usable outputs): -25 points</li>
+<li class="whitespace-normal break-words pl-2">Fake scale testing (no evidence): -20 points</li>
+<li class="whitespace-normal break-words pl-2">Missing Figma materials: -15 points</li>
+<li class="whitespace-normal break-words pl-2">No error handling implemented: -10 points</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="border-border-200 border-t-0.5 my-3 mx-1.5">
+<h2 class="text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold">Final Reality Check</h2>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">This assignment is about evolution, not revolution. Take your Assignment 3 prototype and:</p>
+<ol class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-decimal flex flex-col gap-1 pl-8 mb-3">
+<li class="whitespace-normal break-words pl-2">Make it noticeably smarter</li>
+<li class="whitespace-normal break-words pl-2">Make it produce something real and usable</li>
+<li class="whitespace-normal break-words pl-2">Prove what it can (and can't) handle</li>
+<li class="whitespace-normal break-words pl-2">Package it professionally</li>
+<li class="whitespace-normal break-words pl-2">Show your technical growth</li>
+</ol>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">The best submissions will be the ones where we think "I'd actually use this" or "This person understands product development."</p>
+<p class="font-claude-response-body break-words whitespace-normal leading-[1.7]">Ship something smarter by February 6th! 🚀🤖✨</p>
+</body>
+</html>
