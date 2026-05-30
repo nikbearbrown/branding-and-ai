@@ -1,5 +1,12 @@
 # Chapter 8 (Startup Brand Path) — Brand Strategy
 
+
+## TL;DR
+
+- A startup brand is not what your company builds.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, and Why Now, Part I — The Eight Components, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A startup brand is not what your company builds. It is what your company consistently declines to build.*
 
 ---
@@ -33,7 +40,8 @@ A one-page brand strategy document does not prevent all of those errors. It does
 
 The strategy's job is to make brand decisions decidable. That is a small claim, not a grandiose one. The chapter that follows will teach you to make it precisely.
 
-<!-- → INFOGRAPHIC: A funnel diagram showing "incoming decisions" at the top (feature requests, partnership opportunities, channel proposals, hiring criteria) flowing through three filter layers: (1) Archetype — does this fit who we are? (2) Values — does this fit what we won't compromise? (3) Negative Space — is this on the no-list? Output at the bottom: "Decided, without a meeting." The point is that the strategy document is a pre-computation of decisions, not a reference document for revisiting each decision from scratch. -->
+![A funnel diagram showing incoming decisions — feature requests, partnership offers, channel proposals, hiring criteria — flowing through three filter layers (archetype, values, negative space) and exiting as "Decided, without a meeting."](images/08-startup-brand-path-brand-strategy-fig-05.png)
+*Figure 8.5 — the strategy document as a decision funnel*
 
 ---
 
@@ -53,7 +61,8 @@ Third, it does not name a technology. Stripe's mission does not say "build the b
 
 Your mission should have all three properties: testable, theory-driven, technology-agnostic. One sentence.
 
-<!-- → INFOGRAPHIC: An anatomy diagram of Stripe's mission statement — "Increase the GDP of the internet" — broken into three labeled callouts: (1) "Testable: GDP of the internet is in principle measurable"; (2) "Theory-driven: implies a specific causal claim about friction and economic value"; (3) "Technology-agnostic: no mention of APIs or payments — the mechanism could change." Below it: a counter-example of a generic mission with the same three callouts showing what fails. Student should be able to apply the same annotation to their own mission draft. -->
+![An anatomy diagram of Stripe's mission "Increase the GDP of the internet" with three callouts — testable, theory-driven, technology-agnostic — above a generic counter-example mission failing all three tests.](images/08-startup-brand-path-brand-strategy-fig-06.png)
+*Figure 8.6 — anatomy of Stripe's mission statement*
 
 ### 1.2 Vision
 
@@ -77,7 +86,8 @@ The test for whether your values are real: for each value, name two specific dec
 
 Three to five values. Each with at least two traceable decision implications.
 
-[FIGURE: A table showing the relationship between stated values and traceable decisions — columns: Value Statement, Specific Decision It Implies, What a Competitor Without This Value Would Do Differently. Rows for three example values. Student should see that values do work only when they constrain specific choices, not when they are aspirational labels.]
+![A table showing the relationship between stated values and traceable decisions — columns: Value Statement, Specific Decision It Implies,...](images/08-startup-brand-path-brand-strategy-fig-01.png)
+*Figure 8.1 — table showing the relationship between stated values and traceable decisions*
 
 ### 1.4 Unique Value Proposition
 
@@ -131,7 +141,8 @@ Each entry on the no-list is consistent with the Sage archetype. Each entry is a
 
 At least five entries. Each entry should name a specific thing the company will not do, name the archetype-consistent reason for declining, and name a competitor or category that made the opposite choice.
 
-[FIGURE: A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made the opposite choice and what the consequence was. Student should see that each "no" produced a specific competitive advantage, not just stylistic consistency.]
+![A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made...](images/08-startup-brand-path-brand-strategy-fig-02.png)
+*Figure 8.2 — two-column table showing Stripe's no-list on the left*
 
 ---
 
@@ -149,7 +160,8 @@ After twelve months, Company A's customers know what they are buying. Company B'
 
 The no-list is not a limitation. It is the mechanism that converts a set of product decisions into a recognizable brand.
 
-<!-- → INFOGRAPHIC: Side-by-side timelines of Company A (explicit no-list) and Company B (no no-list) over twelve months — four rows: Product Decisions, Customer Understanding, Team Clarity, Brand Legibility. Each cell shows the diverging outcome. At the end of the timeline, Company A's brand is shown as a clear shape; Company B's is shown as a blurred or multi-colored shape. Student should see that the brand divergence is caused by the absence of constraint, not by bad intent or bad product. -->
+![Side-by-side twelve-month timelines for Company A (explicit no-list) and Company B (none) across four rows — product decisions, customer understanding, team clarity, brand legibility — ending in a clear shape versus a blurred one.](images/08-startup-brand-path-brand-strategy-fig-07.png)
+*Figure 8.7 — Company A vs Company B over twelve months*
 
 ### 2.2 Stripe by inversion
 
@@ -175,7 +187,8 @@ Apply this test to your own document before submitting it. Show it to a classmat
 
 The values section and the no-list must cohere. If a value is stated and no entry on the no-list follows from it, the value is not doing work. If an entry on the no-list cannot be traced to a value, the entry is a preference, not a commitment.
 
-[FIGURE: A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries, each of those entries linked to a predicted customer or product decision. Student should see the strategy as a constraint graph, not a list of independent commitments.]
+![A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries, each of...](images/08-startup-brand-path-brand-strategy-fig-03.png)
+*Figure 8.3 — worked example of the coherence test*
 
 ---
 
@@ -197,7 +210,12 @@ The second failure mode is a name that is technically fine but carries downstrea
 
 **The domain test.** Is the .com available, or affordably acquirable? The .com is still the primary trust signal for a company website. A .io or .ai domain is acceptable for a developer tool or an AI startup; it signals technical identity. But if the .com of your name exists and points to another company, your customers will mistype your URL repeatedly for the life of your company. Check the domain. If the .com is available, register it immediately — domain squatters watch trademark and startup filings.
 
-<!-- → TABLE: A name evaluation scorecard — rows: three candidate name slots; columns: Bar Test (pass/fail with notes), Lawyer Test (cleared/needs check), Domain Test (.com status), Archetype Alignment (yes/no with the archetype signal the name primes). Final column: Overall Recommendation. Intended as a worksheet for exercise A3. Student fills in the rows for their own candidates and has a documented rationale for whatever they choose. -->
+| Bar Test (pass/fail with notes) | Lawyer Test (cleared/needs check) | Domain Test ( |
+| --- | --- | --- |
+| Name | Shows how name functions in this chapter | Shows how name functions in this chapter |
+| Evaluation | Shows how evaluation functions in this chapter | Shows how evaluation functions in this chapter |
+| Scorecard | Shows how scorecard functions in this chapter | Shows how scorecard functions in this chapter |
+| Candidate | Shows how candidate functions in this chapter | Shows how candidate functions in this chapter |
 
 ### 3.3 Archetype alignment in naming
 
@@ -215,7 +233,12 @@ Before applying the three tests to a candidate name, apply the archetype filter.
 
 The archetype filter is a pre-screening tool. Candidate names that prime wrong-archetype associations are eliminated before the three tests. Only archetype-aligned candidates go through the full test sequence.
 
-<!-- → TABLE: An archetype-to-naming-pattern reference table — rows: all twelve archetypes; columns: Naming Tendency (what kinds of words fit), Examples of Names in the Wild, Words/Connotations to Avoid, One-Word Test (what feeling should the name produce?). The five archetypes with examples from §3.3 are filled in; the remaining seven are left blank as a student extension exercise. Student should be able to complete the blank rows using the archetype descriptions from Chapter 3. -->
+| Naming Tendency (what kinds of words fit) | Examples of Names in the Wild | Words/Connotations to Avoid | One-Word Test (what feeling should the name produce?) |
+| --- | --- | --- | --- |
+| Archetype | Example: archetype | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter |
+| Naming | Example: naming | Shows how naming functions in this chapter | Shows how naming functions in this chapter |
+| Pattern | Example: pattern | Shows how pattern functions in this chapter | Shows how pattern functions in this chapter |
+| Reference | Example: reference | Shows how reference functions in this chapter | Shows how reference functions in this chapter |
 
 ### 3.4 Product naming vs. company naming
 
@@ -261,7 +284,8 @@ The compression is the work. A one-page document that cannot be compressed is a 
 
 Plus: the name (chosen, with trademark and domain status noted), and the tagline (one sentence, archetype-aligned).
 
-<!-- → IMAGE: A blank one-page strategy document mockup — eight labeled sections with their length limits printed in each box (e.g., "Mission: 1 sentence," "Values: 3–5 bullets," "Negative Space: 5+ entries"), plus a name/tagline block at the top. Proportional boxes showing relative space each section should occupy. Student should be able to print or screenshot this and draft into the boxes directly. The spatial visualization makes the one-page constraint concrete — every section competes for the same finite area. -->
+![A blank one-page strategy document mockup with a name/tagline block and eight labeled sections — mission, vision, values, UVP, archetype, voice, positioning, negative space — each printed with its length limit, negative space the largest box.](images/08-startup-brand-path-brand-strategy-fig-08.png)
+*Figure 8.8 — the one-page brand strategy document, blank template*
 
 ### 4.3 The coherence check
 
@@ -273,7 +297,8 @@ Before finalizing the document, run the coherence check across all sections. Thr
 
 3. Can a stranger predict the no-list from the values? This is the test from §2.3. If they cannot, revise until they can.
 
-[FIGURE: A visual layout of the one-page document — eight labeled sections with their maximum lengths noted, arranged as they would appear on a physical page. Student should see the spatial constraint and understand that every section is competing for the same finite space — concision is not a style preference but a structural requirement.]
+![A visual layout of the one-page document — eight labeled sections with their maximum lengths noted, arranged as they would appear on a...](images/08-startup-brand-path-brand-strategy-fig-04.png)
+*Figure 8.4 — visual layout of the one-page document*
 
 ---
 
@@ -315,7 +340,8 @@ The Stripe strategy document that no one published, inferred from the artifacts:
 
 Internal consistency check: every section is traceable to the Sage archetype. Mission is phrased as an empirical claim. Values reflect truth and rigor. Voice is the Sage's voice. Negative space is consistently the Sage's refusal of noise, performance, and premature scale. The document holds.
 
-<!-- → IMAGE: The Stripe brand strategy rendered as a completed one-page document in the format described in §4.2 — each section filled in with the inferred strategy content from §5.2, formatted exactly as a student's own document would look when complete. This is the worked model: students can compare their own one-page document to Stripe's to check format, compression, and specificity. A callout at the bottom reads: "This document was inferred from public artifacts — Stripe never published it." -->
+![The Stripe brand strategy rendered as a completed one-page document — all eight sections filled in with the strategy inferred from public artifacts, with a callout noting Stripe never published it.](images/08-startup-brand-path-brand-strategy-fig-09.png)
+*Figure 8.9 — Stripe's brand strategy as a completed one-page document*
 
 ---
 
@@ -491,8 +517,7 @@ For instructors and readers who want a fully separate Startup Brand running trac
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Bill Bernbach** co-founded DDB in 1949 and over the next two decades built the work that defined what disruptive-startup brand could look like — *Think Small* for Volkswagen, *We Try Harder* for Avis, *You Don't Have to Be Jewish to Love Levy's*. Each campaign worked the same move: name the thing the incumbent's brand refused to acknowledge (the car is small, we are #2, the bread is Jewish), and turn the refusal into the position. Bernbach's central practice — writing brand strategy from the audience's existing skepticism rather than from the company's preferred self-image — is the chapter's working method. The Stripe inversion is an instance of it. The negative-space list is the deliberate version of it.
 
 ![Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/bill-bernbach.jpg)
@@ -514,3 +539,84 @@ Who was Bill Bernbach, and how do his disruptive-startup campaigns (*Think Small
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 8.1 — table showing the relationship between stated values and traceable decisions
+
+Create a standalone D3 v7 HTML figure for "table showing the relationship between stated values and traceable decisions". Use a horizontal bar chart with 5 labeled categories with approximate values from 0 to 100. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-01.html`
+
+---
+
+### Figure 8.2 — two-column table showing Stripe's no-list on the left
+
+Create a standalone D3 v7 HTML figure for "two-column table showing Stripe's no-list on the left". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-02.html`
+
+---
+
+### Figure 8.3 — worked example of the coherence test
+
+Create a standalone D3 v7 HTML figure for "worked example of the coherence test". Use a horizontal bar chart with 5 labeled categories with approximate values from 0 to 100. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-03.html`
+
+---
+
+### Figure 8.4 — visual layout of the one-page document
+
+Create a standalone D3 v7 HTML figure for "visual layout of the one-page document". Use a node-link concept map with 5 nodes with 6 to 8 links. Marks: circles, links, and direct labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-04.html`
+
+---
+
+### Figure 8.5 — the strategy document as a decision funnel
+
+Create a standalone D3 v7 HTML figure for "the strategy document as a decision funnel". Use a vertical funnel: a row of four incoming-decision boxes (feature requests, partnership offers, channel proposals, hiring criteria) feeding three narrowing trapezoid filter stages — Archetype, Values, Negative space — each labeled with its question, ending in an output box reading "Decided, without a meeting." Marks: rectangles, narrowing trapezoids, and directed connectors. Channels: vertical position for sequence, width for progressive narrowing, color for the final (negative-space) stage as the one red accent, and direct text labels for accessibility. Stagger the stage reveal. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-05.html`
+
+---
+
+### Figure 8.6 — anatomy of Stripe's mission statement
+
+Create a standalone D3 v7 HTML figure for "anatomy of Stripe's mission statement". Use an annotation diagram: a highlighted mission box ("Increase the GDP of the internet") with three connector lines to callout cards — Testable, Theory-driven, Tech-agnostic — above a divider and a generic counter-example mission ("Make payments easy") with three cards showing how it fails the same tests. Marks: rectangles, connector lines, and text. Channels: position for grouping, color for the primary mission and its callouts as the one red accent, and direct text labels for accessibility. Stagger the callout reveal. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-06.html`
+
+---
+
+### Figure 8.7 — Company A vs Company B over twelve months
+
+Create a standalone D3 v7 HTML figure for "Company A vs Company B over twelve months". Use a two-column comparison table with four row labels (product decisions, customer understanding, team clarity, brand legibility); the left column (Company A, explicit no-list) is the red-accented column, the right column (Company B, no no-list) is neutral. Below the table, render the end-state brand shapes: a single clean red rectangle for A and a cluster of mismatched gray rectangles for B. Marks: rectangular cells and shape blocks. Channels: position for category, color for Company A as the one red accent, and direct text labels for accessibility. Stagger the row reveal. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-07.html`
+
+---
+
+### Figure 8.8 — the one-page brand strategy document, blank template
+
+Create a standalone D3 v7 HTML figure for "the one-page brand strategy document, blank template". Use a two-column document mockup: a full-width name/tagline block at the top, then eight labeled section boxes (mission, vision, values, UVP, archetype, voice, positioning, negative space), each printing its length limit; the negative-space box is the largest and the one red-accented box. Marks: labeled rectangles sized proportionally to the space each section should occupy. Channels: position and area for relative emphasis, color for negative space as the one red accent, and direct text labels for accessibility. Stagger the section reveal. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-08.html`
+
+---
+
+### Figure 8.9 — Stripe's brand strategy as a completed one-page document
+
+Create a standalone D3 v7 HTML figure for "Stripe's brand strategy as a completed one-page document". Use the same two-column document layout as Figure 8.8 but filled with Stripe's inferred strategy content for all eight sections, a name/tagline block, and a footer callout reading "inferred from public artifacts — Stripe never published it." The Archetype (Sage) box is the one red-accented box. Marks: labeled rectangles with body text. Channels: position for section grouping, color for the archetype box as the one red accent, and direct text labels for accessibility. Stagger the section reveal. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/08-startup-brand-path-brand-strategy-fig-09.html`

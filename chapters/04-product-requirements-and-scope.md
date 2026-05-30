@@ -1,4 +1,11 @@
 # Chapter 4 — Product Requirements and Scope
+
+## TL;DR
+
+- The $100,000 no, and why the things you refuse to build define the product more than the things you build.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, What a PRD Actually Is, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The $100,000 no, and why the things you refuse to build define the product more than the things you build.*
 
 ---
@@ -59,7 +66,12 @@ The distinction matters because when the *how* ends up in the PRD, it gets treat
 
 The one-page PRD I want you to write has four sections. I will give you each section with the question it answers, the failure mode to avoid, and an example of what good looks like.
 
-<!-- → TABLE: PRD section anatomy — columns: section name, question it answers, common failure mode, example of weak version, example of strong version. Student should use this as a checklist when drafting their own PRD. -->
+| section name | question it answers | common failure mode | example of weak version | example of strong version |
+| --- | --- | --- | --- | --- |
+| Prd | Shows how prd functions in this chapter | Breaks when prd is treated as a label instead of a constraint | Example: prd | Example: prd |
+| Section | Shows how section functions in this chapter | Breaks when section is treated as a label instead of a constraint | Example: section | Example: section |
+| Anatomy | Shows how anatomy functions in this chapter | Breaks when anatomy is treated as a label instead of a constraint | Example: anatomy | Example: anatomy |
+| Name | Shows how name functions in this chapter | Breaks when name is treated as a label instead of a constraint | Example: name | Example: name |
 
 ### Section 1: Problem
 
@@ -167,7 +179,8 @@ The MVP boundary is what keeps the loop tight. A PRD that puts too much in v1 ta
 
 The discipline is uncomfortable because it means shipping something that is clearly incomplete. Founders feel this acutely. You know the product needs multi-user accounts. You know it should have a Slack integration. You know the dashboard should be better than a Google Sheet. But until you have validated that someone will pay for the core thing — the daily scored news summary — none of the additions matter. Ship the core thing. Validate. Then add the layer.
 
-<!-- → DIAGRAM: Build-Measure-Learn loop — circular diagram with three labeled nodes (Build, Measure, Learn); annotations at each node showing: what gets built at Build (the hypothesis-testing MVP), what gets measured at Measure (behavior, not stated intent), what changes at Learn (the hypothesis or the build scope). A second, outer loop shows how each cycle updates the PRD. Student should see that the PRD is a living document, not a one-time artifact. -->
+![Build-Measure-Learn loop — a circular diagram with three labelled nodes (Build, Measure, Learn) annotated with what is built, what is measured, and what changes, plus an outer loop showing each cycle updating the PRD.](images/04-product-requirements-and-scope-fig-01.png)
+*Figure 4.1 — The Build-Measure-Learn loop*
 
 ### Hypotheses That Can Be Tested and Hypotheses That Cannot
 
@@ -201,7 +214,8 @@ This is the phenomenon I want you to see as a product designer: *scope disciplin
 
 The inverse is also true. Each time you accept a feature that compromises the core — usually because a specific customer asked for it and was willing to pay — you are spending coherence for cash. The transaction feels rational in the moment. Over time, the accumulated incoherence drives away the users who came for the discipline. You do not notice until your original user base has quietly moved on.
 
-<!-- → DIAGRAM: Scope coherence compounding — two timelines side by side; left shows a product that maintains scope discipline (occasional sharp no's, coherence index rising over time, brand identity strengthening); right shows a product that accepts feature requests from individual customers (coherence index degrading over time, original user base churning, product becoming "another Jira"). Student should see the long-term consequence of each decision pattern. -->
+![Scope coherence compounding — two timelines side by side; the left shows a product holding scope discipline with coherence rising over time, the right shows a product accepting feature requests with coherence degrading and its user base churning.](images/04-product-requirements-and-scope-fig-02.png)
+*Figure 4.2 — Scope discipline compounds; accepted requests degrade coherence*
 
 ### Your $100,000 No
 
@@ -236,7 +250,12 @@ The exercise at the end of this chapter asks you to write a one-page PRD for you
 - **Tool:** Describe what you will build in one sentence that a non-technical user can parse. Reference the Madison pattern you are implementing ("a self-hosted n8n pipeline, based on Madison's Intelligence Agent pattern, that...") and then specify what makes your version distinct.
 - **MVP boundary:** Use the corresponding Madison layer's scope as your ceiling, not your floor. Madison's Intelligence Agent processes 870 articles daily. Your v1 might process 50. That is not a failure — it is a hypothesis. If 50 articles provides validated value for your user, you expand. If it does not, you have learned something quickly without building a system that processes 870 articles no one reads.
 
-<!-- → TABLE: Madison layer to PRD template mapping — rows: five Madison layers; columns: layer name, target user in Madison's design, gap Madison leaves for non-technical users, suggested v1 scope for a student building on this layer, $100,000 no for each layer. Student should find their layer and use this as a PRD starter. -->
+| layer name | target user in Madison's design | gap Madison leaves for non-technical users | suggested v1 scope for a student building on this layer | $100 | 000 no for each layer |
+| --- | --- | --- | --- | --- | --- |
+| Madison | Guides the madison decision and makes it checkable | Guides the madison decision and makes it checkable | Shows how madison functions in this chapter | Shows how madison functions in this chapter | Shows how madison functions in this chapter |
+| Layer | Guides the layer decision and makes it checkable | Guides the layer decision and makes it checkable | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Shows how layer functions in this chapter |
+| Prd | Guides the prd decision and makes it checkable | Guides the prd decision and makes it checkable | Shows how prd functions in this chapter | Shows how prd functions in this chapter | Shows how prd functions in this chapter |
+| Template | Guides the template decision and makes it checkable | Guides the template decision and makes it checkable | Shows how template functions in this chapter | Shows how template functions in this chapter | Shows how template functions in this chapter |
 
 ---
 
@@ -270,7 +289,12 @@ This is a tool description. A competent engineer knows what to build. A marketin
 
 That is the PRD. One page. Four sections. A defensible out list. A named $100,000 no. An engineer can build from it. A user can evaluate it. A product manager can test it against the Build-Measure-Learn loop.
 
-<!-- → TABLE: PRD iteration quality ladder — rows: each of the four PRD sections (Problem, Gap, Tool, MVP Boundary); columns: weak version (what students typically write first), failure mode it represents, strong version (what the worked example produces). Student should use this as a self-grading rubric before peer critique. -->
+| weak version (what students typically write first) | failure mode it represents | strong version (what the worked example produces) |
+| --- | --- | --- |
+| Prd | Breaks when prd is treated as a label instead of a constraint | Example: prd |
+| Iteration | Breaks when iteration is treated as a label instead of a constraint | Example: iteration |
+| Quality | Breaks when quality is treated as a label instead of a constraint | Example: quality |
+| Ladder | Breaks when ladder is treated as a label instead of a constraint | Example: ladder |
 
 Now write yours.
 
@@ -290,7 +314,8 @@ The $100,000 no is the mechanism that prevents scope creep through the rest of t
 
 > A PRD is a contract with future-you: a record of the decisions you made when you were thinking clearly, preserved for the moment when you are thinking under pressure. The pressure will come. The contract is what keeps you from agreeing to things you will regret.
 
-<!-- → INFOGRAPHIC: One-page PRD template — four labeled boxes arranged vertically (Problem, Gap, Tool, MVP Boundary); each box contains its guiding question, a one-line example of the weak version (crossed out), and a one-line example of the strong version; a sidebar annotation marks the $100,000 no as the first entry in the MVP Boundary out column. Student should be able to use this as a blank template for their own PRD. -->
+![One-page PRD template — four labelled boxes (Problem, Gap, Tool, MVP Boundary), each with its guiding question, a crossed-out weak version, and a strong version, plus a sidebar marking the $100,000 no as the first entry in the out column.](images/04-product-requirements-and-scope-fig-03.png)
+*Figure 4.3 — The one-page PRD template*
 
 ---
 
@@ -481,8 +506,7 @@ corporate LinkedIn post, rewrite it.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Adele Goldstine** wrote the *Operator's Manual for the ENIAC* in 1946 — the first complete specification of an electronic computer system. The manual was 168 pages of decisions about what ENIAC could be made to do, what inputs it would accept, what outputs it would produce, what configurations were and were not supported. Half the work was naming what the machine could do. The other half — the part that makes it the foundational PRD of the computing era — was naming, with equal precision, what it could not. The chapter's $100,000 *no* is in the same lineage: scope is defined by the boundary line between what is in and what is out, written down before the build starts.
 
 ![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/adele-goldstine.jpg)
@@ -503,4 +527,40 @@ Who was Adele Goldstine, and how does her work writing the first ENIAC operator'
 - Add a constraint: "Answer as if you're writing the *out of scope* section of an AI-tool PRD"
 
 What changes? What gets better? What gets worse?
+
+---
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — The Build-Measure-Learn loop
+
+Create a standalone D3 v7 HTML figure showing the Build-Measure-Learn loop as a circular three-node cycle. Place three labelled nodes on a circle — Build (top, the one red-highlighted node), Measure (lower-right), Learn (lower-left) — connected by curved directed arcs in clockwise order. Annotate each node with a short caption: Build = "smallest MVP that tests the hypothesis," Measure = "behavior, not stated intent," Learn = "revise hypothesis or build scope." Add an outer dashed arc in ochre flowing to a "PRD updated — a living document" box. Marks: rectangular nodes, arc connectors. Channels: angular position for sequence, the one red for the Build node, ochre for the decorative outer-loop arc, direct text labels. Include title, desc, role="img", aria-labelledby, hover tooltips with `(event, d)` order, ResizeObserver redraw, dark-mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/04-product-requirements-and-scope-fig-01.html`
+
+---
+
+### Figure 4.2 — Scope discipline compounds; accepted requests degrade coherence
+
+Create a standalone D3 v7 HTML figure showing two line series on one plot: a coherence index (0 to 100) over six time steps. Draw a "scope discipline held" line that rises over time in red, and a "feature requests accepted" line that falls over time in ink. Mark each data point with a small dot, add ochre "no" annotations at the discipline line's sharp-refusal points, and include a legend. Use a zero-baseline linear y-scale and a linear x-scale for time. Marks: two `d3.line` paths and circle data points. Channels: vertical position for coherence, horizontal position for time, red for the disciplined series and ink for the accepting series, ochre for decorative annotations only. Include title, desc, role="img", aria-labelledby, gridlines at 60% border opacity, hover tooltips with `(event, d)` order, ResizeObserver redraw, dark-mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/04-product-requirements-and-scope-fig-02.html`
+
+---
+
+### Figure 4.3 — The one-page PRD template
+
+Create a standalone D3 v7 HTML figure rendering a one-page PRD template as four stacked section cards — Problem, Gap, Tool, MVP boundary — each with a red left-border accent, a section title, its guiding question, a crossed-out weak example, and a strong example below. Add a sidebar card aligned to the MVP-boundary row, with an ochre left-border, labelled "The $100,000 no" and naming it as the first entry in the out column. Marks: rectangular cards with accent bars and text. Channels: vertical position for section order, the one red for section accent bars, ochre for the $100,000-no sidebar accent, strikethrough text for weak versions, direct labels. Include title, desc, role="img", aria-labelledby, hover tooltips with `(event, d)` order, ResizeObserver redraw, dark-mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/04-product-requirements-and-scope-fig-03.html`
 

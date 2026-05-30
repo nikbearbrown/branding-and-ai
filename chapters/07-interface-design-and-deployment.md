@@ -1,4 +1,11 @@
 # Chapter 7 — Interface Design and Deployment
+
+## TL;DR
+
+- The interface is not a finishing layer.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, What "Interface" Actually Means — Four Layers, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The interface is not a finishing layer. It is a contract. Every session, the user checks whether you kept it.*
 
 ---
@@ -57,7 +64,12 @@ The word *interface* is doing at least four different jobs in conversations abou
 
 All four layers have to be coherent with each other and with the underlying system. The chapter will work through each layer, but the primary diagnostic tool — the alignment audit — applies to all four at once.
 
-<!-- → TABLE: Four interface layers — columns: layer number, layer name, what it includes, most common engineering mistake, failure mode when misaligned with system. Student should use this as a mental checklist when reviewing their own tool's interface. -->
+| layer number | layer name | what it includes | most common engineering mistake | failure mode when misaligned with system |
+| --- | --- | --- | --- | --- |
+| Interface | Shows how interface functions in this chapter | Shows how interface functions in this chapter | Shows how interface functions in this chapter | Breaks when interface is treated as a label instead of a constraint |
+| Layers | Shows how layers functions in this chapter | Shows how layers functions in this chapter | Shows how layers functions in this chapter | Breaks when layers is treated as a label instead of a constraint |
+| Layer | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Breaks when layer is treated as a label instead of a constraint |
+| Number | Shows how number functions in this chapter | Shows how number functions in this chapter | Shows how number functions in this chapter | Breaks when number is treated as a label instead of a constraint |
 
 ---
 
@@ -95,7 +107,12 @@ Tone misalignment is the subtlest of the three because it operates below the lev
 
 The fix is tone-matching: read the system's actual outputs, then design the interface copy to match the register of those outputs. If the system produces outputs that are terse and specific, the interface should be terse and specific. If the system produces outputs that are conversational and hedged, the interface should be conversational and hedged.
 
-<!-- → TABLE: Misalignment taxonomy — rows: confidence misalignment, capability misalignment, tone misalignment; columns: definition, how engineers produce it, what users experience, specific fix. Student should be able to identify which type of misalignment is present in a given interface failure. -->
+| definition | how engineers produce it | what users experience | specific fix |
+| --- | --- | --- | --- |
+| Misalignment | Shows how misalignment functions in this chapter | Guides the misalignment decision and makes it checkable | Shows how misalignment functions in this chapter |
+| Taxonomy | Shows how taxonomy functions in this chapter | Guides the taxonomy decision and makes it checkable | Shows how taxonomy functions in this chapter |
+| Confidence | Shows how confidence functions in this chapter | Guides the confidence decision and makes it checkable | Shows how confidence functions in this chapter |
+| Capability | Shows how capability functions in this chapter | Guides the capability decision and makes it checkable | Shows how capability functions in this chapter |
 
 ---
 
@@ -139,7 +156,8 @@ Microsoft's post-mortem acknowledged that the team had "not seen this" coming in
 
 The design lesson: test the interface against the population that will actually use it, not the population you wish would use it. Public interfaces will encounter adversarial users, boundary cases, and interaction patterns the development team did not anticipate. The capability claims the interface makes have to hold against that population, not just against friendly testers.
 
-<!-- → DIAGRAM: Three misalignment types mapped to three case studies — three rows (Bard, Snapchat, Tay), three columns (interface promise, system reality, brand consequence); arrows showing the gap between promise and reality in each case. Student should be able to identify the misalignment type from the pattern and predict the brand consequence. -->
+![Three misalignment types mapped to three case studies — rows for Bard, Snapchat, and Tay against columns for interface promise, system reality, and brand consequence, with arrows showing the gap between promise and reality in each case.](images/07-interface-design-and-deployment-fig-01.png)
+*Figure 7.1 — Three misalignment types, three case studies*
 
 ---
 
@@ -177,7 +195,12 @@ If the user's job is to *try the model* — type an input, see an output, type a
 
 The mismatch to avoid: an orchestrated multi-agent system deployed behind a Gradio "type a prompt, get a result" interface. The architecture implies structured, reliable, inspectable behavior; the Gradio interaction model implies free-form exploration. Users will probe the exploration model and find the structure hidden underneath, which is confusing. If your Chapter 6 architecture is orchestrated, your interface should be Streamlit — structured inputs, visible outputs, inspectable state.
 
-<!-- → TABLE: Streamlit vs. Gradio selection guide — rows: selection criteria; columns: Streamlit, Gradio; rows include: user's primary job, interaction model implied, deployment path, best Madison layer match, what it looks like in demo, common mismatch to avoid. Student should be able to make the selection after reading this table. -->
+| Streamlit | Gradio |
+| --- | --- |
+| Streamlit | Shows how streamlit functions in this chapter |
+| Gradio | Shows how gradio functions in this chapter |
+| Selection | Shows how selection functions in this chapter |
+| Guide | Shows how guide functions in this chapter |
 
 ---
 
@@ -218,7 +241,12 @@ Here is what the audit looks like in practice, using the sentiment analysis pipe
 
 Five claims. Three of them needed fixes before the tool was aligned. None of the fixes required changing the system. All of them required the engineer to stop presenting the ideal case and start presenting the realistic case.
 
-<!-- → TABLE: Alignment audit worked example — rows: five interface claims from the sentiment pipeline; columns: claim as written, system reality, pass/fail (✓/✗), specific fix applied. Student should use this as a template for running their own audit: copy the table structure, replace the rows with their own tool's implicit promises. -->
+| claim as written | system reality | pass/fail (✓/✗) | specific fix applied |
+| --- | --- | --- | --- |
+| Alignment | Shows how alignment functions in this chapter | Shows how alignment functions in this chapter | Shows how alignment functions in this chapter |
+| Audit | Shows how audit functions in this chapter | Shows how audit functions in this chapter | Shows how audit functions in this chapter |
+| Worked | Shows how worked functions in this chapter | Shows how worked functions in this chapter | Shows how worked functions in this chapter |
+| Example | Shows how example functions in this chapter | Shows how example functions in this chapter | Shows how example functions in this chapter |
 
 ---
 
@@ -249,7 +277,12 @@ A portfolio-quality README for this course has six elements:
 
 The README is a portfolio artifact for Chapter 11. Write it now. Chapter 11 will ask you to revise it; start with something that reflects the tool accurately.
 
-<!-- → TABLE: README quality checklist — rows: six README elements; columns: element name, what it should contain, common failure mode, self-grading question. Student should be able to use this to evaluate their own README before submitting. -->
+| element name | what it should contain | common failure mode | self-grading question |
+| --- | --- | --- | --- |
+| Readme | Shows how readme functions in this chapter | Breaks when readme is treated as a label instead of a constraint | Shows how readme functions in this chapter |
+| Quality | Shows how quality functions in this chapter | Breaks when quality is treated as a label instead of a constraint | Shows how quality functions in this chapter |
+| Checklist | Shows how checklist functions in this chapter | Breaks when checklist is treated as a label instead of a constraint | Shows how checklist functions in this chapter |
+| Six | Shows how six functions in this chapter | Breaks when six is treated as a label instead of a constraint | Shows how six functions in this chapter |
 
 ---
 
@@ -265,7 +298,12 @@ The interface is also where the archetype becomes visible to the user. A Sage ar
 
 If the interface contradicts the archetype — if a Sage tool has a splashy, entertainment-forward interface, or if a Caregiver tool has an austere, efficiency-forward interface — the user picks up on the mismatch and the brand surface loses coherence. The interface should be the archetype, not just the tool.
 
-<!-- → TABLE: Archetype × interface layer alignment — rows: five archetypes (Sage, Creator, Hero, Caregiver, Magician); columns: visual surface signals, interaction model fit, deployment surface tone, brand surface copy style. Student should find their archetype row and use it as a design brief for each of the four interface layers. -->
+| visual surface signals | interaction model fit | deployment surface tone | brand surface copy style |
+| --- | --- | --- | --- |
+| Archetype | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter | Example: archetype |
+| Interface | Shows how interface functions in this chapter | Shows how interface functions in this chapter | Example: interface |
+| Layer | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Example: layer |
+| Alignment | Shows how alignment functions in this chapter | Shows how alignment functions in this chapter | Example: alignment |
 
 > The interface is the only part of your system the user experiences directly. Everything else — the pipeline, the model, the architecture, the data sources — is invisible to the user. The interface is all they have. Make every layer of it a promise the system can keep.
 
@@ -446,8 +484,7 @@ production-ready replacement text.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Vannevar Bush** published *As We May Think* in *The Atlantic* in July 1945 — the essay that imagined the *memex*, a desk-sized machine in which a researcher could store every book, document, and communication, link them into associative trails, and consult the trails later as a kind of externalized memory. The memex never shipped; the argument shaped every interface that followed. Bush's central claim is the chapter's: the interface is not a finishing layer on a finished product. It is the contract between the machine's capability and the human's attention, and a poorly written contract makes the capability inaccessible regardless of how powerful it is.
 
 ![Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/vannevar-bush.jpg)
@@ -468,4 +505,24 @@ Who was Vannevar Bush, and how does his vision of the *memex* connect to the cha
 - Add a constraint: "Answer as if you're writing the interface-design rationale for the deployed Madison tool"
 
 What changes? What gets better? What gets worse?
+
+---
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 7.1 — Three misalignment types, three case studies
+
+Create a standalone D3 v7 HTML figure rendering a three-by-three matrix. Rows are the case studies Bard (confidence), Snapchat (tone), and Tay (capability); columns are "Interface promise," "System reality," and "Brand consequence." Each cell is a rectangle holding a short wrapped phrase; the misalignment-type label sits with each row's case name in red. Draw directed arrows between the promise and reality cells, and between the reality and consequence cells, to show the gap. Highlight the most severe brand consequence (Bard) with the one red fill. Marks: a grid of rectangular cells and arrow connectors. Channels: row and column position for category, the one red for the misalignment-type labels and the severe consequence, ink connectors, direct text labels for accessibility. Include title, desc, role="img", aria-labelledby, hover tooltips with `(event, d)` order, ResizeObserver redraw, dark-mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/07-interface-design-and-deployment-fig-01.html`
 
