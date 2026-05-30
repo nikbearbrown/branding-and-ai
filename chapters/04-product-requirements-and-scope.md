@@ -179,7 +179,7 @@ The MVP boundary is what keeps the loop tight. A PRD that puts too much in v1 ta
 
 The discipline is uncomfortable because it means shipping something that is clearly incomplete. Founders feel this acutely. You know the product needs multi-user accounts. You know it should have a Slack integration. You know the dashboard should be better than a Google Sheet. But until you have validated that someone will pay for the core thing — the daily scored news summary — none of the additions matter. Ship the core thing. Validate. Then add the layer.
 
-![Build-Measure-Learn loop — a circular diagram with three labelled nodes (Build, Measure, Learn) annotated with what is built, what is measured, and what changes, plus an outer loop showing each cycle updating the PRD.](images/04-product-requirements-and-scope-fig-01.png)
+![Build-Measure-Learn loop — a circular diagram with three labelled nodes (Build, Measure, Learn) annotated with what is built, what is measured, and what changes, plus an outer loop showing each cycle updating the PRD.](../images/04-product-requirements-and-scope-fig-01.png)
 *Figure 4.1 — The Build-Measure-Learn loop*
 
 ### Hypotheses That Can Be Tested and Hypotheses That Cannot
@@ -214,7 +214,7 @@ This is the phenomenon I want you to see as a product designer: *scope disciplin
 
 The inverse is also true. Each time you accept a feature that compromises the core — usually because a specific customer asked for it and was willing to pay — you are spending coherence for cash. The transaction feels rational in the moment. Over time, the accumulated incoherence drives away the users who came for the discipline. You do not notice until your original user base has quietly moved on.
 
-![Scope coherence compounding — two timelines side by side; the left shows a product holding scope discipline with coherence rising over time, the right shows a product accepting feature requests with coherence degrading and its user base churning.](images/04-product-requirements-and-scope-fig-02.png)
+![Scope coherence compounding — two timelines side by side; the left shows a product holding scope discipline with coherence rising over time, the right shows a product accepting feature requests with coherence degrading and its user base churning.](../images/04-product-requirements-and-scope-fig-02.png)
 *Figure 4.2 — Scope discipline compounds; accepted requests degrade coherence*
 
 ### Your $100,000 No
@@ -314,7 +314,7 @@ The $100,000 no is the mechanism that prevents scope creep through the rest of t
 
 > A PRD is a contract with future-you: a record of the decisions you made when you were thinking clearly, preserved for the moment when you are thinking under pressure. The pressure will come. The contract is what keeps you from agreeing to things you will regret.
 
-![One-page PRD template — four labelled boxes (Problem, Gap, Tool, MVP Boundary), each with its guiding question, a crossed-out weak version, and a strong version, plus a sidebar marking the $100,000 no as the first entry in the out column.](images/04-product-requirements-and-scope-fig-03.png)
+![One-page PRD template — four labelled boxes (Problem, Gap, Tool, MVP Boundary), each with its guiding question, a crossed-out weak version, and a strong version, plus a sidebar marking the $100,000 no as the first entry in the out column.](../images/04-product-requirements-and-scope-fig-03.png)
 *Figure 4.3 — The one-page PRD template*
 
 ---
@@ -509,7 +509,7 @@ corporate LinkedIn post, rewrite it.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Adele Goldstine** wrote the *Operator's Manual for the ENIAC* in 1946 — the first complete specification of an electronic computer system. The manual was 168 pages of decisions about what ENIAC could be made to do, what inputs it would accept, what outputs it would produce, what configurations were and were not supported. Half the work was naming what the machine could do. The other half — the part that makes it the foundational PRD of the computing era — was naming, with equal precision, what it could not. The chapter's $100,000 *no* is in the same lineage: scope is defined by the boundary line between what is in and what is out, written down before the build starts.
 
-![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/adele-goldstine.jpg)
+![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/adele-goldstine.jpg)
 *Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

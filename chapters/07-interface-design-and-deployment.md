@@ -156,7 +156,7 @@ Microsoft's post-mortem acknowledged that the team had "not seen this" coming in
 
 The design lesson: test the interface against the population that will actually use it, not the population you wish would use it. Public interfaces will encounter adversarial users, boundary cases, and interaction patterns the development team did not anticipate. The capability claims the interface makes have to hold against that population, not just against friendly testers.
 
-![Three misalignment types mapped to three case studies — rows for Bard, Snapchat, and Tay against columns for interface promise, system reality, and brand consequence, with arrows showing the gap between promise and reality in each case.](images/07-interface-design-and-deployment-fig-01.png)
+![Three misalignment types mapped to three case studies — rows for Bard, Snapchat, and Tay against columns for interface promise, system reality, and brand consequence, with arrows showing the gap between promise and reality in each case.](../images/07-interface-design-and-deployment-fig-01.png)
 *Figure 7.1 — Three misalignment types, three case studies*
 
 ---
@@ -487,7 +487,7 @@ production-ready replacement text.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Vannevar Bush** published *As We May Think* in *The Atlantic* in July 1945 — the essay that imagined the *memex*, a desk-sized machine in which a researcher could store every book, document, and communication, link them into associative trails, and consult the trails later as a kind of externalized memory. The memex never shipped; the argument shaped every interface that followed. Bush's central claim is the chapter's: the interface is not a finishing layer on a finished product. It is the contract between the machine's capability and the human's attention, and a poorly written contract makes the capability inaccessible regardless of how powerful it is.
 
-![Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/vannevar-bush.jpg)
+![Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/vannevar-bush.jpg)
 *Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

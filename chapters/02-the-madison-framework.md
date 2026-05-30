@@ -110,7 +110,7 @@ Suppose we designed Madison as a single large model with a long prompt and acces
 
 Now contrast the layered design. Each layer is specialized, inspectable, and named. The Intelligence Agent delivers scored news to the orchestrator; the Content Agent takes a brief and returns three headline variants; the Performance Agent runs experiments on which variant lands. Each one can be tested, versioned, swapped, and — crucially — *named* in the product.
 
-![Layered Madison architecture — five agent boxes connected through a central orchestration node, with arrows showing input/output flow, contrasted against a single mega-agent box.](images/02-the-madison-framework-fig-01.png)
+![Layered Madison architecture — five agent boxes connected through a central orchestration node, with arrows showing input/output flow, contrasted against a single mega-agent box.](../images/02-the-madison-framework-fig-01.png)
 *Figure 2.1 — Layered architecture versus a single mega-agent*
 
 ### Naming Is Brand Strategy
@@ -139,7 +139,7 @@ Madison's choice of a five-layer, orchestrated pipeline is on the Cursor end of 
 
 When you choose your own architecture, you are choosing a theory of risk. Make that choice explicitly.
 
-![Augmentation-to-delegation spectrum — a horizontal axis from "user in full control" (Cursor) to "system autonomous, human reviews outcomes" (Devin), with Madison in the left-center zone and brand-position and recovery-model labels at each end.](images/02-the-madison-framework-fig-02.png)
+![Augmentation-to-delegation spectrum — a horizontal axis from "user in full control" (Cursor) to "system autonomous, human reviews outcomes" (Devin), with Madison in the left-center zone and brand-position and recovery-model labels at each end.](../images/02-the-madison-framework-fig-02.png)
 *Figure 2.2 — The augmentation-to-delegation spectrum*
 
 ---
@@ -192,7 +192,7 @@ The same loop runs in every Madison layer, with different tools and different re
 - **Content Agent:** reasoning about brand voice parameters, acting on content generation calls, observing output variants and scoring them against the brief.
 - **Performance Agent:** reasoning about experiment results, acting on multi-armed bandit allocation calls (Thompson sampling), observing conversion rates and updating allocation.
 
-![One complete ReAct loop for the Intelligence Agent — an annotated reasoning trace with THOUGHT, ACTION, and OBSERVATION labels and an arrow feeding the observation back into the next thought.](images/02-the-madison-framework-fig-03.png)
+![One complete ReAct loop for the Intelligence Agent — an annotated reasoning trace with THOUGHT, ACTION, and OBSERVATION labels and an arrow feeding the observation back into the next thought.](../images/02-the-madison-framework-fig-03.png)
 *Figure 2.3 — One ReAct loop in the Intelligence Agent*
 
 ### What Goes Wrong in the Loop
@@ -476,7 +476,7 @@ with the five layer plans plus the load-bearing-layer call.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Marshall McLuhan** spent the 1960s arguing — to a public that mostly didn't yet have the vocabulary for it — that the *medium* shapes the message it carries, and that the architecture of a communication system is the message far more than any individual transmission through it. The Madison framework's central claim is the same shape, applied to AI tooling: the structural choices in the workflow (parallel ingestion branches, audit logs, the role split across the five agents) are the brand long before the marketing copy is written.
 
-![Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/marshall-mcluhan.jpg)
+![Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/marshall-mcluhan.jpg)
 *Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

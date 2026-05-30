@@ -40,7 +40,7 @@ Before you commit to product, you need to commit to identity. The identity quest
 
 The answer runs through a system that has been stress-tested across industries for twenty years. It is the subject of this chapter. Master it here, and you will carry it through every chapter that follows.
 
-![Horizontal timeline of the book's chapters showing the archetype as a red band — picked in Ch. 2, committed in Ch. 3, dormant through Ch. 4–7, reactivated in Ch. 8.](images/03-jungian-brand-archetypes-as-a-system-fig-10.png)
+![Horizontal timeline of the book's chapters showing the archetype as a red band — picked in Ch. 2, committed in Ch. 3, dormant through Ch. 4–7, reactivated in Ch. 8.](../images/03-jungian-brand-archetypes-as-a-system-fig-10.png)
 *Figure 3.10 — The archetype is load-bearing across the whole book*
 
 ---
@@ -68,7 +68,7 @@ Mark and Pearson trace their system to Jung — their twelve archetypes share na
 | Usages | Shows how usages functions in this chapter | Guides the usages decision and makes it checkable | Chapter framework |
 | Archetype | Shows how archetype functions in this chapter | Guides the archetype decision and makes it checkable | Chapter framework |
 
-![A 2x2 grid distinguishing the four usages of "archetype" — axes could be Individual/Collective and Psychological/Cultural — showing...](images/03-jungian-brand-archetypes-as-a-system-fig-01.png)
+![A 2x2 grid distinguishing the four usages of "archetype" — axes could be Individual/Collective and Psychological/Cultural — showing...](../images/03-jungian-brand-archetypes-as-a-system-fig-01.png)
 *Figure 3.1 — 2x2 grid distinguishing the four usages of "archetype"*
 
 ### 1.2 The twelve archetypes
@@ -106,7 +106,7 @@ Here are the twelve in the Mark/Pearson system. For each: the core motivation (w
 | All | Shows how all functions in this chapter | Guides the all decision and makes it checkable | Breaks when all is treated as a label instead of a constraint | Example: all |
 | Archetypes | Shows how archetypes functions in this chapter | Guides the archetypes decision and makes it checkable | Breaks when archetypes is treated as a label instead of a constraint | Example: archetypes |
 
-![A visual map of all twelve archetypes arranged by their primary motivations — perhaps arranged around two axes (Order/Freedom and...](images/03-jungian-brand-archetypes-as-a-system-fig-02.png)
+![A visual map of all twelve archetypes arranged by their primary motivations — perhaps arranged around two axes (Order/Freedom and...](../images/03-jungian-brand-archetypes-as-a-system-fig-02.png)
 *Figure 3.2 — visual map of all twelve archetypes arranged by their primary motivations*
 
 ### 1.3 What the names hide
@@ -121,7 +121,7 @@ The names carry connotations that will mislead you if you take them literally.
 
 When you read these names, read the motivation, not the dictionary definition.
 
-![Three panels contrasting the literal reading of Hero, Outlaw, and Caregiver (struck out) with the brand-strategy reading below each — the name describes a relationship to the customer, not a personality.](images/03-jungian-brand-archetypes-as-a-system-fig-11.png)
+![Three panels contrasting the literal reading of Hero, Outlaw, and Caregiver (struck out) with the brand-strategy reading below each — the name describes a relationship to the customer, not a personality.](../images/03-jungian-brand-archetypes-as-a-system-fig-11.png)
 *Figure 3.11 — Literal vs. brand-strategy reading of three archetype names*
 
 ---
@@ -148,7 +148,7 @@ The Sage archetype made those decisions. Not perfectly, not finally — there is
 
 This is what I mean when I say an archetype is a forcing function. It is not a brand asset in the sense of a logo or a tagline. It is the constraint that makes all the other brand assets cohere.
 
-![A decision tree showing one brand decision (e.g., "What tone should our error messages use?") resolved differently for five different...](images/03-jungian-brand-archetypes-as-a-system-fig-03.png)
+![A decision tree showing one brand decision (e.g., "What tone should our error messages use?") resolved differently for five different...](../images/03-jungian-brand-archetypes-as-a-system-fig-03.png)
 *Figure 3.3 — decision tree showing one brand decision (e.g., "What tone should our...*
 
 ### 2.2 The recognition asset
@@ -161,7 +161,7 @@ If the data points are inconsistent, the model never forms. The customer has enc
 
 The recognition asset is built by accumulation. It requires that the hundredth touchpoint is consistent with the first. An archetype is the cheapest instrument available for enforcing that consistency, because it operates at the level of identity rather than execution. You do not have to tell every designer, writer, and engineer to produce exactly this output. You tell them who the brand is. A designer who knows the brand is a Sage will make different choices — consistently — than a designer who knows the brand is a Jester, even without a style guide.
 
-![Two brands side by side: Brand A's touchpoints are uniformly coded and accumulate into a sharp customer-model silhouette; Brand B's are mismatched and accumulate into a blurred, fragmented shape.](images/03-jungian-brand-archetypes-as-a-system-fig-12.png)
+![Two brands side by side: Brand A's touchpoints are uniformly coded and accumulate into a sharp customer-model silhouette; Brand B's are mismatched and accumulate into a blurred, fragmented shape.](../images/03-jungian-brand-archetypes-as-a-system-fig-12.png)
 *Figure 3.12 — The recognition asset is built by accumulation*
 
 ### 2.3 The shadow as failure-mode prediction
@@ -176,7 +176,7 @@ The Hero's strength is the belief that you can become better. The shadow of that
 
 The Caregiver's strength is generosity. The shadow of generosity is martyrdom: a Caregiver brand that drifts develops a tone of "we sacrifice for you, and you should notice that." It becomes manipulative and exhausting.
 
-![A table listing all twelve archetypes, their core strength, and their shadow — formatted so students can see the structural relationship...](images/03-jungian-brand-archetypes-as-a-system-fig-04.png)
+![A table listing all twelve archetypes, their core strength, and their shadow — formatted so students can see the structural relationship...](../images/03-jungian-brand-archetypes-as-a-system-fig-04.png)
 *Figure 3.4 — table listing all twelve archetypes, their core strength, and their shadow*
 
 The shadow is useful to you in exactly one way: it tells you where to watch. When you pick an archetype, you also pick your most likely failure mode. Knowing which shadow is yours means you know which early-warning signs to monitor. We will return to this in the exercises.
@@ -222,7 +222,7 @@ On February 23, 2009 — less than two months after launch — Tropicana announc
 
 The lesson is precise: the recognition asset is built by the archetype's specific expression, not by the archetype's *name*. You cannot swap expressions without losing the recognition that accumulated in the original form.
 
-![Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice)....](images/03-jungian-brand-archetypes-as-a-system-fig-05.png)
+![Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice)....](../images/03-jungian-brand-archetypes-as-a-system-fig-05.png)
 *Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton...*
 
 ### 3.3 Gap, 2010: The Everyman becomes unrecognizable
@@ -239,7 +239,7 @@ The speed of the rejection is diagnostic. Customers did not need time to be conv
 
 The company attempted to solicit customer feedback through a crowdsourcing exercise after the backlash began. The exercise was widely mocked as a response to a crisis, not a genuine engagement. Six days from launch to rollback is the fastest documented major brand rollback on record.
 
-![Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica). Students should...](images/03-jungian-brand-archetypes-as-a-system-fig-06.png)
+![Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica). Students should...](../images/03-jungian-brand-archetypes-as-a-system-fig-06.png)
 *Figure 3.6 — Side-by-side of the original Gap logo (blue square, white serif type)...*
 
 ### 3.4 New Coke, 1985: The Innocent tries to out-Outlaw the Outlaw
@@ -260,7 +260,7 @@ More importantly: Coca-Cola's customers were not buying Coke because it tasted b
 
 The Innocent's shadow is denial. Coca-Cola's leadership had been in denial about what their product actually was to their customers — they treated it as a taste preference rather than a symbolic commitment. That is the shadow activating: the Innocent's refusal to see the complexity of what it is.
 
-![Timeline showing the New Coke crisis: April 1985 (launch of New Coke, discontinuation of original formula) → May/June 1985 (customer...](images/03-jungian-brand-archetypes-as-a-system-fig-07.png)
+![Timeline showing the New Coke crisis: April 1985 (launch of New Coke, discontinuation of original formula) → May/June 1985 (customer...](../images/03-jungian-brand-archetypes-as-a-system-fig-07.png)
 *Figure 3.7 — Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...*
 
 ### 3.5 The pattern across all three cases
@@ -273,7 +273,7 @@ The specific direction of the drift varies. Tropicana moved from Innocent toward
 
 The speed of the rollback varies — two months, six days, three months — but the direction does not. All three reversed.
 
-![A comparison table across all three cases — columns: Brand, Original Archetype, Drift Direction, Customer Rejection Mechanism, Time to...](images/03-jungian-brand-archetypes-as-a-system-fig-08.png)
+![A comparison table across all three cases — columns: Brand, Original Archetype, Drift Direction, Customer Rejection Mechanism, Time to...](../images/03-jungian-brand-archetypes-as-a-system-fig-08.png)
 *Figure 3.8 — comparison table across all three cases*
 
 ---
@@ -321,7 +321,7 @@ The Sage's shadow is dogmatism. Early signals of the shadow activating would inc
 
 Whether LinkedIn is currently activating its shadow is a question you can evaluate yourself by reading five minutes of its feed with this frame in mind. The prediction is not that the shadow *will* activate. The prediction is that *if* LinkedIn fails as a brand, this is the most likely shape of that failure. The shadow is not a curse. It is a map.
 
-![A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled. Students should be able...](images/03-jungian-brand-archetypes-as-a-system-fig-09.png)
+![A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled. Students should be able...](../images/03-jungian-brand-archetypes-as-a-system-fig-09.png)
 *Figure 3.9 — worked shadow analysis for one brand*
 
 ---
@@ -340,7 +340,7 @@ The archetype that fits your work should satisfy three tests:
 
 **The stress test.** Suppose your tool grows ten times larger. Suppose it attracts a different set of users than you intended. Suppose a well-funded competitor enters your market and executes your archetype better than you do. Does your archetype still fit? Does it still differentiate you? The archetype that survives these three stress tests is the one to commit to.
 
-![Three-panel checklist of the archetype tests — Authenticity (mirror), Differentiation (compass), and Stress (x10 gauge) — each with a pass question and a note on what failure looks like.](images/03-jungian-brand-archetypes-as-a-system-fig-13.png)
+![Three-panel checklist of the archetype tests — Authenticity (mirror), Differentiation (compass), and Stress (x10 gauge) — each with a pass question and a note on what failure looks like.](../images/03-jungian-brand-archetypes-as-a-system-fig-13.png)
 *Figure 3.13 — The three tests for committing to an archetype*
 
 ### 5.2 What this archetype will do in Chapter 4
@@ -545,7 +545,7 @@ Here are my writing samples:
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Carl Jung** is the source the chapter has been borrowing from. The twelve archetypes Margaret Mark and Carol Pearson catalogued for marketing in *The Hero and the Outlaw* (2001) are downstream of Jung's argument that certain figures — Hero, Sage, Caregiver, Trickster, Lover — recur across cultures because they correspond to durable patterns in human psychology, not to any particular author's invention. The chapter has used the framework as a strategic instrument; Jung intended it as a description of the unconscious. The shadow side of the archetype, which the chapter takes seriously, is also Jung's idea — the failure mode that the strength of an archetype tends to produce when taken too far.
 
-![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/carl-jung.jpg)
+![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.jpg)
 *Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

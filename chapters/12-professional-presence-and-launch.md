@@ -74,7 +74,7 @@ These three properties — argument coherence, specific numbers, team weight —
 
 *Figure 12.1*
 
-![The Airbnb argument chain — ten slide boxes connected by 'implies' arrows, showing one continuous logical chain rather than ten independent facts](images/12-professional-presence-and-launch-fig-02.png)
+![The Airbnb argument chain — ten slide boxes connected by 'implies' arrows, showing one continuous logical chain rather than ten independent facts](../images/12-professional-presence-and-launch-fig-02.png)
 *Figure 12.2 — The Airbnb argument chain*### Tracing the Airbnb deck slide by slide
 
 Read the deck with the chapter's lens, because you will build your own version.
@@ -222,7 +222,7 @@ The unifying rule across all platforms: every surface should reinforce the same 
 
 *Figure 12.5*
 
-![Brand-coherence surface stack — five layers from Social (shallowest) down to Portfolio (deepest), each labeled with its depth and cadence](images/12-professional-presence-and-launch-fig-06.png)
+![Brand-coherence surface stack — five layers from Social (shallowest) down to Portfolio (deepest), each labeled with its depth and cadence](../images/12-professional-presence-and-launch-fig-06.png)
 *Figure 12.6 — The brand-coherence surface stack*---
 
 ## Part 4: The Final Presentation — Your Moment
@@ -329,7 +329,7 @@ The Creative Engineer version of you in 2027 will be the cumulative product of a
 
 *Figure 12.9*
 
-![Line chart comparing consistent monthly cadence vs. burst-then-silence over 36 months — the consistent line ends roughly three times higher](images/12-professional-presence-and-launch-fig-10.png)
+![Line chart comparing consistent monthly cadence vs. burst-then-silence over 36 months — the consistent line ends roughly three times higher](../images/12-professional-presence-and-launch-fig-10.png)
 *Figure 12.10 — Cadence dominates quality at the margin*
 
 
@@ -345,7 +345,7 @@ The final presentation is not a school deliverable. It is the first Ship of the 
 
 The Spence signaling argument from Chapter 1 closes here: the signals that separated you from other candidates — not the GitHub repository, but the deployed tool, the positioned brand, the published writing, the coherent presentation — are the costly signals that AI tooling did not make cheap. You have spent a course producing them. They compound forward.
 
-![The four-verb loop — Ideate, Build, Brand, Ship arranged in a circle with arrows back to the start, labeled with the chapters where each verb happened](images/12-professional-presence-and-launch-fig-11.png)
+![The four-verb loop — Ideate, Build, Brand, Ship arranged in a circle with arrows back to the start, labeled with the chapters where each verb happened](../images/12-professional-presence-and-launch-fig-11.png)
 *Figure 12.11 — The four-verb loop*| Verb | Chapters | Primary Artifact Produced | Signal It Creates |
 |---|---|---|---|
 | **Ideate** | Ch 4 (Career PRD) | Problem specification + audience definition | *"This person knows what to build before building."* |
@@ -571,7 +571,7 @@ Now go ship.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Margaret Bourke-White** built a professional presence by deliberately crossing institutional boundaries that her field treated as fixed: first foreign photographer admitted into the Soviet Union (1930), first woman war correspondent attached to the U.S. Army Air Forces, first female photographer at *Life* magazine and the photographer of its first cover (1936), among the first journalists to document the liberation of Buchenwald. None of these crossings were accidents. Each was the result of a clear decision about which assignment to take, which to refuse, and how to make the case for the next one. The chapter's argument — that professional presence is the assembled artifact, not the byproduct of doing good work — is Bourke-White's working method, made explicit.
 
-![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/margaret-bourke-white.jpg)
+![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-bourke-white.jpg)
 *Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

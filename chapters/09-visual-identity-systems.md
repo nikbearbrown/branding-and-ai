@@ -285,7 +285,7 @@ A **Caregiver** wireframe uses softer section transitions, more white space betw
 
 A **Magician** wireframe experiments with layout conventions — sections that are not full-width, typographic elements that break the grid intentionally, a home page that opens with an unexpected visual rather than the conventional name-and-title hero.
 
-![Two low-fidelity home-page wireframes side by side — left: a Sage home page leading with positioning text and name, three text-forward project cards, a writing section, and a bio strip; right: a Hero home page leading with a large project image, a metrics strip, short copy, and a bold CTA.](images/09-visual-identity-systems-fig-01.png)
+![Two low-fidelity home-page wireframes side by side — left: a Sage home page leading with positioning text and name, three text-forward project cards, a writing section, and a bio strip; right: a Hero home page leading with a large project image, a metrics strip, short copy, and a bold CTA.](../images/09-visual-identity-systems-fig-01.png)
 *Figure 9.1 — Sage vs Hero home-page wireframes*
 
 ---
@@ -485,7 +485,7 @@ with all five components.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and went on to define the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue* over the next four decades. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
 
-![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/cipe-pineles.jpg)
+![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/cipe-pineles.jpg)
 *Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

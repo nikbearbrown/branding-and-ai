@@ -93,7 +93,7 @@ Brittany Chiang's portfolio is the textbook example of all three channels compou
 
 The design implication: building a portfolio that only performs in Channel 1 is under-optimizing. A portfolio designed to perform across all three channels is built with the same discipline you brought to the AI tool — scope, craft, archetype alignment, explicit content decisions, negative space as intentional as positive space.
 
-![Three compounding channels radiating from a central portfolio artifact — Channel 1 "Direct hiring" as a short visible arrow, Channel 2 "Indirect reference" as a long high-compounding red arrow, and Channel 3 "Template effects" as a branching autonomous arrow.](images/11-portfolio-as-product-fig-01.png)
+![Three compounding channels radiating from a central portfolio artifact — Channel 1 "Direct hiring" as a short visible arrow, Channel 2 "Indirect reference" as a long high-compounding red arrow, and Channel 3 "Template effects" as a branching autonomous arrow.](../images/11-portfolio-as-product-fig-01.png)
 *Figure 11.1 — the three compounding channels of a portfolio*
 
 ---
@@ -435,7 +435,7 @@ sending recruiters there. Self-criticism, not affirmation.
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Charles and Ray Eames** built their portfolio across furniture, film, exhibitions, photography, and graphic design — the molded plywood chair, the Lounge Chair, the *Powers of Ten* short film, the IBM World's Fair pavilion, the Eames House itself — over four decades from 1941 onward. The portfolio reads as a single body of work, despite covering categories that have nothing to do with each other, because every piece is governed by the same design philosophy: rigorous problem framing, materials honestly used, the human experience as the unit of measurement. The chapter's argument that the portfolio is a *product* — a coherent artifact that compounds over time, not a directory of unrelated projects — is the Eames operating principle, applied to the Creative Engineer's first decade.
 
-![Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/charles-and-ray-eames.jpg)
+![Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/charles-and-ray-eames.jpg)
 *Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

@@ -62,7 +62,7 @@ Campbell's full framework has seventeen stages. For brand-story purposes, the si
 
 This sounds obvious. It is not. Most technical founders — and most brand marketers — default to stories where the brand is the hero. The founders fought through hard problems, built something remarkable, overcame the obstacles of the early market. These stories are true and sometimes compelling for raising capital. They are weak for selling to customers, because the customer cannot identify with a story whose hero is someone else. The customer-as-hero framing is a structural discipline, not a rhetorical preference. It changes what goes in the story.
 
-![A side-by-side comparison of the brand-as-hero framing vs. the customer-as-hero framing — same product, two story shapes. Left: brand is...](images/10-brand-storytelling-fig-01.png)
+![A side-by-side comparison of the brand-as-hero framing vs. the customer-as-hero framing — same product, two story shapes. Left: brand is...](../images/10-brand-storytelling-fig-01.png)
 *Figure 10.1 — side-by-side comparison of the brand-as-hero framing vs*
 
 ### 1.2 How they layer
@@ -75,7 +75,7 @@ When you sit down to write a case study, you are working at Miller's level — c
 
 The archetype is the constraint that runs across all three levels. It is not a fourth framework. It is the filter on what story shapes are available to your brand.
 
-![A nested-ring diagram with Campbell as the outermost ring (universal story architecture), Booker in the middle (the seven basic plots), Miller inside (customer-as-hero brand application), and Archetype at the center as the filter on which plots a brand can tell.](images/10-brand-storytelling-fig-07.png)
+![A nested-ring diagram with Campbell as the outermost ring (universal story architecture), Booker in the middle (the seven basic plots), Miller inside (customer-as-hero brand application), and Archetype at the center as the filter on which plots a brand can tell.](../images/10-brand-storytelling-fig-07.png)
 *Figure 10.7 — the three storytelling frameworks as telescoping rings*
 
 ### 1.3 What the archetype commits you to
@@ -98,7 +98,7 @@ A **Jester archetype** tells Inversion stories — stories that flip the expecte
 
 The constraint is not that your archetype can only tell one kind of story. It is that story shapes that require a different archetype's commitments will misfire. An Innocent telling a Rebellion story will read as co-optation. A Sage telling a Jester story will read as trying too hard. A Jester telling a sincere Service story will read as insincere. The audience does not articulate these mismatches in framework terms — they just feel the falseness.
 
-![A reference table mapping the twelve archetypes to their native story shapes — columns: Archetype, Native Story Shape(s), Why the Shape...](images/10-brand-storytelling-fig-02.png)
+![A reference table mapping the twelve archetypes to their native story shapes — columns: Archetype, Native Story Shape(s), Why the Shape...](../images/10-brand-storytelling-fig-02.png)
 *Figure 10.2 — reference table mapping the twelve archetypes to their native story shapes*
 
 ---
@@ -137,7 +137,7 @@ The third failure: the Hero's Journey the ad attempted requires genuine stakes. 
 
 Pepsi pulled the ad within 24 hours and issued a same-day apology: the company said it had been trying to project a global message of unity, peace and understanding. The apology confirmed the mechanism: the *intent* was Innocent (unity, peace) but the *story shape* was Hero, and the *cultural content* belonged to the Outlaw. Three mismatches, one catastrophe.
 
-![A breakdown diagram of the Pepsi ad's three-layer mismatch — three rows labeled "Story Shape Attempted," "Brand's Actual Archetype," and...](images/10-brand-storytelling-fig-03.png)
+![A breakdown diagram of the Pepsi ad's three-layer mismatch — three rows labeled "Story Shape Attempted," "Brand's Actual Archetype," and...](../images/10-brand-storytelling-fig-03.png)
 *Figure 10.3 — breakdown diagram of the Pepsi ad's three-layer mismatch*
 
 ### 2.3 Bud Light and Dylan Mulvaney, April 2023
@@ -201,7 +201,7 @@ Most technical founders write stories where the brand is the hero. The founders 
 
 **Property 3: The stakes are real and specific.** "Our tool saves time" is not a stake. "Marketing teams at mid-size B2B companies were spending eight hours per week on competitive monitoring; after three months with the tool, that time dropped to forty-five minutes and the head of marketing used the recaptured hours to launch a new campaign strategy" is a stake. The specificity is not decorative — it is what makes the transformation visible and believable. Abstract stakes signal that the writer does not actually know what changed for the customer.
 
-![A before/after comparison of the same case study written two ways — left: brand-as-hero with abstract stakes ("We built a tool that...](images/10-brand-storytelling-fig-04.png)
+![A before/after comparison of the same case study written two ways — left: brand-as-hero with abstract stakes ("We built a tool that...](../images/10-brand-storytelling-fig-04.png)
 *Figure 10.4 — before/after comparison of the same case study written two ways*
 
 ### 3.2 A worked case: the Madison Intelligence Agent README
@@ -216,7 +216,7 @@ The customer — a marketing manager or marketing engineer — is not foreground
 
 This is what Sage brand storytelling looks like in technical materials. It does not require a narrative arc with a protagonist. It requires a clear exposition of mechanism, honest about limitations, oriented toward a reader whose primary mode is curiosity and evaluation. The story is the teaching.
 
-![An annotated mockup of the Madison Intelligence Agent README opening, with callouts pointing to the throughput numbers ("Mechanism before claim"), the architecture section headers ("Structure as story"), and the limitation language ("Honesty signals Sage").](images/10-brand-storytelling-fig-08.png)
+![An annotated mockup of the Madison Intelligence Agent README opening, with callouts pointing to the throughput numbers ("Mechanism before claim"), the architecture section headers ("Structure as story"), and the limitation language ("Honesty signals Sage").](../images/10-brand-storytelling-fig-08.png)
 *Figure 10.8 — Sage storytelling in the Madison README*
 
 ### 3.3 The structural test for customer-as-hero
@@ -269,7 +269,7 @@ The choice of channel is a downstream decision from archetype and story shape. N
 
 **GitHub README and documentation.** Underused as brand storytelling. For Sage archetypes, the README is often the first thing a potential collaborator or customer sees. A README that opens with mechanism and quantified outputs is Sage storytelling at its best. A README that opens with "Installation: run pip install" is not brand storytelling at all.
 
-![A matrix of story shapes × channels — rows: origin story, case study, quest story, thought-leadership, transformation story; columns:...](images/10-brand-storytelling-fig-05.png)
+![A matrix of story shapes × channels — rows: origin story, case study, quest story, thought-leadership, transformation story; columns:...](../images/10-brand-storytelling-fig-05.png)
 *Figure 10.5 — matrix of story shapes × channels*
 
 ### 4.3 Cadence over volume
@@ -282,7 +282,7 @@ Pick a cadence you can maintain at 70% capacity — not your best week, your nor
 
 A content calendar for the next quarter: three to six pieces, each with an archetype check. For each planned piece, write one sentence answering: *what story shape is this, and does that shape fit my archetype?* If you cannot answer that question for a planned piece, the piece is not ready to be planned — it is still being figured out.
 
-![Two three-year publishing trajectories as line charts — left: a consistent monthly cadence with a steady rising audience curve; right: a burst-and-abandon pattern with the same total pieces but a flat, sawtoothed audience.](images/10-brand-storytelling-fig-09.png)
+![Two three-year publishing trajectories as line charts — left: a consistent monthly cadence with a steady rising audience curve; right: a burst-and-abandon pattern with the same total pieces but a flat, sawtoothed audience.](../images/10-brand-storytelling-fig-09.png)
 *Figure 10.9 — consistent cadence vs burst-and-abandon over three years*
 
 ---
@@ -345,7 +345,7 @@ A case study in the customer-as-hero frame has six structural elements. They do 
 
 **6. The meta-lesson.** What does this case study teach? Not just "our tool works" — what does this case teach about the problem domain, the approach, the kind of transformation that is possible? The meta-lesson is what makes the case study worth reading for people who are not the customer in the story.
 
-![A visual template of the six case study elements arranged as a narrative arc — problem establishes stakes, "what they tried" creates the...](images/10-brand-storytelling-fig-06.png)
+![A visual template of the six case study elements arranged as a narrative arc — problem establishes stakes, "what they tried" creates the...](../images/10-brand-storytelling-fig-06.png)
 *Figure 10.6 — visual template of the six case study elements arranged as a narrative arc*
 
 ---
@@ -563,7 +563,7 @@ For each, suggest the publication channel (LinkedIn article / Substack / persona
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Joseph Campbell** synthesized the comparative mythology of dozens of cultures into the structural argument of *The Hero with a Thousand Faces* (1949): that human beings, across history and geography, tell the same shape of story because the shape corresponds to the experience of becoming someone capable of returning to the world with something the world needed. The chapter borrows the structure as a brand-storytelling tool — call to adventure, refusal, threshold, ordeal, return with the elixir — but Campbell's deeper claim is the one the chapter rests on: the structure works because it is true to a pattern people recognize in themselves, not because it is a clever rhetorical trick. A brand story that follows the structure feels true. One that ignores it feels staged.
 
-![Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joseph-campbell.jpg)
+![Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joseph-campbell.jpg)
 *Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

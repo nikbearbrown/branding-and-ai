@@ -40,7 +40,7 @@ A one-page brand strategy document does not prevent all of those errors. It does
 
 The strategy's job is to make brand decisions decidable. That is a small claim, not a grandiose one. The chapter that follows will teach you to make it precisely.
 
-![A funnel diagram showing incoming decisions — feature requests, partnership offers, channel proposals, hiring criteria — flowing through three filter layers (archetype, values, negative space) and exiting as "Decided, without a meeting."](images/08-startup-brand-path-brand-strategy-fig-05.png)
+![A funnel diagram showing incoming decisions — feature requests, partnership offers, channel proposals, hiring criteria — flowing through three filter layers (archetype, values, negative space) and exiting as "Decided, without a meeting."](../images/08-startup-brand-path-brand-strategy-fig-05.png)
 *Figure 8.5 — the strategy document as a decision funnel*
 
 ---
@@ -61,7 +61,7 @@ Third, it does not name a technology. Stripe's mission does not say "build the b
 
 Your mission should have all three properties: testable, theory-driven, technology-agnostic. One sentence.
 
-![An anatomy diagram of Stripe's mission "Increase the GDP of the internet" with three callouts — testable, theory-driven, technology-agnostic — above a generic counter-example mission failing all three tests.](images/08-startup-brand-path-brand-strategy-fig-06.png)
+![An anatomy diagram of Stripe's mission "Increase the GDP of the internet" with three callouts — testable, theory-driven, technology-agnostic — above a generic counter-example mission failing all three tests.](../images/08-startup-brand-path-brand-strategy-fig-06.png)
 *Figure 8.6 — anatomy of Stripe's mission statement*
 
 ### 1.2 Vision
@@ -86,7 +86,7 @@ The test for whether your values are real: for each value, name two specific dec
 
 Three to five values. Each with at least two traceable decision implications.
 
-![A table showing the relationship between stated values and traceable decisions — columns: Value Statement, Specific Decision It Implies,...](images/08-startup-brand-path-brand-strategy-fig-01.png)
+![A table showing the relationship between stated values and traceable decisions — columns: Value Statement, Specific Decision It Implies,...](../images/08-startup-brand-path-brand-strategy-fig-01.png)
 *Figure 8.1 — table showing the relationship between stated values and traceable decisions*
 
 ### 1.4 Unique Value Proposition
@@ -141,7 +141,7 @@ Each entry on the no-list is consistent with the Sage archetype. Each entry is a
 
 At least five entries. Each entry should name a specific thing the company will not do, name the archetype-consistent reason for declining, and name a competitor or category that made the opposite choice.
 
-![A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made...](images/08-startup-brand-path-brand-strategy-fig-02.png)
+![A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made...](../images/08-startup-brand-path-brand-strategy-fig-02.png)
 *Figure 8.2 — two-column table showing Stripe's no-list on the left*
 
 ---
@@ -160,7 +160,7 @@ After twelve months, Company A's customers know what they are buying. Company B'
 
 The no-list is not a limitation. It is the mechanism that converts a set of product decisions into a recognizable brand.
 
-![Side-by-side twelve-month timelines for Company A (explicit no-list) and Company B (none) across four rows — product decisions, customer understanding, team clarity, brand legibility — ending in a clear shape versus a blurred one.](images/08-startup-brand-path-brand-strategy-fig-07.png)
+![Side-by-side twelve-month timelines for Company A (explicit no-list) and Company B (none) across four rows — product decisions, customer understanding, team clarity, brand legibility — ending in a clear shape versus a blurred one.](../images/08-startup-brand-path-brand-strategy-fig-07.png)
 *Figure 8.7 — Company A vs Company B over twelve months*
 
 ### 2.2 Stripe by inversion
@@ -187,7 +187,7 @@ Apply this test to your own document before submitting it. Show it to a classmat
 
 The values section and the no-list must cohere. If a value is stated and no entry on the no-list follows from it, the value is not doing work. If an entry on the no-list cannot be traced to a value, the entry is a preference, not a commitment.
 
-![A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries, each of...](images/08-startup-brand-path-brand-strategy-fig-03.png)
+![A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries, each of...](../images/08-startup-brand-path-brand-strategy-fig-03.png)
 *Figure 8.3 — worked example of the coherence test*
 
 ---
@@ -284,7 +284,7 @@ The compression is the work. A one-page document that cannot be compressed is a 
 
 Plus: the name (chosen, with trademark and domain status noted), and the tagline (one sentence, archetype-aligned).
 
-![A blank one-page strategy document mockup with a name/tagline block and eight labeled sections — mission, vision, values, UVP, archetype, voice, positioning, negative space — each printed with its length limit, negative space the largest box.](images/08-startup-brand-path-brand-strategy-fig-08.png)
+![A blank one-page strategy document mockup with a name/tagline block and eight labeled sections — mission, vision, values, UVP, archetype, voice, positioning, negative space — each printed with its length limit, negative space the largest box.](../images/08-startup-brand-path-brand-strategy-fig-08.png)
 *Figure 8.8 — the one-page brand strategy document, blank template*
 
 ### 4.3 The coherence check
@@ -297,7 +297,7 @@ Before finalizing the document, run the coherence check across all sections. Thr
 
 3. Can a stranger predict the no-list from the values? This is the test from §2.3. If they cannot, revise until they can.
 
-![A visual layout of the one-page document — eight labeled sections with their maximum lengths noted, arranged as they would appear on a...](images/08-startup-brand-path-brand-strategy-fig-04.png)
+![A visual layout of the one-page document — eight labeled sections with their maximum lengths noted, arranged as they would appear on a...](../images/08-startup-brand-path-brand-strategy-fig-04.png)
 *Figure 8.4 — visual layout of the one-page document*
 
 ---
@@ -340,7 +340,7 @@ The Stripe strategy document that no one published, inferred from the artifacts:
 
 Internal consistency check: every section is traceable to the Sage archetype. Mission is phrased as an empirical claim. Values reflect truth and rigor. Voice is the Sage's voice. Negative space is consistently the Sage's refusal of noise, performance, and premature scale. The document holds.
 
-![The Stripe brand strategy rendered as a completed one-page document — all eight sections filled in with the strategy inferred from public artifacts, with a callout noting Stripe never published it.](images/08-startup-brand-path-brand-strategy-fig-09.png)
+![The Stripe brand strategy rendered as a completed one-page document — all eight sections filled in with the strategy inferred from public artifacts, with a callout noting Stripe never published it.](../images/08-startup-brand-path-brand-strategy-fig-09.png)
 *Figure 8.9 — Stripe's brand strategy as a completed one-page document*
 
 ---
@@ -520,7 +520,7 @@ For instructors and readers who want a fully separate Startup Brand running trac
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Bill Bernbach** co-founded DDB in 1949 and over the next two decades built the work that defined what disruptive-startup brand could look like — *Think Small* for Volkswagen, *We Try Harder* for Avis, *You Don't Have to Be Jewish to Love Levy's*. Each campaign worked the same move: name the thing the incumbent's brand refused to acknowledge (the car is small, we are #2, the bread is Jewish), and turn the refusal into the position. Bernbach's central practice — writing brand strategy from the audience's existing skepticism rather than from the company's preferred self-image — is the chapter's working method. The Stripe inversion is an instance of it. The negative-space list is the deliberate version of it.
 
-![Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/bill-bernbach.jpg)
+![Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/bill-bernbach.jpg)
 *Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

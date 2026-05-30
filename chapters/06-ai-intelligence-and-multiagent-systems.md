@@ -44,7 +44,7 @@ The dial has a name. The AI community calls it the autonomy/orchestration spectr
 
 The chapter that follows will teach you to make that commitment on purpose.
 
-![A slider labeled Autonomy/Orchestration Spectrum — left end Human/Deterministic decides, right end AI decides, with a Deliberate Design Zone marked at the center.](images/06-ai-intelligence-and-multiagent-systems-fig-08.png)
+![A slider labeled Autonomy/Orchestration Spectrum — left end Human/Deterministic decides, right end AI decides, with a Deliberate Design Zone marked at the center.](../images/06-ai-intelligence-and-multiagent-systems-fig-08.png)
 *Figure 6.8 — The autonomy/orchestration spectrum as a deliberate-design dial*
 
 ---
@@ -72,7 +72,7 @@ Here are the four patterns, from simplest to most complex:
 | Pattern | Shows how pattern functions in this chapter | Shows how pattern functions in this chapter | Guides the pattern decision and makes it checkable | Breaks when pattern is treated as a label instead of a constraint |
 | Name | Shows how name functions in this chapter | Shows how name functions in this chapter | Guides the name decision and makes it checkable | Breaks when name is treated as a label instead of a constraint |
 
-![A horizontal spectrum diagram — left end labeled "Maximum Predictability / Minimum Flexibility" with Pattern 1 at far left, Pattern 2...](images/06-ai-intelligence-and-multiagent-systems-fig-01.png)
+![A horizontal spectrum diagram — left end labeled "Maximum Predictability / Minimum Flexibility" with Pattern 1 at far left, Pattern 2...](../images/06-ai-intelligence-and-multiagent-systems-fig-01.png)
 *Figure 6.1 — horizontal spectrum diagram*
 
 In your Chapter 5 pipeline, you already have Pattern 1 if you used an OpenAI or Claude node anywhere — a prompt in, a response out, the pipeline moves on. This chapter is about deciding when and whether to move toward Patterns 2, 3, or 4, and what you are actually buying at each step up.
@@ -87,7 +87,7 @@ Pattern 4 has its own internal spectrum. Not all multi-agent systems are the sam
 
 **Conversational multi-agent systems.** Agents communicate with each other, often in a moderated conversation, until they collectively converge on a result. Microsoft AutoGen pioneered this pattern. It sits between autonomous and orchestrated: more structured than autonomous (there is a moderator), less structured than orchestrated (the conversation can go in directions the designer did not anticipate).
 
-![A 2x2 grid with axes "Agent Decision Autonomy (Low → High)" and "Orchestrator Control (Low → High)" — the three multi-agent...](images/06-ai-intelligence-and-multiagent-systems-fig-02.png)
+![A 2x2 grid with axes "Agent Decision Autonomy (Low → High)" and "Orchestrator Control (Low → High)" — the three multi-agent...](../images/06-ai-intelligence-and-multiagent-systems-fig-02.png)
 *Figure 6.2 — 2x2 grid with axes "Agent Decision Autonomy (Low → High)" and...*
 
 Madison lives firmly in the orchestrated quadrant. The five layers — Intelligence, Content, Research, Experience, Performance — are specialized agents; the n8n orchestration layer decides which agent runs when. The user of a Madison-powered tool sees neither the agents nor the orchestrator. They request marketing intelligence; they receive marketing intelligence. The system's internal structure is invisible to them, by design.
@@ -102,7 +102,7 @@ The naming pattern — *Market Strategy Consultant, Competitive Intelligence Ana
 
 This is one of the few cases where naming something correctly actually changes how it performs.
 
-![A funnel narrowing from the LLM's full behavior space through Role, Goal, and Backstory to the agent's actual operating range, with a vague-spec versus specific-spec comparison beside it.](images/06-ai-intelligence-and-multiagent-systems-fig-09.png)
+![A funnel narrowing from the LLM's full behavior space through Role, Goal, and Backstory to the agent's actual operating range, with a vague-spec versus specific-spec comparison beside it.](../images/06-ai-intelligence-and-multiagent-systems-fig-09.png)
 *Figure 6.9 — Role, goal, and backstory each narrow the LLM's behavior space*
 
 ---
@@ -125,7 +125,7 @@ Architecture A's brand is *transparency*. The user feels like they are working a
 
 Architecture B's brand is *competence*. The user gives the system a task and trusts it will deliver. When it works well, this feels professional and frictionless. When it fails, the failure is opaque — a missing report, an error message, no visible path to understanding what went wrong. The user does not watch the brand fail; they see only that it failed.
 
-![Side-by-side comparison of the two architectures as user experience flows — Architecture A: user → visible agent reasoning trace →...](images/06-ai-intelligence-and-multiagent-systems-fig-03.png)
+![Side-by-side comparison of the two architectures as user experience flows — Architecture A: user → visible agent reasoning trace →...](../images/06-ai-intelligence-and-multiagent-systems-fig-03.png)
 *Figure 6.3 — Side-by-side comparison of the two architectures as user experience flows*
 
 Neither architecture is universally correct. A research-collaboration tool benefits from Architecture A — the user wants to be in the loop, to redirect the agent, to feel the collaboration happening. An enterprise reporting tool benefits from Architecture B — the user wants a deliverable, not a process. The choice is the brand decision.
@@ -179,7 +179,7 @@ Errors compound geometrically. A 10% error rate at each step means that after te
 
 This is not a failure of the underlying model. It is a failure of the architecture. A chained or orchestrated system can insert validation steps between each LLM call, checking that the output meets a structural requirement before passing it to the next step. An autonomous agent, by definition, does not have a higher-level system performing that check — the agent's own judgment is both the executor and the auditor.
 
-![Line chart of the probability of error-free output against agent steps from 0 to 40, with a 10 percent per-step error line and a 5 percent line, annotated at 10, 20, and 40 steps.](images/06-ai-intelligence-and-multiagent-systems-fig-10.png)
+![Line chart of the probability of error-free output against agent steps from 0 to 40, with a 10 percent per-step error line and a 5 percent line, annotated at 10, 20, and 40 steps.](../images/06-ai-intelligence-and-multiagent-systems-fig-10.png)
 *Figure 6.10 — Compounding error: even modest per-step error rates make long chains fail*
 
 **Failure Mode 2: Cost runaway.** Each step in an autonomous agent calls a model. Each call costs money. An agent without a hard step ceiling can make arbitrarily many calls in pursuit of a goal it cannot reach or cannot recognize as reached. The 2023 AutoGPT stories — $80 sessions delivering nothing, $200 sessions delivering a list of tangentially related notes — are the canonical examples. The mechanism is simple: the agent has no budget constraint, and it has no mechanism to recognize that it is not converging on a useful result.
@@ -190,7 +190,7 @@ Production systems require three controls that the early autonomous frameworks d
 
 Research on user trust in automation systems consistently shows that visible failure is more damaging to long-term trust than opaque failure, particularly when the user has been told to trust the system. Architecture A's transparency is a high-trust deposit on a non-fungible asset. The 2023 AutoGPT failure wave did not just hurt AutoGPT — it made users cautious about autonomous agents as a category. The failure was distributed across the brand landscape of every product that used the word "autonomous."
 
-![Three panels showing each failure mode as a visual metaphor — (1) Compounding error: a chain of dominoes, each slightly larger than the...](images/06-ai-intelligence-and-multiagent-systems-fig-04.png)
+![Three panels showing each failure mode as a visual metaphor — (1) Compounding error: a chain of dominoes, each slightly larger than the...](../images/06-ai-intelligence-and-multiagent-systems-fig-04.png)
 *Figure 6.4 — Three panels showing each failure mode as a visual metaphor*
 
 ### 3.2 The orchestrated counterpart: what it trades
@@ -239,7 +239,7 @@ Eight lines. Three things are happening that are worth naming precisely.
 
 **`allow_delegation=False` is the orchestration commitment in code.** This agent cannot hand off to other agents. It does its job and returns. The orchestration layer — not the agent — decides what happens next. This single parameter is the architectural choice that separates Madison's approach from AutoGPT's. AutoGPT agents could spawn sub-agents, set new goals, redirect their own work. Madison agents cannot. They execute and report. Predictability is the result.
 
-![A side-by-side code annotation of the competitoranalyst agent — left column shows the raw code, right column shows annotations for each...](images/06-ai-intelligence-and-multiagent-systems-fig-05.png)
+![A side-by-side code annotation of the competitoranalyst agent — left column shows the raw code, right column shows annotations for each...](../images/06-ai-intelligence-and-multiagent-systems-fig-05.png)
 *Figure 6.5 — side-by-side code annotation of the competitoranalyst agent*
 
 When this architecture fails, it fails locally. One agent's output is wrong — a structured JSON field is null, a competitor's market share is labeled "unverifiable" — and the developer can trace the failure to a specific agent, a specific tool call, a specific input. Compare to AutoGPT's failure mode: the agent wandered, the error is distributed across forty steps, the debugging surface is the entire execution trace. Local failure is the architectural reward for orchestration's specification cost.
@@ -273,7 +273,7 @@ Three patterns, from weakest to strongest:
 
 **Pattern 3: Confidence labeling.** Require the agent to label each claim with a confidence level: `verified`, `inferred`, or `unverifiable`. This is more work than null fields but more informative — the downstream system (or user) knows not just that a field was uncertain, but *how* uncertain, and *why*.
 
-![Three versions of the same agent output — Pattern 1 (abstain): a paragraph that says "I cannot verify X"; Pattern 2 (null fields): a...](images/06-ai-intelligence-and-multiagent-systems-fig-06.png)
+![Three versions of the same agent output — Pattern 1 (abstain): a paragraph that says "I cannot verify X"; Pattern 2 (null fields): a...](../images/06-ai-intelligence-and-multiagent-systems-fig-06.png)
 *Figure 6.6 — Three versions of the same agent output*
 
 For most student projects, Pattern 2 is the right starting point. It is more rigorous than Pattern 1 and less complex to implement than Pattern 3. The Madison `competitor_analyst` uses a variant of Pattern 2: structured JSON with null fields for unverifiable data.
@@ -341,7 +341,7 @@ Before writing any code or configuring any n8n node, make the architectural deci
 
 The form of the decision statement matters less than the act of making it. A student who has written down their architectural choice before building has something to evaluate against when the system behaves unexpectedly. A student who drifted into an architecture has nothing to evaluate against — they can only observe that it did not work.
 
-![A decision-statement to consequence map with the four architectural templates as rows — single call, chained, tool-using, multi-agent — each showing its statement, what it enables in Chapter 7, and the failure mode it must mitigate.](images/06-ai-intelligence-and-multiagent-systems-fig-11.png)
+![A decision-statement to consequence map with the four architectural templates as rows — single call, chained, tool-using, multi-agent — each showing its statement, what it enables in Chapter 7, and the failure mode it must mitigate.](../images/06-ai-intelligence-and-multiagent-systems-fig-11.png)
 *Figure 6.11 — Each architectural decision statement carries downstream consequences*
 
 ### 5.2 Concrete build tasks
@@ -360,7 +360,7 @@ With the architectural decision made, the build sequence:
 
 **Task 6: Stress-test for your failure mode.** Identify the failure mode most likely given your architecture (compounding error for chained patterns, cost runaway for autonomous, rigidity for orchestrated, hidden failure for opaque systems). Design a test input that triggers it. Run the test. Observe the failure. Then add one mitigation and run the test again.
 
-![A visual of the n8n workflow after the AI layer is added — showing the Chapter 5 pipeline with an AI step inserted, a validation node...](images/06-ai-intelligence-and-multiagent-systems-fig-07.png)
+![A visual of the n8n workflow after the AI layer is added — showing the Chapter 5 pipeline with an AI step inserted, a validation node...](../images/06-ai-intelligence-and-multiagent-systems-fig-07.png)
 *Figure 6.7 — visual of the n8n workflow after the AI layer is added*
 
 ### 5.3 The reference: Madison's Intelligence Agent workflow
@@ -599,7 +599,7 @@ Output a Markdown document called "Career Search Assistants — [my name]" conta
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Herbert Simon** spent five decades arguing that intelligent action — by humans, by organizations, by machines — is what *bounded rationality* allows under real constraints of attention, time, and computation. His 1969 *The Sciences of the Artificial* is the foundational text on designing systems whose intelligence is distributed across specialized parts that cooperate. The Madison framework's five-agent architecture is in that lineage: no single agent is general-purpose; each is bounded to a competence; their cooperation is the system's intelligence. Simon also predicted, in 1965, that machines would be capable of doing any work a human could do within twenty years — a prediction the field is still arguing about. The chapter's caution — that multiagent does not mean omniagent — is Simon's caution.
 
-![Herbert A. Simon, c. 1970s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/herbert-simon.jpg)
+![Herbert A. Simon, c. 1970s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/herbert-simon.jpg)
 *Herbert A. Simon, c. 1970s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

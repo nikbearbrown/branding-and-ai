@@ -87,7 +87,7 @@ The Stripe case that opens this chapter is the canonical example in this book be
 
 *Figure 8.1*
 
-![Dependency chain — seven brand components stacked vertically with downward arrows, with Negative Space appearing as the downstream consequence of all seven](images/08-personal-brand-path-brand-strategy-fig-02.png)
+![Dependency chain — seven brand components stacked vertically with downward arrows, with Negative Space appearing as the downstream consequence of all seven](../images/08-personal-brand-path-brand-strategy-fig-02.png)
 *Figure 8.2 — Seven components, in the order they constrain each other*### What the components do together
 
 Each component constrains the others. The mission defines the scope of the vision. The values define what the company won't do to achieve the vision. The UVP defines what the product does that competitors won't, which should be consistent with the values. The archetype defines how all of it is expressed, which should be consistent with the voice. The positioning defines who the audience is, which should be consistent with the archetype.
@@ -147,7 +147,7 @@ The useful test: show your draft negative-space list to a classmate without the 
 
 *Figure 8.3*
 
-![The Stripe inversion — two columns of equal weight, what Stripe built and what Stripe declined](images/08-personal-brand-path-brand-strategy-fig-04.png)
+![The Stripe inversion — two columns of equal weight, what Stripe built and what Stripe declined](../images/08-personal-brand-path-brand-strategy-fig-04.png)
 *Figure 8.4 — The Stripe inversion*
 
 
@@ -282,7 +282,7 @@ Before you submit the document, run the internal consistency check. Read each co
 
 If any pair contradicts, the document is not yet coherent. Revise until it is. The document is a hypothesis, not a final answer — but the hypothesis needs to be internally consistent to be useful as a decision-making tool.
 
-![Circular consistency check — seven brand components arranged in a circle, each adjacent pair connected by an arrow labeled with its consistency question](images/08-personal-brand-path-brand-strategy-fig-08.png)
+![Circular consistency check — seven brand components arranged in a circle, each adjacent pair connected by an arrow labeled with its consistency question](../images/08-personal-brand-path-brand-strategy-fig-08.png)
 *Figure 8.8 — The internal consistency check*| Component Pair | Consistency Question | Pass / Fail | Contradiction Found (if any) | Revision Made |
 |---|---|---|---|---|
 | **Mission ↔ UVP** | Does the UVP describe a way of doing what the mission says? | ☐ Pass / ☐ Fail | _______________ | _______________ |
@@ -306,7 +306,7 @@ The connection is direct. The tool you built through Chapters 4–7 is the artif
 
 The brand strategy also determines which parts of the portfolio story to tell and how to tell them. Chapter 9 (visual identity) takes the archetype and voice from this document and translates them into palette, type, and visual language. Chapter 10 (storytelling) takes the mission, vision, and UVP from this document and turns them into the narrative you tell investors, press, and early users. Both chapters depend on *this* document being specific. A vague strategy produces a vague visual identity and a vague story. The specificity you put in here compounds forward.
 
-![Linear flow showing where Chapter 8 sits in the four-verb arc, with the strategy box visually weighted as the scaffold for downstream chapters](images/08-personal-brand-path-brand-strategy-fig-10.png)
+![Linear flow showing where Chapter 8 sits in the four-verb arc, with the strategy box visually weighted as the scaffold for downstream chapters](../images/08-personal-brand-path-brand-strategy-fig-10.png)
 *Figure 8.10 — Where Chapter 8 sits in the four-verb arc*| Chapter | What It Takes From Chapter 8 | What Goes Wrong If Chapter 8 Is Vague |
 |---|---|---|
 | **Chapter 9 — Visual Identity** | Archetype + Voice → palette, typography, mood, layout register | Visual decisions become arbitrary aesthetic preferences with no strategic anchor; a visually polished brand the audience cannot read |
@@ -491,7 +491,7 @@ The question this chapter raises but does not fully answer: how do you maintain 
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Helen Lansdowne Resor** joined J. Walter Thompson in 1908 and over the next four decades defined what *personal* brand strategy could look like in a profession that did not yet have a name for it. Her copy for Woodbury Soap (*A Skin You Love to Touch*) and Pond's was the first major American advertising to ground product appeal in subjective experience rather than function. She built her career, her positioning, and her own brand inside a male-dominated industry by being unmistakably specific about who she wrote for and what kind of work she would and would not do. The chapter's argument — that a personal brand is a constraint set, not a description — is Resor's working method, applied to her own career a century before the language of personal brand existed.
 
-![Helen Lansdowne Resor, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/helen-lansdowne-resor.jpg)
+![Helen Lansdowne Resor, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/helen-lansdowne-resor.jpg)
 *Helen Lansdowne Resor, c. 1920s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**

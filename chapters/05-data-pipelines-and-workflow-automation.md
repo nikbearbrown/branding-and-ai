@@ -77,7 +77,7 @@ This is the definition I will use for the rest of this chapter, and the one I wa
 
 That last clause is the part engineering curricula tend to omit. The contracts are not yours. You depend on them; you do not control them. Designing a good pipeline means designing for the day a contract changes — not pretending it will not.
 
-![Five-node pipeline diagram showing one contract failing and the downstream node degrading rather than crashing](images/05-data-pipelines-and-workflow-automation-fig-01.png)
+![Five-node pipeline diagram showing one contract failing and the downstream node degrading rather than crashing](../images/05-data-pipelines-and-workflow-automation-fig-01.png)
 *Figure 5.1 — A pipeline as a chain of contracts*| Type | Tools | Throughput / Frequency | Typical Use Case | Used in Madison? |
 |---|---|---|---|---|
 | **ETL** | Airflow · dbt · Fivetran | Batch | Large-dataset warehouse loads — analytics back-end | No |
@@ -122,7 +122,7 @@ This is the brand argument for pipeline discipline. You are not building a pipel
 
 *Figure 5.3*
 
-![Horizontal timeline of the Reddit API pricing change and its downstream cascade, April through July 2023](images/05-data-pipelines-and-workflow-automation-fig-04.png)
+![Horizontal timeline of the Reddit API pricing change and its downstream cascade, April through July 2023](../images/05-data-pipelines-and-workflow-automation-fig-04.png)
 *Figure 5.4 — From contract change to product death — sixty days*### A worked pattern: three platform-API ruptures
 
 The Apollo story is not unique. The same pattern has played out repeatedly across platforms, and the downstream damage is always concentrated in the same place: the products that depended on the contract.
@@ -218,8 +218,8 @@ In an n8n workflow, every dependency is a node with a clearly defined input and 
 
 This is not a claim that n8n is superior to Python for all purposes. It is a claim about the learning objective here: making the contracts visible so you build with awareness of what you depend on. A Python pipeline can achieve the same result with sufficient discipline. n8n makes the discipline structural rather than optional.
 
-![Side-by-side comparison of a Python script with interwoven dependencies and an n8n workflow with each contract as a separately-labeled, replaceable node](images/05-data-pipelines-and-workflow-automation-fig-07.png)
-*Figure 5.7 — Python script vs. n8n workflow*![Annotated mockup of the n8n node editor — node panel, node with input/output ports, connection between nodes, and the description field where contracts are documented](images/05-data-pipelines-and-workflow-automation-fig-08.png)
+![Side-by-side comparison of a Python script with interwoven dependencies and an n8n workflow with each contract as a separately-labeled, replaceable node](../images/05-data-pipelines-and-workflow-automation-fig-07.png)
+*Figure 5.7 — Python script vs. n8n workflow*![Annotated mockup of the n8n node editor — node panel, node with input/output ports, connection between nodes, and the description field where contracts are documented](../images/05-data-pipelines-and-workflow-automation-fig-08.png)
 *Figure 5.8 — The n8n node editor*### Setting up n8n
 
 **Self-hosted (Docker):**
@@ -299,7 +299,7 @@ These are the design choices you should be studying, not the node count. Each ch
 
 Your pipeline in this chapter does not need all of these. It needs to be shaped like Madison's — trigger, ingestion, transformation, output, with documented contracts and at least one degraded mode.
 
-![Madison Intelligence Agent workflow architecture — schedule trigger, parallel ingestion branches, deduplication, LLM scoring, dual outputs](images/05-data-pipelines-and-workflow-automation-fig-09.png)
+![Madison Intelligence Agent workflow architecture — schedule trigger, parallel ingestion branches, deduplication, LLM scoring, dual outputs](../images/05-data-pipelines-and-workflow-automation-fig-09.png)
 *Figure 5.9 — Madison Intelligence Agent architecture*| Design Choice | Failure Mode It Addresses | What Happens Without It |
 |---|---|---|
 | **Parallel ingestion branches** | A single source goes down or rate-limits | Entire pipeline stalls waiting for one dead API; daily output is empty |
@@ -370,7 +370,7 @@ The design disciplines from Part 3 — document the contracts, build degraded mo
 
 The Creative Engineer from Chapter 1 — the one who Ideates, Builds, Brands, and Ships — builds the pipeline that is still running six months after launch, because they designed for the contracts they do not control.
 
-![Three-level stack — contract documentation (why), degraded mode design (what), contract monitoring (how)](images/05-data-pipelines-and-workflow-automation-fig-11.png)
+![Three-level stack — contract documentation (why), degraded mode design (what), contract monitoring (how)](../images/05-data-pipelines-and-workflow-automation-fig-11.png)
 *Figure 5.11 — Pipeline disciplines as a three-level stack*| Pipeline Property | Brand Consequence |
 |---|---|
 | **Silent, reliable execution** | Product feels trustworthy — the user never thinks about the infrastructure |
@@ -550,7 +550,7 @@ The question this chapter leaves entirely open: what does pipeline design look l
 ##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Joan Robinson** developed the formal economics of imperfect competition in the 1930s — the math of markets where one party has dominant power because the other parties have nowhere else to go. *Monopsony*, the term she coined, is exactly the structure of the Apollo–Reddit relationship: one buyer (the platform), many sellers (the third-party developers), no realistic alternative. Robinson's argument is that under monopsony the dominant party can change the contract terms unilaterally, capturing surplus that would be split under genuine competition. Apollo experienced that capture in real time, in 2023, with three months' notice. The chapter's design disciplines — document the contract, build degraded modes, monitor for drift — are how a pipeline survives life inside someone else's monopsony.
 
-![Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joan-robinson.jpg)
+![Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joan-robinson.jpg)
 *Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
 **Run this:**
