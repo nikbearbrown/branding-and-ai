@@ -1,13 +1,5 @@
 # Chapter 3 — Jungian Brand Archetypes as a System
-
-
-## TL;DR
-
-- A brand archetype is not a personality quiz.
-- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, and Why Now, Part I — What an Archetype Actually Is, and related ideas.
-- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
-
-*A brand archetype is not a personality quiz. It is a consistency-enforcement device — the constraint that makes every downstream decision decidable.*
+*The constraint that makes every downstream decision decidable.*
 
 ---
 
@@ -26,7 +18,7 @@ By the end of this chapter, you will be able to:
 
 ## Prerequisites
 
-This chapter assumes you have completed **Chapter 2** (personal brand audit) and can articulate your own brand's provisional archetype. You do not need deep marketing theory. You need to be able to answer: *What does this brand stand for, and how do customers recognize it?*
+This chapter assumes you have completed **Chapter 2** and can articulate your own brand's provisional archetype. You do not need deep marketing theory. You need to be able to answer: *What does this brand stand for, and how do customers recognize it?*
 
 If you have not done the Chapter 2 audit, do it before continuing. The archetype system will make much more sense if you already have a working example — yourself — to test it against.
 
@@ -34,46 +26,42 @@ If you have not done the Chapter 2 audit, do it before continuing. The archetype
 
 ## Why This Chapter, and Why Now
 
-You are about to build something. Chapter 4 will ask you to write a PRD — a product requirements document — for the tool you are designing. That document will commit to features, scope, and intended users.
+You are about to build something. Chapter 4 will ask you to write a product requirements document for the tool you are designing. That document will commit to features, scope, and intended users.
 
 Before you commit to product, you need to commit to identity. The identity question is not *what will this tool do* — it is *who is this tool, and how will a customer recognize it six months from now, after three redesigns, two pivots, and a competitor who launched last week?*
 
-The answer runs through a system that has been stress-tested across industries for twenty years. It is the subject of this chapter. Master it here, and you will carry it through every chapter that follows.
+The answer runs through a system that has been stress-tested across industries for twenty years. Master it here, and you will carry it through every chapter that follows.
 
 ![Horizontal timeline of the book's chapters showing the archetype as a red band — picked in Ch. 2, committed in Ch. 3, dormant through Ch. 4–7, reactivated in Ch. 8.](../images/03-jungian-brand-archetypes-as-a-system-fig-10.png)
 *Figure 3.10 — The archetype is load-bearing across the whole book*
 
 ---
 
-## Part I — What an Archetype Actually Is
+Here is what I find strange about brand failure. The companies that fail most publicly — Tropicana, Gap, Coca-Cola in 1985 — rarely fail because they ran out of money or made a bad product. They fail because they changed something that was working. They changed the orange on the carton, the typeface on the logo, the formula in the bottle. And their customers, who had been buying without thinking for twenty years, suddenly stopped.
 
-### 1.1 Four meanings, one word
+That seems like it should be simple to avoid. Don't change what's working. But it isn't simple, because nobody in the room understands what is actually working. They know the product works. They can measure sales. What they cannot see is the *recognition asset* — the accumulated pattern of touchpoints that lets a customer's eye snap to your product on a crowded shelf at 8 AM without engaging conscious thought. That asset is invisible until it is destroyed. And it is destroyed, specifically, by archetype drift.
 
-The word *archetype* is doing at least four different jobs in current usage, and the confusion between them will cost you if you do not pull them apart first.
+That is the thing I want to teach you in this chapter. Not the twelve archetypes as a list to memorize — you could get that from a poster. The thing worth teaching is what an archetype actually does mechanically, why it is the cheapest consistency-enforcement device available, and how its failure mode is structurally embedded in its strength from the start.
 
-**Jungian psychological archetypes** are universal patterns Carl Jung proposed exist in the collective unconscious — the Mother, the Shadow, the Trickster, the Self. These are claims about human psychology, about patterns that appear across cultures and across the history of symbolic expression. Jung was not building a brand strategy framework.
+---
 
-**Personality typology archetypes** are the Myers-Briggs descendants — INTJ, ESFP, and the sixteen types. These are claims about individual people. They have applications in self-knowledge and team building, whatever you think of their empirical foundation.
+## What an Archetype Actually Is
 
-**Genre archetypes** are patterns in literature and film — the Reluctant Hero, the Wise Mentor, the Threshold Guardian. These are claims about storytelling, about the shapes stories take and the roles characters occupy within them.
+The word *archetype* is doing at least four different jobs in current usage, and the confusion between them will cost you.
 
-**Brand archetypes** are what this chapter is about: the 12-archetype system formalized by Margaret Mark and Carol Pearson in their 2001 book *The Hero and the Outlaw*, published by McGraw-Hill. These are claims about how brands organize identity and how customers form recognition.
+*Jungian psychological archetypes* are universal patterns Carl Jung proposed exist in the collective unconscious — the Mother, the Shadow, the Trickster, the Self. These are claims about human psychology, about patterns that recur across cultures and across the history of symbolic expression. Jung was not building a brand strategy framework.
 
-Mark and Pearson trace their system to Jung — their twelve archetypes share names with Jungian patterns — but the work itself is brand strategy, not psychology. The connection to Jung is useful for one thing: it explains why the patterns feel *familiar*. The Innocent, the Hero, the Outlaw, the Caregiver — customers recognize these patterns at a level below conscious articulation. That pre-conscious recognition is what makes the archetype system more than a naming scheme.
+*Personality typology archetypes* are the Myers-Briggs descendants — the sixteen types. These are claims about individual people.
 
-| : Name | What it is a claim about | Primary use | Source/framework |
-| --- | --- | --- | --- |
-| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable | Chapter framework |
-| Reference | Shows how reference functions in this chapter | Guides the reference decision and makes it checkable | Chapter framework |
-| Usages | Shows how usages functions in this chapter | Guides the usages decision and makes it checkable | Chapter framework |
-| Archetype | Shows how archetype functions in this chapter | Guides the archetype decision and makes it checkable | Chapter framework |
+*Genre archetypes* are patterns in literature and film — the Reluctant Hero, the Wise Mentor, the Threshold Guardian. These are claims about storytelling.
 
-![A 2x2 grid distinguishing the four usages of "archetype" — axes could be Individual/Collective and Psychological/Cultural — showing...](../images/03-jungian-brand-archetypes-as-a-system-fig-01.png)
-*Figure 3.1 — 2x2 grid distinguishing the four usages of "archetype"*
+*Brand archetypes* are what this chapter is about: the 12-archetype system formalized by Margaret Mark and Carol Pearson in *The Hero and the Outlaw* (McGraw-Hill, 2001). These are claims about how brands organize identity and how customers form recognition.
 
-### 1.2 The twelve archetypes
+<!-- → [TABLE: Side-by-side of all four usages — columns: name, what it is a claim about, primary use, source framework — makes the disambiguation concrete and scannable] -->
 
-Here are the twelve in the Mark/Pearson system. For each: the core motivation (what the archetype is *for*), and the shadow (what it becomes when its commitments curdle):
+Mark and Pearson trace their system to Jung — their twelve archetypes share names with Jungian patterns — but the work itself is brand strategy, not psychology. The connection to Jung is useful for exactly one reason: it explains why the patterns feel *familiar*. The Innocent, the Hero, the Outlaw, the Caregiver — customers recognize these patterns at a level below conscious articulation. That pre-conscious recognition is what makes the archetype system more than a naming scheme. It is the reason consistency built around an archetype accumulates into something customers can feel without being able to describe.
+
+Here are the twelve archetypes, each with its core motivation and its shadow. The shadow matters as much as the archetype. I will explain why in a moment.
 
 **Innocent** — Motivation: simplicity, purity, optimism. Shadow: denial, naivety. The Innocent brand says the world is good and the product reflects that goodness. When it drifts, it refuses to acknowledge bad news and sounds out of touch. *(Tropicana, Dove, early Coca-Cola.)*
 
@@ -99,46 +87,28 @@ Here are the twelve in the Mark/Pearson system. For each: the core motivation (w
 
 **Creator** — Motivation: imagination, expression, originality. Shadow: perfectionism. The Creator brand says make something that was not there before. When it drifts, it becomes so invested in its own craft it forgets the audience. *(Lego, Adobe, Pixar.)*
 
-| Archetype | Core Motivation | Core Promise to Customer | Shadow | Representative Brand Examples |
-| --- | --- | --- | --- | --- |
-| Compact | Shows how compact functions in this chapter | Guides the compact decision and makes it checkable | Breaks when compact is treated as a label instead of a constraint | Example: compact |
-| Reference | Shows how reference functions in this chapter | Guides the reference decision and makes it checkable | Breaks when reference is treated as a label instead of a constraint | Example: reference |
-| All | Shows how all functions in this chapter | Guides the all decision and makes it checkable | Breaks when all is treated as a label instead of a constraint | Example: all |
-| Archetypes | Shows how archetypes functions in this chapter | Guides the archetypes decision and makes it checkable | Breaks when archetypes is treated as a label instead of a constraint | Example: archetypes |
-
 ![A visual map of all twelve archetypes arranged by their primary motivations — perhaps arranged around two axes (Order/Freedom and...](../images/03-jungian-brand-archetypes-as-a-system-fig-02.png)
 *Figure 3.2 — visual map of all twelve archetypes arranged by their primary motivations*
 
-### 1.3 What the names hide
+Before we go further, a warning about the names. They will mislead you if you take them literally.
 
-The names carry connotations that will mislead you if you take them literally.
+*Hero* does not mean your brand is heroic in the sense of noble and admirable. It means your brand is organized around the idea that its customer can become better through effort and that your brand is the instrument of that becoming. Nike is a Hero brand not because Nike is admirable, but because everything Nike makes is in service of the idea that *you* can push past your limit. The customer is the hero. The brand is the equipment.
 
-*Hero* does not mean your brand is heroic — in the sense of noble and admirable. It means your brand is organized around the idea that its customer can become better through effort and that your brand is the instrument of that becoming. Nike is a Hero brand not because Nike is admirable, but because everything Nike makes is in service of the idea that *you* can push past your limit. The customer is the hero. The brand is the equipment.
+*Outlaw* does not mean your brand is illegal or antisocial. Harley-Davidson is an Outlaw brand; its customers are accountants and lawyers who want, for the weekend, to feel like they have stepped outside the system.
 
-*Outlaw* does not mean your brand is illegal or antisocial. It means your brand is positioned against an establishment, that it draws energy from the existence of something worth disrupting. Harley-Davidson is an Outlaw brand; its customers are accountants and lawyers who want, for the weekend, to feel like they have stepped outside the system.
+*Caregiver* does not mean your brand is soft or low-status. Johnson & Johnson's entire product line — baby powder, bandages, surgical instruments — is a Caregiver's expression: *we protect the ones who cannot protect themselves.*
 
-*Caregiver* does not mean your brand is soft or low-status. It means your brand organizes its value around protecting and serving others. Johnson & Johnson's entire product line — baby powder, bandages, surgical instruments — is a Caregiver's expression: *we protect the ones who cannot protect themselves.*
+When you read these names, read the motivation. Not the dictionary definition.
 
-When you read these names, read the motivation, not the dictionary definition.
-
-![Three panels contrasting the literal reading of Hero, Outlaw, and Caregiver (struck out) with the brand-strategy reading below each — the name describes a relationship to the customer, not a personality.](../images/03-jungian-brand-archetypes-as-a-system-fig-11.png)
-*Figure 3.11 — Literal vs. brand-strategy reading of three archetype names*
+<!-- → [INFOGRAPHIC: Three-panel contrast — literal reading of Hero, Outlaw, Caregiver (struck through) vs. brand-strategy reading — makes the name/meaning gap visceral] -->
 
 ---
 
-## Part II — Why an Archetype Is a Forcing Function
+## Why an Archetype Is a Forcing Function
 
-### 2.1 The brand decision problem
+Now let me show you what an archetype actually does in practice. Imagine you have just launched a tool. You have a working product and a handful of early users. In the next thirty days, someone will have to make decisions like these:
 
-Imagine you have just launched a tool. You have a working product and a handful of early users. In the next thirty days, someone on your team (or you, alone) will have to make decisions like these:
-
-- What should the homepage tagline say?
-- What tone should the help documentation use?
-- Should you sponsor a hackathon? An academic conference? A street art festival?
-- What color is the primary call-to-action button?
-- What does the founder wear in the headshot?
-- What kind of jokes, if any, are appropriate in marketing emails?
-- What does the error message say when something breaks?
+What should the homepage tagline say? What tone should the help documentation use? Should you sponsor a hackathon, an academic conference, or a street art festival? What color is the primary call-to-action button? What does the founder wear in the headshot? What does the error message say when something breaks?
 
 Without an archetype, each decision is made in isolation — by the loudest voice in the room, the cheapest available option, or whoever happened to be awake at the time. Thirty days of those decisions accumulates into a brand that looks like it was designed by a committee that never met.
 
@@ -148,14 +118,9 @@ The Sage archetype made those decisions. Not perfectly, not finally — there is
 
 This is what I mean when I say an archetype is a forcing function. It is not a brand asset in the sense of a logo or a tagline. It is the constraint that makes all the other brand assets cohere.
 
-![A decision tree showing one brand decision (e.g., "What tone should our error messages use?") resolved differently for five different...](../images/03-jungian-brand-archetypes-as-a-system-fig-03.png)
-*Figure 3.3 — decision tree showing one brand decision (e.g., "What tone should our...*
+<!-- → [FIGURE: Decision tree — one brand decision (e.g., "What tone should error messages use?") resolved differently for five different archetypes — shows the forcing function concretely] -->
 
-### 2.2 The recognition asset
-
-The deeper reason an archetype matters is recognition.
-
-A customer does not experience your brand once. They experience it hundreds of times — a tweet, a Google result, a friend's recommendation, a product review, a push notification, a packaging design at the grocery store. Each of those experiences is a data point. If the data points are consistent, the customer builds a *model* of who the brand is. That model is the recognition asset — the thing that makes a customer, when standing in the juice aisle at 8 AM, reach for your product without thinking.
+The deeper reason an archetype matters is recognition. A customer does not experience your brand once. They experience it hundreds of times — a tweet, a Google result, a friend's recommendation, a product review, a push notification, a packaging design at the grocery store. Each of those experiences is a data point. If the data points are consistent, the customer builds a *model* of who the brand is. That model is the recognition asset — the thing that makes a customer, when standing in the juice aisle at 8 AM, reach for your product without thinking.
 
 If the data points are inconsistent, the model never forms. The customer has encountered your brand before, but they cannot place you. You are new to them every time.
 
@@ -164,212 +129,107 @@ The recognition asset is built by accumulation. It requires that the hundredth t
 ![Two brands side by side: Brand A's touchpoints are uniformly coded and accumulate into a sharp customer-model silhouette; Brand B's are mismatched and accumulate into a blurred, fragmented shape.](../images/03-jungian-brand-archetypes-as-a-system-fig-12.png)
 *Figure 3.12 — The recognition asset is built by accumulation*
 
-### 2.3 The shadow as failure-mode prediction
-
-Every archetype in the Mark/Pearson system carries a shadow — the form the archetype takes when its commitments curdle. The shadow is not an accident; it is structurally related to the archetype's strength.
+Now here is the part that took me a while to see clearly. Every archetype in the Mark/Pearson system carries a shadow — the form the archetype takes when its commitments curdle. And the shadow is not an accident. It is structurally related to the archetype's strength.
 
 The Innocent's strength is purity and simplicity. The shadow of purity is denial: an Innocent brand that drifts starts refusing to acknowledge bad news, sticks with messaging that reads as willfully naive, and sounds out of touch with anything complicated or dark. The same commitment to simplicity that makes the Innocent recognizable becomes, under pressure, an inability to adapt.
 
 The Sage's strength is expertise and truth. The shadow of expertise is dogmatism: a Sage brand that drifts becomes certain, preachy, intolerant of dissent, and unable to update its position when the evidence changes.
 
-The Hero's strength is the belief that you can become better. The shadow of that belief is contempt for people who have not become better: a Hero brand that drifts pushes customers around, equates winning with worth, and sneers at users who struggle.
+The Hero's shadow is contempt for people who have not become better: a Hero brand that drifts pushes customers around, equates winning with worth, and sneers at users who struggle.
 
-The Caregiver's strength is generosity. The shadow of generosity is martyrdom: a Caregiver brand that drifts develops a tone of "we sacrifice for you, and you should notice that." It becomes manipulative and exhausting.
+The Caregiver's shadow is martyrdom: a Caregiver brand that drifts develops a tone of "we sacrifice for you, and you should notice that." It becomes manipulative and exhausting.
 
-![A table listing all twelve archetypes, their core strength, and their shadow — formatted so students can see the structural relationship...](../images/03-jungian-brand-archetypes-as-a-system-fig-04.png)
-*Figure 3.4 — table listing all twelve archetypes, their core strength, and their shadow*
+<!-- → [TABLE: All twelve archetypes — columns: archetype, core strength, shadow, structural relationship between the two — shows the pattern is not arbitrary] -->
 
-The shadow is useful to you in exactly one way: it tells you where to watch. When you pick an archetype, you also pick your most likely failure mode. Knowing which shadow is yours means you know which early-warning signs to monitor. We will return to this in the exercises.
+The shadow is useful to you in exactly one way: it tells you where to watch. When you pick an archetype, you also pick your most likely failure mode. Knowing which shadow is yours means you know which early-warning signs to monitor.
 
 ---
 
-## Part III — Three Cases of Archetype Drift
+## Three Cases of Archetype Drift
 
-The following three cases are documented in company history, trade press, and brand-strategy literature. I will walk through each as a worked analysis: name the original archetype, identify the drift, explain why customers rejected it, and name the shadow that was activated.
+Let me walk through three documented cases. Each is real. Each has the same shape: the brand drifted from its archetype, customers rejected the drift, the company rolled back. The cases differ in direction and speed; the mechanism is the same in all three.
 
-### 3.1 How to read an archetype drift case
+Before the cases, here is the analytical frame. A complete drift analysis has four elements: the original archetype, the drift direction, the customer rejection, and whether the failure was a shadow drift (the brand's own commitments curdling) or a category error (trying to become a completely different archetype).
 
-Before the cases, here is the analytical frame. A complete drift analysis requires four elements:
+**Tropicana, 2009.** Tropicana Pure Premium was an Innocent brand. The recognition handle was literal and wholesome: an orange with a striped straw poking out of it. The image made a simple promise — this is just orange juice, nothing complicated, good and natural. Customers had trained their eyes over two decades to scan for that specific image in the grocery aisle.
 
-1. **The original archetype.** What archetype had the brand established before the change? What were the visual, verbal, and product commitments that expressed it?
+In January 2009, Tropicana replaced the orange-with-straw with a glossy glass of poured juice. The brand name moved to a vertical orientation. The new packaging was crisp, contemporary, minimal — the visual language of a Lover or a Ruler, not an Innocent. Within two months, sales dropped 20 percent. The company reported losses of more than $30 million in revenue. Regular buyers walked past the new cartons without seeing them. Their recognition handle was gone. On February 23, 2009 — less than two months after launch — Tropicana announced the rollback.
 
-2. **The drift.** What change was introduced, and what archetype was it moving *toward*? This is the direction of the drift — and it matters, because not all drifts are equivalent. Moving from Innocent to Ruler is a different failure than moving from Innocent to Outlaw.
+This is a category-error drift, not a shadow drift. Tropicana did not activate the Innocent's shadow. It tried to become a different archetype and in doing so erased the recognition cues its audience depended on. The lesson is precise: the recognition asset is built by the archetype's specific expression, not by the archetype's name. You cannot swap expressions without losing the recognition that accumulated in the original form.
 
-3. **The customer rejection.** What specifically did customers reject, and why? The answer is almost always the same: they could not recognize the brand they had built a model of.
+![Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice).](../images/03-jungian-brand-archetypes-as-a-system-fig-05.png)
+*Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton and the 2009 redesign*
 
-4. **The shadow or misfire.** Was the drift activating the brand's own shadow (its commitments curdling)? Or was it a category error — trying to express a completely different archetype and discarding the old one?
+**Gap, 2010.** For twenty years, Gap's logo had been an Everyman icon: a blue square, white serif type, balanced and slightly conservative. The Everyman archetype is organized around belonging — the brand says *you fit here, as you are*. The visual language of an Everyman brand is accessible, unpretentious, and deliberately unremarkable. The Gap logo was not exciting; it was *reliable*. Reliability is the Everyman's promise.
 
-These four elements are the checklist for any archetype analysis you run on any brand, including your own.
+On October 6, 2010, Gap rolled out a new logo: a smaller blue square pushed into the upper-right corner of the word Gap, set in plain bold Helvetica. The serif was gone. The enclosing square was diminished. The new design was more sophisticated, more contemporary — visual language associated with a Creator or a Lover, not an Everyman. Within 24 hours, a fashion blog had collected more than 2,000 negative comments. On October 12 — six days after launch — Gap announced the rollback.
 
-| Concept | What it means | How to use it |
-| --- | --- | --- |
-| Blank | Shows how blank functions in this chapter | Guides the blank decision and makes it checkable |
-| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable |
-| Analysis | Shows how analysis functions in this chapter | Guides the analysis decision and makes it checkable |
-| Template | Shows how template functions in this chapter | Guides the template decision and makes it checkable |
+The speed of the rejection is diagnostic. Customers did not need time to be convinced the new logo was wrong. They knew immediately. That immediacy is the sign of a recognition asset being violated: when the recognition handle disappears, the mismatch between expectation and experience is felt before it is articulated. Six days from launch to rollback is the fastest documented major brand rollback on record.
 
-### 3.2 Tropicana, 2009: The Innocent loses its handle
+![Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica).](../images/03-jungian-brand-archetypes-as-a-system-fig-06.png)
+*Figure 3.6 — Side-by-side of the original Gap logo and the 2010 redesign*
 
-**The original archetype.** Tropicana Pure Premium was an Innocent brand. The visual language was literal and wholesome: an orange with a striped straw poking out of it. The image made a simple promise — this is just orange juice, nothing complicated, good and natural. Innocent brands do not require explanation or aspiration. They require recognition and trust. The orange-with-straw was not decorative; it was the recognition handle. Customers in the grocery aisle at 8 AM had trained their eyes over two decades to scan for that specific image.
+**New Coke, 1985.** Coca-Cola was — and remains — the canonical Innocent brand. Wholesome, all-American, the taste of childhood summers, the same formula since 1886. Innocent brands derive enormous power from *sameness*: the experience the customer had at age seven and the experience they have at age forty-seven are the same. That sameness is not a lack of innovation. It is the Innocent's deepest commitment.
 
-**The drift.** In January 2009, Tropicana replaced the orange-with-straw image with a glossy glass of poured juice. The brand name moved to a vertical orientation. The cap was redesigned to look like the cross-section of an orange. The new packaging was crisp, contemporary, minimal — the visual language of a Lover or a Ruler, not an Innocent.
+In the early 1980s, Pepsi was running the "Pepsi Challenge" — a blind taste test campaign showing that consumers preferred Pepsi's sweeter formula. Pepsi was the Outlaw: the challenger, the disruptor, the choice of the new generation. Coca-Cola responded by reformulating its product. New Coke was sweeter, designed to win the taste test on Pepsi's own terms. In blind tests, it performed well. Coca-Cola's leadership announced the change in April 1985, simultaneously discontinuing the original formula.
 
-**The customer rejection.** Within two months, Tropicana sales had dropped 20 percent. The company reported losses of more than $30 million in revenue. Regular Tropicana buyers walked past the new cartons on the shelf without seeing them. Their recognition handle was gone. They were not rejecting the new design because it was ugly; many design critics praised it. They were rejecting it because it did not match the model they had built of *Tropicana*. Some customers reported picking up competitor products thinking they were buying Tropicana.
+The response was not disappointment. It was grief and rage. Within weeks, Coca-Cola received more than 400,000 letters and calls. Protest groups formed. A senator from Georgia entered a statement into the Congressional Record. Within three months, Coca-Cola brought back the original formula as "Coca-Cola Classic."
 
-On February 23, 2009 — less than two months after launch — Tropicana announced the rollback.
+This is the deepest archetype failure of the three cases. Coca-Cola did not simply drift toward a new expression of its own archetype. It attempted to compete with Pepsi on Pepsi's own terms — to out-Outlaw the Outlaw. This is a category error of the highest order. The Outlaw archetype draws its energy from being the challenger. When the establishment *becomes* the challenger, the challenger wins by default. Pepsi no longer needed to say it was the choice of the new generation; Coca-Cola's own behavior was confirming that the old order was broken.
 
-**The analysis.** This is a category-error drift, not a shadow drift. Tropicana did not activate the Innocent's shadow (denial, naivety). It tried to become a different archetype — moving toward the aspirational visual language of a Lover or Ruler — and in doing so erased the recognition cues its audience depended on. The problem was not that Tropicana's commitments curdled. The problem was that Tropicana abandoned its commitments in favor of commitments it had no equity in.
+More importantly: Coca-Cola's customers were not buying Coke because it tasted better than Pepsi in a blind test. They were buying Coke because Coke was *Coke* — the same formula their parents drank, the same commitment to sameness that is the Innocent's deepest value. Changing the formula was not a product decision. It was an ontological violation of the archetype's core commitment.
 
-The lesson is precise: the recognition asset is built by the archetype's specific expression, not by the archetype's *name*. You cannot swap expressions without losing the recognition that accumulated in the original form.
-
-![Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice)....](../images/03-jungian-brand-archetypes-as-a-system-fig-05.png)
-*Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton...*
-
-### 3.3 Gap, 2010: The Everyman becomes unrecognizable
-
-**The original archetype.** For twenty years, Gap's logo had been an Everyman icon: a blue square, white serif type, balanced and slightly conservative. The Everyman archetype is organized around belonging — the brand says *you fit here, as you are*. The visual language of an Everyman brand is accessible, unpretentious, and deliberately unremarkable. The Gap logo was not exciting; it was *reliable*. Reliability is the Everyman's promise.
-
-**The drift.** On October 6, 2010, Gap rolled out a new logo: a smaller blue square pushed into the upper-right corner of the word *Gap*, set in plain bold Helvetica. The serif was gone. The enclosing square was diminished. The new design was more sophisticated, more contemporary — visual language associated with a Creator or a Lover, not an Everyman.
-
-**The customer rejection.** Within 24 hours, a fashion blog had collected more than 2,000 negative comments. A protest Twitter account reached 5,000 followers. A parody site allowing users to generate their own Gap logos collected nearly 14,000 submissions. On October 12 — six days after launch — Gap announced the rollback.
-
-The speed of the rejection is diagnostic. Customers did not need time to be convinced the new logo was wrong. They knew immediately. That immediacy is the sign of a recognition asset being violated: when the recognition handle disappears, the mismatch between expectation and experience is felt before it is articulated.
-
-**The analysis.** Gap's drift moved toward a more sophisticated archetype — the design sensibility of a brand that values craft and originality over accessibility. But Everyman customers do not want sophisticated; they want recognizable. The customer who shops at Gap is not buying aspiration; they are buying the comfort of a brand that has always been there, the same square, the same serif, reliably the same.
-
-The company attempted to solicit customer feedback through a crowdsourcing exercise after the backlash began. The exercise was widely mocked as a response to a crisis, not a genuine engagement. Six days from launch to rollback is the fastest documented major brand rollback on record.
-
-![Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica). Students should...](../images/03-jungian-brand-archetypes-as-a-system-fig-06.png)
-*Figure 3.6 — Side-by-side of the original Gap logo (blue square, white serif type)...*
-
-### 3.4 New Coke, 1985: The Innocent tries to out-Outlaw the Outlaw
-
-**The original archetype.** Coca-Cola was — and remains — the canonical Innocent brand. Wholesome, all-American, the taste of childhood summers, the same formula since 1886. Innocent brands derive enormous power from *sameness*: the experience the customer had at age seven and the experience they have at age forty-seven are the same. That sameness is not a lack of innovation. It is the Innocent's deepest commitment.
-
-**The drift.** In the early 1980s, Pepsi was running the "Pepsi Challenge" — a blind taste test campaign showing that consumers preferred Pepsi's sweeter formula. The campaign positioned Pepsi as the Outlaw: the challenger, the disruptor, the choice of the new generation. Pepsi was young, irreverent, anti-establishment in the way only a brand with 30 percent market share can be when it positions against a brand with 35 percent.
-
-Coca-Cola responded by reformulating its product. New Coke was sweeter, designed to win the Pepsi Challenge taste test on Pepsi's own terms. In blind tests, it performed well. Coca-Cola's leadership announced the change in April 1985, simultaneously discontinuing the original formula.
-
-**The customer rejection.** The response was not disappointment. It was grief and rage. Within weeks, Coca-Cola received more than 400,000 letters and calls. Protest groups formed. A senator from Georgia entered a statement into the Congressional Record calling New Coke "a business decision that has backfired." Within three months, Coca-Cola brought back the original formula as "Coca-Cola Classic."
-
-**The analysis.** New Coke is the deepest archetype failure of the three cases, and the most instructive. Coca-Cola did not simply drift toward a new expression of its own archetype. It attempted to compete with Pepsi on Pepsi's own terms — to out-Outlaw the Outlaw by becoming a sweeter, more modern product.
-
-This is a category error of the highest order. The Outlaw archetype draws its energy from being the challenger, the one willing to do what the establishment will not. When the establishment *becomes* the challenger, the challenger wins by default. Pepsi no longer needed to say it was the choice of the new generation; Coca-Cola's own behavior was confirming that the old order was broken.
-
-More importantly: Coca-Cola's customers were not buying Coke because it tasted better than Pepsi in a blind test. They were buying Coke because Coke was *Coke* — the same formula their parents drank, the same bottle shape, the same commitment to sameness that is the Innocent's deepest value. Changing the formula was not a product decision. It was an ontological violation of the archetype's core commitment.
-
-The Innocent's shadow is denial. Coca-Cola's leadership had been in denial about what their product actually was to their customers — they treated it as a taste preference rather than a symbolic commitment. That is the shadow activating: the Innocent's refusal to see the complexity of what it is.
+There is also a shadow reading of New Coke. The Innocent's shadow is denial. Coca-Cola's leadership had been in denial about what their product actually was to their customers — they treated it as a taste preference rather than a symbolic commitment. That is the shadow activating before the category error: the Innocent's refusal to see the complexity of what it is.
 
 ![Timeline showing the New Coke crisis: April 1985 (launch of New Coke, discontinuation of original formula) → May/June 1985 (customer...](../images/03-jungian-brand-archetypes-as-a-system-fig-07.png)
-*Figure 3.7 — Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...*
+*Figure 3.7 — Timeline of the New Coke crisis*
 
-### 3.5 The pattern across all three cases
+Three companies. Three archetype drifts. Three rollbacks. The pattern is consistent: when a brand's archetype shifts away from the one its customers have built a recognition model around, customers do not migrate to the new brand. They stop recognizing the brand entirely. The specific direction of the drift varies. The shape of the failure is the same.
 
-Three companies. Three archetype drifts. Three rollbacks.
-
-The pattern is consistent: when a brand's archetype shifts away from the one its customers have built a recognition model around, customers do not migrate to the new brand. They stop recognizing the brand entirely, and they move to a competitor.
-
-The specific direction of the drift varies. Tropicana moved from Innocent toward Lover/Ruler. Gap moved from Everyman toward Creator. Coca-Cola moved from Innocent toward Outlaw. The shape of the failure is the same in all three: the recognition handle was removed, and the customer's model collapsed.
-
-The speed of the rollback varies — two months, six days, three months — but the direction does not. All three reversed.
-
-![A comparison table across all three cases — columns: Brand, Original Archetype, Drift Direction, Customer Rejection Mechanism, Time to...](../images/03-jungian-brand-archetypes-as-a-system-fig-08.png)
-*Figure 3.8 — comparison table across all three cases*
+<!-- → [TABLE: Comparison across all three cases — columns: brand, original archetype, drift direction, customer rejection mechanism, days to rollback — the pattern becomes unmistakable] -->
 
 ---
 
-## Part IV — Applying the Framework
-
-### 4.1 Reading any brand's archetype
+## Reading Any Brand's Archetype
 
 Here is the analytical procedure for identifying a brand's archetype from its observable outputs. Five inputs, one conclusion.
 
-**Input 1: The tagline or positioning statement.** Ignore what the brand *says* its archetype is. Read what the tagline commits to. "Just Do It" commits to effort and mastery — Hero. "Think Different" commits to rebellion against the norm — Outlaw. "Because You're Worth It" commits to self-worth through beauty — Lover. The tagline is the archetype compressed into its smallest communicable form.
+**Input 1: The tagline or positioning statement.** Ignore what the brand says its archetype is. Read what the tagline commits to. "Just Do It" commits to effort and mastery — Hero. "Think Different" commits to rebellion against the norm — Outlaw. "Because You're Worth It" commits to self-worth through beauty — Lover. The tagline is the archetype compressed into its smallest communicable form.
 
-**Input 2: The visual language.** Color, typeface, imagery, and composition all carry archetype signals. Innocent brands use natural colors, rounded forms, literal imagery. Sage brands use authoritative typography, measured layouts, evidence over decoration. Outlaw brands use asymmetry, high contrast, imagery that makes part of the audience uncomfortable. You do not need to articulate why the visual feels one way or another — you need to name the archetype the visual is expressing.
+**Input 2: The visual language.** Color, typeface, imagery, and composition all carry archetype signals. Innocent brands use natural colors, rounded forms, literal imagery. Sage brands use authoritative typography, measured layouts, evidence over decoration. Outlaw brands use asymmetry, high contrast, imagery that makes part of the audience uncomfortable.
 
 **Input 3: What the brand will not do.** Archetypes are as legible in exclusions as in inclusions. Nike will not run a campaign built around rest and acceptance — that is antithetical to the Hero's commitments. Patagonia will not partner with fast-fashion brands — that violates the Explorer's ethic. The Innocent brand will not produce ironic or sarcastic advertising. Read the absences.
 
-**Input 4: Who the brand treats as its customer.** The Hero brand's customer is someone who wants to become better. The Caregiver brand's customer is someone who needs protection. The Jester brand's customer is someone who wants relief from seriousness. The archetype implies a customer; the customer implies an archetype.
+**Input 4: Who the brand treats as its customer.** The Hero brand's customer is someone who wants to become better. The Caregiver brand's customer is someone who needs protection. The archetype implies a customer; the customer implies an archetype.
 
-**Input 5: What the brand does when things go wrong.** A Sage brand responds to a product failure with a detailed, honest explanation — here is what happened, here is what we are doing about it. A Hero brand responds with a challenge — we are going to fix this, and here is the proof. A Caregiver brand responds with reassurance. The crisis response reveals the archetype because the crisis removes the option of performance; you respond from who you actually are.
+**Input 5: What the brand does when things go wrong.** A Sage brand responds to a product failure with a detailed, honest explanation — here is what happened, here is what we are doing about it. A Hero brand responds with a challenge — we are going to fix this, and here is the proof. The crisis response reveals the archetype because the crisis removes the option of performance; you respond from who you actually are.
 
-Five inputs. Name the archetype that accounts for all five. If you cannot reconcile all five with a single archetype, you have found either a genuine hybrid (common in mature brands) or evidence of drift in progress.
+Five inputs. Name the archetype that accounts for all five. If you cannot reconcile all five with a single archetype, you have found either a genuine hybrid — common in mature brands — or evidence of drift in progress.
 
-| Concept | What it means | How to use it |
-| --- | --- | --- |
-| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable |
-| Analysis | Shows how analysis functions in this chapter | Guides the analysis decision and makes it checkable |
-| Worksheet | Shows how worksheet functions in this chapter | Guides the worksheet decision and makes it checkable |
-| Tagline | Shows how tagline functions in this chapter | Guides the tagline decision and makes it checkable |
-| Positioning | Shows how positioning functions in this chapter | Guides the positioning decision and makes it checkable |
+Once you have identified the archetype, you can predict the failure mode. Name the archetype, name the shadow, look for early signals that the shadow is activating, and name the consequence if it fully activates. I can walk through a live example. As of this writing, LinkedIn presents as a Sage brand: the trusted source of professional wisdom, the place experts go to establish authority. The Sage's shadow is dogmatism. Early signals of the shadow activating would include a shift in tone toward prescriptive content, amplification of authority signaling over genuine insight, and a product design that rewards performance of expertise rather than expression of it. Whether LinkedIn is currently activating its shadow is a question you can evaluate yourself by reading five minutes of its feed with this frame in mind. The prediction is not that the shadow *will* activate. The prediction is that *if* LinkedIn fails as a brand, this is the most likely shape of that failure.
 
-### 4.2 Predicting failure from the shadow
-
-Once you have identified the archetype, you can predict the failure mode.
-
-Here is the prediction procedure:
-
-1. Name the archetype.
-2. Name the shadow.
-3. Look for early signals that the shadow is activating — behaviors, campaigns, or product decisions that express the shadow's form rather than the archetype's strength.
-4. Name the consequence if the shadow fully activates.
-
-I will walk through a live example. As of this writing, LinkedIn presents as a Sage brand: the trusted source of professional wisdom, the place experts go to establish authority. The tagline has varied, but the consistent positioning is expertise and professional truth.
-
-The Sage's shadow is dogmatism. Early signals of the shadow activating would include: a shift in tone toward prescriptive content ("here is what all professionals must do"), amplification of authority signaling over genuine insight, suppression of dissenting views or unconventional career paths, and a product design that rewards performance of expertise rather than expression of it.
-
-Whether LinkedIn is currently activating its shadow is a question you can evaluate yourself by reading five minutes of its feed with this frame in mind. The prediction is not that the shadow *will* activate. The prediction is that *if* LinkedIn fails as a brand, this is the most likely shape of that failure. The shadow is not a curse. It is a map.
-
-![A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled. Students should be able...](../images/03-jungian-brand-archetypes-as-a-system-fig-09.png)
-*Figure 3.9 — worked shadow analysis for one brand*
+![A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled.](../images/03-jungian-brand-archetypes-as-a-system-fig-09.png)
+*Figure 3.9 — Worked shadow analysis for one brand*
 
 ---
 
-## Part V — Integration: Picking Your Archetype
-
-### 5.1 What you are actually deciding
+## Picking Your Archetype
 
 When you pick an archetype for your own tool or brand, you are not choosing a personality. You are choosing a set of constraints you are willing to maintain for years under pressure.
 
-The archetype that fits your work should satisfy three tests:
+The archetype that fits should satisfy three tests.
 
-**The authenticity test.** Does this archetype match how you actually behave when you are not performing? Your Chapter 2 audit surfaced your natural tendencies. If you are, by nature, a researcher who cares about getting things right, the Sage fits better than the Hero — even if Hero feels more energetic. A forced archetype is exhausting to maintain and customers eventually feel the strain. The archetype must be one you can sustain.
+**The authenticity test.** Does this archetype match how you actually behave when you are not performing? Your Chapter 2 audit surfaced your natural tendencies. If you are, by nature, a researcher who cares about getting things right, the Sage fits better than the Hero — even if Hero feels more energetic. A forced archetype is exhausting to maintain and customers eventually feel the strain.
 
-**The differentiation test.** What are your competitors? If your market is crowded with Sage brands — every player publishing authoritative content, competing on depth and expertise — becoming another Sage means competing on execution, not identity. You will need better content, more research, clearer writing. That is a winnable competition, but it is hard. Becoming a Jester or an Explorer in a Sage market gives you an audience your competitors cannot serve, because their archetype does not allow them to serve it. A less-popular archetype in a crowded market may be the strategically correct pick.
+**The differentiation test.** What are your competitors? If your market is crowded with Sage brands — every player publishing authoritative content, competing on depth and expertise — becoming another Sage means competing on execution, not identity. A less-popular archetype in a crowded market may be the strategically correct pick.
 
-**The stress test.** Suppose your tool grows ten times larger. Suppose it attracts a different set of users than you intended. Suppose a well-funded competitor enters your market and executes your archetype better than you do. Does your archetype still fit? Does it still differentiate you? The archetype that survives these three stress tests is the one to commit to.
+**The stress test.** Suppose your tool grows ten times larger. Suppose a well-funded competitor enters your market and executes your archetype better than you do. Does your archetype still fit? Does it still differentiate you? The archetype that survives these three tests is the one to commit to.
 
-![Three-panel checklist of the archetype tests — Authenticity (mirror), Differentiation (compass), and Stress (x10 gauge) — each with a pass question and a note on what failure looks like.](../images/03-jungian-brand-archetypes-as-a-system-fig-13.png)
-*Figure 3.13 — The three tests for committing to an archetype*
+<!-- → [INFOGRAPHIC: Three-panel checklist — Authenticity (mirror), Differentiation (compass), Stress (x10 gauge) — each with a pass question and what failure looks like] -->
 
-### 5.2 What this archetype will do in Chapter 4
-
-Your archetype goes dormant during the build sequence. In Chapter 4, you will write a product requirements document. You will not be talking about archetypes while you are writing feature specs and user stories. But the archetype will quietly shape your decisions: what you scope, what you cut, what you name the tool, how you describe it in the README.
-
-A Sage tool does not have a gamified onboarding sequence. An Outlaw tool does not have a corporate pricing page. A Caregiver tool does not use high-contrast alerts that feel like warnings. These are archetype decisions disguised as product decisions.
+Your archetype goes dormant during the build sequence. In Chapter 4, you will write a product requirements document. You will not be talking about archetypes while you are writing feature specs and user stories. But the archetype will quietly shape your decisions: what you scope, what you cut, what you name the tool, how you describe it in the README. A Sage tool does not have a gamified onboarding sequence. An Outlaw tool does not have a corporate pricing page. A Caregiver tool does not use high-contrast alerts that feel like warnings. These are archetype decisions disguised as product decisions.
 
 The archetype reactivates with full strategic force in Chapter 8, when the build is done and the brand work begins. By that point, you will have made fifty archetype decisions without calling them that. Chapter 8 will help you audit whether they cohered.
-
-For now: commit to an archetype. Hold it next to the tool you are imagining. Run the three tests. The archetype that survives them is the one to carry forward.
-
----
-
-## Summary
-
-Here is what you can now do that you could not at the start of this chapter.
-
-You can identify the archetype of any brand you encounter by reading five inputs: the tagline, the visual language, what the brand refuses to do, who it treats as its customer, and how it responds to failure. You do not need to be told what archetype a brand has chosen; you can derive it from the evidence.
-
-You can name the shadow of any archetype in the Mark/Pearson system and describe the specific failure mode it predicts. More practically: you can look at a brand operating at full strength and identify the early warning signals of its most likely breakdown, before the breakdown happens.
-
-You can diagnose a historical case of archetype drift — name the original archetype, name what the drift moved toward, and explain why customers rejected the shift. The three cases in this chapter (Tropicana, Gap, New Coke) are your worked models. The analytical frame generalizes to any brand you examine.
-
-**The one idea from this chapter that matters most:** An archetype is not a personality layer added to a brand for warmth. It is a consistency-enforcement device — the constraint that makes every downstream decision decidable and that accumulates, touchpoint by touchpoint, into the recognition asset customers use to find you.
-
-**The common mistake:** Treating archetype selection as a branding exercise rather than a strategic one. Students pick the archetype that sounds most exciting or most aspirational. The right pick is the one you can sustain authentically, that differentiates you in your market, and that survives the stress test of growth and competition.
-
-**The Feynman test:** By the end of this chapter, you should be able to sit down with a friend who knows nothing about brand archetypes, hand them three brand examples, and walk them through an archetype analysis of each — naming the archetype, explaining what it commits the brand to, naming the shadow, and predicting the failure mode. If you can do that for three brands you have not studied before, you have it.
 
 ---
 
@@ -384,6 +244,24 @@ Real brands often combine archetypes. Apple has operated as an Outlaw ("Think Di
 **What would change my mind:** Strong evidence that brands without explicit archetype commitments perform comparably to brands with them, when controlling for product quality and marketing spend. The Mark/Pearson framework's empirical base is primarily case study; large-N studies treating archetype-consistency as a variable in brand-equity outcomes would either solidify or undermine the chapter's central claim.
 
 **Still puzzling:** How brands successfully *evolve* their archetype without losing their audience. Apple shifted from Outlaw to Magician. Disney has carried Magician for decades but with periodic re-pitches. The mechanism seems to involve gradual shift, narrative continuity, and treating the new archetype as a deepening rather than a replacement. But I do not have a clean account of it, and I would not trust anyone who claims they do.
+
+---
+
+## Summary
+
+Here is what you can now do that you could not at the start of this chapter.
+
+You can identify the archetype of any brand you encounter by reading five inputs: the tagline, the visual language, what the brand refuses to do, who it treats as its customer, and how it responds to failure. You do not need to be told what archetype a brand has chosen; you can derive it from the evidence.
+
+You can name the shadow of any archetype in the Mark/Pearson system and describe the specific failure mode it predicts. More practically: you can look at a brand operating at full strength and identify the early-warning signals of its most likely breakdown before the breakdown happens.
+
+You can diagnose a historical case of archetype drift — name the original archetype, name what the drift moved toward, and explain why customers rejected the shift. Tropicana, Gap, and New Coke are your worked models. The analytical frame generalizes to any brand you examine.
+
+**The one idea from this chapter that matters most:** An archetype is not a personality layer added to a brand for warmth. It is a consistency-enforcement device — the constraint that makes every downstream decision decidable and that accumulates, touchpoint by touchpoint, into the recognition asset customers use to find you.
+
+**The common mistake:** Treating archetype selection as a branding exercise rather than a strategic one. Students pick the archetype that sounds most exciting or most aspirational. The right pick is the one you can sustain authentically, that differentiates you in your market, and that survives the stress test of growth and competition.
+
+**The Feynman test:** By the end of this chapter, you should be able to sit down with a friend who knows nothing about brand archetypes, hand them three brand examples, and walk them through an archetype analysis of each — naming the archetype, explaining what it commits the brand to, naming the shadow, and predicting the failure mode. If you can do that for three brands you have not studied before, you have it.
 
 ---
 
@@ -404,18 +282,16 @@ The archetype you commit to in this chapter is the longest-lived decision you wi
 **W1. Archetype Identification (Single Brand)**
 Choose one brand you interact with daily — an app, a grocery product, a clothing brand, anything with a visible identity. Using the five-input procedure from Part IV, identify its archetype. Write two sentences: one naming the archetype and the specific evidence that led you there, one naming the shadow and describing what early-warning behavior would look like for that brand.
 
-*Tests Objectives 2 and 4.*
-*Difficulty: Low.*
+*Tests Objectives 2 and 4. Difficulty: Low.*
 
 **W2. Shadow Matching**
 For each of the following shadow descriptions, name the archetype it belongs to and explain in one sentence the structural relationship between the archetype's strength and its shadow:
 
-- A brand that was once celebrated for its expertise starts refusing to acknowledge when it was wrong.
-- A brand that was once celebrated for its rebellious energy starts advocating for disruption without any coherent alternative.
-- A brand that was once celebrated for its service starts implying that customers are ungrateful.
+- A brand once celebrated for its expertise starts refusing to acknowledge when it was wrong.
+- A brand once celebrated for its rebellious energy starts advocating for disruption without any coherent alternative.
+- A brand once celebrated for its service starts implying that customers are ungrateful.
 
-*Tests Objective 4.*
-*Difficulty: Low.*
+*Tests Objective 4. Difficulty: Low.*
 
 **W3. Quick Drift Diagnosis**
 Read the following scenario and answer the two questions below:
@@ -424,40 +300,31 @@ Read the following scenario and answer the two questions below:
 
 Questions: (a) What archetype was the original brand expressing? (b) What archetype is the new creative direction moving toward, and what customer rejection mechanism would you predict?
 
-*Tests Objective 5.*
-*Difficulty: Low-Medium.*
+*Tests Objective 5. Difficulty: Low–Medium.*
 
 ---
 
 ### Application
 
 **A1. Five-Input Brand Analysis**
-Select a brand you have not studied before — choose something outside your usual category. Run the full five-input analysis from Part IV: tagline/positioning, visual language, what it refuses to do, who it treats as its customer, and crisis behavior (find a documented PR moment or product failure and read the response). Produce a one-page analysis identifying the archetype and providing evidence for each of the five inputs.
+Select a brand you have not studied before — choose something outside your usual category. Run the full five-input analysis: tagline/positioning, visual language, what it refuses to do, who it treats as its customer, and crisis behavior (find a documented PR moment or product failure and read the response). Produce a one-page analysis identifying the archetype and providing evidence for each of the five inputs.
 
-*Tests Objectives 2 and 3.*
-*Difficulty: Medium.*
+*Tests Objectives 2 and 3. Difficulty: Medium.*
 
 **A2. Shadow Watchlist**
-For the archetype you committed to in your Chapter 2 audit (or the one you are currently leaning toward for your tool), write a shadow watchlist with the following structure:
+For the archetype you committed to in your Chapter 2 audit, write a shadow watchlist with the following structure: the shadow's name and definition in your own words; three specific behaviors you might exhibit — in product decisions, marketing copy, or public communication — that would be early warning signs you are activating the shadow; and one observable check you could run monthly to catch shadow behavior before it compounds.
 
-- The shadow's name and definition in your own words.
-- Three specific behaviors you might exhibit — in product decisions, marketing copy, or public communication — that would be early warning signs you are activating the shadow.
-- One observable check you could run monthly to catch shadow behavior before it compounds.
-
-*Tests Objective 4, applied to your own brand.*
-*Difficulty: Medium.*
+*Tests Objective 4, applied to your own brand. Difficulty: Medium.*
 
 **A3. Competitor Archetype Map**
-Identify three direct or indirect competitors to the tool you are designing. For each: identify their archetype using the five-input procedure, note their shadow, and assess whether their current trajectory shows any shadow activation signals. Then: identify any archetype that *none* of the three competitors occupies. Is that unoccupied archetype viable for your tool?
+Identify three direct or indirect competitors to the tool you are designing. For each: identify their archetype using the five-input procedure, note their shadow, and assess whether their current trajectory shows any shadow activation signals. Then identify any archetype that none of the three competitors occupies. Is that unoccupied archetype viable for your tool?
 
-*Tests Objectives 2 and 6.*
-*Difficulty: Medium.*
+*Tests Objectives 2 and 6. Difficulty: Medium.*
 
 **A4. Drift Scenario Analysis**
 Find a real brand that has undergone a significant visual or positioning change in the last five years (not one covered in this chapter). Reconstruct the drift analysis: original archetype, drift direction, customer or market response, and your assessment of whether it was a shadow drift or a category-error drift. Use documented sources.
 
-*Tests Objective 5.*
-*Difficulty: Medium-High.*
+*Tests Objective 5. Difficulty: Medium–High.*
 
 ---
 
@@ -466,20 +333,17 @@ Find a real brand that has undergone a significant visual or positioning change 
 **S1. Archetype as Product Constraint**
 Write a one-page memo addressed to a hypothetical co-founder, explaining why your chosen archetype should shape three specific product decisions for the tool you are building. The decisions must be real and specific — not "we should have a friendly tone" but "we should not include gamification mechanics in our onboarding sequence, because our Sage archetype commits us to treating users as professionals who do not need to be rewarded for attention." For each decision, name the archetype constraint being applied and name what an alternative archetype would do differently.
 
-*Tests Objectives 3 and 5.*
-*Difficulty: Medium-High.*
+*Tests Objectives 3 and 5. Difficulty: Medium–High.*
 
 **S2. Cross-Case Pattern Extraction**
-Review all three case studies in Part III (Tropicana, Gap, New Coke). Write a 400-word synthesis identifying the single underlying mechanism that explains all three failures. Your explanation should be specific enough that someone could use it as a prediction tool — not just "brands should not change their identity" but a precise account of the cognitive or behavioral mechanism by which the customer rejection operates. Use the case evidence to support your account.
+Review all three case studies (Tropicana, Gap, New Coke). Write a 400-word synthesis identifying the single underlying mechanism that explains all three failures. Your explanation should be specific enough that someone could use it as a prediction tool — not just "brands should not change their identity" but a precise account of the cognitive or behavioral mechanism by which the customer rejection operates. Use the case evidence to support your account.
 
-*Tests Objectives 5 and 6.*
-*Difficulty: High.*
+*Tests Objectives 5 and 6. Difficulty: High.*
 
 **S3. Archetype and Audience Mismatch**
-Construct a hypothetical scenario (clearly labeled as such) in which a brand correctly identifies its archetype but selects an audience that is incompatible with that archetype. Describe the specific ways the mismatch would manifest in product decisions, marketing, and customer response. Then: explain how the brand should resolve the mismatch — by changing the archetype, changing the audience, or something else. Defend your recommendation.
+Construct a hypothetical scenario (clearly labeled as such) in which a brand correctly identifies its archetype but selects an audience that is incompatible with that archetype. Describe the specific ways the mismatch would manifest in product decisions, marketing, and customer response. Then explain how the brand should resolve the mismatch — by changing the archetype, changing the audience, or something else. Defend your recommendation.
 
-*Tests Objectives 3, 5, and 6.*
-*Difficulty: High.*
+*Tests Objectives 3, 5, and 6. Difficulty: High.*
 
 ---
 
@@ -488,14 +352,12 @@ Construct a hypothetical scenario (clearly labeled as such) in which a brand cor
 **C1. Archetype Evolution Hypothesis**
 The chapter's "Still Puzzling" section acknowledges an unresolved question: how do brands successfully evolve their archetype without triggering customer rejection? Using Apple's transition from Outlaw ("Think Different," 1997–2007) to Magician (iPhone era, 2007–present) as your primary case, develop a hypothesis about the mechanism that makes archetype evolution possible. Your hypothesis should be falsifiable — state what evidence would confirm or disconfirm it — and should account for why the Apple transition succeeded where Tropicana, Gap, and New Coke failed.
 
-*Tests Objectives 5 and 6, and challenges the chapter's stated limits.*
-*Difficulty: Very High.*
+*Tests Objectives 5 and 6, and challenges the chapter's stated limits. Difficulty: Very High.*
 
 **C2. Framework Stress Test**
-The chapter argues that archetype consistency builds the recognition asset and that archetype drift destroys it. Identify the strongest counterexample you can find: a brand that significantly changed its archetype and *succeeded* — retained or grew its audience through the transition, without a forced rollback. Analyze the case. Does it falsify the chapter's argument, or does it reveal a condition under which archetype evolution is possible? What are the implications for the chapter's central claim?
+Identify the strongest counterexample you can find: a brand that significantly changed its archetype and *succeeded* — retained or grew its audience through the transition, without a forced rollback. Analyze the case. Does it falsify the chapter's argument, or does it reveal a condition under which archetype evolution is possible? What are the implications for the chapter's central claim?
 
-*Tests all objectives and the chapter's own argument against the best available evidence.*
-*Difficulty: Very High.*
+*Tests all objectives and the chapter's own argument against the best available evidence. Difficulty: Very High.*
 
 ---
 
@@ -538,11 +400,7 @@ Here are my writing samples:
 
 ---
 
-*Tags: brand-archetypes · jung · mark-pearson · tropicana · gap · new-coke · innocent · sage · archetype-drift · shadow · INFO-7375*
-
----
-
-##  AI Wayback Machine
+## AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Carl Jung** is the source the chapter has been borrowing from. The twelve archetypes Margaret Mark and Carol Pearson catalogued for marketing in *The Hero and the Outlaw* (2001) are downstream of Jung's argument that certain figures — Hero, Sage, Caregiver, Trickster, Lover — recur across cultures because they correspond to durable patterns in human psychology, not to any particular author's invention. The chapter has used the framework as a strategic instrument; Jung intended it as a description of the unconscious. The shadow side of the archetype, which the chapter takes seriously, is also Jung's idea — the failure mode that the strength of an archetype tends to produce when taken too far.
 
 ![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.jpg)
@@ -564,116 +422,6 @@ Who was Carl Jung, and how does his concept of *archetypes* connect to using a t
 
 What changes? What gets better? What gets worse?
 
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
 ---
 
-### Figure 3.1 — 2x2 grid distinguishing the four usages of "archetype"
-
-Create a standalone D3 v7 HTML figure for "2x2 grid distinguishing the four usages of "archetype"". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-01.html`
-
----
-
-### Figure 3.2 — visual map of all twelve archetypes arranged by their primary motivations
-
-Create a standalone D3 v7 HTML figure for "visual map of all twelve archetypes arranged by their primary motivations". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-02.html`
-
----
-
-### Figure 3.3 — decision tree showing one brand decision (e.g., "What tone should our...
-
-Create a standalone D3 v7 HTML figure for "decision tree showing one brand decision (e.g., "What tone should our...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-03.html`
-
----
-
-### Figure 3.4 — table listing all twelve archetypes, their core strength, and their shadow
-
-Create a standalone D3 v7 HTML figure for "table listing all twelve archetypes, their core strength, and their shadow". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-04.html`
-
----
-
-### Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton...
-
-Create a standalone D3 v7 HTML figure for "Side-by-side comparison of the original Tropicana Pure Premium carton...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-05.html`
-
----
-
-### Figure 3.6 — Side-by-side of the original Gap logo (blue square, white serif type)...
-
-Create a standalone D3 v7 HTML figure for "Side-by-side of the original Gap logo (blue square, white serif type)...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-06.html`
-
----
-
-### Figure 3.7 — Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...
-
-Create a standalone D3 v7 HTML figure for "Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-07.html`
-
----
-
-### Figure 3.8 — comparison table across all three cases
-
-Create a standalone D3 v7 HTML figure for "comparison table across all three cases". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-08.html`
-
----
-
-### Figure 3.9 — worked shadow analysis for one brand
-
-Create a standalone D3 v7 HTML figure for "worked shadow analysis for one brand". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-09.html`
-
----
-
-### Figure 3.10 — The archetype is load-bearing across the whole book
-
-Create a standalone D3 v7 HTML figure for "the archetype across the book's chapters". Use a horizontal timeline with a linear x-axis of chapters 1 to 8. Marks: a state band drawn over the axis — a solid red rectangle for the active span (Ch. 2–3), a thin dashed red line for the dormant span (Ch. 4–7), a solid red rectangle for the reactivated span (Ch. 8), and a gray dashed line before the pick. Channels: x-position for chapter, line weight and fill for activity state, color (red) for the one active archetype band, and direct text labels at the key inflection points (provisional pick, commit, brand activation). Add hover tooltips naming each span's state and keyboard-focusable segments. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-10.html`
-
----
-
-### Figure 3.11 — Literal vs. brand-strategy reading of three archetype names
-
-Create a standalone D3 v7 HTML figure for "literal vs. brand-strategy reading of three archetype names". Use a three-panel small-multiples layout, one panel each for Hero, Outlaw, and Caregiver. Marks: a card rectangle per panel with a red header band, a struck-through literal reading, and a brand-strategy reading below with a short brand example. Channels: panel position for category, a red strikethrough rule to mark the misreading, color (red) for the panel headers only, and direct text labels. Add hover tooltips contrasting literal and strategic reading, and keyboard-focusable panels. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-11.html`
-
----
-
-### Figure 3.12 — The recognition asset is built by accumulation
-
-Create a standalone D3 v7 HTML figure for "consistent vs. inconsistent brand touchpoints". Use a two-column comparison: Brand A (consistent) and Brand B (inconsistent), each with a grid of six labeled touchpoint tiles (tweet, product page, packaging, error message, PR statement, founder photo) and a resulting customer-model silhouette below. Channels: tile fill encodes signal consistency — one red for Brand A's coherent set, mixed grays for Brand B's mismatched set; the silhouette is a sharp red shape for A and a blurred, crossed-out gray shape for B. Add hover tooltips on each tile and keyboard focus. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-12.html`
-
----
-
-### Figure 3.13 — The three tests for committing to an archetype
-
-Create a standalone D3 v7 HTML figure for "the three archetype-commitment tests". Use a three-panel checklist layout, one panel each for the Authenticity, Differentiation, and Stress tests. Marks: a card rectangle per panel with a small line-drawn red icon (mirror, compass, x10 gauge), a panel title, a plain-language pass question, and a short "what failure looks like" note. Channels: panel position for category, color (red) for the icons only, and direct text labels. Add hover tooltips restating each test and keyboard-focusable panels. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
-
-> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-13.html`
+*Tags: brand-archetypes · jung · mark-pearson · tropicana · gap · new-coke · innocent · sage · archetype-drift · shadow · INFO-7375*
