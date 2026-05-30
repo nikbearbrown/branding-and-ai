@@ -1,47 +1,14 @@
 # Chapter 3 — Jungian Brand Archetypes as a System
 *The constraint that makes every downstream decision decidable.*
 
----
-
-## Learning Objectives
-
-By the end of this chapter, you will be able to:
-
-1. **Define** what a brand archetype is and distinguish it from adjacent uses of the term (Jungian typology, personality assessment, genre convention).
-2. **Identify** the archetype of any brand you encounter by reading its visual, verbal, and product commitments.
-3. **Explain** what a brand's archetype commits it to — what it can and cannot do — across at least three decision types (tone, visual identity, partnership).
-4. **Name** the shadow of any archetype in the Mark/Pearson system and describe the specific failure mode it predicts.
-5. **Diagnose** a historical case of archetype drift: name what the original archetype was, what the drift moved toward, and why customers rejected the shift.
-6. **Predict** how a brand you have not studied is likely to fail, given its archetype and its current trajectory.
-
----
-
-## Prerequisites
-
-This chapter assumes you have completed **Chapter 2** and can articulate your own brand's provisional archetype. You do not need deep marketing theory. You need to be able to answer: *What does this brand stand for, and how do customers recognize it?*
-
-If you have not done the Chapter 2 audit, do it before continuing. The archetype system will make much more sense if you already have a working example — yourself — to test it against.
-
----
-
-## Why This Chapter, and Why Now
-
-You are about to build something. Chapter 4 will ask you to write a product requirements document for the tool you are designing. That document will commit to features, scope, and intended users.
-
-Before you commit to product, you need to commit to identity. The identity question is not *what will this tool do* — it is *who is this tool, and how will a customer recognize it six months from now, after three redesigns, two pivots, and a competitor who launched last week?*
-
-The answer runs through a system that has been stress-tested across industries for twenty years. Master it here, and you will carry it through every chapter that follows.
-
-![Horizontal timeline of the book's chapters showing the archetype as a red band — picked in Ch. 2, committed in Ch. 3, dormant through Ch. 4–7, reactivated in Ch. 8.](../images/03-jungian-brand-archetypes-as-a-system-fig-10.png)
-*Figure 3.10 — The archetype is load-bearing across the whole book*
-
----
-
 Here is what I find strange about brand failure. The companies that fail most publicly — Tropicana, Gap, Coca-Cola in 1985 — rarely fail because they ran out of money or made a bad product. They fail because they changed something that was working. They changed the orange on the carton, the typeface on the logo, the formula in the bottle. And their customers, who had been buying without thinking for twenty years, suddenly stopped.
 
 That seems like it should be simple to avoid. Don't change what's working. But it isn't simple, because nobody in the room understands what is actually working. They know the product works. They can measure sales. What they cannot see is the *recognition asset* — the accumulated pattern of touchpoints that lets a customer's eye snap to your product on a crowded shelf at 8 AM without engaging conscious thought. That asset is invisible until it is destroyed. And it is destroyed, specifically, by archetype drift.
 
-That is the thing I want to teach you in this chapter. Not the twelve archetypes as a list to memorize — you could get that from a poster. The thing worth teaching is what an archetype actually does mechanically, why it is the cheapest consistency-enforcement device available, and how its failure mode is structurally embedded in its strength from the start.
+That is the thing I want to teach you in this chapter. Not the twelve archetypes as a list to memorize — you could get that from a poster. The thing worth teaching is what an archetype actually does mechanically, why it is the cheapest consistency-enforcement device available, and how its failure mode is structurally embedded in its strength from the start. In Chapter 2 you surfaced your own provisional archetype from your public footprint — if you skipped that audit, go back, because the system makes considerably more sense when you have a working example to test it against. And in Chapter 4 you will write a product requirements document that commits to features, scope, and intended users. Before you can commit to product, you need to commit to identity. This chapter is where that happens.
+
+![Horizontal timeline of the book's chapters showing the archetype as a red band — picked in Ch. 2, committed in Ch. 3, dormant through Ch. 4–7, reactivated in Ch. 8.](../images/03-jungian-brand-archetypes-as-a-system-fig-10.png)
+*Figure 3.10 — The archetype is load-bearing across the whole book*
 
 ---
 
