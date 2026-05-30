@@ -11,7 +11,7 @@ The no-list is not a limitation. It is the mechanism that converts a set of prod
 
 The immediate objection is that brand strategy sounds like a large-company exercise — something you do after you have found product-market fit, raised a B round, and hired a CMO. The objection is wrong, and the reason it is wrong is timing. A company without explicit brand decisions makes those decisions anyway — inconsistently, by committee, under pressure, one at a time. The decisions compound. By the time the inconsistency is visible to customers, it has been baked into the product for two years. The one-page strategy document you will write at the end of this chapter does not prevent all of those errors. It gives you a constraint to check decisions against before they are made.
 
-![A funnel diagram showing incoming decisions — feature requests, partnership offers, channel proposals, hiring criteria — flowing through three filter layers (archetype, values, negative space) and exiting as "Decided, without a meeting."](../images/08-startup-brand-path-brand-strategy-fig-05.png)
+![A funnel diagram showing incoming decisions — feature requests, partnership offers, channel proposals, hiring criteria — flowing through three filter layers (archetype, values, negative space) and exiting as "Decided, without a meeting."](../images/08b-startup-brand-path-brand-strategy-fig-05.png)
 *Figure 8.5 — The strategy document as a decision funnel*
 
 <!-- → [FIGURE: Vertical funnel — four incoming-decision boxes (feature requests, partnership offers, channel proposals, hiring criteria) feeding three narrowing filter stages (Archetype, Values, Negative Space), ending in output box "Decided, without a meeting"; negative space stage is the highlighted accent] -->
@@ -26,7 +26,7 @@ A startup brand strategy has eight components. They are not independent — each
 
 Stripe's stated mission — *increase the GDP of the internet* — is a useful model for precision. Three things to note about it. First, it is phrased as an empirical claim about a measurable thing. The GDP of the internet is in principle measurable; you could evaluate whether Stripe has made progress on it. That falsifiability makes the mission a real constraint. Second, it is ambitious without being generic. "Make payments easy" would be a generic mission. "Increase the GDP of the internet" implies a specific theory: that economic activity in digital markets is currently constrained by friction in financial infrastructure, and that removing that friction unlocks economic value. The theory is arguable. Its arguability is what makes it interesting. Third, it does not name a technology. If payment APIs eventually become a solved commodity, the mission survives. Your mission should have all three properties: testable, theory-driven, technology-agnostic. One sentence.
 
-![An anatomy diagram of Stripe's mission "Increase the GDP of the internet" with three callouts — testable, theory-driven, technology-agnostic — above a generic counter-example mission failing all three tests.](../images/08-startup-brand-path-brand-strategy-fig-06.png)
+![An anatomy diagram of Stripe's mission "Increase the GDP of the internet" with three callouts — testable, theory-driven, technology-agnostic — above a generic counter-example mission failing all three tests.](../images/08b-startup-brand-path-brand-strategy-fig-06.png)
 *Figure 8.6 — Anatomy of Stripe's mission statement*
 
 <!-- → [FIGURE: Annotation diagram — Stripe's mission in a highlighted box with three callout cards (Testable, Theory-driven, Tech-agnostic); below a divider, a generic counter-example mission ("Make payments easy") with three cards showing how it fails the same tests] -->
@@ -35,7 +35,7 @@ Stripe's stated mission — *increase the GDP of the internet* — is a useful m
 
 **Values** are the commitments the company maintains even when maintaining them is expensive. If a value has never cost you anything, it is not a value — it is a preference. Stripe's values, inferred from fifteen years of behavior: documentation as product; developer experience over enterprise sales process; slow, deliberate product expansion over breadth; intellectual rigor over marketing confidence; complement-of-building over competitor-of-alternatives. None of these is stated on a wall. They are inferred from a consistent pattern of decisions that looked costly in the short term and compounded in the long term. The test for whether your values are real: for each value, name two specific decisions the company would make differently from a competitor with different values. "We value honesty" is decoration unless you can trace it to a specific declined benchmark claim, a published error rate, a rejected partnership. Three to five values, each with at least two traceable decision implications.
 
-![A table showing the relationship between stated values and traceable decisions.](../images/08-startup-brand-path-brand-strategy-fig-01.png)
+![A table showing the relationship between stated values and traceable decisions.](../images/08b-startup-brand-path-brand-strategy-fig-01.png)
 *Figure 8.1 — Values mapped to traceable decisions*
 
 <!-- → [TABLE: Values-to-decisions reference — three columns: value statement, specific product decision it implies, specific marketing decision it implies; four to five rows illustrating how abstract values become concrete behavioral commitments] -->
@@ -54,7 +54,7 @@ Stripe's no-list, inferred from the public record: no aggressive enterprise sale
 
 At least five entries. Each entry: the specific thing the company will not do, the archetype-consistent reason for declining, and a competitor or category that made the opposite choice.
 
-![A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made the opposite choice.](../images/08-startup-brand-path-brand-strategy-fig-02.png)
+![A two-column table showing Stripe's no-list on the left — specific declined choices — and on the right, what competitor categories made the opposite choice.](../images/08b-startup-brand-path-brand-strategy-fig-02.png)
 *Figure 8.2 — Stripe's no-list mapped to competitor choices*
 
 <!-- → [TABLE: Two-column table — left: Stripe's specific declined choices (five to six entries); right: competitor category that made the opposite choice; illustrates that each "no" is a real fork in the road, not a default] -->
@@ -69,7 +69,7 @@ A brand becomes legible when an audience can predict what a company will and wil
 
 Return to the thought experiment from the chapter's opening. Company A and Company B shipped identical products. After twelve months, Company A has a legible brand because its no-list has been maintained consistently enough that customers can predict future behavior. Company B's customers cannot predict what the next product iteration will look like, because there is no visible constraint shaping the choices. A brand without predictability is a series of transactions, not a relationship.
 
-![Side-by-side twelve-month timelines for Company A (explicit no-list) and Company B (none) across four rows — product decisions, customer understanding, team clarity, brand legibility — ending in a clear shape versus a blurred one.](../images/08-startup-brand-path-brand-strategy-fig-07.png)
+![Side-by-side twelve-month timelines for Company A (explicit no-list) and Company B (none) across four rows — product decisions, customer understanding, team clarity, brand legibility — ending in a clear shape versus a blurred one.](../images/08b-startup-brand-path-brand-strategy-fig-07.png)
 *Figure 8.7 — Company A vs. Company B over twelve months*
 
 <!-- → [FIGURE: Two-column comparison table — four rows: product decisions, customer understanding, team clarity, brand legibility; Company A (explicit no-list) in left column with rising clarity; Company B (none) in right column with increasing blur; end-state brand shapes: clean rectangle vs. cluster of mismatched shapes] -->
@@ -96,7 +96,7 @@ Apply this test to your document before submitting it. Show it to a classmate wh
 
 The values section and the no-list must cohere. If a value is stated and no entry on the no-list follows from it, the value is not doing work. If an entry on the no-list cannot be traced to a value, the entry is a preference, not a commitment.
 
-![A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries.](../images/08-startup-brand-path-brand-strategy-fig-03.png)
+![A worked example of the coherence test — three values from a hypothetical startup, each linked by arrows to two no-list entries.](../images/08b-startup-brand-path-brand-strategy-fig-03.png)
 *Figure 8.3 — The coherence test: values linked to no-list entries*
 
 <!-- → [FIGURE: Coherence test diagram — three value statements on the left, each linked by arrows to two no-list entries on the right; any value with no arrow is flagged as decorative; any no-list entry with no arrow is flagged as a preference rather than a commitment] -->
@@ -151,14 +151,14 @@ A brand strategy document that is two pages has not yet been specified. It is st
 
 Plus: the name (with trademark and domain status noted), and the tagline (one sentence, archetype-aligned).
 
-![A blank one-page strategy document mockup with a name/tagline block and eight labeled sections, each printed with its length limit, negative space the largest box.](../images/08-startup-brand-path-brand-strategy-fig-08.png)
+![A blank one-page strategy document mockup with a name/tagline block and eight labeled sections, each printed with its length limit, negative space the largest box.](../images/08b-startup-brand-path-brand-strategy-fig-08.png)
 *Figure 8.8 — The one-page brand strategy document, blank template*
 
 <!-- → [FIGURE: Two-column document mockup — full-width name/tagline block at top; eight labeled section boxes sized proportionally to their space; negative space is the largest and the highlighted accent box; each section prints its length limit] -->
 
 Before finalizing, run the coherence check across all sections. Does the archetype appear in every section? Does the no-list follow from the values? Can a stranger predict the no-list from the values? If any answer is no, revise until all three are yes.
 
-![A visual layout of the one-page document — eight labeled sections with their maximum lengths noted.](../images/08-startup-brand-path-brand-strategy-fig-04.png)
+![A visual layout of the one-page document — eight labeled sections with their maximum lengths noted.](../images/08b-startup-brand-path-brand-strategy-fig-04.png)
 *Figure 8.4 — Visual layout of the one-page document*
 
 ---
@@ -189,7 +189,7 @@ Here is the Stripe strategy document that no one published, inferred from the ar
 
 Internal consistency check: every section is traceable to the Sage archetype. Mission is phrased as an empirical claim. Values reflect truth and rigor. Voice is the Sage's voice. Negative space is consistently the Sage's refusal of noise, performance, and premature scale. The document holds.
 
-![The Stripe brand strategy rendered as a completed one-page document — all eight sections filled in with the strategy inferred from public artifacts, with a callout noting Stripe never published it.](../images/08-startup-brand-path-brand-strategy-fig-09.png)
+![The Stripe brand strategy rendered as a completed one-page document — all eight sections filled in with the strategy inferred from public artifacts, with a callout noting Stripe never published it.](../images/08b-startup-brand-path-brand-strategy-fig-09.png)
 *Figure 8.9 — Stripe's brand strategy as a completed one-page document*
 
 <!-- → [FIGURE: Completed one-page document with the same layout as Figure 8.8 — all eight sections filled with Stripe's inferred strategy; Archetype (Sage) box highlighted as the accent; footer callout reads "inferred from public artifacts — Stripe never published it"] -->
