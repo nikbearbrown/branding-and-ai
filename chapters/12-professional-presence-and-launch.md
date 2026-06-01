@@ -419,6 +419,10 @@ The ideas in this chapter didn't appear from nowhere. **Margaret Bourke-White** 
 ![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-bourke-white.jpg)
 *Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
 
+![Margaret Bourke-White](../images/margaret-bourke-white-oe4.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

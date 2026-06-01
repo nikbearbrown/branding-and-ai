@@ -371,6 +371,10 @@ The ideas in this chapter didn't appear from nowhere. **Joan Robinson** develope
 ![Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joan-robinson.jpg)
 *Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
+![Joan Robinson](../images/joan-robinson-usa.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

@@ -275,6 +275,10 @@ The ideas in this chapter didn't appear from nowhere. **Joseph Campbell** synthe
 ![Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joseph-campbell.jpg)
 *Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph.*
 
+![Joseph Campbell mythologist](../images/joseph-campbell-szk.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

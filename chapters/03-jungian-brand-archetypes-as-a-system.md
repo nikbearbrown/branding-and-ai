@@ -373,6 +373,10 @@ The ideas in this chapter didn't appear from nowhere. **Carl Jung** is the sourc
 ![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.jpg)
 *Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph.*
 
+![Carl Jung](../images/carl-jung-jzt.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```
