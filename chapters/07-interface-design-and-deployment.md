@@ -215,7 +215,7 @@ The ideas in this chapter didn't appear from nowhere. **Vannevar Bush** publishe
 ![Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/vannevar-bush.jpg)
 *Vannevar Bush, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
-![Vannevar Bush memex](../images/vannevar-bush-neb.png)
+![Vannevar Bush](../images/vannevar-bush-mwt.png)
 
 *Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 

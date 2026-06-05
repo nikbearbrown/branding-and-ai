@@ -371,7 +371,7 @@ The ideas in this chapter didn't appear from nowhere. **Marshall McLuhan** spent
 ![Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/marshall-mcluhan.jpg)
 *Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph.*
 
-![Marshall McLuhan](../images/marshall-mcluhan-ry3.png)
+![Marshall McLuhan](../images/marshall-mcluhan-2tn.png)
 
 *Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
