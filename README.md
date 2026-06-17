@@ -3,7 +3,7 @@
 AI+1, Hands on. Domain specific. No generic prompts.
 
 **Author:** Nik Bear Brown & Nina Harris
-**Publisher:** Bear Brown, LLC
+**Publisher:** Humanitarians AI Incorporated
 **Copyright:** Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved.
 **Edition:** 2026
 

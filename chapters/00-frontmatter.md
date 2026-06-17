@@ -8,7 +8,7 @@
 
 Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved.
 
-Published by Bear Brown, LLC.
+Published by Humanitarians AI Incorporated.
 
 No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the publisher, except in the case of brief quotations in critical reviews and certain other noncommercial uses permitted by copyright law.
 

@@ -2,7 +2,7 @@
 
 Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved.
 
-Published by Bear Brown, LLC.
+Published by Humanitarians AI Incorporated.
 
 All rights reserved.
 
