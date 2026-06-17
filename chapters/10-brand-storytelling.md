@@ -475,4 +475,63 @@ to publish it for my archetype's typical audience.
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** an on-voice brand narrative and a small, channel-ready copy set.
+**Madison recipes:** [`madison-copy-content-generation`](../madison/recipes/madison-copy-content-generation.md), [`content-agent`](../madison/recipes/content-agent.md)
+
+> A brand telling the wrong story burns faster than no story (this chapter's thesis). You set the story and own the voice; Madison drafts variants; you approve.
+
+### Exercise 1 — When to Use AI
+- *Generate headline / subject-line / bio variants in your voice.* **Why it works:** drafting volume you select from.
+- *Adapt one core narrative to three channels.* **Why it works:** reformatting.
+- *Spot where copy drifts off-archetype.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can tell, line by line, whether it sounds like you.
+
+### Exercise 2 — When NOT to Use AI
+- *Choosing the core story.* **Why it fails:** narrative strategy is the human act.
+- *Approving the final voice.* **Why it fails:** authenticity — the reader detects generic copy.
+- *Inserting a claim or anecdote into the story.* **Why it fails:** fabricated specifics destroy trust.
+
+**Tell:** you've crossed the line when you ship copy you wouldn't say out loud.
+**Series connection:** trains story-as-load-bearing.
+
+### Exercise 3 — Recipe Exercise
+**Build:** one core narrative + a channel copy set. **Run:** [`madison-copy-content-generation`](../madison/recipes/madison-copy-content-generation.md) / [`content-agent`](../madison/recipes/content-agent.md) over your positioning + archetype. **Tool:** Claude Project (holding your voice).
+
+```
+Using the Madison copy-content-generation + content-agent recipe approach, and my
+positioning + archetype + 3 writing samples (below), draft: (1) one 120-word brand
+narrative in MY voice; (2) channel variants — one LinkedIn post, one site hero, one
+email subject + preheader. Use only facts I provide; mark any invented specific
+[FABRICATED — remove]. Match the cadence of my samples, not generic brand-speak.
+
+Positioning + archetype + samples:
+[PASTE]
+```
+**Adapt:** if a variant needs a claim you can't back, cut the claim, not the voice.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/story.md` + `your-brand/copy-set.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/story.md (the 120-word narrative) and your-brand/copy-set.md (the
+channel variants in a table: channel | copy | claim-check). Tag any unverifiable
+claim [FABRICATED]. Do not invent metrics, awards, or quotes. Stop after writing.
+```
+**Inspect:** zero fabricated specifics; voice matches your samples.
+**If it goes wrong:** the model adds a plausible but false detail (a number, a client) — strip every unverifiable specific.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the story + copy. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** is every factual specific true and yours?
+- **Completeness:** core narrative + all three channel variants?
+- **Scope:** story/copy only — not a full campaign?
+- **Brand-specific:** does it sound like your archetype and your samples?
+- **Failure-mode (fabrication):** list every [FABRICATED] tag; confirm each is removed or sourced.
+
 *Tags: brand-storytelling · heros-journey · campbell · storybrand · pepsi-jenner · bud-light · jaguar · narrative-archetype-match · INFO-7375*

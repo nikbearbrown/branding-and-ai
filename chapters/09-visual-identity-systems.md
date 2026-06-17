@@ -416,4 +416,64 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** a visual identity system plus a coherence-and-accessibility QA pass.
+**Madison recipes:** [`madison-brand-consistency-contradiction-checker`](../madison/recipes/madison-brand-consistency-contradiction-checker.md), [`madison-qa-accessibility-audit`](../madison/recipes/madison-qa-accessibility-audit.md)
+
+> Design without strategy is the Pepsi document; the system is both present (this chapter's thesis). You make the design calls; Madison audits for contradiction and accessibility; you decide what to fix.
+
+### Exercise 1 — When to Use AI
+- *Tabulate your visual system's six components into a spec sheet.* **Why it works:** reformatting.
+- *Run a contradiction check across your assets for off-system uses.* **Why it works:** pattern-spotting at scale.
+- *Run an accessibility audit (contrast, alt text, type sizes).* **Why it works:** rule-checking the model does reliably.
+
+**Tell:** you can verify each flagged contradiction against the spec yourself.
+
+### Exercise 2 — When NOT to Use AI
+- *Choosing the type pairing and palette.* **Why it fails:** taste, tied to archetype.
+- *Deciding which "contradiction" is intentional flexibility vs. drift.* **Why it fails:** a system-design judgment.
+- *Approving the final system.* **Why it fails:** brand coherence is owned, not generated.
+
+**Tell:** you've crossed the line when the checker's flag overrides a deliberate design choice without your review.
+**Series connection:** trains coherence — strategy and design together.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a visual-system spec + a QA report. **Run:** [`madison-brand-consistency-contradiction-checker`](../madison/recipes/madison-brand-consistency-contradiction-checker.md) then [`madison-qa-accessibility-audit`](../madison/recipes/madison-qa-accessibility-audit.md) over your assets. **Tool:** Claude / Claude Code.
+
+```
+Using the Madison brand-consistency-contradiction-checker + qa-accessibility-audit
+recipe approach, review my visual system (six components below) plus 3–5 sample
+assets. Output: (1) contradictions vs. the spec, each tagged INTENTIONAL or DRIFT
+[my call to confirm]; (2) an accessibility table (contrast ratio, alt text present,
+min type size) with pass/fail. Flag, don't fix. Cite the asset for each flag.
+
+System + assets:
+[PASTE]
+```
+**Adapt:** the contrast check pairs with the repo's `scripts/svg-layout-audit.mjs` for figures.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/visual-system.md` + `your-brand/qa-report.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/visual-system.md (the six components) and your-brand/qa-report.md
+(contradiction table: asset | issue | intentional/drift | evidence; accessibility
+table: asset | contrast | alt | type size | pass/fail). Flag only; make no edits to
+assets. Stop after writing the files.
+```
+**Inspect:** every flag cites a real asset; accessibility failures have measured ratios, not guesses.
+**If it goes wrong:** the checker calls deliberate variation "drift" — re-tag intentional uses yourself.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the QA report. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** are contrast ratios measured, not estimated?
+- **Completeness:** all six components specified; all sample assets audited?
+- **Scope:** flags only — no unrequested redesign?
+- **Brand-specific:** does the system express the committed archetype?
+- **Failure-mode:** any "drift" flag that is actually intentional system flexibility? Re-tag it.
+
 *Tags: visual-identity · creative-brief · pepsi-logo · yahoo-logos · tropicana-redesign · WCAG-accessibility · color-palette · typography · wireframe · archetype-expression · INFO-7375*

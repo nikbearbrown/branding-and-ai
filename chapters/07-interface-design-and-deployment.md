@@ -377,4 +377,65 @@ production-ready replacement text.
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** your brand tool, deployed — the interface as a kept promise.
+**Madison recipes:** [`wrap-your-tool`](../madison/wrap-your-tool/) (template), [`ai-concierge`](../madison/recipes/ai-concierge.md)
+
+> The interface is a contract the user re-checks every session (this chapter's thesis). You design the promise; the scaffold ships it; you verify it holds.
+
+### Exercise 1 — When to Use AI
+- *Scaffold the deployable wrapper from the `wrap-your-tool` template.* **Why it works:** boilerplate generation.
+- *Draft the empty/error/loading states for your tool.* **Why it works:** drafting known UI states.
+- *Generate concierge prompt copy in your brand voice.* **Why it works:** drafting you then edit for voice.
+
+**Tell:** you can run the deployed tool and see it behave as specified.
+
+### Exercise 2 — When NOT to Use AI
+- *Deciding what the interface promises (and refuses).* **Why it fails:** a brand-trust decision.
+- *Approving the brand voice of the concierge.* **Why it fails:** taste and authenticity.
+- *Shipping without testing the failure states yourself.* **Why it fails:** the contract is checked under failure, not happy-path.
+
+**Tell:** you've crossed the line when "it deploys" substitutes for "it keeps the promise."
+**Series connection:** trains interface-as-contract.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a deployed brand tool wrapping one earlier recipe. **Run:** [`wrap-your-tool`](../madison/wrap-your-tool/) around your Ch 5 monitor or Ch 6 brief; add [`ai-concierge`](../madison/recipes/ai-concierge.md) copy. **Tool:** Claude Code + the bundled scaffold.
+
+```
+Using the bundled madison/wrap-your-tool Next.js scaffold, wire it to call MY
+chosen recipe (name below) and render its output. Then draft ai-concierge-style
+microcopy for the empty, loading, and error states IN MY BRAND VOICE (archetype
+below). Keep all model calls behind the scaffold's run route. Output: the edited
+files + a one-line note on what the interface promises.
+
+Recipe + archetype:
+[PASTE]
+```
+**Adapt:** for a person (8a) the "tool" can be your site's interactive element; same contract test.
+
+### Exercise 4 — CLI Exercise
+**Build:** a running local deployment + `your-brand/interface-contract.md`. **Tool:** the scaffold via Claude Code.
+
+```
+In a copy of madison/wrap-your-tool: install, run dev, confirm the run route
+returns my recipe's sample output. Write your-brand/interface-contract.md stating
+the promise, the three failure states and their copy, and how each was tested.
+Do not deploy to a live host without my approval. Stop after the file + a working
+local run.
+```
+**Inspect:** error/loading/empty states exist and were actually triggered; voice matches archetype.
+**If it goes wrong:** happy-path only — force a failing input and confirm the copy holds.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the deployed tool. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does the run route return the recipe's real output (not a stub)?
+- **Completeness:** empty/loading/error states all present and tested?
+- **Scope:** local/approved deploy only — no live keys committed?
+- **Brand-specific:** does the microcopy read as your archetype under failure?
+- **Failure-mode:** trigger a bad input — does the interface keep or break its promise?
+
 *Tags: interface-design · streamlit · gradio · deployment · interface-brand-alignment · google-bard · snapchat-redesign · microsoft-tay · alignment-audit · INFO-7375*

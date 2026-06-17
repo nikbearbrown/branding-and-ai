@@ -322,4 +322,63 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** your portfolio assembled as a product, with a way to measure it.
+**Madison recipes:** [`madison-brand-portfolio-dashboard`](../madison/recipes/madison-brand-portfolio-dashboard.md), [`madison-campaign-construction`](../madison/recipes/madison-campaign-construction.md)
+
+> The portfolio is the artifact you build once whose returns compound (this chapter's thesis). You curate; Madison assembles and instruments; you decide what earns a place.
+
+### Exercise 1 — When to Use AI
+- *Inventory your work into portfolio candidates with one-line outcomes.* **Why it works:** reformatting.
+- *Draft the dashboard structure (what to track per piece).* **Why it works:** drafting structure.
+- *Spot gaps the portfolio doesn't yet prove.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can verify every listed outcome against reality.
+
+### Exercise 2 — When NOT to Use AI
+- *Choosing which pieces make the cut.* **Why it fails:** curation is the brand judgment.
+- *Stating impact for a project.* **Why it fails:** inflated outcomes are detectable and damaging.
+- *Deciding the portfolio's narrative order.* **Why it fails:** a storytelling call.
+
+**Tell:** you've crossed the line when the dashboard rewards quantity over the pieces that prove your positioning.
+**Series connection:** trains portfolio-as-product.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a portfolio assembly + a measurement dashboard. **Run:** [`madison-brand-portfolio-dashboard`](../madison/recipes/madison-brand-portfolio-dashboard.md) and [`madison-campaign-construction`](../madison/recipes/madison-campaign-construction.md) over your work inventory. **Tool:** Claude / Claude Code.
+
+```
+Using the Madison brand-portfolio-dashboard + campaign-construction recipe
+approach, from my work inventory (below): (1) recommend the 5–7 pieces that best
+prove my positioning, each with the proof it carries; (2) propose a dashboard
+(piece | metric | source | cadence). Use only outcomes I supply; tag anything I'd
+need to verify [CONFIRM]. Do not invent traffic or engagement numbers.
+
+Inventory + positioning:
+[PASTE]
+```
+**Adapt:** if a beloved piece doesn't prove the positioning, it goes in an archive, not the portfolio.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/portfolio.md` + `your-brand/portfolio-dashboard.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/portfolio.md (selected pieces: title | role | proven outcome |
+link) and your-brand/portfolio-dashboard.md (piece | metric | source | cadence).
+Tag unverified outcomes [CONFIRM]; invent no numbers. Stop after writing files.
+```
+**Inspect:** each piece links to real work; outcomes are confirmable; dashboard metrics have a named source.
+**If it goes wrong:** the model asserts impact metrics — replace with [CONFIRM] until you have the source.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the portfolio + dashboard. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does each piece's outcome hold up to its source?
+- **Completeness:** selection + per-piece proof + dashboard?
+- **Scope:** portfolio as product — not a résumé dump?
+- **Brand-specific:** does every selected piece advance the positioning?
+- **Failure-mode (inflated impact):** which outcomes are [CONFIRM]; how will you verify each?
+
 *Tags: portfolio · v0-vercel · framer-ai · brittany-chiang · linkedin-optimization · case-study · compounding · negative-space · coherence-audit · INFO-7375*

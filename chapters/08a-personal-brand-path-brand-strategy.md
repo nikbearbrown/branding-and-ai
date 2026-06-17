@@ -329,4 +329,63 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison (Personal Brand Path)
+
+**Project:** Self-as-Project — *your brand, end to end* · **Path A: personal**
+**This chapter adds:** a personal positioning statement, evidence-checked against your real work.
+**Madison recipes:** [`madison-competitive-positioning-agent`](../madison/recipes/madison-competitive-positioning-agent.md), [`madison-audience-definition`](../madison/recipes/madison-audience-definition.md)
+
+> Positioning is a claim about where *you* sit that others can dispute. Madison drafts the map; you own the claim and the proof.
+
+### Exercise 1 — When to Use AI
+- *Map 3–5 people occupying adjacent positions to yours into a grid.* **Why it works:** reformatting.
+- *Draft candidate positioning statements from your archetype + audience.* **Why it works:** drafting variants you choose among.
+- *Spot the position no one adjacent currently holds.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can back the chosen position with artifacts you've actually shipped.
+
+### Exercise 2 — When NOT to Use AI
+- *Committing your positioning claim.* **Why it fails:** it must be true and defensible — yours to own.
+- *Asserting differentiation you can't evidence.* **Why it fails:** an unprovable claim is a liability, not positioning.
+- *Choosing who you are NOT for.* **Why it fails:** a values call.
+
+**Tell:** you've crossed the line when the statement sounds good but you can't prove it.
+**Series connection:** trains positioning-as-defensible-claim.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a personal positioning statement + proof points. **Run:** [`madison-competitive-positioning-agent`](../madison/recipes/madison-competitive-positioning-agent.md) over your archetype/audience/signal baseline. **Tool:** Claude Project.
+
+```
+Using the Madison competitive-positioning-agent recipe approach, draft 3 candidate
+positioning statements for ME (archetype, audience, and Ch 1 signal baseline
+below). For each: the claim, the one adjacent person it differentiates me from, and
+the SPECIFIC artifact that proves it. Tag any claim without a proof artifact
+[UNPROVEN]. I will pick one; do not pick for me.
+
+Context:
+[PASTE]
+```
+**Adapt:** keep only statements with at least one shipped-artifact proof.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/positioning.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/positioning.md: the chosen statement, the differentiation (vs.
+whom), 3 proof artifacts with links, and a one-line "who this is not for". Mark any
+proofless claim [UNPROVEN]. Invent no achievements. Stop after writing the file.
+```
+**Inspect:** every differentiation claim has a linked, openable proof; the "not for" line is real.
+**If it goes wrong:** the model writes aspirational positioning — delete any claim you can't link.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the positioning. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does each proof artifact actually demonstrate the claim?
+- **Completeness:** statement + differentiation + proofs + "not for"?
+- **Scope:** positioning only — not a full bio?
+- **Brand-specific:** is the position consistent with the committed archetype?
+- **Failure-mode (unprovable claim):** which claims are [UNPROVEN], and what artifact would each need?
+
 *Tags: brand-strategy · startup-brand · stripe · sage-archetype · developer-first · negative-space · UVP · mission-vision-values · naming · archetype-company-level · INFO-7375*

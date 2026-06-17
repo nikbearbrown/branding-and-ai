@@ -429,4 +429,63 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** an orchestrated multi-agent intelligence run over your pipeline — and an explicit map of where the AI decides and where it does not.
+**Madison recipes:** [`madison-marketing-intelligence-orchestrator`](../madison/recipes/madison-marketing-intelligence-orchestrator.md), [`intelligence-agent`](../madison/recipes/intelligence-agent.md)
+
+> The hard decision is *where the AI decides and where it does not* (this chapter's thesis). You draw that line; Madison orchestrates the rest.
+
+### Exercise 1 — When to Use AI
+- *Draft the orchestration graph wiring your Ch 5 monitors to an intelligence summary.* **Why it works:** drafting structure.
+- *Reformat raw monitor output into a daily brief.* **Why it works:** summarization of inputs you can check.
+- *Spot redundant or conflicting agent outputs.* **Why it works:** pattern-spotting you adjudicate.
+
+**Tell:** you can trace any brief line back to a source the agent cited.
+
+### Exercise 2 — When NOT to Use AI
+- *Deciding which steps run autonomously vs. human-gated.* **Why it fails:** the chapter's central design judgment.
+- *Acting on a brief without checking provenance.* **Why it fails:** orchestration can launder an unverified input into a confident summary.
+- *Letting the orchestrator pick your brand priorities.* **Why it fails:** priorities are strategy, not output.
+
+**Tell:** you've crossed the line when you can't say which agent produced a claim.
+**Series connection:** trains the decide/automate boundary.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a daily brand-intelligence brief with provenance. **Run:** [`madison-marketing-intelligence-orchestrator`](../madison/recipes/madison-marketing-intelligence-orchestrator.md) over your Ch 5 pipeline output. **Tool:** Claude Project.
+
+```
+Using the Madison orchestrator recipe approach, turn my Ch 5 sample signal output
+(below) into a one-page daily brief. For every line in the brief, cite which agent/
+source produced it. Mark any step you recommend running autonomously vs.
+human-gated, with a one-line reason. Carry no claim that lacks a cited source.
+
+Signal output:
+[PASTE]
+```
+**Adapt:** add the `intelligence-agent` for a single deep dive when one signal needs investigation.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/daily-brief.md` from a sample run. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+From your-brand/sample-signals.json, write your-brand/daily-brief.md: ≤7 bullets,
+each with a [source] tag, plus an "autonomy map" table (step | autonomous or
+human-gated | why). Drop any bullet without a traceable source. No network calls.
+Stop after writing the file.
+```
+**Inspect:** every bullet is source-tagged; the autonomy map has at least one human gate.
+**If it goes wrong:** the orchestrator merges sources into an unattributable claim — reject untraceable bullets.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the brief + autonomy map. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** is every brief line traceable to a named source?
+- **Completeness:** brief + autonomy map both present?
+- **Scope:** intelligence only — no decisions executed?
+- **Brand-specific:** do the human-gated steps match where brand accountability lives?
+- **Failure-mode (laundered input):** pick one bullet — follow it back to the raw item. Does it survive?
+
 *Tags: multi-agent · CrewAI · AutoGPT · agent-architecture · orchestrated-vs-autonomous · madison-marketmind · production-reliability · INFO-7375*

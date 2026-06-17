@@ -395,4 +395,65 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** a committed archetype and the audience definition it implies.
+**Madison recipes:** [`madison-audience-definition`](../madison/recipes/madison-audience-definition.md), [`madison-persona-generation`](../madison/recipes/madison-persona-generation.md)
+
+> Run the Self-as-Project "Archetype Commitment" exercise above first; this block turns that commitment into an evidence-checked audience. You commit the archetype; Madison drafts the audience; you verify the personas are real.
+
+### Exercise 1 — When to Use AI
+- *Extract the five archetype inputs (tagline, visual language, refusals, customer, crisis behavior) for three competitors into a grid.* **Why it works:** reformatting.
+- *Draft candidate personas implied by your committed archetype.* **Why it works:** drafting structure you then ground in evidence.
+- *Surface the unoccupied archetype in your competitive set.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can independently check each persona against real audience evidence.
+
+### Exercise 2 — When NOT to Use AI
+- *Committing your final archetype.* **Why it fails:** an identity choice that must be sustainable for years — yours alone.
+- *Deciding a generated persona is real.* **Why it fails:** models produce fluent personas with no referent; acceptance is judgment.
+- *Naming your shadow watchlist's true triggers.* **Why it fails:** self-knowledge the model can only guess at.
+
+**Tell:** you've crossed the line when a persona enters your strategy without an evidence check.
+**Series connection:** trains archetype-as-constraint — the choice that makes downstream decisions decidable.
+
+### Exercise 3 — Recipe Exercise
+**Build:** an audience definition anchored to your committed archetype. **Run:** [`madison-audience-definition`](../madison/recipes/madison-audience-definition.md) then [`madison-persona-generation`](../madison/recipes/madison-persona-generation.md) on the Archetype Commitment from the Self-as-Project exercise above. **Tool:** Claude Project.
+
+```
+Using the Madison audience-definition + persona-generation recipe approach, and
+MY committed archetype (pasted below), draft: (1) a one-paragraph audience
+definition consistent with the archetype; (2) two personas, each with a real
+behavior I could verify and a [NEEDS EVIDENCE] tag on anything I'd have to confirm.
+Reject any persona detail that the archetype would not actually attract. Invent no
+statistics.
+
+My Archetype Commitment:
+[PASTE]
+```
+**Adapt:** if archetype and a tempting audience conflict, surface the mismatch (exercise S3) rather than smoothing it.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/audience.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/audience.md: the archetype, the audience definition, and two
+personas (table: persona | core need | verifiable behavior | evidence status).
+Tag unconfirmed details [NEEDS EVIDENCE]. Do not invent demographics or sizes.
+Stop after writing the file.
+```
+**Inspect:** every persona has at least one behavior you could actually verify; no invented market sizes.
+**If it goes wrong:** the model produces a demographically detailed but evidence-free persona — strip every unverifiable specific.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the audience definition. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** is the audience consistent with the committed archetype (not a generic ideal customer)?
+- **Completeness:** archetype + audience + ≥2 personas with evidence status?
+- **Scope:** audience only — no campaign or copy yet?
+- **Brand-specific:** would the named shadow show up if this audience were over-served? Note it.
+- **Failure-mode (fabricated persona):** which persona details are [NEEDS EVIDENCE] and how would you confirm each?
+
 *Tags: brand-archetypes · jung · mark-pearson · tropicana · gap · new-coke · innocent · sage · archetype-drift · shadow · INFO-7375*

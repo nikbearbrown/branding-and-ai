@@ -437,4 +437,63 @@ corporate LinkedIn post, rewrite it.
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** the scope of your brand/tool — and the "$100,000 no" list of what you refuse to build.
+**Madison recipes:** [`madison-branding-marketing-pipeline`](../madison/recipes/madison-branding-marketing-pipeline.md), [`madison-martech-product-positioning-signal-agent`](../madison/recipes/madison-martech-product-positioning-signal-agent.md)
+
+> Scope is refusal. You decide the nos; Madison drafts the pipeline that delivers the yeses; you check that the refusals actually hold.
+
+### Exercise 1 — When to Use AI
+- *Draft the PRD scaffold (problem, user, in-scope, out-of-scope, success metric).* **Why it works:** drafting a known structure.
+- *Reformat your archetype + audience into a one-line product proposition.* **Why it works:** reformatting prior artifacts.
+- *Surface candidate scope creep items to refuse.* **Why it works:** pattern-spotting you adjudicate.
+
+**Tell:** you can independently judge each scope line against the archetype.
+
+### Exercise 2 — When NOT to Use AI
+- *Writing the "$100,000 no" — the things you refuse to build.* **Why it fails:** strategic refusal is the chapter's core human act.
+- *Choosing the single success metric.* **Why it fails:** a value judgment about what the brand is for.
+- *Deciding the MVP boundary.* **Why it fails:** taste plus risk tolerance the model can't hold.
+
+**Tell:** you've crossed the line when the model's convenience defines your scope.
+**Series connection:** trains scope-as-refusal — what you won't build defines the product.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a one-page PRD with an explicit refusal list. **Run:** [`madison-branding-marketing-pipeline`](../madison/recipes/madison-branding-marketing-pipeline.md) scoping phase over your Ch 3 audience. **Tool:** Claude Project.
+
+```
+Using the Madison branding-marketing-pipeline recipe approach, draft a one-page
+PRD for MY brand/tool from the archetype + audience below. Include: problem, target
+user, in-scope (max 5), OUT-of-scope (the "$100,000 no", min 3, each with the
+archetype reason it's refused), and ONE success metric. Do not pad in-scope; a
+short in-scope with a sharp out-of-scope is the goal.
+
+Archetype + audience:
+[PASTE]
+```
+**Adapt:** for a venture (Ch 8b) add a positioning line via `madison-martech-product-positioning-signal-agent`.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/prd.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/prd.md with sections: Problem, User, In-Scope (≤5), Out-of-Scope
+($100,000 no, ≥3, each with a one-line archetype reason), Success Metric (one).
+Do not invent users or metrics beyond what I provide. Stop after writing the file.
+```
+**Inspect:** the out-of-scope list is at least as long as in-scope and each refusal cites the archetype.
+**If it goes wrong:** the model inflates in-scope to look ambitious — cut anything the archetype doesn't demand.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the PRD. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does each out-of-scope item have a real archetype reason (not "out of time")?
+- **Completeness:** problem, user, in/out scope, single metric all present?
+- **Scope:** one page, one metric — no roadmap sprawl?
+- **Brand-specific:** would building any in-scope item activate the shadow? Flag it.
+- **Failure-mode:** any in-scope item justified only by "AI makes it easy"? Remove it.
+
 *Tags: PRD · scope-discipline · MVP · build-measure-learn · lean-startup · linear · cagan · madison-architecture · INFO-7375*

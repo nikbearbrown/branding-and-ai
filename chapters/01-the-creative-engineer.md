@@ -298,4 +298,67 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** a four-verb self-audit and a public-signal baseline for your brand.
+**Madison recipe:** [`intelligence-agent`](../madison/recipes/intelligence-agent.md)
+
+> The brand decision is yours; Madison drafts; you accept, reject, or revise. Treat every agent-generated claim or metric as a draft that needs an evidence check — that is the "+1."
+
+### Exercise 1 — When to Use AI
+- *Pull your public footprint — repos, posts, profiles, talks — into one table.* **Why it works:** reformatting; clerk work before judgment.
+- *Draft the Ideate / Build / Brand / Ship scoring scaffold.* **Why it works:** drafting the structure you then fill with honest scores.
+- *Surface which verb your evidence is thinnest on.* **Why it works:** pattern-spotting across artifacts you confirm.
+
+**Tell:** you are using AI well when you can independently check the output.
+
+### Exercise 2 — When NOT to Use AI
+- *Assigning your final four-verb scores.* **Why it fails:** calibration gap — the model rewards activity over shipped artifacts.
+- *Deciding which of your signals is genuinely hard to copy.* **Why it fails:** that is the strategic judgment the chapter trains.
+- *Claiming a result or credential you cannot verify.* **Why it fails:** hallucination/inflation risk; an unverifiable claim is treated as false.
+
+**Tell:** you've crossed the line when the model's output is your *reason* for a score, not a tool for reaching it.
+**Series connection:** trains signal-honesty — refusing to let visible effort masquerade as a costly signal.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a public-signal baseline for your brand. **Run:** [`intelligence-agent`](../madison/recipes/intelligence-agent.md) on your own name/handles. **Tool:** Claude (a Claude Project that holds your brand identity).
+
+```
+Using the Madison intelligence-agent recipe approach, assemble a public-signal
+baseline for ME as a brand. I will paste my public footprint (profiles, repos,
+posts) below. Do only this:
+1. Summarize what my public signal currently says about each of the four verbs —
+   Ideate, Build, Brand, Ship — citing the specific artifact for each claim.
+2. Flag every claim you cannot tie to a linked artifact as [UNVERIFIED].
+3. Name the one verb where my public evidence is weakest.
+Invent nothing. No score is final — output is a draft for me to grade.
+
+My footprint:
+[PASTE LINKS / TEXT]
+```
+**Adapt:** for a startup brand (Ch 8b) swap "me" for the venture and its public surfaces.
+
+### Exercise 4 — CLI Exercise
+**Build:** a reproducible `your-brand/signal-baseline.md`. **Tool:** the bundled [`wrap-your-tool`](../madison/wrap-your-tool/) scaffold, or Claude Code.
+
+```
+Create your-brand/ if absent. Save my pasted footprint as your-brand/footprint.txt.
+Produce your-brand/signal-baseline.md: a table (verb | evidence artifact | link |
+status) plus a one-line "weakest verb" finding. Mark any row without a working link
+[UNVERIFIED]. Do not invent links. Stop after writing the file.
+```
+**Inspect:** every link resolves; no aspirational rows pass as evidence.
+**If it goes wrong:** the model fills gaps with plausible-sounding artifacts — delete any row you can't open.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the signal baseline. Mark each Pass / Fail / Cannot-determine with one line of evidence:
+- **Correctness:** does each verb claim point to a real, openable artifact?
+- **Completeness:** all four verbs covered, each with a status?
+- **Scope:** baseline only — no career advice smuggled in?
+- **Brand-specific:** is the "weakest verb" finding supported by the absence of artifacts, not vibes?
+- **Failure-mode (fluent-but-wrong):** open every linked artifact — does it say what the row claims? Treat any unverifiable link as nonexistent.
+
 *Tags: creative-engineer · signaling-theory · spence-mechanism · four-verb-framework · jungian-archetypes · brand-strategy · AI-tooling · GitHub-Copilot · labor-market · portfolio · INFO-7375*

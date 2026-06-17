@@ -369,4 +369,63 @@ For instructors and readers who want a fully separate Startup Brand running trac
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison (Startup Brand Path)
+
+**Project:** Self-as-Project — *your brand, end to end* · **Path B: startup**
+**This chapter adds:** a venture positioning statement, checked against the competitive set.
+**Madison recipes:** [`madison-competitive-positioning-agent`](../madison/recipes/madison-competitive-positioning-agent.md), [`madison-martech-product-positioning-signal-agent`](../madison/recipes/madison-martech-product-positioning-signal-agent.md)
+
+> Same discipline as the personal path, aimed at a venture: a disputable claim about where the product sits, backed by evidence. Madison drafts; you own the claim.
+
+### Exercise 1 — When to Use AI
+- *Build the competitor matrix (positioning, category, refusal) for 3–5 rivals.* **Why it works:** reformatting.
+- *Draft candidate venture positioning statements from archetype + PRD.* **Why it works:** drafting variants.
+- *Spot the unoccupied category position.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can back the position with a real product capability or proof.
+
+### Exercise 2 — When NOT to Use AI
+- *Committing the venture's positioning.* **Why it fails:** a strategic bet leadership owns.
+- *Claiming a capability the product doesn't have yet.* **Why it fails:** unshippable claims break trust at first contact.
+- *Deciding which segment to abandon.* **Why it fails:** a resource-allocation judgment.
+
+**Tell:** you've crossed the line when positioning describes the product you wish you had.
+**Series connection:** trains positioning-as-defensible-claim (venture).
+
+### Exercise 3 — Recipe Exercise
+**Build:** a venture positioning statement + proof. **Run:** [`madison-competitive-positioning-agent`](../madison/recipes/madison-competitive-positioning-agent.md) + [`madison-martech-product-positioning-signal-agent`](../madison/recipes/madison-martech-product-positioning-signal-agent.md) over your Ch 4 PRD. **Tool:** Claude Project.
+
+```
+Using the Madison competitive-positioning + martech-product-positioning-signal
+recipe approach, draft 3 venture positioning statements from my PRD + archetype
+(below). For each: the claim, the rival it differentiates from, and the SHIPPED
+capability that proves it. Tag unshipped claims [ROADMAP, not positioning]. I pick.
+
+PRD + archetype:
+[PASTE]
+```
+**Adapt:** if the only proof is roadmap, the honest position is narrower — say so.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/positioning.md` (startup). **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/positioning.md: chosen venture statement, competitor it beats and
+on what axis, 3 proof points tied to shipped capability, and the segment you are
+NOT serving. Tag roadmap-only claims [ROADMAP]. Invent no traction numbers. Stop
+after writing the file.
+```
+**Inspect:** proofs map to real capability; no invented metrics; the "not serving" line is explicit.
+**If it goes wrong:** the model cites traction it can't know — strip every unverifiable number.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the venture positioning. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does each proof tie to a shipped capability (not roadmap)?
+- **Completeness:** statement + competitor axis + proofs + non-segment?
+- **Scope:** positioning, not a pitch deck?
+- **Brand-specific:** consistent with the venture's archetype and PRD refusals?
+- **Failure-mode (overclaim):** which claims are [ROADMAP], and what ships them?
+
 *Tags: brand-strategy · startup-brand · stripe · sage-archetype · developer-first · negative-space · UVP · mission-vision-values · naming · INFO-7375*

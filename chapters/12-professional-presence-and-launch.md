@@ -441,4 +441,64 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end* · **capstone**
+**This chapter adds:** a launch rehearsal, a launch handoff, and a post-launch performance report — closing the running project.
+**Madison recipes:** [`madison-pre-launch-simulation`](../madison/recipes/madison-pre-launch-simulation.md), [`madison-launch-handoff`](../madison/recipes/madison-launch-handoff.md), [`madison-performance-reporting`](../madison/recipes/madison-performance-reporting.md)
+
+> The final deliverable is you (this chapter's thesis). Madison rehearses and instruments the launch; you decide go/no-go and own the result. This block assembles every prior artifact into one launch.
+
+### Exercise 1 — When to Use AI
+- *Assemble your launch package from prior chapters' artifacts.* **Why it works:** reformatting what exists.
+- *Run a pre-launch simulation to surface likely objections/failures.* **Why it works:** pattern-spotting scenarios.
+- *Draft the performance-report template.* **Why it works:** drafting structure.
+
+**Tell:** you can trace each launch asset back to a real prior artifact.
+
+### Exercise 2 — When NOT to Use AI
+- *The go/no-go launch decision.* **Why it fails:** accountability lives with you.
+- *Interpreting post-launch results.* **Why it fails:** causal/judgment call — a metric move is not a verdict.
+- *Claiming launch outcomes you can't measure.* **Why it fails:** fabricated traction is the worst first impression.
+
+**Tell:** you've crossed the line when the simulation's "ready" replaces your own readiness judgment.
+**Series connection:** trains the human-accountable launch — the +1 owns the result.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a launch package + rehearsal + report template. **Run:** [`madison-pre-launch-simulation`](../madison/recipes/madison-pre-launch-simulation.md) → [`madison-launch-handoff`](../madison/recipes/madison-launch-handoff.md) → [`madison-performance-reporting`](../madison/recipes/madison-performance-reporting.md) over all prior artifacts. **Tool:** Claude Project (holding the whole brand).
+
+```
+Using the Madison pre-launch-simulation + launch-handoff + performance-reporting
+recipe approach, and my brand artifacts so far (positioning, story, visual system,
+portfolio — pasted/linked below): (1) simulate the launch and list the top 5 likely
+objections/failure points with a mitigation each; (2) produce a launch handoff
+checklist; (3) draft a performance-report template (metric | baseline | target |
+source) with NO invented numbers — baselines blank for me to fill.
+
+Artifacts:
+[PASTE/LINK]
+```
+**Adapt:** personal (8a) launch = your site + announcement; startup (8b) = product launch. Same rehearsal.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/launch-plan.md` + `your-brand/performance-report.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/launch-plan.md (objections + mitigations + handoff checklist) and
+your-brand/performance-report.md (metric | baseline | target | source, baselines
+blank). Reference real prior artifacts only. Invent no results. Stop after writing.
+```
+**Inspect:** every launch asset traces to a real artifact; the report has empty baselines (no fabricated traction).
+**If it goes wrong:** the model fills in launch metrics — blank them until measured.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the launch package. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does every asset trace to a real prior-chapter artifact?
+- **Completeness:** simulation + handoff + report template all present?
+- **Scope:** rehearsal + instrumentation — not a claim that it succeeded?
+- **Brand-specific:** does the launch express the archetype end to end (Ch 1 → Ch 12)?
+- **Failure-mode (fabricated traction):** confirm the performance report has zero invented numbers.
+
 *Tags: professional-presence · pitch-deck · airbnb · kawasaki-10-20-30 · resume · ATS · launch · final-presentation · coherence · four-verb-framework · INFO-7375*

@@ -393,4 +393,62 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** the role map for your brand's pipeline — which Madison roles you need, and where humans gate.
+**Madison recipes:** [`madison-marketing-intelligence-orchestrator`](../madison/recipes/madison-marketing-intelligence-orchestrator.md), [`intelligence-agent`](../madison/recipes/intelligence-agent.md)
+
+> The architecture *is* a brand surface (this chapter's thesis). You decide the decomposition; Madison runs the roles; you gate the decisions that carry brand risk.
+
+### Exercise 1 — When to Use AI
+- *Map your brand tasks onto the five roles + orchestration.* **Why it works:** drafting a structure you then correct.
+- *Draft the input/output contract for each role.* **Why it works:** reformatting a known division of labor.
+- *Spot which role your brand currently has no coverage for.* **Why it works:** pattern-spotting a gap you confirm.
+
+**Tell:** you can independently evaluate the role map against your real work.
+
+### Exercise 2 — When NOT to Use AI
+- *Deciding which brand decisions stay human-gated.* **Why it fails:** accountability is non-delegable — the chapter's whole point.
+- *Choosing graph- vs. conversation-based orchestration for your case.* **Why it fails:** a design trade-off the model will paper over.
+- *Accepting a vendor's "one autonomous agent does everything" claim.* **Why it fails:** failure-blur — you must reason about where it fails loudly vs. silently.
+
+**Tell:** you've crossed the line when "the orchestrator decided" replaces your reasoning.
+**Series connection:** trains architecture literacy — hearing "agent" and asking *which of four meanings*.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a one-page role map for your brand pipeline. **Run:** [`madison-marketing-intelligence-orchestrator`](../madison/recipes/madison-marketing-intelligence-orchestrator.md) over your Chapter 1 signal baseline. **Tool:** Claude Project.
+
+```
+Using the Madison orchestrator recipe approach, draft the agent role map for MY
+brand pipeline. For each of the five roles (Intelligence, Content, Research,
+Experience, Performance) plus the orchestration layer, state: input, output,
+cadence, and the named failure mode if this role hallucinates. Then mark which
+TWO decisions in this pipeline must stay human-gated and why. Use my Ch 1 signal
+baseline as context. Invent no metrics; this is a structural draft.
+```
+**Adapt:** drop roles your brand genuinely doesn't need yet — name the omission as a scope choice, not an oversight.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/role-map.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/role-map.md: a table (role | input | output | cadence | failure
+mode | human-gated?) for the five roles + orchestration, tuned to my brand. End
+with one line naming the role with no current coverage. Do not invent performance
+numbers. Stop after writing the file.
+```
+**Inspect:** every role has typed I/O and a named failure mode; at least one decision is human-gated.
+**If it goes wrong:** the model marks everything "human-gated" to be safe — force it to choose exactly the decisions where brand accountability actually lives.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the role map. Pass / Fail / Cannot-determine, one line of evidence each:
+- **Correctness:** does each role's I/O match the four-meanings-of-agent distinction (role-in-pipeline, not autonomous)?
+- **Completeness:** five roles + orchestration all present with failure modes?
+- **Scope:** a *map*, not a build plan?
+- **Brand-specific:** is "architecture as brand surface" reflected — does the map imply something a customer would feel?
+- **Failure-mode:** does any role silently depend on another's unverified output? Name it.
+
 **Tags:** madison-framework · multi-agent-systems · ReAct · n8n · architecture-as-brand · cursor · devin · agent-loop · orchestration · INFO-7375

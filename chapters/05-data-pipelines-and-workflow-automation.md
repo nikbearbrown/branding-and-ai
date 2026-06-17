@@ -393,4 +393,64 @@ What changes? What gets better? What gets worse?
 
 ---
 
+---
+
+## AI+1 — Self-as-Project on Madison
+
+**Project:** Self-as-Project — *your brand, end to end*
+**This chapter adds:** a live signal pipeline that watches your brand and its category.
+**Madison recipes:** [`madison-brand-news-reputation-monitor`](../madison/recipes/madison-brand-news-reputation-monitor.md), [`madison-category-sentiment-dashboard`](../madison/recipes/madison-category-sentiment-dashboard.md)
+
+> Every external source is a contract that will change (this chapter's thesis). You design the pipeline; Madison runs the monitors; you verify the signal before you act on it.
+
+### Exercise 1 — When to Use AI
+- *Draft the source inventory (feeds, APIs, queries) for your brand + category.* **Why it works:** reformatting a known list.
+- *Generate the normalization schema for mixed sources.* **Why it works:** drafting structure.
+- *Flag which sources are fragile contracts likely to break.* **Why it works:** pattern-spotting you confirm.
+
+**Tell:** you can independently check each source resolves and returns what you expect.
+
+### Exercise 2 — When NOT to Use AI
+- *Deciding which signals are worth acting on.* **Why it fails:** relevance is a brand judgment, not a volume metric.
+- *Trusting an unverified sentiment score.* **Why it fails:** calibration gap; sentiment models miss sarcasm, context, your category's jargon.
+- *Treating a monitor's spike as a fact.* **Why it fails:** a spike is a prompt to investigate, not evidence.
+
+**Tell:** you've crossed the line when a dashboard number becomes your reason without inspection.
+**Series connection:** trains contract-thinking — every dependency will change.
+
+### Exercise 3 — Recipe Exercise
+**Build:** a brand + category signal pipeline. **Run:** [`madison-brand-news-reputation-monitor`](../madison/recipes/madison-brand-news-reputation-monitor.md) and [`madison-category-sentiment-dashboard`](../madison/recipes/madison-category-sentiment-dashboard.md) in `sample` mode. **Tool:** Claude / Claude Code.
+
+```
+Using the Madison brand-news-reputation-monitor + category-sentiment-dashboard
+recipe approach, draft a signal pipeline spec for MY brand and category (below).
+List: sources (with the contract risk of each), the normalized record shape, and
+the 3 signals worth a human alert. Run in sample mode on 5 example items I provide
+— do NOT make live calls. Label every sentiment read [MODEL-ESTIMATE].
+
+Brand + category:
+[PASTE]
+```
+**Adapt:** swap sources per category; keep the contract-risk column — it's the point.
+
+### Exercise 4 — CLI Exercise
+**Build:** `your-brand/signal-pipeline.md` + a sample run. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+
+```
+Write your-brand/signal-pipeline.md: source inventory (source | type | contract
+risk), normalized record shape, and 3 human-alert signals. Then process the 5
+sample items in your-brand/sample-signals.json and append a results table. Mark
+sentiment [MODEL-ESTIMATE]. Make no network calls. Stop after writing files.
+```
+**Inspect:** each source has a named contract risk; sentiment is labeled as estimate, not fact.
+**If it goes wrong:** the model presents estimated sentiment as measured — relabel and downgrade.
+
+### Exercise 5 — AI Validation Exercise
+**Validate:** the pipeline spec. Pass / Fail / Cannot-determine + evidence:
+- **Correctness:** does each source have a realistic contract-risk note?
+- **Completeness:** sources + record shape + alert signals + sample run?
+- **Scope:** sample mode only — no live calls without an approval gate?
+- **Brand-specific:** do the alert signals map to things your archetype would actually care about?
+- **Failure-mode:** is any sentiment score presented as fact rather than [MODEL-ESTIMATE]?
+
 *Tags: data-pipeline · n8n · workflow-automation · reddit-api · apollo · pipeline-fragility · external-contracts · degraded-mode · brand-reliability · ETL · inference-pipeline · madison-intelligence-agent · INFO-7375*
