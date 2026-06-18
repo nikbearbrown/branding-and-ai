@@ -14,126 +14,160 @@
 
 ---
 
-When Kraft acquired Cadbury in 2010 for about £11.5 billion, it did not pay that sum for factories and cocoa contracts. A large share of the price was for something that exists nowhere on the property: the word *Cadbury* in the minds of millions of people, and the behavior that word produces at the checkout. Accountants have a line for this. They call it goodwill, and on large acquisitions it routinely dwarfs the value of the physical assets.
+When Kraft acquired Cadbury in 2010 for about £11.5 billion, most of the reporting focused on the drama — the hostile bid, the factory promises, the political backlash. But there's a quieter number buried in the deal that tells you something more fundamental. A large fraction of that price was for something that doesn't exist anywhere you can point to. Not factories. Not cocoa contracts. Not machinery. Accountants have a name for it: *goodwill*. On large acquisitions it routinely dwarfs the physical assets. And what is goodwill, really? It's the word *Cadbury* — and specifically, what that word does inside millions of people's heads when they stand in front of a chocolate display.
 
-That line item is the cleanest evidence for what a brand actually is. Not a logo, not a color, not a tagline — those are *brand elements*, the visible 5%. A brand is an **intangible asset**: the accumulated set of expectations, associations, and trust that lives in customers' heads and changes what they do. This chapter is about that asset — how it is built, how it is structured, and how it is measured — because every later chapter is an attempt to grow it.
+That's the puzzle this chapter is about. Not what a brand looks like, but what it *is* — as a thing in the world that has weight, moves money, and can be destroyed.
 
-## The $20 Billion Line Item
+## The Behavioral Test
 
-Start with the behavioral test, because it cuts through the mysticism. A brand has value when it changes behavior in a way the unbranded product would not. The clearest signal is a **price premium**: two chemically identical pain relievers, one branded and one generic, and a measurable fraction of buyers pay more for the branded one. That delta is brand equity made visible. Loyalty (they come back), preference (they choose you first), and forgiveness (they give you the benefit of the doubt in a stumble) are the other behavioral signals.
+Here is the most direct way I know to see whether a brand is real: take two chemically identical products — say, acetaminophen — and put one in a branded bottle and one in a generic. Price them differently. Then watch what happens.
 
-This is why a brand is an asset and not a decoration. Assets produce future cash flows. A strong brand produces them through premium, retention, and reduced acquisition cost — which is exactly why one company will pay billions for another's name.
+A measurable fraction of buyers pay more for the branded one. Every time. Across categories. This is not irrationality, exactly. It's the buyers responding to something real — a reduction in risk, a bundle of associations, a signal about what the experience will be like — that the generic cannot provide. The *delta* in what they're willing to pay is brand equity made visible. It exists as surely as a machine that produces widgets, and it produces cash flows just as reliably.
 
-## Equity: The Keller Pyramid
+This is why a brand is an asset and not a decoration. An asset is something that produces future value. A strong brand produces it through premium pricing (as above), through retention (people come back without being re-acquired), and through forgiveness (they give you the benefit of the doubt when something goes wrong). None of that happens from a logo. It happens because of accumulated expectations living in specific people's minds.
 
-Kevin Lane Keller's **Customer-Based Brand Equity (CBBE)** model, from *Strategic Brand Management*, describes how that asset is built, as a four-level pyramid:
+The entire business of brand management, at its root, is the management of that asset — building it, protecting it, measuring it, and occasionally harvesting it. Everything else is instrumental to that.
 
-1. **Salience** (bottom) — *Who are you?* Do people even recognize the brand, and does it come to mind in the right moment? This is necessary but, on its own, nearly worthless.
-2. **Performance & Imagery** — *What are you?* Performance is what the product does; imagery is what it means socially and psychologically.
-3. **Judgments & Feelings** — *What do I think and feel about you?* Quality judgments, credibility, and the emotional response.
-4. **Resonance** (top) — *How deep is our connection?* Genuine loyalty, attachment, active engagement — the rarest and most valuable level.
+<!-- → [TABLE: side-by-side behavioral signals of brand equity — price premium, retention rate, forgiveness/recovery data — with a real brand example for each row] -->
 
-The pyramid's lesson is that awareness is the floor, not the goal. Most brands buy their way to salience and stall there. The compounding asset is built by climbing to resonance, and most of this book is about that climb.
+## What the Pyramid Tells You About How the Asset Is Built
 
-## Equity: The Aaker Dimensions
+Kevin Lane Keller spent a career trying to answer a specific question: if brand equity lives in customers' minds, what exactly is its structure? His answer, from *Strategic Brand Management*, is a four-level pyramid — and it's worth understanding not just as a taxonomy but as a *theory of accumulation*.
 
-David Aaker, in *Managing Brand Equity*, decomposes the asset differently — into four dimensions a manager can actually work on:
+The bottom level is **salience**. Does the brand come to mind? Does it come to mind at the right moment — when you're actually in a category-purchase situation? A brand that exists but doesn't surface at the moment of decision has no leverage. Salience is necessary. It is also, crucially, not sufficient. Every brand on the planet is trying to buy salience through advertising, and most of them stall there.
 
-- **Brand awareness** — recognition and recall.
-- **Perceived quality** — the customer's judgment of overall quality, which often diverges from objective quality.
-- **Brand associations** — everything linked to the brand in memory (attributes, people, occasions, feelings). This is the richest and most defensible dimension.
-- **Brand loyalty** — the behavioral and attitudinal stickiness that lowers cost and resists competition.
+The second level splits into two: **performance** (what the product actually does, the functional facts) and **imagery** (what the brand *means* socially and psychologically — who uses it, what occasion it fits, what personality it projects). You need both sides of that level, because performance without imagery is a commodity and imagery without performance is a fraud.
 
-Keller tells you the *shape* of equity; Aaker tells you the *levers*. Use both: diagnose where on the pyramid a brand sits, then act on the dimension that's weakest.
+The third level is where brand work starts to feel qualitatively different: **judgments** and **feelings**. Judgments are the customer's explicit evaluations — is this quality? Do I trust this company? Is this credible? Feelings are the emotional responses the brand reliably triggers. These are built slowly and degraded quickly. A product recall wipes out years of quality judgment in a news cycle.
 
-## Identity vs. Image vs. Equity
+The top level — **resonance** — is where the compounding asset actually lives. Resonance means genuine loyalty and attachment, the kind where customers seek out the brand rather than just accepting it, where they feel a sense of community with other users, where they evangelize. Apple's installed base is a resonance story. Harley-Davidson's tattoo culture is a resonance story. Resonance is rare. It cannot be bought directly. It is the output of doing every level below it well, consistently, over time.
 
-Three words get used interchangeably and shouldn't be:
+The pyramid's core lesson: awareness is the floor, not the goal. The asset that produces premium and retention and forgiveness isn't built at the salience level — it's built by climbing to resonance. Most of this book is, in one form or another, about that climb.
 
-- **Brand identity** — what *you* project (the strategy, the intended associations). Kapferer's identity prism is a useful tool here.
-- **Brand image** — what's actually *perceived* (the associations that landed).
-- **Brand equity** — the *value* of the gap being small and favorable.
+<!-- → [DIAGRAM: Keller CBBE pyramid — four levels labeled with brief descriptors; annotation showing where "purchased awareness" stalls vs. where compound equity accumulates] -->
 
-Brand work is the management of the distance between identity and image. When they match and the associations are valuable, equity accrues. When they diverge — you say "premium," customers experience "overpriced" — equity leaks.
+## What Aaker Adds: The Four Levers
+
+Keller gives you the shape of the asset. David Aaker, in *Managing Brand Equity*, gives you something complementary: the *levers* you can actually pull. He decomposes equity into four dimensions.
+
+**Brand awareness** is recognition and recall — the salience layer, quantified. Awareness has its own sub-structure that matters: unaided recall (the brand comes to mind spontaneously in the category) is more valuable than aided recognition (you recognize the name when you hear it). Top-of-mind awareness is the most valuable kind of all, because it captures the mental real estate that governs habitual purchase.
+
+**Perceived quality** is the customer's overall quality judgment — and here's the interesting part: it regularly diverges from objective quality. Perceived quality is a brand effect, not a product effect. Blind taste tests routinely show preferences that reverse when brands are revealed. The perceived quality of a wine tracks its price label more than its chemistry. This isn't a market failure; it's how quality signals actually work when information is costly. The brand is doing real work here — reducing the buyer's estimation cost.
+
+**Brand associations** is the richest and most defensible of the four dimensions. Associations are everything linked to the brand in memory — attributes, personalities, use occasions, emotions, symbolic meanings, spokespeople. They form a network. The brand name is the activation trigger; the network is the asset. Strong brands have coherent association networks where the nodes reinforce each other. Fractured brands have contradictory nodes that cancel. When I talk later in this book about brand positioning, what I mean at the cognitive level is: building a particular association network in your target customers' minds, and doing so before a competitor builds an incompatible one.
+
+**Brand loyalty** is behavioral and attitudinal stickiness. Behavioral loyalty is what shows up in purchase data — repurchase rate, share of wallet. Attitudinal loyalty is the underlying commitment that makes behavioral loyalty durable even when a competitor offers a price promotion. The two don't always track each other. A customer who buys you every time because switching costs are high isn't loyal in the attitudinal sense — they'll leave the moment the switching cost drops. True loyalty is a commitment that persists when alternatives improve.
+
+The diagnostic move Aaker gives you: map your brand on all four dimensions and find the weakest one. Intervening on a strong dimension produces little; intervening on the weak one produces the most lift.
+
+<!-- → [TABLE: Aaker's four dimensions — column headers: dimension, definition, what high looks like, what low looks like, diagnostic question to ask] -->
+
+## Three Words People Confuse
+
+Brand identity, brand image, and brand equity are used interchangeably in most business conversation. They're not interchangeable, and the confusion produces actual strategic errors.
+
+**Brand identity** is what you project — the intended meaning, the strategy made visible. When a company runs an ad, chooses a spokesperson, designs packaging, sets a price point, it is transmitting identity signals. Identity is the sender's side.
+
+**Brand image** is what lands — the associations actually perceived by the receiver. It is empirically measurable: ask enough customers what they associate with the brand and you have the image. The image may match the intended identity closely or poorly.
+
+**Brand equity** is the *value* generated when the image is favorable and the gap between identity and image is small. Equity isn't a message or a perception — it's the downstream consequence of managing that gap well over time.
+
+Brand work, when it's working, is the management of the distance between identity and image. When a company says "premium" and customers experience "overpriced," that's a gap — equity is leaking. When a company projects "innovative" and customers encode "unreliable," that's a gap with a different leak. The job is to close gaps that matter and understand why they exist.
+
+Jean-Noël Kapferer's identity prism is a useful diagnostic tool on the identity side: it maps a brand's physique, personality, relationship, culture, self-image, and reflection as a hexagon, forcing explicit articulation of each dimension. The image-side counterpart is qualitative research. The equity measurement is what we'll get to next.
+
+<!-- → [DIAGRAM: Kapferer identity prism — hexagon with six labeled facets; left side labeled "sender" (physique, personality, culture), right side labeled "receiver" (self-image, reflection, relationship); annotation showing how the gap between projected identity and perceived image is where equity leaks] -->
+
+<!-- → [DIAGRAM: Kapferer identity prism — six facets labeled; annotation distinguishing sender-side (identity) from receiver-side (image)] -->
 
 ## Putting a Number on It
 
-If a brand is an asset, it can be valued, and three firms publish competing methods:
+If a brand is an asset, it can be valued. Three firms publish annual rankings using competing methodologies:
 
-- **Interbrand** ("Best Global Brands") combines financial forecast, the *role of brand* in driving demand, and a brand-strength score.
-- **Kantar BrandZ** leans on large-scale consumer research.
-- **Brand Finance** uses the **royalty-relief** method — what you'd pay to license the brand if you didn't own it.
+**Interbrand** ("Best Global Brands") builds its valuation from three inputs: a financial forecast of revenue attributable to the brand, a *role of brand* index estimating what fraction of that revenue the brand specifically drives versus other factors, and a brand strength score that discounts the forecast based on how secure the brand's position is. The strength score incorporates items like relevance, coherence, consistency, and engagement.
 
-The numbers differ wildly across methods for the same brand, which is the point: valuation is a model, not a measurement. `[verify current rankings and any methodology changes before citing specific figures.]` What matters for you is the principle — the asset is real enough that serious money is staked on estimating it, and ISO 10668 even sets a standard for how.
+**Kantar BrandZ** anchors its method in large-scale consumer research, specifically measuring a brand's *meaningful difference* in consumers' minds and then connecting that measure to financial outcomes. It's the most consumer-side of the three major methods.
 
-## Worked Example: An Equity Audit
+**Brand Finance** uses the *royalty-relief* method: the question they're answering is, "if you had to license this brand from someone else, what royalty rate would you pay?" That royalty stream, capitalized at an appropriate rate, is the brand's value. ISO 10668 provides a formal standard for brand valuation that all three firms reference. `[verify: check current methodology descriptions on each firm's website before citing specifics; they update their methods periodically]`
 
-Take your running-project brand (or, if you're on the personal-brand track, yourself). The job this chapter adds is an honest read of where its equity stands — *before* you start changing it, so you have a baseline.
+The valuations differ substantially across methods for the same brand. That's not a bug to be embarrassed about — it's the honest reality that brand valuation is a model, not a measurement. The models disagree on what they're measuring. What they agree on is that something real is there, worth enough that serious firms stake real money on estimating it, and that ISO 10668 exists because the disagreements need an arbitration standard.
 
-You will not do this by intuition alone. You'll use Madison to gather the public signal, then grade it by hand against the two models above. That division — machine gathers, human judges — is the chapter's AI+1 lesson.
+The practical lesson for brand managers: use the valuation methods to understand the *logic* of where brand value comes from (the Interbrand method is especially transparent about this), not to get a single authoritative number. The number matters mostly in M&A, where someone has to actually write a check.
+
+<!-- → [TABLE: side-by-side comparison of Interbrand, Kantar BrandZ, Brand Finance — rows: primary methodology, main data input, what the resulting number represents, known limitation] -->
+
+## The Equity Audit
+
+Now the machinery meets practice. An equity audit is a structured read of where a brand's equity actually stands — not where you hope it stands, not the internal narrative, but the public signal. It is the beginning of any honest brand project, and it is the only way to know what you're actually building on.
+
+The audit has two layers that shouldn't be collapsed. The first layer is gathering the signal: what associations exist, what sentiment attaches to the brand, how it registers relative to competitors. This is a retrieval and pattern-recognition problem — exactly what AI handles well, at scale, without fatigue. The second layer is *grading* the signal against the models: which Keller level does the brand actually occupy? Which Aaker dimension is weakest? What gap exists between the identity the company is projecting and the image that's landing? That judgment requires understanding what the models mean, what the stakes are, and what specifically to look for. That's the +1.
+
+The failure mode in AI-assisted audits is letting the output of the first layer do the work of the second. Sentiment is not equity. A brand can have positive sentiment at the salience level and still have no resonance. A brand can have negative press and still have the deepest loyalty in its category — Harley-Davidson's owners have complained about quality for fifty years and still tattoo the logo on their arms. Grading the signal requires the models. The models require a human who understands them.
+
+That division is what I want you to carry out of this chapter, because it's the pattern that repeats across every AI-assisted brand task: machine gathers, human judges.
 
 ---
 
-## AI+1 — Self-as-Project on Madison
-
-**Project:** Self-as-Project — *your brand, end to end*
-**This chapter adds:** a baseline brand-equity audit of your chosen brand.
-**Madison recipes:** [`intelligence-agent`](../madison/recipes/intelligence-agent.md), [`madison-brand-sentiment-monitor`](../madison/recipes/madison-brand-sentiment-monitor.md)
-
-> The agent gathers the equity signal; *you* grade it against the Keller pyramid and Aaker dimensions. Sentiment is not equity — the judgment is the +1.
+## LLM Exercises
 
 ### Exercise 1 — When to Use AI
-- *Gather public awareness/association/sentiment signal for the brand.* **Why it works:** large-scale reformatting and pattern-spotting.
-- *Cluster raw associations into themes.* **Why it works:** drafting structure you then verify.
-- *Pull competitor mentions for relative read.* **Why it works:** retrieval at volume.
+*Run these tasks with an LLM and evaluate what it can and cannot do:*
 
-**Tell:** you can grade each signal against a named model yourself.
+Gather public awareness, association, and sentiment signals for a brand of your choosing. Ask the LLM to cluster raw associations into themes. Pull competitor mentions for a relative read. Then evaluate: where did the output serve as genuine evidence, and where did it produce confident-sounding noise you couldn't verify?
+
+**The tell:** you can grade each signal against a named model yourself. If you can't, the signal isn't usable yet.
 
 ### Exercise 2 — When NOT to Use AI
-- *Deciding what the brand's equity level actually is.* **Why it fails:** calibration — the model reads sentiment as strength and misses the resonance tiers.
-- *Judging which associations are load-bearing vs. noise.* **Why it fails:** strategic judgment about meaning.
-- *Citing a brand-valuation figure as fact.* **Why it fails:** hallucination risk; valuations are method-dependent and dated.
+*Identify the judgment the AI cannot make:*
 
-**Tell:** you've crossed the line when the dashboard's sentiment score becomes your verdict on equity.
-**Series connection:** Tier 5 (causal) — distinguishing a measured signal from a claim about the asset that produced it.
+After running Exercise 1, ask the LLM to assign an overall equity level to the brand — place it on the Keller pyramid. Evaluate the output critically. What information would you need to confirm or refute its placement? What is the LLM substituting for actual measurement?
+
+**The tell:** you've crossed the line when a sentiment score becomes a verdict on equity. Calibration — knowing whether the associations at each level are load-bearing or noise — is a human judgment.
+
+*Series connection:* This is a Tier 5 (causal) problem: distinguishing a measured signal from a claim about the asset that produced it.
 
 ### Exercise 3 — Recipe Exercise
-**Build:** an equity audit. **Run:** [`intelligence-agent`](../madison/recipes/intelligence-agent.md) + [`madison-brand-sentiment-monitor`](../madison/recipes/madison-brand-sentiment-monitor.md) on the brand. **Tool:** Claude Project.
+**Build:** a brand-equity baseline.
 
 ```
-Using the Madison intelligence-agent + brand-sentiment-monitor recipe approach,
-assemble a brand-equity baseline for [MY BRAND] from public sources. Output:
+Using public sources, assemble a brand-equity baseline for [MY BRAND]. Output:
 (1) awareness signals, (2) the top associations clustered into themes, (3) a
 sentiment read, (4) competitor contrast. Tag every claim you cannot tie to a
 source [UNVERIFIED]. Do NOT assign an overall equity score — that is my call.
 Cite no valuation figure unless I supply it.
 ```
-**Adapt:** personal brand → run on your own name/handles.
+
+**Adapt:** personal brand track — run on your own name and handles.
 
 ### Exercise 4 — CLI Exercise
-**Build:** `your-brand/equity-audit.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+**Build:** `your-brand/equity-audit.md`
 
 ```
 Write your-brand/equity-audit.md: a table mapping each signal to a Keller level
 (salience / performance-imagery / judgments-feelings / resonance) and an Aaker
-dimension. Leave the "level" column for ME to fill. Tag unsourced rows
+dimension. Leave the "level" column blank for ME to fill. Tag unsourced rows
 [UNVERIFIED]. Invent no valuation numbers. Stop after writing the file.
 ```
-**Inspect:** every row sources a real signal; no invented figures. **If it goes wrong:** the model assigns equity levels itself — blank that column.
+
+**Inspect:** every row sources a real signal; no invented figures. **If it goes wrong:** the model assigns equity levels itself — blank that column and reassign by hand.
 
 ### Exercise 5 — AI Validation Exercise
-**Validate:** the equity audit. Pass / Fail / Cannot-determine + evidence:
+**Validate** the equity audit. Rate each criterion Pass / Fail / Cannot-determine with evidence:
+
 - **Correctness:** does each signal map to the right Keller level?
 - **Completeness:** all four Aaker dimensions covered?
 - **Scope:** signal only — no fabricated valuation?
-- **Brand-specific:** are "associations" actual associations, or just product features restated?
-- **Failure-mode:** any sentiment score presented as an equity verdict? Any [UNVERIFIED] left untagged?
-**AI Use Disclosure:** two sentences — what the recipes produced and how you used it; one thing they could not determine (the equity level) that needed your judgment.
+- **Brand-specific:** are "associations" actual associations, or product features restated?
+- **Failure-mode check:** any sentiment score presented as an equity verdict? Any [UNVERIFIED] left untagged?
+
+**AI Use Disclosure:** two sentences — what the recipe produced and how you used it; one thing it could not determine (the equity level) that required your judgment.
 
 ---
 
-## Key terms
-brand equity · intangible asset · goodwill · price premium · CBBE pyramid (salience / performance / imagery / judgments / feelings / resonance) · Aaker dimensions (awareness / perceived quality / associations / loyalty) · brand identity vs. image · royalty-relief valuation · ISO 10668.
+## Key Terms
+
+brand equity · intangible asset · goodwill · price premium · CBBE pyramid (salience / performance / imagery / judgments / feelings / resonance) · Aaker dimensions (awareness / perceived quality / associations / loyalty) · brand identity vs. image · royalty-relief valuation · ISO 10668
 
 ## Bridge
+
 You now have a baseline: what your brand's equity *is*. The next move is to decide who it's *for* — because equity is built in specific minds, not in general. Chapter 4 turns to the brand audience.
