@@ -12,16 +12,19 @@
 > | Five Story Types and Where They Live | Five kinds of brand story and the channels each one belongs in. |
 > | Building the Three Deliverables | Producing the origin story, the case study, and the thought-leadership piece. |
 
-
 ---
 
-Here is a thing that keeps appearing in student portfolios. The case study section reads: "I built a pipeline in n8n that processes competitor RSS feeds using the OpenAI API and outputs a daily summary to Google Sheets." Every word of that is true. None of it is a story.
+Here is a thing that keeps appearing in student portfolios. The case study section reads: "I built a pipeline in n8n that processes competitor RSS feeds using the OpenAI API and outputs a daily summary to Google Sheets."
+
+Every word of that is true. None of it is a story.
 
 Compare it to this: "A marketing team was spending three hours every Monday morning manually pulling competitor reports. Six weeks after the pipeline shipped, that time dropped to twenty minutes. The marketing director used the recaptured hours to launch a new campaign strategy the team had been tabling for months."
 
-The first is a résumé entry. The second is evidence of impact. The structural difference between them is the subject of this chapter — not as a matter of style, but as a matter of architecture. The second version has a customer, a problem, a transformation, and stakes. The first version has none of those things. The first version is a description of what you did. The second version is a story.
+The first is a résumé entry. The second is evidence of impact. The structural difference between them is the subject of this chapter — not as a matter of style, but as a matter of architecture. The second version has a customer, a problem, a transformation, and stakes. The first version has none of those things. The first is a description of what you did. The second is a story.
 
-This chapter is about how to produce the second version reliably. It is not about being a better writer. It is about understanding the architectural constraints that separate a story from a description — and the one constraint that runs underneath all of them: archetype alignment. Story shapes have archetypal commitments built into them. Choose a shape that does not fit your archetype, and the audience will read the result as false even when every individual element is well-executed. The mechanism is subtle enough that brands with large agencies miss it, and obvious enough that audiences feel the dissonance immediately.
+This chapter is about how to produce the second version reliably. It is not about being a better writer. It is about understanding the architectural constraints that separate a story from a description — and the one constraint that runs underneath all of them: archetype alignment.
+
+Story shapes have archetypal commitments built into them. Choose a shape that does not fit your archetype, and the audience will read the result as false even when every individual element is well-executed. The mechanism is subtle enough that brands with large agencies miss it, and obvious enough that audiences feel the dissonance immediately.
 
 ---
 
@@ -29,13 +32,13 @@ This chapter is about how to produce the second version reliably. It is not abou
 
 The literature on story structure is enormous. For brand work, three frameworks are worth knowing. They are not competitors — they are layered, each doing different work.
 
-**Joseph Campbell's Hero's Journey.** Published in *The Hero with a Thousand Faces* in 1949, Campbell's monomyth was distilled from cross-cultural mythology — Greek, Hindu, Arthurian, Indigenous American, African. The claim was structural: beneath the surface differences of world mythology, the same story keeps appearing. A hero in an ordinary world receives a call to adventure. The hero hesitates, then crosses a threshold into a special world. The hero faces tests, finds allies and enemies, approaches an ordeal. The ordeal is survived; a transformation occurs. The hero returns to the ordinary world carrying a boon — a gift, a power, a truth — that benefits the community they came from. Campbell's full framework has seventeen stages. For brand-story purposes, the simplified three-act shape — Departure, Initiation, Return — is sufficient. The shape provides the architecture; the brand fills in the specifics.
+**Joseph Campbell's Hero's Journey.** Published in *The Hero with a Thousand Faces* in 1949, Campbell's monomyth was distilled from cross-cultural mythology — Greek, Hindu, Arthurian, Indigenous American, African. The claim was structural: beneath the surface differences of world mythology, the same story keeps appearing. A hero in an ordinary world receives a call to adventure. The hero hesitates, then crosses a threshold into a special world. Tests follow — allies found, enemies encountered, an ordeal survived. A transformation occurs. The hero returns to the ordinary world carrying a boon: a gift, a power, a truth that benefits the community they came from. Campbell's full framework has seventeen stages. For brand-story purposes, the simplified three-act shape — Departure, Initiation, Return — is sufficient. The shape provides the architecture; the brand fills in the specifics.
 
-**Christopher Booker's Seven Basic Plots.** Published in 2004, Booker's taxonomy identified seven fundamental plot shapes underlying all Western narrative: Overcoming the Monster, Rags to Riches, the Quest, Voyage and Return, Comedy, Tragedy, and Rebirth. For brand storytelling, the Quest is most frequently invoked — the protagonist pursues an important goal, encounters obstacles and helpers along the way, and either achieves the objective or fails meaningfully. The Quest differs from the Hero's Journey in emphasis: the Journey centers the personal transformation of the hero; the Quest centers the importance of the objective itself. A brand on a Quest story is making a claim about *why the destination matters*, not just who is traveling.
+**Christopher Booker's Seven Basic Plots.** Published in 2004, Booker's taxonomy identified seven fundamental plot shapes underlying Western narrative: Overcoming the Monster, Rags to Riches, the Quest, Voyage and Return, Comedy, Tragedy, and Rebirth. For brand storytelling, the Quest is most frequently invoked — the protagonist pursues an important goal, encounters obstacles and helpers along the way, and either achieves the objective or fails meaningfully. The Quest differs from the Hero's Journey in emphasis: the Journey centers the personal transformation of the hero; the Quest centers the importance of the objective itself. A brand on a Quest story is making a claim about *why the destination matters*, not just who is traveling toward it.
 
 **Donald Miller's Customer-as-Hero (StoryBrand).** Miller's 2017 book *Building a StoryBrand* adapted the Campbell framework for brand marketing. The central insight is positional: in a customer story, the customer is always the hero. The brand is never the hero. The brand is the guide — Yoda to the customer's Luke Skywalker, Gandalf to the customer's Frodo. The brand has a plan; the customer faces a problem; the brand's guidance helps the customer take action; the customer is transformed.
 
-This sounds obvious. It is not. Most technical founders default to stories where the brand is the hero. The founders fought through hard problems, built something remarkable, overcame the obstacles of the early market. These stories are true and sometimes compelling for raising capital. They are weak for selling to customers, because the customer cannot identify with a story whose hero is someone else. The customer-as-hero framing is a structural discipline, not a rhetorical preference.
+This sounds obvious. It is not. Most technical founders default to stories where the brand is the hero. The founders fought through hard problems, built something remarkable, overcame the obstacles of the early market. These stories are true and sometimes compelling for raising capital. They are weak for selling to customers, because the customer cannot identify with a story whose hero is someone else.
 
 ![A side-by-side comparison of the brand-as-hero framing vs. the customer-as-hero framing — same product, two story shapes.](../images/10-brand-storytelling-fig-01.png)
 *Figure 10.1 — Brand-as-hero vs. customer-as-hero: the same product, two story shapes*
@@ -44,11 +47,11 @@ This sounds obvious. It is not. Most technical founders default to stories where
 
 The three frameworks are not alternatives. They are telescoping levels of analysis. Campbell describes what stories look like at the structural level — the deep architecture that recurs across cultures. Booker categorizes the plots — the distinct shapes available and what each one does to an audience. Miller adapts the architecture for a specific application — brand storytelling, where the audience is a prospective customer and the purpose is to help them identify with the story.
 
-When you sit down to write a case study, you are working at Miller's level — customer as hero, brand as guide, transformation is real. The case study's structural validity depends on Campbell's architecture being present beneath it — there is a call, a threshold crossing, an ordeal, a return with a boon. And the choice of *which* Miller-style story to tell is a Booker-level choice, constrained by your archetype.
+When you sit down to write a case study, you are working at Miller's level. But the case study's structural validity depends on Campbell's architecture being present beneath it — there is a call, a threshold crossing, an ordeal, a return with a boon. And the choice of *which* Miller-style story to tell is a Booker-level choice, constrained by your archetype.
 
 The archetype is the constraint that runs across all three levels. It is not a fourth framework. It is the filter on what story shapes are available to your brand.
 
-![A nested-ring diagram with Campbell as the outermost ring (universal story architecture), Booker in the middle (the seven basic plots), Miller inside (customer-as-hero brand application), and Archetype at the center as the filter on which plots a brand can tell.](../images/10-brand-storytelling-fig-07.png)
+![A nested-ring diagram with Campbell as the outermost ring, Booker in the middle, Miller inside, and Archetype at the center.](../images/10-brand-storytelling-fig-07.png)
 *Figure 10.7 — The three storytelling frameworks as telescoping rings*
 
 <!-- → [FIGURE: Concentric ring diagram — outermost ring: Campbell (universal story architecture); middle ring: Booker (seven basic plots); inner ring: Miller (customer-as-hero application); center filled circle: Archetype (the filter on available plots)] -->
@@ -57,26 +60,21 @@ The archetype is the constraint that runs across all three levels. It is not a f
 
 ## What the Archetype Commits You To
 
-In Chapter 3, I established that an archetype is a consistency-enforcement device — a constraint that makes downstream decisions decidable. Storytelling is a downstream decision.
+In Chapter 3, I established that an archetype is a consistency-enforcement device — a constraint that makes downstream decisions decidable. Storytelling is a downstream decision, and the archetype's constraint here is specific: each archetype has story shapes native to it, and story shapes that read as impostures when attempted.
 
-Each archetype has story shapes native to it and story shapes that read as impostures when attempted.
-
-A **Hero archetype** can tell a Hero's Journey directly. The customer's effort and growth are the subject of every story. Nike's thirty years of advertising is a masterclass in native Hero storytelling — every ad is a Hero's Journey at the customer level, with Nike as the gear and the belief system that enables the journey.
+A **Hero archetype** can tell a Hero's Journey directly and without strain. The customer's effort and growth are the subject of every story. Nike's thirty years of advertising is a masterclass — every ad is a Hero's Journey at the customer level, with Nike as the gear and the belief system that enables the journey.
 
 A **Sage archetype** tells Methodology stories and Quest stories. The Sage audience is curious; they want to understand how things work. Stripe's developer documentation and conference talks are Sage storytelling — the mechanism is the story. The Sage does not dramatize triumph; the Sage demonstrates understanding.
 
-An **Outlaw archetype** tells Rebellion stories. The energy comes from naming something the establishment does and insisting there is another way. Patagonia's "Don't Buy This Jacket" campaign, Oatly's deliberately strange packaging copy, Cards Against Humanity's cultural provocations — all Outlaw storytelling, deriving energy from the transgression of a norm.
+An **Outlaw archetype** tells Rebellion stories. The energy comes from naming something the establishment does and insisting there is another way. Patagonia's "Don't Buy This Jacket" campaign, Oatly's deliberately strange packaging copy — all Outlaw storytelling, deriving energy from the transgression of a norm.
 
-A **Caregiver archetype** tells Service and Transformation stories. The subject is the person in need and the attentive care that meets them. Johnson & Johnson's "For All You Love" campaigns, UNICEF's storytelling about individual children — structurally Caregiver, emphasizing the relationship between the carer and the cared-for.
+A **Caregiver archetype** tells Service and Transformation stories. The subject is the person in need and the attentive relationship that meets them. The emphasis is not on the carer's competence but on the quality of attention brought to bear.
 
 A **Magician archetype** tells Transformation stories with a mystery at the center. Something seems impossible; through the brand's particular vision or capability, it becomes possible. Disney's entire narrative output is Magician storytelling — worlds that should not exist, made real and habitable.
 
-A **Jester archetype** tells Inversion stories — stories that flip the expected frame and produce delight through the reversal. Old Spice's "The Man Your Man Could Smell Like," Skittles' surrealist campaigns, Wendy's Twitter voice — all Jester storytelling, deriving power from the unexpected angle.
+A **Jester archetype** tells Inversion stories — stories that flip the expected frame and produce delight through the reversal. Old Spice's "The Man Your Man Could Smell Like," Wendy's Twitter voice — Jester storytelling, deriving power from the unexpected angle.
 
-The constraint is not that your archetype can only tell one kind of story. It is that story shapes requiring a different archetype's commitments will misfire. An Innocent telling a Rebellion story will read as co-optation. A Sage telling a Jester story will read as trying too hard. A Jester telling a sincere Service story will read as insincere. The audience does not articulate these mismatches in framework terms — they just feel the falseness.
-
-![A reference table mapping the twelve archetypes to their native story shapes.](../images/10-brand-storytelling-fig-02.png)
-*Figure 10.2 — The twelve archetypes mapped to their native story shapes*
+The constraint is not that your archetype can only tell one kind of story. It is that story shapes requiring a different archetype's commitments will misfire. An Innocent telling a Rebellion story reads as co-optation. A Sage telling a Jester story reads as trying too hard. A Jester telling a sincere Service story reads as insincere. The audience does not articulate these mismatches in framework terms — they just feel the falseness.
 
 <!-- → [TABLE: Archetype-to-story-shape reference — twelve rows, one per archetype; columns: archetype, native story shapes, why the shape fits, story shapes to avoid, failure mode when avoided shape is attempted] -->
 
@@ -88,7 +86,7 @@ Before the cases, name the failure mechanism precisely. An archetype-narrative m
 
 **Pathway 1: The story shape requires emotional registers the archetype cannot deliver authentically.** A Hero's Journey requires genuine stakes — the hero must risk something real. An Innocent brand telling a Hero's Journey must introduce conflict, shadow, and the possibility of failure. But the Innocent's deepest commitment is to purity and simplicity. The conflict reads as performed, because the Innocent's visual and verbal language is not built to hold it.
 
-**Pathway 2: The story positions the brand in a role inconsistent with its archetype.** Miller's customer-as-hero framing makes this visible: the brand's position in the story — hero, guide, mentor, threshold guardian — carries archetypal weight. An Everyman brand that positions itself as a transformative force (Magician's role) is claiming to transcend the ordinary. The Everyman's promise is *you belong here, as you are* — not transcendence. The positioning claim contradicts the brand's foundational commitment.
+**Pathway 2: The story positions the brand in a role inconsistent with its archetype.** Miller's customer-as-hero framing makes this visible: the brand's position in the story — hero, guide, mentor — carries archetypal weight. An Everyman brand that positions itself as a transformative force is claiming to transcend the ordinary. The Everyman's promise is *you belong here, as you are* — not transcendence. The positioning claim contradicts the brand's foundational commitment.
 
 **Pathway 3: The story's cultural content is accessible only to archetypes the brand does not inhabit.** Some subject matter belongs, in cultural terms, to specific archetypes. Social movements belong to the Outlaw. Grief and care belong to the Caregiver. Mastery and achievement belong to the Hero. An Innocent brand entering social-movement content is borrowing content it has no claim to. The borrowing reads as exploitation regardless of intent.
 
@@ -117,31 +115,31 @@ Pepsi pulled the ad within 24 hours. The company's apology stated it had been tr
 
 ### Bud Light and Dylan Mulvaney, April 2023
 
-Bud Light's archetype is Everyman. The Everyman promise is belonging — *you fit here, as you are*. Bud Light is the beer at the cookout, the game, the post-shift drink. Its entire brand history is built on accessibility and mainstream identification.
+Bud Light's archetype is Everyman. The Everyman promise is belonging — *you fit here, as you are*. Its entire brand history is built on accessibility and mainstream identification.
 
-The April 2023 partnership with trans influencer Dylan Mulvaney was brief — a single sponsored can for Mulvaney's one-year anniversary of publicly identifying as a woman. The storytelling intent appeared to be a Transformation story: the brand marking a personal transformation, signaling openness to expanding who "belongs" in the Bud Light community.
+The April 2023 partnership with trans influencer Dylan Mulvaney was brief — a single sponsored can marking Mulvaney's one-year anniversary of publicly identifying as a woman. The storytelling intent appeared to be a Transformation story: the brand marking a personal transformation, signaling openness to expanding who "belongs" in the Bud Light community.
 
-The problem was architectural. Everyman brands signal *belonging to the mainstream*. When a mainstream brand signals alignment with a group that a substantial portion of its existing audience perceives as non-mainstream, it does not expand the definition of "us" — it disrupts the existing "us" without providing new stable footing. The Magician archetype's transformation story requires a foundation of demonstrated vision and earned trust in the brand's capacity to transform. Bud Light had built no such foundation.
+The architecture was wrong. Everyman brands signal *belonging to the mainstream*. When a mainstream brand signals alignment with a group that a substantial portion of its existing audience perceives as non-mainstream, it does not expand the definition of "us" — it disrupts the existing "us" without providing new stable footing. A Transformation story requires a foundation of demonstrated vision and earned trust in the brand's capacity to transform. Bud Light had built no such foundation. The Everyman archetype had not been repositioned. The story shape required a Magician; the brand was an Everyman. Bud Light lost its position as the best-selling beer in the United States in the months following.
 
-The backlash was severe and extended. Bud Light lost its position as the best-selling beer in the United States in the months following. The lesson is not about the cultural politics. The lesson is architectural: Everyman brands cannot execute Magician transformation stories without years of repositioning that establishes the Magician foundation first.
+The lesson is not about the cultural politics. The lesson is architectural.
 
 ### Jaguar's "Copy Nothing" Rebrand, November 2024
 
-Jaguar's archetype historically was Ruler — luxury, prestige, controlled power, the car that signals having arrived. Ruler brand storytelling centers authority, excellence, and the confirmation of status.
+Jaguar's archetype historically was Ruler — luxury, prestige, controlled power. Ruler brand storytelling centers authority, excellence, and the confirmation of status.
 
 The November 2024 rebrand introduced flamboyant typography, abstract imagery drawn from surrealism and pop art, and a launch video featuring no cars. The campaign tagline was "Copy Nothing." The narrative frame attempted was Magician/Outlaw — radical transformation, refusal of convention, identity disruption as brand statement.
 
-The mismatch operated on Pathway 2: Ruler brands derive their authority from their relationship to existing excellence — the standard others aspire to. Outlaw brands derive their energy from explicitly rejecting that standard. A Ruler attempting an Outlaw story is not rejecting convention; it is abandoning the specific convention — excellence, prestige, earned authority — that constituted its value.
+The mismatch operated on Pathway 2. Ruler brands derive their authority from their relationship to existing excellence — the standard others aspire to. Outlaw brands derive their energy from explicitly rejecting that standard. A Ruler attempting an Outlaw story is not rejecting convention; it is abandoning the specific convention — excellence, prestige, earned authority — that constituted its value.
 
-The additional complication: the new vehicles the rebrand was intended to introduce had not yet shipped. The transformation story had no product to anchor it. The Magician's transformation story requires that the impossible thing actually becomes possible — the mystery is followed by a revelation. Without the cars, the story had no second act.
+The additional complication: the new vehicles the rebrand was intended to introduce had not yet shipped. The Magician's transformation story requires that the impossible thing actually becomes possible — the mystery must be followed by a revelation. Without the cars, the story had no second act.
 
 [*Note: This account is drawn from public coverage through mid-2025. Primary source documentation for specific audience metrics and internal brand decision-making should be verified against trade press and company statements before use in formal analysis.*]
 
 <!-- → [TABLE: Cross-case mismatch comparison — five rows for Pepsi, Bud Light, Jaguar, and two blank rows for student cases; columns: brand, actual archetype, story shape attempted, failure pathway(s) activated, audience response, time to correction] -->
 
-### The pattern
+### The Pattern
 
-Three cases. Three industries. Three different mismatch pathways. The same structural failure at the foundation of each: the story shape did not match the brand's archetype, and the audience perceived the dissonance before they could articulate the reason for it.
+Three cases. Three industries. Three different mismatch pathways. The same structural failure at the foundation of each: the story shape did not match the brand's archetype, and the audience perceived the dissonance before they could articulate why.
 
 The diagnostic checklist that follows from this pattern: before publishing any brand story, answer three questions. First, what story shape is this — name it explicitly: Hero's Journey, Quest, Transformation, Rebellion, Service, Methodology, Inversion. Second, what is your brand's archetype, and what story shapes are native to it? Third, what cultural content does this story use, and which archetype owns that content?
 
@@ -153,9 +151,9 @@ If the answers to questions one and two do not align, revise the story. If the a
 
 A well-told brand story has three properties that can be checked before it is published.
 
-**Property 1: The story shape matches the archetype.** This is the diagnostic check from the previous section, applied prospectively. The shape is not decorative — it carries the brand's promises. A story shape mismatched to the archetype is not a style problem; it is a credibility problem.
+**Property 1: The story shape matches the archetype.** The shape is not decorative — it carries the brand's promises. A story shape mismatched to the archetype is not a style problem; it is a credibility problem.
 
-**Property 2: The customer is the hero; the brand is the guide.** In a customer story, the customer wakes up with a problem. The brand does not solve the problem — the customer solves the problem. The brand provides clarity about the problem, a plan for addressing it, and the tools to execute the plan. The customer takes action. The customer is transformed. The brand is Yoda — wise, present, the source of the frame and the tools — but Yoda does not go to the Death Star. Luke does.
+**Property 2: The customer is the hero; the brand is the guide.** The customer wakes up with a problem. The brand does not solve the problem — the customer solves the problem. The brand provides clarity about the problem, a plan for addressing it, and the tools to execute the plan. The customer takes action. The customer is transformed. Yoda does not go to the Death Star. Luke does.
 
 **Property 3: The stakes are real and specific.** "Our tool saves time" is not a stake. "Marketing teams at mid-size B2B companies were spending eight hours per week on competitive monitoring; after three months with the tool, that time dropped to forty-five minutes and the head of marketing used the recaptured hours to launch a new campaign strategy" is a stake. The specificity is not decorative — it is what makes the transformation visible and believable. Abstract stakes signal that the writer does not actually know what changed for the customer.
 
@@ -166,22 +164,17 @@ A well-told brand story has three properties that can be checked before it is pu
 
 Consider what this looks like in a technical context most students treat as documentation rather than storytelling. The Madison Intelligence Agent README opens with throughput numbers: 870 articles processed per day, 90% deduplication rate, sub-three-minute latency from ingestion to output. The opening does not say "Madison is a powerful marketing intelligence system." It shows the mechanism and its quantified outputs. This is Sage storytelling: the mechanism *is* the story. The reader who cares about this kind of intelligence is a reader who wants to understand how it works. The documentation satisfies that want before it makes any claim.
 
-The architecture section walks through the five-layer agent structure — Intelligence, Content, Research, Experience, Performance — with enough specificity that a technical reader could understand what each agent does and why the decomposition was made that way. Methodology as story. The narrative question is not "will the hero succeed?" The narrative question is "how does this system actually work, and is the design defensible?"
+The architecture section walks through the five-layer agent structure — Intelligence, Content, Research, Experience, Performance — with enough specificity that a technical reader could understand what each agent does and why the decomposition was made that way. Methodology as story. The narrative question is not "will the hero succeed?" The narrative question is "how does this system actually work, and is the design defensible?" This is what Sage brand storytelling looks like in technical materials.
 
-This is what Sage brand storytelling looks like in technical materials. It does not require a narrative arc with a protagonist. It requires a clear exposition of mechanism, honest about limitations, oriented toward a reader whose primary mode is curiosity and evaluation.
-
-![An annotated mockup of the Madison Intelligence Agent README opening, with callouts pointing to the throughput numbers, the architecture section headers, and the limitation language.](../images/10-brand-storytelling-fig-08.png)
-*Figure 10.8 — Sage storytelling in the Madison README*
-
-Before publishing any customer story, apply the structural test. Read your draft and answer three questions. First, who is the protagonist in the first paragraph — if the answer is "me" or "my tool" or "my company," revise the opening so the customer's problem is the subject of the first paragraph. Second, what does the customer risk or struggle with — if the answer is "nothing," there is no story, only a product description. Third, what specifically changed — not "efficiency improved," but what specifically changed, for whom, by how much, visible to what observer. If you cannot answer this with specifics, you are not yet done reporting the story.
+Before publishing any customer story, apply the structural test. Read your draft and answer three questions. Who is the protagonist in the first paragraph — if the answer is "me" or "my tool," revise the opening so the customer's problem is the subject. What does the customer risk or struggle with — if the answer is "nothing," there is no story, only a product description. What specifically changed — not "efficiency improved," but what specifically changed, for whom, by how much, visible to what observer. If you cannot answer this with specifics, you are not yet done reporting the story.
 
 ---
 
 ## Five Story Types and Where They Live
 
-Five story shapes show up most reliably in AI-tool brand storytelling at the stage you are at. Each has a primary archetype range and a natural home channel.
+Five story shapes show up most reliably in AI-tool brand storytelling. Each has a primary archetype range and a natural home channel.
 
-**Origin story.** How the tool came to be. Usually told in first person. The story shape depends on archetype: a Hero archetype tells an origin story as a Hero's Journey. A Sage archetype tells it as a Methodology story — here is the problem I was trying to solve, here is how I came to understand it more precisely, here is what the investigation produced. A Magician archetype tells it as a Transformation story — here is what I believed was impossible, here is the moment I understood it was not.
+**Origin story.** How the tool came to be. Usually told in first person. The shape depends on archetype: a Hero archetype tells an origin story as a Hero's Journey. A Sage archetype tells it as a Methodology story — here is the problem I was trying to solve, here is how I came to understand it more precisely, here is what the investigation produced. A Magician archetype tells it as a Transformation story — here is what I believed was impossible, here is the moment I understood it was not.
 
 **Customer story (case study).** The customer as hero. The brand as guide. The transformation is specific and real. This is the workhorse of portfolio storytelling — every project you have done can be rendered as a case study, and the accumulated case studies are the primary evidence of your capability and impact.
 
@@ -197,27 +190,21 @@ Five story shapes show up most reliably in AI-tool brand storytelling at the sta
 
 The choice of channel is a downstream decision from archetype and story shape. Not every story shape works in every channel.
 
-**LinkedIn articles** reward credibility signals — evidence, specificity, demonstrated expertise. Sage and Hero archetypes thrive here. Case studies and thought-leadership pieces are the strongest formats. Jester content tends toward the performative rather than the substantive in this format.
+**LinkedIn articles** reward credibility signals — evidence, specificity, demonstrated expertise. Sage and Hero archetypes thrive here. Case studies and thought-leadership pieces are the strongest formats.
 
-**Blog posts on your tool's site** are indexed by search engines and discoverable over time. The audience is the curious-prospect-becoming-customer. A post titled "How to monitor competitor pricing automatically with n8n" will be found by people who need to do that thing. A post titled "Introducing Our New Competitive Intelligence Feature" will be found by no one except people who already know you exist.
+**Blog posts on your tool's site** are indexed by search engines and discoverable over time. A post titled "How to monitor competitor pricing automatically with n8n" will be found by people who need to do that thing. A post titled "Introducing Our New Competitive Intelligence Feature" will be found by no one except people who already know you exist.
 
 **GitHub README and documentation** are underused as brand storytelling. For Sage archetypes, the README is often the first thing a potential collaborator or customer sees. A README that opens with mechanism and quantified outputs is Sage storytelling at its best.
-
-![A matrix of story shapes × channels.](../images/10-brand-storytelling-fig-05.png)
-*Figure 10.5 — Story shapes mapped to channels*
 
 <!-- → [TABLE: Story shapes × channels matrix — rows: origin story, case study, quest story, thought-leadership, transformation story; columns: LinkedIn articles, blog/SEO, newsletter/Substack, GitHub README, portfolio site; cells: fit rating and brief rationale] -->
 
 ### Cadence Over Volume
 
-A common error at the student stage: attempting to publish at a volume that cannot be sustained, burning out at week six, and abandoning the content strategy entirely.
+A common error: attempting to publish at a volume that cannot be sustained, burning out at week six, and abandoning the content strategy entirely.
 
 The evidence from content marketing research is consistent: cadence beats volume. Two well-told case studies per year are worth more than ten mediocre LinkedIn posts per month, because the accumulated body of work is what builds an audience's model of who you are and what you know. Pick a cadence you can maintain at 70% capacity — not your best week, your normal week. For most students: one published piece per month is sustainable; weekly is aspirational and usually collapses.
 
-A content calendar for the next quarter: three to six pieces, each with an archetype check. For each planned piece, write one sentence answering: *what story shape is this, and does that shape fit my archetype?* If you cannot answer that question for a planned piece, the piece is not ready to be planned — it is still being figured out.
-
-![Two three-year publishing trajectories as line charts — left: consistent monthly cadence; right: burst-and-abandon pattern.](../images/10-brand-storytelling-fig-09.png)
-*Figure 10.9 — Consistent cadence vs. burst-and-abandon over three years*
+For each planned piece, write one sentence answering: *what story shape is this, and does that shape fit my archetype?* If you cannot answer that question, the piece is not ready to be planned — it is still being figured out.
 
 <!-- → [CHART: Two line charts — left panel: steady rising audience curve over 36 months (consistent monthly cadence); right panel: sawtoothed flat audience curve (burst-and-abandon); same total number of pieces, opposite trajectories] -->
 
@@ -227,19 +214,17 @@ A content calendar for the next quarter: three to six pieces, each with an arche
 
 Three deliverables, in order of build sequence.
 
-**Deliverable 1: Origin story (300–500 words).** How your tool came to be — or more accurately, how you came to be the person who built it. Archetype-aligned. First person if your archetype supports it; third person for organizational stories. One scene rendered specifically — not listed, shown. The elements that belong: a specific moment of recognition, the problem that would not leave, a threshold crossing, what you discovered in the work that you did not expect, what you now bring back. The elements that do not belong: a list of technologies you know, an account of all the jobs you have held, a statement of values without a story that made them specific. The test: read it aloud to someone who does not know you. Do they picture a specific moment? Do they understand why you built what you built? Do they believe you?
+**Deliverable 1: Origin story (300–500 words).** How your tool came to be — or more accurately, how you came to be the person who built it. Archetype-aligned. First person if your archetype supports it. One scene rendered specifically — not listed, shown. The elements that belong: a specific moment of recognition, the problem that would not leave, a threshold crossing, what you discovered in the work that you did not expect, what you now bring back. The elements that do not belong: a list of technologies you know, an account of all the jobs you have held, a statement of values without a story that made them specific. The test: read it aloud to someone who does not know you. Do they picture a specific moment? Do they understand why you built what you built? Do they believe you?
 
-<!-- → [TABLE: Origin story scaffold — concepts, what they mean, how to use them; not a template to fill in but a set of constraints to write against] -->
+**Deliverable 2: Customer story template and one case study (800–1,800 words).** A case study in the customer-as-hero frame has six structural elements. They do not have to appear in this order in the finished piece, but all six must be present.
 
-**Deliverable 2: Customer story template and one case study (800–1,800 words).** The template is reusable — the same structural frame for every case study you write. A case study in the customer-as-hero frame has six structural elements. They do not have to appear in this order in the finished piece, but all six must be present.
-
-The *customer*: who is the protagonist? Name them (with permission) or describe them precisely enough that a reader can identify with the role. The customer's specificity is what makes identification possible.
+The *customer*: who is the protagonist? Name them or describe them precisely enough that a reader can identify with the role. The customer's specificity is what makes identification possible.
 
 The *problem*: what could the customer not do, or what was taking too long, or what was wrong they could not fix? The problem must be specific and the stakes must be real.
 
 *What they tried before*: why did the existing approaches fail? This is the most skipped element and the most important — without it, the reader does not understand why your approach was necessary rather than obvious.
 
-The *approach*: what you did — but framed as service to the customer, not as demonstration of your skill. The guide's actions are described in terms of what they enabled for the hero.
+The *approach*: what you did — framed as service to the customer, not as demonstration of your skill. The guide's actions are described in terms of what they enabled for the hero.
 
 The *transformation*: what specifically changed? Numbers where available. Timelines where relevant. Qualitative changes described with enough specificity to be visualized.
 
@@ -254,41 +239,24 @@ The *meta-lesson*: what does this case study teach beyond "our tool works"? What
 
 ---
 
-## Chapter Summary
+## What Would Change My Mind
 
-Here is what you can now do. You can name the three foundational storytelling frameworks and describe what each contributes — not as alternatives but as telescoping levels of analysis. You can match any archetype to its native story shapes and explain why mismatched shapes misfire. You can diagnose an archetype-narrative mismatch in a real campaign, name the pathway the failure activated, and propose a revision that does not require changing the underlying brand. You can write a case study that places the customer in the hero role and the brand in the guide role, with specific transformation documented. You have three deliverables to build.
+Strong controlled evidence that brand storytelling investment does not predict customer acquisition or retention for AI-tool startups, when controlling for product quality and sales effectiveness. The case for brand storytelling rests largely on qualitative evidence and the few well-documented case reversals covered in this chapter. Large-N empirical studies on storytelling ROI at the startup stage would either strengthen or challenge these claims substantially.
 
-The one idea that matters most: story shapes have archetypal commitments built into them. Choosing a story shape mismatched to your brand's archetype is not a style error — it is a credibility error. The audience does not need to understand the framework to detect the mismatch. They will feel it, and the feeling will attach to your brand.
+## Still Puzzling
 
-The common mistake: writing an origin story that is a résumé in prose, and writing case studies where the brand is the hero. Both errors are structural, not stylistic. The fix is not better writing — it is repositioning the characters in the story.
-
-The Feynman test: sit down with someone who has never heard of brand archetypes or story frameworks. Show them two versions of a case study — one brand-as-hero, one customer-as-hero — and ask which one they find more compelling. They will pick the customer-as-hero version. Ask them why. If they say something like "it made me feel like I could be in that situation" or "I could see myself in the problem," you have successfully taught the chapter's central mechanism without using any of its vocabulary.
-
-**A note on the framework's limits.** Storytelling is a craft that takes years to develop fully. The structural frameworks tell you what must be present; they do not tell you how to execute it with skill. The archetype-story-shape mapping describes central tendencies, not rigid rules. Real brands tell stories that cross archetype lines — sometimes deliberately, sometimes because the subject matter requires it, sometimes because the brand is in genuine transition. What the mapping gives you is a prior: when in doubt, tell the story most native to your archetype. Deviate with intention, not by default.
-
-**What would change my mind:** strong controlled evidence that brand storytelling investment does not predict customer acquisition or retention for AI-tool startups, when controlling for product quality and sales effectiveness. The case for brand storytelling rests largely on qualitative evidence and the few well-documented case reversals (Pepsi, Bud Light, Jaguar). Large-N empirical studies on storytelling ROI at the startup stage would either strengthen or challenge these claims.
-
-**Still puzzling:** the exact mechanism by which some brands successfully evolve their archetype through storytelling — Apple from Outlaw to Magician — while others are read as opportunistic. The hypothesis is that successful archetype evolution requires a sustained series of stories that build toward the new archetype before the transition is named explicitly. But the evidence is mostly post-hoc analysis of successes. I do not yet have a clean account of what distinguishes deliberate evolution from opportunistic drift.
-
----
-
-## Connections Forward
-
-Chapter 11 is the portfolio site — the home where your stories live publicly. The origin story goes in the About section. The case studies go in the Projects section. The thought-leadership pieces are linked as published work. The portfolio site without these is a container with nothing in it. The stories are the content; the portfolio is the delivery mechanism.
-
-Carry forward one question: *is each piece I plan to publish archetypally aligned, and is the customer in the hero position?* If you can answer yes to both for every piece in your content calendar, Chapter 11's work is deployment, not revision.
+The exact mechanism by which some brands successfully evolve their archetype through storytelling — Apple from Outlaw to Magician — while others are read as opportunistic. The hypothesis is that successful archetype evolution requires a sustained series of stories that build toward the new archetype before the transition is named explicitly. But the evidence is mostly post-hoc analysis of successes. I do not yet have a clean account of what distinguishes deliberate evolution from opportunistic drift.
 
 ---
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Joseph Campbell** synthesized the comparative mythology of dozens of cultures into the structural argument of *The Hero with a Thousand Faces* (1949): that human beings, across history and geography, tell the same shape of story because the shape corresponds to the experience of becoming someone capable of returning to the world with something the world needed. The chapter borrows the structure as a brand-storytelling tool — call to adventure, refusal, threshold, ordeal, return with the elixir — but Campbell's deeper claim is the one the chapter rests on: the structure works because it is true to a pattern people recognize in themselves, not because it is a clever rhetorical trick.
+**Joseph Campbell** synthesized the comparative mythology of dozens of cultures into the structural argument of *The Hero with a Thousand Faces* (1949): that human beings, across history and geography, tell the same shape of story because the shape corresponds to the experience of becoming someone capable of returning to the world with something the world needed. The chapter borrows the structure as a brand-storytelling tool — call to adventure, refusal, threshold, ordeal, return with the elixir — but Campbell's deeper claim is the one the chapter rests on: the structure works because it is true to a pattern people recognize in themselves, not because it is a clever rhetorical trick.
 
 ![Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joseph-campbell.jpg)
 *Joseph Campbell, c. 1950s. AI-generated portrait based on a public domain photograph.*
 
 ![Joseph Campbell](../images/joseph-campbell-gt3.png)
-
 *Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
@@ -317,96 +285,50 @@ What changes? What gets better? What gets worse?
 
 ### Warm-Up
 
-**W1. Story Shape Identification**
-For each of the following brand narratives, name the story shape being used (Hero's Journey, Quest, Transformation, Rebellion, Service/Methodology, Inversion) and identify the archetype it is most native to:
+**W1.** For each of the following brand narratives, name the story shape being used (Hero's Journey, Quest, Transformation, Rebellion, Service/Methodology, Inversion) and identify the archetype it is most native to: (a) a software company's blog post explaining, in technical detail, why they built their rate-limiting system the way they did; (b) a sportswear ad showing an amateur runner training alone before dawn, failing repeatedly, finally completing a race she thought was beyond her; (c) a banking brand's campaign positioning itself as the institution fighting against hidden fees that the rest of the industry charges; (d) a cleaning-products brand's ad in which household objects come to life and sing about the joy of a clean home.
+*(Tests story shape identification and archetype-shape native pairing — difficulty: low)*
 
-- A software company's blog post explaining, in technical detail, why they built their rate-limiting system the way they did.
-- A sportswear ad showing an amateur runner training alone before dawn, failing repeatedly, finally completing a race she thought was beyond her.
-- A banking brand's campaign positioning itself as the institution fighting against hidden fees that the rest of the industry charges.
-- A cleaning-products brand's ad in which household objects come to life and sing about the joy of a clean home.
+**W2.** Read the following case study excerpt and identify who occupies the hero position. Then rewrite the opening paragraph to shift the hero position to the customer. *"We built a pipeline that processes competitor pricing data from fourteen sources and surfaces the three most important signals every morning. After six weeks of development and two rounds of user testing, we shipped the tool to our first customer. The feedback was positive."*
+*(Tests customer-as-hero structural discipline — difficulty: low)*
 
-*Tests Objectives 1 and 2.*
-*Difficulty: Low.*
-
-**W2. Character Position Check**
-Read the following case study excerpt and identify who occupies the hero position and who occupies the guide position. Then rewrite the opening paragraph to shift the hero position to the customer.
-
-*"We built a pipeline that processes competitor pricing data from fourteen sources and surfaces the three most important signals every morning. After six weeks of development and two rounds of user testing, we shipped the tool to our first customer. The feedback was positive."*
-
-*Tests Objective 4.*
-*Difficulty: Low.*
-
-**W3. Archetype-Shape Match**
-For your committed archetype (from Chapter 3/8), list: (a) the story shapes most native to your archetype, (b) one story shape you should avoid and why, and (c) one cultural content domain (social movements, mastery/achievement, care/service, transgression, etc.) that your archetype can credibly access and one it cannot.
-
-*Tests Objective 2.*
-*Difficulty: Low-Medium.*
+**W3.** For your committed archetype, list: the story shapes most native to your archetype; one story shape you should avoid and why; one cultural content domain your archetype can credibly access and one it cannot.
+*(Tests archetype-to-story-shape mapping — difficulty: low)*
 
 ---
 
 ### Application
 
-**A1. Mismatch Diagnosis**
-Find a real brand campaign from the last three years — not one covered in this chapter — that you believe contains a narrative-archetype mismatch. Apply the diagnostic checklist from the chapter: name the brand's archetype, name the story shape the campaign attempted, identify which of the three failure pathways was activated, and describe the audience response as documented in press coverage or social media. Use sources.
+**A1.** Find a real brand campaign from the last three years — not one covered in this chapter — that you believe contains a narrative-archetype mismatch. Apply the diagnostic checklist: name the brand's archetype, name the story shape the campaign attempted, identify which of the three failure pathways was activated, and describe the audience response as documented in press coverage or social media. Use sources.
+*(Tests mismatch diagnosis on novel cases — difficulty: medium)*
 
-*Tests Objective 3.*
-*Difficulty: Medium.*
+**A2.** Write your tool's origin story (300–500 words). Archetype-aligned. One specific scene rendered clearly enough that a reader can picture it. Not a résumé in prose. Apply the three-question test before submitting: does the reader picture a specific moment? Do they understand why you built what you built? Do they believe you?
+*(Tests origin story construction — difficulty: medium)*
 
-**A2. Origin Story Draft**
-Write your tool's origin story (300–500 words). Archetype-aligned. One specific scene rendered clearly enough that a reader can picture it. Not a résumé in prose. Apply the three-question test before submitting: does the reader picture a specific moment? Do they understand why you built what you built? Do they believe you?
+**A3.** Take a case study you have already written — from this course, a prior course, a job application, anywhere — and audit it against the six-element template. Which elements are present? Which are missing? Which elements, if present, have the brand in the hero position rather than the customer? Write a one-page analysis of what needs to change, and revise the case study accordingly.
+*(Tests structural case study audit — difficulty: medium)*
 
-*Tests Objective 5.*
-*Difficulty: Medium.*
-
-**A3. Case Study Structural Audit**
-Take a case study you have already written — from this course, a prior course, a job application, anywhere — and audit it against the six-element template. Which elements are present? Which are missing? Which elements, if present, have the customer in the wrong position (guide-as-hero rather than customer-as-hero)? Write a one-page analysis of what needs to change, and revise the case study accordingly.
-
-*Tests Objective 4.*
-*Difficulty: Medium-High.*
-
-**A4. Thought-Leadership Piece**
-Write one thought-leadership piece (800–1,500 words) on a topic relevant to your archetype and tool domain. The piece must have a specific, falsifiable thesis — a claim a hostile reader could push back on, that you have the evidence to defend. It must not be a "lessons learned" post, a paper summary, or an announcement. Publish it. Provide the URL.
-
-*Tests Objective 6.*
-*Difficulty: Medium-High.*
+**A4.** Write one thought-leadership piece (800–1,500 words) on a topic relevant to your archetype and tool domain. The piece must have a specific, falsifiable thesis — a claim a hostile reader could push back on, that you have the evidence to defend. It must not be a "lessons learned" post, a paper summary, or an announcement. Publish it. Provide the URL.
+*(Tests thought-leadership construction and publication — difficulty: medium-high)*
 
 ---
 
 ### Synthesis
 
-**S1. Full Case Study — Customer-as-Hero**
-Write a complete case study (800–1,800 words) for the AI tool you built in Chapters 4–7, using the six-element template and the customer-as-hero framing. The case study must: name or precisely describe the customer/user; specify the problem with real stakes; describe what failed before; frame your approach as service to the customer, not demonstration of your skill; include at least one specific, quantified or precisely described transformation; close with a meta-lesson that is more than "our tool works." Apply the three-property check before submitting: story shape matches archetype, customer is hero, stakes are specific.
+**S1.** Write a complete case study (800–1,800 words) for the AI tool you built in Chapters 4–7, using the six-element template and the customer-as-hero framing. The case study must: name or precisely describe the customer; specify the problem with real stakes; describe what failed before; frame your approach as service to the customer, not demonstration of your skill; include at least one specific, quantified or precisely described transformation; close with a meta-lesson that is more than "our tool works." Apply the three-property check before submitting.
+*(Tests full customer-as-hero case study construction — difficulty: high)*
 
-*Tests Objectives 2, 3, and 4.*
-*Difficulty: High.*
+**S2.** Select two brands from different archetype positions — one you admire for its storytelling and one you believe is making storytelling errors currently. For each: identify the archetype, identify the story shapes being used, assess whether the shapes fit the archetype, and — for the brand with errors — name the specific mismatch pathway and predict the consequence if the error is not corrected. Ground your analysis in specific campaigns, not general impressions.
+*(Tests cross-archetype storytelling analysis — difficulty: high)*
 
-**S2. Cross-Archetype Storytelling Analysis**
-Select two brands from different archetype positions — one you admire for its storytelling and one you believe is making storytelling errors currently. For each: identify the archetype, identify the story shapes being used, assess whether the shapes fit the archetype, and — for the brand with errors — name the specific mismatch pathway and predict the consequence if the error is not corrected. Ground your analysis in specific campaigns, not general impressions.
-
-*Tests Objectives 2 and 3.*
-*Difficulty: High.*
-
-**S3. Content Calendar with Archetype Checks**
-Build a content calendar for the next two quarters (six months). Include: six to ten planned pieces, each with a title or working title, a story shape, a channel, a target publication date, and a one-sentence archetype check. Then write a one-paragraph rationale explaining how the accumulated body of work over six months will build the brand you are trying to build — not as individual pieces, but as a sequence that compounds.
-
-*Tests Objectives 2 and 6.*
-*Difficulty: High.*
+**S3.** Build a content calendar for the next two quarters (six months). Include six to ten planned pieces, each with a title or working title, a story shape, a channel, a target publication date, and a one-sentence archetype check. Then write a one-paragraph rationale explaining how the accumulated body of work over six months will build the brand you are trying to build — not as individual pieces, but as a sequence that compounds.
+*(Tests content strategy construction with archetype discipline — difficulty: high)*
 
 ---
 
 ### Challenge
 
-**C1. Archetype Evolution Case Study**
-The chapter's "Still Puzzling" section raises the question of how brands successfully evolve their archetype through storytelling. Using Apple's transition from Outlaw ("Think Different," 1997–2007) to Magician (iPhone era, 2007–present) as your primary case, develop an account of the storytelling mechanism that made the transition credible rather than opportunistic. Your account should: identify specific campaigns or moments that built toward the new archetype, explain why the transition avoided the three failure pathways, and describe what a failed version of the same transition would have looked like. Be specific about the sequence — what had to happen before the Magician story could land.
-
-*Tests Objectives 2 and 3, and addresses the chapter's stated open question.*
-*Difficulty: Very High.*
-
-**C2. Build and Publish the Counterexample**
-The chapter argues that narrative-archetype mismatches reliably produce audience rejection. Find the strongest counterexample you can: a brand that told a story with an apparent archetype mismatch and *succeeded* — built audience, drove sales, improved brand perception — without a forced rollback. Analyze the case. Does it falsify the chapter's argument, or does it reveal a condition under which mismatch is tolerable or even generative? Write a 600-word analysis and bring it to the next class session.
-
-*Tests all objectives against the chapter's own claims.*
-*Difficulty: Very High.*
+**C1.** The chapter's "Still Puzzling" section raises the question of how brands successfully evolve their archetype through storytelling. Using Apple's transition from Outlaw ("Think Different," 1997–2007) to Magician (iPhone era, 2007–present) as your primary case, develop an account of the storytelling mechanism that made the transition credible rather than opportunistic. Your account should identify specific campaigns or moments that built toward the new archetype, explain why the transition avoided the three failure pathways, and describe what a failed version of the same transition would have looked like. Be specific about the sequence — what had to happen before the Magician story could land. (400–500 words.)
+*(Open-ended — tests whether the student can account for the chapter's stated open question — difficulty: challenge)*
 
 ---
 
@@ -481,11 +403,9 @@ to publish it for my archetype's typical audience.
 
 **What this produces:** Three pieces of finished writing. One published before Chapter 11. The other two slot directly into your portfolio's About and Case Studies sections.
 
-**How to adapt:** Iterate on each piece separately. Run Piece 3 multiple times with different topics until one feels right. Pulls voice from Chapter 8 strategy.
+**How to adapt:** Iterate on each piece separately. Run Piece 3 multiple times with different topics until one feels right.
 
 **Preview of next chapter:** Chapter 11 deploys your portfolio site using v0 or Framer, with these stories as content.
-
----
 
 ---
 
