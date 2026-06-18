@@ -1,4 +1,4 @@
-# Chapter 7 — Interface Design and Deployment
+# Appendix S4 — Interface Design and Deployment
 *The interface is not a finishing layer. It is a contract. Every session, the user checks whether you kept it.*
 
 > **TL;DR:** This chapter treats the interface as a promise the user re-checks every time they open your tool — not a coat of paint added at the end. It defines what "interface" really covers, shows three ways an interface can betray the brand, compares two fast build frameworks, and walks you through building and deploying a working one.

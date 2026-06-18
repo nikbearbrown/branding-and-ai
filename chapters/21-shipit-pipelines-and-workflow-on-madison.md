@@ -1,4 +1,4 @@
-# Chapter 5 — Data Pipelines and Workflow Automation
+# Appendix S2 — Pipelines & Workflow (on Madison)
 *Every external dependency is a contract. Every contract will change.*
 
 > **TL;DR:** This chapter reframes data pipelines as chains of agreements you do not control — every API, feed, and service can change its terms and break you. Using the Apollo/Reddit shutdown and the n8n automation tool, it teaches you to document every dependency, build fallback ("degraded") modes, and watch for contract changes before they take your product down.

@@ -1,4 +1,4 @@
-# Chapter 4 — Product Requirements and Scope
+# Appendix S1 — Product Requirements and Scope
 *The $100,000 no, and why the things you refuse to build define the product more than the things you build.*
 
 > **TL;DR:** This chapter is about scope — deciding what to build and, more importantly, what to refuse to build. It defines the product requirements document, explains what "minimum viable product" really means, and shows through the Linear case and a worked example why the things you decline (the "$100,000 no") define a product more than the things you ship.

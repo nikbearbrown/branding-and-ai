@@ -1,4 +1,4 @@
-# Chapter 11 — Portfolio as Product
+# Chapter 18 — Portfolio as Product
 *The artifact you build once and the returns that compound for a decade.*
 
 > **TL;DR:** This chapter treats your portfolio as a product that compounds — built once, generating credibility for years (as Brittany Chiang's did). It explains the three channels through which a portfolio pays off, how to curate ruthlessly, how to write a case study that does four jobs at once, and how to deploy and align it with your résumé and LinkedIn.

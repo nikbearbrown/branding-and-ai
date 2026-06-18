@@ -1,4 +1,4 @@
-# Chapter 10 — Brand Storytelling
+# Chapter 10 — Brand Voice & Storytelling
 *A brand without a story is a logo on a business card. A brand telling the wrong story burns faster than no story at all.*
 
 > **TL;DR:** This chapter is about brand storytelling — and the danger that the wrong story does more damage than no story. It covers three story frameworks, how your archetype limits which stories are honest to tell, what mismatches look like, and how to build the specific narrative pieces a brand needs.

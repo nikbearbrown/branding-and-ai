@@ -1,4 +1,4 @@
-# Chapter 12 — Professional Presence and Launch
+# Chapter 19 — Professional Presence and Launch
 *The final deliverable is not your portfolio. It is you.*
 
 > **TL;DR:** The closing chapter assembles everything into a coherent professional presence and a launch — where the final product is you. It covers making your résumé, social media, and final presentation tell one consistent story, how to pitch, and how to keep the brand working after the launch moment passes.

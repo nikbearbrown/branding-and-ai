@@ -1,4 +1,4 @@
-# Chapter 2 — The Madison Framework
+# Chapter 3 — The AI Toolchain: Cowork, Codex & Madison
 *Five roles, one pipeline, and the moment you realize architecture is brand.*
 
 > **TL;DR:** This chapter teaches you to read an AI system's architecture the way you would read a blueprint, using the open-source Madison framework as the worked example. Its core lesson: how you split an AI product into parts decides how it fails, how it is sold, and how much customers can trust it — so architecture is itself a branding decision.

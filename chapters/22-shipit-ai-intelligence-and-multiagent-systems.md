@@ -1,4 +1,4 @@
-# Chapter 6 — AI Intelligence and Multi-Agent Systems
+# Appendix S3 — AI Intelligence and Multi-Agent Systems
 *The hardest design decision is not which model to use — it is where the AI decides and where it does not.*
 
 > **TL;DR:** This chapter is about the hardest choice in adding AI to a product: where the AI gets to decide, and where a human must. It lays out four patterns of AI involvement, shows why that choice shapes what customers trust, what fails when systems run too autonomously, and how to write clear specifications for each AI role.

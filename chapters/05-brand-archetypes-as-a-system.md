@@ -1,4 +1,4 @@
-# Chapter 3 — Jungian Brand Archetypes as a System
+# Chapter 5 — Brand Archetypes as a System
 *The constraint that makes every downstream decision decidable.*
 
 > **TL;DR:** Choosing one of twelve brand archetypes turns vague brand questions into decidable ones. This chapter explains why a committed archetype makes every later decision easier, uses three famous failures (Tropicana, Gap, New Coke) to show what happens when a brand drifts from its archetype, and walks you through picking and stress-testing your own.

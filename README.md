@@ -27,20 +27,30 @@ by running the mapped Madison recipe. The agent drafts; you own the decision.
 
 ## Table of Contents
 
+**The running project** (personal brand, or a company brand — real, fictional, or your startup) threads every chapter; each closes with a framework-mode AI+1 block that advances it by running a Madison recipe.
+
 - **Chapter 1 — The Creative Engineer.** *When the cost of building collapses, the value of knowing what to build rises.*
-- **Chapter 2 — The Madison Framework.** *Five roles, one pipeline, and the moment you realize architecture is brand.*
-- **Chapter 3 — Jungian Brand Archetypes as a System.** *The constraint that makes every downstream decision decidable.*
-- **Chapter 4 — Product Requirements and Scope.** *The $100,000 no — what you refuse to build defines the product.*
-- **Chapter 5 — Data Pipelines and Workflow Automation.** *Every external dependency is a contract, and every contract will change.*
-- **Chapter 6 — AI Intelligence and Multi-Agent Systems.** *The hard decision is where the AI decides and where it does not.*
-- **Chapter 7 — Interface Design and Deployment.** *The interface is a contract the user re-checks every session.*
-- **Chapter 8 — Brand Strategy (two paths).** Positioning as a defensible claim.
-  - **8a — Personal Brand Path** — position a person.
-  - **8b — Startup Brand Path** — position a venture.
+- **Chapter 2 — What a Brand Is: Equity & Assets.** *A logo is the cheapest part of a brand.*
+- **Chapter 3 — The AI Toolchain: Cowork, Codex & Madison.** *Architecture is a brand decision — learn the tools that build it.*
+- **Chapter 4 — The Brand Audience.** *"Everyone" is not an audience.*
+- **Chapter 5 — Brand Archetypes as a System.** *The constraint that makes every downstream decision decidable.*
+- **Chapter 6 — Brand Strategy & Positioning.** *What you decline to build defines the brand — personal and startup paths.*
+- **Chapter 7 — Brand Architecture & Portfolio.** *Every brand is a system of brands.*
+- **Chapter 8 — Naming, Trademark & Brand Protection.** *A great name you cannot own is a liability.*
 - **Chapter 9 — Visual Identity Systems.** *Strategy and design together — the system, not the Pepsi document.*
-- **Chapter 10 — Brand Storytelling.** *A brand telling the wrong story burns faster than none.*
-- **Chapter 11 — Portfolio as Product.** *The artifact you build once whose returns compound.*
-- **Chapter 12 — Professional Presence and Launch.** *The final deliverable is you.*
+- **Chapter 10 — Brand Voice & Storytelling.** *A brand telling the wrong story burns faster than none.*
+- **Chapter 11 — Brand Experience & Touchpoints.** *For most customers, the experience is the brand.*
+- **Chapter 12 — Content, Media & Campaigns.** *AI made content free; that is why most of it is worthless.*
+- **Chapter 13 — Measuring Brand Equity & Impact.** *A number that moved is a question, not a verdict.*
+- **Chapter 14 — Brand Management, Governance & Rebranding.** *Keeping a brand coherent, and knowing when to change it.*
+- **Chapter 15 — Brand Ethics, Purpose & Sustainability.** *A green claim you cannot prove is now a fine.*
+- **Chapter 16 — Crisis & Reputation Management.** *Reputation is built in years and lost in hours.*
+- **Chapter 17 — Global & Cross-Cultural Branding.** *Localization is re-creation, not translation.*
+- **Chapter 18 — Portfolio as Product.** *The artifact you build once whose returns compound.*
+- **Chapter 19 — Professional Presence and Launch.** *The final deliverable is you.*
+
+**Appendix — Ship It track** (optional, for a company/startup brand with a product or tool):
+- **S1 — Product Requirements & Scope** · **S2 — Pipelines & Workflow (on Madison)** · **S3 — AI Intelligence & Multi-Agent Systems** · **S4 — Interface & Deployment**
 
 ## The bundled Madison framework
 
@@ -56,7 +66,7 @@ the architecture, this book applies it.
 
 ## Files
 
-- `chapters/` — the 14-chapter manuscript (front matter, introduction, chapters 1–12 incl. 8a/8b, back matter)
+- `chapters/` — the manuscript: front matter, introduction, Chapters 1–19, Appendix S1–S4 (Ship It), fundamental themes, back matter
 - `madison/` — the bundled Madison framework (recipes, template, prompt)
 - `exercises/branding-ai1-running-project-spec.md` — the AI+1 running-project + recipe-map spec
 - `TIKTOC.md` — the book's compact architecture (spine, chapter map, Madison boundary)
