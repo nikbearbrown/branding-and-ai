@@ -1,7 +1,7 @@
 # Appendix S1 — Product Requirements and Scope
 *The $100,000 no, and why the things you refuse to build define the product more than the things you build.*
 
-> **TL;DR:** This chapter is about scope — deciding what to build and, more importantly, what to refuse to build. It defines the product requirements document, explains what "minimum viable product" really means, and shows through the Linear case and a worked example why the things you decline (the "$100,000 no") define a product more than the things you ship.
+> **TL;DR:** This appendix is about scope — deciding what to build and, more importantly, what to refuse to build. It defines the product requirements document, explains what "minimum viable product" really means, and shows through the Linear case and a worked example why the things you decline (the "$100,000 no") define a product more than the things you ship.
 >
 > | Section | Preview |
 > |---|---|
@@ -12,34 +12,31 @@
 > | A Worked Example | A full PRD built step by step, including an explicit list of what it will not do. |
 > | What the PRD Is Actually Doing | Why the document's deeper job is forcing commitments before pressure arrives. |
 
-
 ---
 
 Here is a thing that happens constantly in software teams. You start building without deciding in advance what you are building. Every question that arises during development gets answered in the moment by whoever is most opinionated in the room. Should the tool support multi-user accounts? The engineer who is annoyed by the lack of them says yes and builds it. Should the output be a Google Sheet or a Notion database? The PM who uses Notion says Notion. Should the system support custom RSS feeds or only a curated list? The person who gave the last demo adds custom feeds because the prospect asked for them.
 
 By the time v1 ships — if it ships — the product is a collection of in-the-moment decisions made under different assumptions by people solving different problems. It is coherent the way a committee memo is coherent.
 
-The document that prevents this is called a PRD — a Product Requirements Document. I want to tell you what it actually is, because the word "requirements" sounds administrative, which is why students underestimate it. A PRD is not a form you fill out before you are allowed to write code. It is the mechanism by which you force yourself to make decisions *before* writing code. The decisions are hard. The PRD is what makes you make them.
-
----
+The document that prevents this is called a PRD — a Product Requirements Document. The word "requirements" sounds administrative, which is why it gets underestimated. A PRD is not a form you fill out before you are allowed to write code. It is the mechanism by which you force yourself to make decisions *before* writing code. The decisions are hard. The PRD is what makes you make them.
 
 ## What a PRD Actually Is
 
 Marty Cagan, whose book *Inspired* is the most widely-read treatment of product management in the technology industry, gives the PRD's core rule in a single sentence: the PRD specifies the *what*, not the *how*. The product team decides what the product needs to do. The engineering team decides how to implement it.
 
-The *what* versus *how* distinction is cleaner in theory than in practice. A few examples.
+The what versus how distinction is cleaner in theory than in practice. A few examples.
 
-"The tool sends users a daily email summary" — this is *what*. It says nothing about the email infrastructure, the scheduling mechanism, the HTML renderer, or the unsubscribe flow. That is for engineering. "The tool sends users a daily email summary via SendGrid at 7 a.m. Eastern using a Handlebars template" — this is *how* in *what*'s clothing. It has made technology decisions the PRD had no business making.
+"The tool sends users a daily email summary" — this is *what*. It says nothing about the email infrastructure, the scheduling mechanism, the HTML renderer, or the unsubscribe flow. Those are for engineering. "The tool sends users a daily email summary via SendGrid at 7 a.m. Eastern using a Handlebars template" — this is *how* in *what*'s clothing. It has made technology decisions the PRD had no business making.
 
 "The tool scores articles for sentiment" — this is *what*. "The tool scores articles for sentiment using GPT-4o-mini with a temperature of 0.2 and a custom system prompt that rates each article on a five-point scale" — again, *how* smuggled in. The PRD should not specify the model, the temperature, or the prompt structure.
 
 The distinction matters because when the *how* ends up in the PRD, it gets treated as a requirement. Engineers build against it. When the implementation needs to change — and it always needs to change — the PRD becomes a source of false constraints. You end up defending a technology choice that was never actually a product requirement.
 
-The one-page PRD I want you to write has four sections. Each answers one question.
+The one-page PRD has four sections. Each answers one question.
 
 <!-- → [TABLE: PRD section anatomy — four rows: Problem, Gap, Tool, MVP Boundary; columns: section, question it answers, common failure mode, weak example, strong example] -->
 
-**Section 1: Problem.** The question is: what specific problem are you solving, for whom, and how often does it cost them something?
+**Section 1: Problem.** What specific problem are you solving, for whom, and how often does it cost them something?
 
 The first failure mode is abstracting the user. "Marketing professionals" is not a user. "Marketing managers at Series-B SaaS companies with no dedicated analytics team" is a user. The more precisely you can describe the person, the more precisely you can test whether your tool solves their problem.
 
@@ -47,17 +44,17 @@ The second failure mode is describing a symptom instead of a cause. "Users want 
 
 What good looks like: *Marketing managers at small B2B SaaS companies — five to fifty employees, no dedicated analyst — spend two to four hours every Monday morning manually aggregating competitor news from RSS feeds, Google Alerts, and vendor newsletters. They do this to brief their team before the week's campaigns. The output is a Slack message or a shared Google Doc. The process is repetitive, the output is inconsistent, and the intelligence is approximately twelve to twenty-four hours stale by the time the team reads it.*
 
-Notice what that problem statement gives you: a specific user, a specific task, a specific frequency, a specific output, and a specific failure mode. Every one of those specifics is testable. You can find ten marketing managers who fit that description and ask them whether the problem statement is accurate. If it is not, you revise. The specificity is what makes the problem statement useful rather than decorative.
+Notice what that problem statement gives you: a specific user, a specific task, a specific frequency, a specific output, and a specific failure mode. Every one of those specifics is testable. You can find ten marketing managers who fit that description and ask them whether the problem statement is accurate.
 
-**Section 2: Gap.** The question is: what already exists to solve this problem, and where does it fall short?
+**Section 2: Gap.** What already exists to solve this problem, and where does it fall short?
 
 The failure mode is vagueness. "There are tools out there, but they're not quite right" is not a gap analysis. A gap analysis names actual products and explains exactly what each one gets wrong for your specific user.
 
 What good looks like: *Google Alerts is free and monitors keyword mentions, but it produces a raw feed with no deduplication, no sentiment scoring, and no prioritization — users end up with fifty alerts per day for a single keyword, most of them noise. Feedly Pro aggregates RSS feeds cleanly and costs $8/month, but it has no analysis layer — the user still has to read every article and extract the insight manually. Brand24 monitors social mentions and news with sentiment analysis starting at $99/month, but it is priced and scoped for enterprise, the interface is complex, and it does not integrate with the Google Sheets workflows that small-team marketers already use. Crayon tracks competitor website changes and marketing activity but costs $1,500/month minimum, outside the budget of the user we are targeting.*
 
-That gap analysis has four named competitors, a specific failure mode for each, and a clear implication: the market has either cheap-and-dumb or expensive-and-complex. The user needs affordable-and-smart. Now you have a product.
+That gap analysis has four named competitors, a specific failure mode for each, and a clear implication: the market has either cheap-and-dumb or expensive-and-complex. The user needs affordable-and-smart.
 
-**Section 3: Tool.** The question is: what, exactly, will you build?
+**Section 3: Tool.** What, exactly, will you build?
 
 The failure mode is marketing language. "An AI-powered platform for marketing intelligence" is not a tool description — it is a press release sentence. It tells the reader nothing about what the product does, how it does it at the output level, or who it is for. Every AI marketing tool could be described that way.
 
@@ -65,9 +62,9 @@ The test: read your tool description to someone who has not heard your pitch. As
 
 What good looks like: *A self-hosted n8n workflow that pulls from up to ten RSS feeds per user, deduplicates articles by title similarity, scores each article for sentiment and competitive relevance using the OpenAI API, and writes a daily summary to a Google Sheet the user already owns. Total API cost under $20/month for a standard-volume user.*
 
-That description tells you the delivery mechanism, the input, the processing, the output, and the cost envelope. A competent engineer can read it and know what to build. Notice that it does not say anything about how the deduplication works, which model version scores the sentiment, or what the Google Sheet looks like. Those are *how* decisions. They belong to the engineer, not to the PRD.
+That description tells you the delivery mechanism, the input, the processing, the output, and the cost envelope. A competent engineer can read it and know what to build. Notice that it does not say anything about how the deduplication works, which model version scores the sentiment, or what the Google Sheet looks like. Those are *how* decisions. They belong to the engineer.
 
-**Section 4: MVP Boundary.** The question is: what is in scope for v1, and — explicitly — what is not?
+**Section 4: MVP Boundary.** What is in scope for v1, and — explicitly — what is not?
 
 The failure mode is only writing the "in" column. Every PRD has an "in" list; that is the natural output of a feature brainstorm. The "out" list is what takes discipline, because every item on the out list is a thing someone on the team wanted. Writing it down means having the argument before shipping, not during.
 
@@ -92,8 +89,6 @@ What good looks like:
 
 That out list has eight items. Each one is a thing a reasonable user would want and a reasonable engineer would want to build. Each one is a door that will not be opened in v1. The discipline that produced the list is exactly the $100,000 no.
 
----
-
 ## What "Minimum Viable Product" Actually Means
 
 The word *minimum* in *minimum viable product* is where most students go wrong. Minimum sounds like it means "the least possible." It does not mean that. It means "the smallest thing that produces validated learning."
@@ -109,9 +104,9 @@ Eric Ries introduced the term in *The Lean Startup* (2011) and defined it precis
 The loop looks like this:
 
 ```
-1. HYPOTHESIS: Marketing managers at small B2B companies
-   will use a daily competitor-news summary if it is
-   pre-filtered to < 10 items and scored for sentiment.
+1. HYPOTHESIS: Marketing managers at small B2B companies will use
+   a daily competitor-news summary if it is pre-filtered to < 10
+   items and scored for sentiment.
 
 2. BUILD: The smallest tool that tests this hypothesis.
    (RSS ingestion + deduplication + sentiment scoring + Sheet.)
@@ -120,31 +115,26 @@ The loop looks like this:
    Do they share it with their team? Do they pay for month two?
 
 4. LEARN: If open rate is high and churn is low, the hypothesis
-   held. If open rate drops after week one, the problem was
-   not the filtering — it was the format or the cadence.
-   Update the hypothesis and rebuild.
+   held. If open rate drops after week one, the problem was not
+   the filtering — it was the format or the cadence. Update the
+   hypothesis and rebuild.
 ```
 
-![Build-Measure-Learn loop — a circular diagram with three labelled nodes (Build, Measure, Learn) annotated with what is built, what is measured, and what changes, plus an outer loop showing each cycle updating the PRD.](../images/04-product-requirements-and-scope-fig-01.png)
-*Figure 4.1 — The Build-Measure-Learn loop*
-
-<!-- → [FIGURE: Build-Measure-Learn loop — three-node circular diagram (Build → Measure → Learn → Build); annotate each node with its PRD connection; outer arc labeled "PRD updated — a living document"] -->
+<!-- → [DIAGRAM: Build-Measure-Learn loop — three-node circular diagram (Build → Measure → Learn → Build); annotate each node with its PRD connection; outer arc labeled "PRD updated — a living document"] -->
 
 The MVP boundary is what keeps the loop tight. A PRD that puts too much in v1 takes six months to ship. You learn nothing for six months. The competitor who shipped a worse product four months ago has already run three learn cycles and is now on v4. You are still on v1.
 
 The discipline is uncomfortable because it means shipping something that is clearly incomplete. You know the product needs multi-user accounts. You know it should have a Slack integration. You know the dashboard should be better than a Google Sheet. But until you have validated that someone will pay for the core thing — the daily scored news summary — none of the additions matter. Ship the core thing. Validate. Then add the layer.
 
-Not all assumptions are equally testable in an MVP, and the PRD should be designed around assumptions that can produce validated results within the MVP window. A testable hypothesis has a measurable behavioral outcome in a realistic timeframe: *"Marketing managers will open a daily Google Sheet of scored competitor news at least three times per week after the first two weeks of use"* is testable — you can measure it, it has a timeframe, and the outcome is behaviorally meaningful. *"Our tool will become the category-defining competitor intelligence platform for SMBs"* is not testable in v1. It is a vision, not a hypothesis. Visions belong in your pitch deck, not your PRD.
+Not all assumptions are equally testable in an MVP, and the PRD should be designed around assumptions that can produce validated results within the MVP window. A testable hypothesis has a measurable behavioral outcome in a realistic timeframe. "Marketing managers will open a daily Google Sheet of scored competitor news at least three times per week after the first two weeks of use" is testable — you can measure it, it has a timeframe, and the outcome is behaviorally meaningful. "Our tool will become the category-defining competitor intelligence platform for SMBs" is not testable in v1. It is a vision, not a hypothesis. Visions belong in your pitch deck, not your PRD.
 
-The test for whether a hypothesis belongs in the PRD: what would falsify it, and can I observe the falsification within the MVP window? If the answer is yes, the hypothesis is precise enough to build against. If no, decompose it.
-
----
+The test for whether a hypothesis belongs in the PRD: what would falsify it, and can I observe the falsification within the MVP window? If yes, the hypothesis is precise enough to build against. If no, decompose it.
 
 ## Scope Discipline as Identity: The Linear Case
 
 Linear is a project management tool built for engineering teams. It competes with Jira, Asana, and — by its own account — the cognitive overhead of bad project management software. The company launched in 2019, grew primarily through word-of-mouth among engineers, and reached a reported $35 million ARR by 2023 with a famously lean team and a product that, by design, does fewer things than its competitors.
 
-The story that anchors this chapter is real: Linear's team has repeatedly declined enterprise customization requests — including multi-workflow configurations worth significant annual contracts — because those customizations conflicted with Linear's product philosophy. The philosophy is published as the Linear Method, a document describing how Linear thinks about software and why their choices are the choices they are.
+The story that anchors this appendix is real: Linear's team has repeatedly declined enterprise customization requests — including multi-workflow configurations worth significant annual contracts — because those customizations conflicted with Linear's product philosophy. The philosophy is published as the Linear Method, a document describing how Linear thinks about software and why their choices are the choices they are.
 
 The Linear Method includes several commitments that look like scope restrictions until you understand their compound effects.
 
@@ -156,46 +146,35 @@ The Linear Method includes several commitments that look like scope restrictions
 
 The brand consequence of these commitments is specific: Linear has become the product that engineers recommend to other engineers when they want to escape Jira. The recommendation happens not because Linear has more features — it has fewer — but because Linear's constraints produce a coherent experience. The discipline that said no to the enterprise customization is the same discipline that produced the product engineers love.
 
-This is the phenomenon I want you to see as a product designer: *scope discipline compounds*. Each time you refuse a feature that would compromise the core, you are not just keeping the product smaller. You are preserving the coherence of the experience that made the product worth using. Over time, the coherence becomes the product's identity. The identity becomes the brand. The brand attracts more users who value that specific coherence, which deepens it further.
+This is the phenomenon worth seeing as a product designer: *scope discipline compounds*. Each time you refuse a feature that would compromise the core, you are not just keeping the product smaller. You are preserving the coherence of the experience that made the product worth using. Over time, the coherence becomes the product's identity. The identity becomes the brand. The brand attracts more users who value that specific coherence, which deepens it further.
 
-![Scope coherence compounding — two timelines side by side; the left shows a product holding scope discipline with coherence rising over time, the right shows a product accepting feature requests with coherence degrading and its user base churning.](../images/04-product-requirements-and-scope-fig-02.png)
-*Figure 4.2 — Scope discipline compounds; accepted requests degrade coherence*
-
-<!-- → [CHART: Two line series over time — "scope discipline held" line rising, "feature requests accepted" line falling; y-axis is coherence index 0–100; annotate the disciplined line's refusal points in a contrasting color] -->
+<!-- → [CHART: Two line series over time — "scope discipline held" line rising, "feature requests accepted" line falling; y-axis is coherence index 0–100; annotate the disciplined line's refusal points; label where the two lines diverge as the product's brand identity differentiating] -->
 
 The inverse is also true. Each time you accept a feature that compromises the core — usually because a specific customer asked for it and was willing to pay — you are spending coherence for cash. The transaction feels rational in the moment. Over time, the accumulated incoherence drives away the users who came for the discipline. You do not notice until your original user base has quietly moved on.
 
 ### The $100,000 No
 
-Before you write your PRD, you need to identify your equivalent of the Linear enterprise customization refusal. I call this the $100,000 no — the feature you would decline even if declining cost you something real.
+Before you write your PRD, you need to identify your equivalent of the Linear enterprise customization refusal. The $100,000 no is the feature you would decline even if declining cost you something real.
 
 The $100,000 no is not "I will not build things that are out of scope." Every product has out-of-scope things by default; that is not a discipline. The $100,000 no is the feature that a real user will ask for, with a real argument for why it belongs in the product, and that you will decline anyway because including it would compromise the core.
 
 For a sentiment analysis pipeline targeting small marketing teams, the $100,000 no might be: multi-user account support. An enterprise prospect will ask for it. They will have a budget. The implementation is not technically difficult. And you will refuse it in v1 because multi-user account support changes the product from a personal intelligence tool to a team intelligence platform, and those are different products. The day you build multi-user support, you have stopped building the personal tool and started building the team platform. Every subsequent decision — permissions, audit trails, team-level dashboards, admin interfaces — is a team-platform decision, not a personal-tool decision. The product's point of view has changed.
 
-The $100,000 no is disciplined precisely because it acknowledges the cost. You are not refusing because the feature is technically impossible or economically worthless. You are refusing because building it would damage the product's coherence in ways that would cost more than the feature is worth. That requires you to have a point of view strong enough to hold under pressure.
+The $100,000 no is disciplined precisely because it acknowledges the cost. You are not refusing because the feature is technically impossible or economically worthless. You are refusing because building it would damage the product's coherence in ways that would cost more than the feature is worth. That requires having a point of view strong enough to hold under pressure.
 
 Write your $100,000 no before you write the rest of your PRD. Put it in the "out of scope" column, first. Then write the rest of the document around it.
 
----
-
 ## Reading Madison as a PRD
 
-Chapter 2 introduced Madison as a reference architecture. In this chapter, Madison serves a different function: it is a library of PRD-shaped documents you can study before writing your own.
+Each Madison layer has a README that functions as a condensed PRD. It states a purpose, names the features, describes the technology stack, and — implicitly — defines the scope by what it includes and what it omits. Reading the READMEs as PRDs teaches you the shape your document should take.
 
-Each Madison layer has a README in the GitHub repository that functions as a condensed PRD. It states a purpose, names the features, describes the technology stack, and — implicitly — defines the scope by what it includes and what it omits. Reading the READMEs as PRDs teaches you the shape your document should take.
-
-Open the Intelligence Agent README. Here is what it does that a PRD should do: it states the purpose in one line, lists the features in plain language without implementation detail, names the success criteria in measurable terms ("processes 870+ articles daily, sub-3-minute latency, 90% deduplication"), and stops. It does not explain the MD5 hashing algorithm. It does not describe the database schema. Those are *how* decisions. The README, functioning as PRD, leaves them alone.
+Open the Intelligence Agent README. It states the purpose in one line, lists the features in plain language without implementation detail, names the success criteria in measurable terms ("processes 870+ articles daily, sub-3-minute latency, 90% deduplication"), and stops. It does not explain the MD5 hashing algorithm. It does not describe the database schema. Those are *how* decisions. The README, functioning as PRD, leaves them alone.
 
 Read the README again with two questions in your head: *What would happen if I added social media monitoring to this agent?* and *Why hasn't Madison's team added it?* The first question is easy — social media monitoring would require different APIs, different rate limiting, different content normalization, and a different deduplication approach for short-form content. The second question is the PRD discipline: Madison's Intelligence Agent is scoped for RSS-based news, and widening the scope would add complexity without serving the core use case better. The scoping decision is not a technical limitation. It is a point of view about what the agent is for.
 
-The archetype picks the layer; the layer shapes the PRD. If your archetype from Chapter 1 is Sage, the Intelligence layer is probably your closest reference. If Creator, look at the Content layer's README. If Caregiver, the Experience Agent documentation. Each Madison layer has a target user, a gap it leaves for non-technical users, and a natural $100,000 no that defines what it is *not* trying to do.
-
 <!-- → [TABLE: Madison layers mapped to PRD sections — columns: layer, target user in Madison's design, gap Madison leaves for non-technical users, suggested v1 scope for a student building on this layer, natural $100,000 no] -->
 
-The exercise this chapter asks for is to write your own one-page PRD. Here is the mapping from Madison layers to the PRD sections you will fill out. Problem: who does your chosen Madison layer serve, and how does your specific user differ from Madison's assumed user? Gap: Madison requires technical setup and assumes infrastructure — if your user is a non-technical marketing manager, that is the gap, but you still need to name the existing alternatives and why they also fall short. Tool: describe what you will build in one sentence that a non-technical user can parse, referencing the Madison pattern you are implementing and specifying what makes your version distinct. MVP boundary: use the corresponding Madison layer's scope as your ceiling, not your floor. Madison's Intelligence Agent processes 870 articles daily. Your v1 might process 50. That is not a failure — it is a hypothesis.
-
----
+The archetype picks the layer; the layer shapes the PRD. If your archetype is Sage, the Intelligence layer is probably your closest reference. If Creator, look at the Content layer's README. If Caregiver, the Experience Agent documentation. Each Madison layer has a target user, a gap it leaves for non-technical users, and a natural $100,000 no that defines what it is *not* trying to do.
 
 ## A Worked Example
 
@@ -215,297 +194,110 @@ Tool description, attempt 2: *A self-hosted n8n workflow that pulls competitor R
 
 MVP boundary: In scope — 10 RSS feeds, deduplication, sentiment scoring, daily Google Sheet output, email notification. Out of scope — social media, multi-user accounts, dashboards, Slack integration, real-time triggering, historical trend analysis. The $100,000 no: multi-user accounts, because adding them changes the product from personal tool to team platform and forces a different design philosophy for every subsequent decision.
 
-| weak version (what students typically write first) | failure mode | strong version |
+| Weak version | Failure mode | Strong version |
 |---|---|---|
 | "Marketing professionals need better competitive intelligence." | No user, no frequency, no cost — a wish, not a problem | "Marketing managers at small B2B SaaS spend 2–3 hours every Monday aggregating competitor news manually because no tool does aggregation, filtering, and scoring in one step at their price point." |
 | "An AI-powered competitive intelligence platform." | Marketing language — tells the reader nothing buildable | "A self-hosted n8n workflow pulling up to 10 RSS feeds, deduplicating articles, scoring sentiment via GPT-4o-mini, and writing a daily summary to Google Sheets for under $20/month." |
 | Out list with 2 items | Incomplete — a deferred in-list, not a disciplined boundary | Out list with 8 named exclusions, each a door that will not be opened in v1, with the $100,000 no at the top |
 
-<!-- → [TABLE: Weak-vs-strong PRD comparison — three rows matching the worked example's three rewrite iterations; columns: section, weak version, failure mode, strong version] -->
+<!-- → [TABLE: Weak-vs-strong PRD comparison — three rows matching the worked example's three rewrite iterations; columns: section, weak version, failure mode, strong version — the progression from wish to spec made scannable] -->
 
 That is the PRD. One page. Four sections. A defensible out list. A named $100,000 no. An engineer can build from it. A user can evaluate it. A product manager can test it against the Build-Measure-Learn loop.
 
----
-
 ## What the PRD Is Actually Doing
 
-Let me connect the threads, because the PRD touches everything that comes before and after this chapter.
+Let me connect the threads, because the PRD touches everything that comes before and after this point in the book.
 
-The problem statement is an extension of the archetype work from Chapter 1. Your archetype describes the kind of value you create and the mode in which you create it. The problem statement describes who receives that value and under what circumstances. A Sage archetype builds tools that provide insight — the problem statement identifies who lacks insight, how they currently seek it, and what that seeking costs them. A Creator archetype builds tools that produce things — the problem statement identifies who needs production help, what they currently produce manually, and why manual production fails them. The archetype tells you what kind of tool to build. The problem statement tells you for whom.
+The problem statement is an extension of the archetype work. Your archetype describes the kind of value you create and the mode in which you create it. The problem statement describes who receives that value and under what circumstances. A Sage archetype builds tools that provide insight — the problem statement identifies who lacks insight, how they currently seek it, and what that seeking costs them. A Creator archetype builds tools that produce things — the problem statement identifies who needs production help, what they currently produce manually, and why manual production fails them. The archetype tells you what kind of tool to build. The problem statement tells you for whom.
 
-The tool description is an extension of the architecture work from Chapter 2. Madison gave you a five-layer pattern and the tools that implement it. The tool description translates that pattern into user-facing language: not "an n8n ReAct pipeline with GPT-4o-mini sentiment scoring" but "a daily summary of competitor news, scored and filtered, in the Google Sheet you already use." The architecture stays in the *how*. The tool description stays in the *what*.
+The tool description translates the architecture into user-facing language: not "an n8n ReAct pipeline with GPT-4o-mini sentiment scoring" but "a daily summary of competitor news, scored and filtered, in the Google Sheet you already use." The architecture stays in the *how*. The tool description stays in the *what*.
 
-The MVP boundary is the mechanism that makes the Build-Measure-Learn loop fast. Chapter 5 will ask you to build the pipeline. The pipeline you build in Chapter 5 is exactly what the MVP boundary describes: not the full-featured tool, but the minimum version that tests your core hypothesis. If the out list is too short, Chapter 5 will take too long. If it is too long — if you have removed things genuinely necessary for the core experience — you will not get valid results from the measure step because users will be blocked from the behavior you are trying to measure.
+The MVP boundary is the mechanism that makes the Build-Measure-Learn loop fast. If the out list is too short, the build takes too long. If it is too long — if you have removed things genuinely necessary for the core experience — you will not get valid results from the measure step because users will be blocked from the behavior you are trying to measure.
 
 The $100,000 no is the mechanism that prevents scope creep through the rest of the course. Every chapter after this one will surface features you could add. The PRD's out list, with the $100,000 no at its head, is the document you return to when someone suggests adding a feature. Not "is this a good feature?" — that question always gets a yes. The question is: does this feature belong in v1, given the hypothesis we are testing?
 
 > A PRD is a contract with future-you: a record of the decisions you made when you were thinking clearly, preserved for the moment when you are thinking under pressure. The pressure will come. The contract is what keeps you from agreeing to things you will regret.
 
-![One-page PRD template — four labelled boxes (Problem, Gap, Tool, MVP Boundary), each with its guiding question, a crossed-out weak version, and a strong version, plus a sidebar marking the $100,000 no as the first entry in the out column.](../images/04-product-requirements-and-scope-fig-03.png)
-*Figure 4.3 — The one-page PRD template*
+<!-- → [DIAGRAM: PRD as connective tissue — four boxes in a horizontal row: Archetype (feeds problem statement), Architecture (feeds tool description), MVP Boundary (feeds Build-Measure-Learn loop), $100,000 No (gates scope creep in subsequent chapters) — arrows showing each connection, with annotation showing what breaks if each connection is missing] -->
 
-<!-- → [FIGURE: One-page PRD template — four section cards (Problem, Gap, Tool, MVP Boundary), each with guiding question, crossed-out weak version, and strong version; sidebar card for $100,000 no aligned to the MVP Boundary row] -->
+<!-- → [FIGURE: One-page PRD template — four section cards (Problem, Gap, Tool, MVP Boundary), each with guiding question, crossed-out weak version, and strong version; sidebar card for $100,000 no aligned to the MVP Boundary section] -->
 
----
-
-## Chapter Summary
-
-Here is what you can do now that you could not before. You can write a problem statement with a specific user, a specific task, a specific frequency, and a specific cost — not a wish, not a symptom. You can write a gap analysis that names actual competitors and explains precisely where each one fails your specific user. You can write a tool description in one sentence that a non-technical user can parse and an engineer can build from. You can write an MVP boundary with an "out" column that has at least five items and a named $100,000 no at the top. You can apply the Build-Measure-Learn loop to a feature decision and give a precise answer to whether it belongs in v1.
-
-The one idea that matters most: the out list is more important than the in list. Inclusion is automatic — every feature suggestion gets into the brainstorm. Exclusion requires judgment, and judgment is what separates a focused product from a committee memo. Write the out list first, from the $100,000 no down.
-
-The common mistake: treating the PRD as a wish list and the MVP boundary as aspirational. If the out list has items you secretly plan to add during development, it is not an out list — it is a deferred in list. The discipline requires that the out list actually constrain the build.
-
-The Feynman test: can you read your PRD to a friend who has not heard your pitch and have them tell you, without prompting, who the user is, what the tool does, and what it deliberately does not do? If yes, your PRD is specific enough. If not, you have more work to do.
-
-**What would change my mind:** a controlled study of student-built AI tools comparing cohorts who wrote a PRD before building against cohorts who did not, measuring time-to-ship and user retention at thirty days. The argument in this chapter is theoretical and industrial; the experimental evidence in student contexts is thin. If students without PRDs ship faster *and* retain users longer, the constraint is net-negative for this course context, and I should remove this chapter. I do not believe that will be the finding, but I have not run the study.
+**What would change my mind:** a controlled study of student-built AI tools comparing cohorts who wrote a PRD before building against cohorts who did not, measuring time-to-ship and user retention at thirty days. The argument here is theoretical and industrial; the experimental evidence in student contexts is thin. If students without PRDs ship faster *and* retain users longer, the constraint is net-negative for this context, and this appendix should be removed. I do not believe that will be the finding, but I have not run the study.
 
 **Still puzzling:** the exact moment when scope discipline tips from useful constraint to creative restriction. Linear's discipline works because it is grounded in a coherent point of view on how engineering teams should work. A student without a coherent point of view practicing the same discipline can end up refusing features for no good reason — a sterile discipline rather than a productive one. I teach the $100,000 no as a tool. What I have not yet figured out is how to teach the underlying point of view that makes the no meaningful rather than merely rigid.
 
 ---
 
-## Connections Forward
-
-Chapter 5 asks you to build the pipeline your PRD describes. The MVP boundary is the scope document that Chapter 5 builds against — not more, not less. If your MVP boundary is too wide, Chapter 5 will take longer than the course allows. If it is too narrow, your build will not produce the validated learning your hypothesis requires.
-
-The PRD also feeds Chapter 6, which covers testing and iteration. The release criteria implied by your PRD — what has to be true before v1 ships — become the test cases in Chapter 6. The problem statement becomes the user story template. The gap analysis becomes the competitive benchmark.
-
----
-
-## A Note About AI
-
-PRD writing is one of the genres where the model is most fluently misleading. A PRD has a recognizable shape — context, problem, scope, success criteria — and the model can produce that shape from a sentence. The result reads like a PRD. It often is not one.
-
-Where the model genuinely helps: pressure-testing a draft PRD by asking it what specific questions an engineer would ask that the PRD does not answer. Models are good at surfacing missing detail because they have read many PRDs and the gaps follow patterns.
-
-Where the model does damage: writing the success criteria. The metrics that decide whether the project worked have to be metrics the team will actually measure and the company will actually care about. The model does not know your team or your company. It will produce metrics that sound right and are not.
-
-The rule: the model can format a PRD. The PRD's actual content has to come from someone who is going to be on the hook for it.
-
----
-
-## AI Wayback Machine
-
-The ideas in this chapter didn't appear from nowhere. **Adele Goldstine** wrote the *Operator's Manual for the ENIAC* in 1946 — the first complete specification of an electronic computer system. The manual was 168 pages of decisions about what ENIAC could be made to do, what inputs it would accept, what outputs it would produce, what configurations were and were not supported. Half the work was naming what the machine could do. The other half — the part that makes it the foundational PRD of the computing era — was naming, with equal precision, what it could not. The chapter's $100,000 no is in the same lineage: scope is defined by the boundary line between what is in and what is out, written down before the build starts.
-
-![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/adele-goldstine.jpg)
-*Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph.*
-
-**Run this:**
-
-```
-Who was Adele Goldstine, and how does her work writing the first ENIAC
-operator's manual connect to the chapter's argument that a PRD's most
-important content is the explicit *no* — the boundary that decides what
-the product is by deciding what it isn't? Keep it to three paragraphs.
-End with the single most surprising thing about her career or ideas.
-```
-
-→ Search **"Adele Goldstine"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
-
-**Now make the prompt better.** Try one of these:
-
-- Ask it to explain why machine specifications need to enumerate negative behavior, in plain language
-- Ask it to compare Goldstine's ENIAC manual structure to the structure of the PRD this chapter teaches
-- Add a constraint: "Answer as if you're writing the *out of scope* section of an AI-tool PRD"
-
-What changes? What gets better? What gets worse?
-
----
-
-## Exercises
-
-### Warm-Up
-
-**W1.** The chapter defines the PRD's core rule as: the PRD specifies the *what*, not the *how*. For each of the following statements, classify it as *what* or *how*, and rewrite the *how* statements as *what* statements.
-
-- "The tool sends a daily email summary to the user."
-- "The tool uses SendGrid for email delivery with a Handlebars HTML template."
-- "The tool deduplicates articles before scoring them."
-- "The tool runs MD5 hashing on article titles with a 0.8 Levenshtein threshold for near-matches."
-- "The tool writes output to a Google Sheet the user designates."
-
-*Tests: distinguishing what from how.*
-*Difficulty: Low.*
-
-**W2.** Write a one-sentence tool description for each of the following product concepts. Each sentence must name the user, the output, and one constraint that defines the scope. No marketing language.
-
-- A tool that helps independent consultants track which clients owe them follow-up.
-- A tool that scores job postings for fit against a candidate's resume.
-- A tool that monitors a competitor's pricing page for changes.
-
-*Tests: writing a specific tool description.*
-*Difficulty: Low.*
-
-**W3.** The worked example in this chapter includes an out list with eight items. For each item, write one sentence explaining what product the tool would become if that item were added to v1. (Example: adding multi-user accounts turns a personal intelligence tool into a team intelligence platform, which requires permissions, audit trails, and admin interfaces.)
-*Tests: constructing and defending the MVP boundary.*
-*Difficulty: Low-medium.*
-
----
-
-### Application
-
-**A1.** Write a one-page PRD for the following tool concept: *a daily summary of AI industry news, scored for relevance to a student's archetype, delivered to a Google Sheet.* Use the four-section structure from the chapter. Your out list must have at least five items. Your $100,000 no must be explicitly named and defended in one paragraph.
-*Difficulty: Medium.*
-
-**A2.** Choose one of the five Madison layers from the [Madison project page](https://www.humanitarians.ai/madison). Read its description. Identify three things the layer's scope implicitly excludes — things a user might reasonably want that the layer does not provide. For each exclusion, argue whether the exclusion is: (a) a $100,000 no — a principled refusal that protects the layer's coherence — or (b) a gap — something the layer should eventually add. Justify each classification.
-*Difficulty: Medium.*
-
-**A3.** The Build-Measure-Learn loop requires a testable hypothesis before the build step. For each of the following MVP concepts, write: (a) a testable hypothesis, (b) the behavior that would confirm it, (c) the behavior that would falsify it, and (d) the minimum build required to test it.
-
-- A sentiment analysis pipeline for competitor RSS feeds.
-- An AI concierge chatbot for a hotel's booking FAQ.
-- A resume-scoring tool that ranks job postings by fit.
-
-*Difficulty: Medium.*
-
-**A4.** Linear's product method is published at [linear.app/method/introduction](https://linear.app/method/introduction). Read it. Identify three specific commitments in the Linear Method and, for each one, explain: (a) the engineering benefit of the commitment, (b) the brand benefit of the commitment, and (c) one customer request Linear has probably refused — or would refuse — because of this commitment.
-*Difficulty: Medium.*
-
----
-
-### Synthesis
-
-**S1.** The chapter argues that "scope discipline compounds" — each principled refusal preserves coherence, which accumulates into brand identity over time. Find a product that has undergone the inverse process: a product that was once coherent and has accumulated incoherence through accepted feature requests. Describe: the original product and its coherent scope, three features added over time that expanded the scope, the resulting incoherence (be specific — name what the user experience is like now versus before), and what the company would have needed to refuse in order to maintain coherence. Do not use Jira as your example.
-*Difficulty: Medium-high.*
-
-**S2.** Your PRD from exercise A1 is now one page. Imagine you have shipped v1 and have twenty users. Three users have requested the same feature: a Slack integration that posts the daily summary to a team channel. Write: (a) the strongest possible argument for adding the Slack integration to v2, (b) the strongest possible argument against it, grounded in the PRD's stated scope and $100,000 no, and (c) a decision and a one-paragraph justification. The decision should not be "it depends" — make the call.
-*Difficulty: High.*
-
-**S3.** The "Still puzzling" note at the end of the chapter identifies the limit of the $100,000 no: it only works if the product has a coherent point of view to protect. Without a point of view, the discipline is sterile. Write a two-paragraph reflection on your own tool's point of view: what does your tool optimize for, and what does it refuse to optimize for? Then write the one sentence that Linear-style would appear in your product's published method — the commitment that explains why you say no to the things you say no to.
-*Difficulty: High.*
-
----
-
-### Challenge
-
-**C1.** The chapter claims that Marty Cagan has evolved past PRDs toward high-fidelity prototypes as the primary discovery tool. Read Cagan's argument at [svpg.com](https://www.svpg.com) and evaluate it against the chapter's claim that a one-page PRD is the right constraint for a student building a first AI tool. Write a structured response: Cagan's argument summarized in your own words, the chapter's counter-argument, where you think Cagan is right, where you think the chapter is right, and what specific condition determines which approach is better. Your conclusion should make a falsifiable claim about when PRDs are preferable to prototypes.
-*Difficulty: Very high.*
-
-**C2.** Design a PRD review process for a three-person team building an AI tool. The process should: catch the failure modes described in the chapter (abstract problem statements, marketing language in tool descriptions, out lists that are secretly deferred in lists), produce a clear yes/no on whether the PRD is ready for development, and be completable in under ninety minutes. Specify: who attends, what questions each reviewer asks, what the pass criteria are for each PRD section, and what "needs revision" looks like versus "approved." Then apply your review process to the PRD you wrote in A1 — does it pass?
-*Difficulty: Very high.*
-
----
-
-## LLM Exercise — Self-as-Project
-
-**Project:** Self-as-Project
-**What you're building this chapter:** A one-page **Career PRD** treating your job search as a product launch.
-**Tool:** Claude Project (your *"My Personal Brand"* project from Chapter 1).
-
-**The Prompt:**
-
-```
-Apply Chapter 4's PRD framework to my job search. Treat ME as the product,
-the job market as the launch target, and the next 6 months as the MVP window.
-
-A PRD has four sections:
-1. Problem
-2. Gap analysis
-3. Tool (the product)
-4. MVP boundary (in-scope vs. explicitly out-of-scope)
-
-Write my Career PRD with these constraints:
-
-PROBLEM. The user is a hiring manager, not me. What problem do they have
-that hiring me would solve? Be specific. "Companies need AI engineers" is
-not a PRD; it's a wish. Frame the problem at the level of "Series-B fintech
-startups need engineers who can ship a multi-agent pipeline in 90 days and
-also explain to a non-technical CEO why the architecture choices matter."
-If I don't know enough to specify this, list the three things I need to
-research before I can.
-
-GAP ANALYSIS. Who else fits this problem? Name 3–5 candidate-archetypes
-I'm competing against (e.g., the senior engineer with five years in
-multi-agent systems but no design sense; the design-school graduate with
-brand instincts but no shipped code). Where do they fall short of what
-hiring managers want? Where do I exceed them? Where do I fall short of them?
-
-TOOL. One sentence describing what I, the product, deliver. NOT a list of
-skills. A specific value claim. "A creative engineer who ships multi-agent
-AI pipelines and writes the brand strategy that makes them sellable" — that
-level of specificity. Not "AI engineer with strong communication skills."
-
-MVP BOUNDARY. Two columns.
-- IN SCOPE for the next 6 months: roles I will pursue, salary floor I will
-  accept, locations I will consider, technologies I will deepen.
-- OUT OF SCOPE: roles I will decline even if offered, comp I won't accept,
-  locations I won't move to, technologies I won't pretend to be expert in.
-
-The OUT column should have at least 5 items. The exercise from Chapter 4 is
-the "$100,000 no" — what's the role I would decline at $X compensation
-because it would damage my brand? Name it specifically.
-
-Output a Markdown document called "Career PRD — [my name] — [date]".
-Single page. No marketing language. If a sentence could appear in a
-corporate LinkedIn post, rewrite it.
-```
-
-**What this produces:** A one-page Career PRD that doubles as your decision filter for the next six months. Every job posting can be checked against it: does this role fit the in-scope column? Does it require me to violate the $100,000 no?
-
-**How to adapt:** If you are not job-searching, reframe the four sections. Applying to PhD programs: the problem is your target advisor's research gap, the gap analysis is other applicants competing for the same advisor's attention, the tool is your specific research contribution, and the MVP boundary is the programs you will and will not apply to. Starting a company: the problem is your customer's problem, the gap is the competitive landscape, the tool is your product, and the MVP boundary is the features you will and will not build in year one.
-
-**Preview of next chapter:** Chapter 5 turns your PRD's tool description into a working pipeline — the first code you will write.
-
----
-
----
-
-## AI+1 — Self-as-Project on Madison
-
-**Project:** Self-as-Project — *your brand, end to end*
-**This chapter adds:** the scope of your brand/tool — and the "$100,000 no" list of what you refuse to build.
-**Madison recipes:** [`madison-branding-marketing-pipeline`](../madison/recipes/madison-branding-marketing-pipeline.md), [`madison-martech-product-positioning-signal-agent`](../madison/recipes/madison-martech-product-positioning-signal-agent.md)
-
-> Scope is refusal. You decide the nos; Madison drafts the pipeline that delivers the yeses; you check that the refusals actually hold.
+## LLM Exercises
 
 ### Exercise 1 — When to Use AI
-- *Draft the PRD scaffold (problem, user, in-scope, out-of-scope, success metric).* **Why it works:** drafting a known structure.
-- *Reformat your archetype + audience into a one-line product proposition.* **Why it works:** reformatting prior artifacts.
-- *Surface candidate scope creep items to refuse.* **Why it works:** pattern-spotting you adjudicate.
+*Run these tasks with an LLM and evaluate what it can and cannot do:*
 
-**Tell:** you can independently judge each scope line against the archetype.
+Draft the PRD scaffold — problem, gap, tool description, MVP boundary — from a brief you supply. Then ask the model to pressure-test the draft by surfacing specific questions an engineer would ask that the PRD does not answer. Evaluate: where did the pressure-test reveal real gaps in the PRD, and where did it surface false concerns based on the model's pattern-matching to other PRDs rather than your actual product?
+
+**The tell:** you can independently judge whether each engineer question the model raised is real. Any question you cannot resolve by looking at your PRD is a genuine gap. Any question the PRD already answers is the model hallucinating an absence.
 
 ### Exercise 2 — When NOT to Use AI
-- *Writing the "$100,000 no" — the things you refuse to build.* **Why it fails:** strategic refusal is the chapter's core human act.
-- *Choosing the single success metric.* **Why it fails:** a value judgment about what the brand is for.
-- *Deciding the MVP boundary.* **Why it fails:** taste plus risk tolerance the model can't hold.
+*Identify the judgment the AI cannot make:*
 
-**Tell:** you've crossed the line when the model's convenience defines your scope.
-**Series connection:** trains scope-as-refusal — what you won't build defines the product.
+Ask the model to write the success metrics for your PRD — the measurable criteria that will tell you whether v1 worked. Evaluate the output. What would it take to actually measure each metric? Does your team track those numbers? Would your organization care about them?
+
+**The tell:** you've crossed the line when the model's metrics become your metrics without that check. The model produces metrics that sound right; you need metrics your team will actually measure and your product actually generates. That alignment requires knowing your team and your measurement infrastructure — which the model does not.
+
+*Series connection:* Scope as refusal — what you won't build defines the product more than what you will.
 
 ### Exercise 3 — Recipe Exercise
-**Build:** a one-page PRD with an explicit refusal list. **Run:** [`madison-branding-marketing-pipeline`](../madison/recipes/madison-branding-marketing-pipeline.md) scoping phase over your Ch 3 audience. **Tool:** Claude Project.
+**Build:** a one-page PRD with an explicit refusal list.
 
 ```
-Using the Madison branding-marketing-pipeline recipe approach, draft a one-page
-PRD for MY brand/tool from the archetype + audience below. Include: problem, target
-user, in-scope (max 5), OUT-of-scope (the "$100,000 no", min 3, each with the
-archetype reason it's refused), and ONE success metric. Do not pad in-scope; a
-short in-scope with a sharp out-of-scope is the goal.
+Draft a one-page PRD for my brand/tool from the archetype and audience below.
+Include: problem (specific user, specific task, specific cost), gap analysis
+(name actual competitors and their specific failures), tool description (one
+sentence a non-technical user can parse and an engineer can build from), and
+MVP boundary — in-scope (max 5 items) and out-of-scope (the "$100,000 no",
+min 3 items, each with the archetype reason it is refused).
+
+A short in-scope with a sharp out-of-scope is the goal. Do not pad in-scope
+to look ambitious. Do not write marketing language anywhere in the PRD.
 
 Archetype + audience:
 [PASTE]
 ```
-**Adapt:** for a venture (Ch 8b) add a positioning line via `madison-martech-product-positioning-signal-agent`.
+
+**Adapt:** career track — treat yourself as the product, the job market as the launch target, and the next six months as the MVP window. The $100,000 no is the role you would decline even at a compelling compensation level because it would damage your brand.
 
 ### Exercise 4 — CLI Exercise
-**Build:** `your-brand/prd.md`. **Tool:** [`wrap-your-tool`](../madison/wrap-your-tool/) or Claude Code.
+**Build:** `your-brand/prd.md`
 
 ```
-Write your-brand/prd.md with sections: Problem, User, In-Scope (≤5), Out-of-Scope
-($100,000 no, ≥3, each with a one-line archetype reason), Success Metric (one).
-Do not invent users or metrics beyond what I provide. Stop after writing the file.
+Write your-brand/prd.md with four sections: Problem, Gap, Tool, MVP Boundary.
+MVP Boundary must have two columns: in-scope (five items maximum) and out-of-scope
+(three items minimum, each with a one-line archetype reason for the refusal).
+The $100,000 no goes first in the out-of-scope column.
+
+Do not invent users, competitors, or metrics beyond what I provide.
+Do not use marketing language. Stop after writing the file.
 ```
-**Inspect:** the out-of-scope list is at least as long as in-scope and each refusal cites the archetype.
-**If it goes wrong:** the model inflates in-scope to look ambitious — cut anything the archetype doesn't demand.
+
+**Inspect:** the out-of-scope list is at least as long as in-scope; each refusal cites the archetype; the tool description passes the "read it to someone who hasn't heard your pitch" test. **If it goes wrong:** the model inflates in-scope to look ambitious — cut anything the archetype doesn't demand.
 
 ### Exercise 5 — AI Validation Exercise
-**Validate:** the PRD. Pass / Fail / Cannot-determine + evidence:
-- **Correctness:** does each out-of-scope item have a real archetype reason (not "out of time")?
-- **Completeness:** problem, user, in/out scope, single metric all present?
-- **Scope:** one page, one metric — no roadmap sprawl?
-- **Brand-specific:** would building any in-scope item activate the shadow? Flag it.
-- **Failure-mode:** any in-scope item justified only by "AI makes it easy"? Remove it.
+**Validate** the PRD. Rate each criterion Pass / Fail / Cannot-determine with evidence:
 
-*Tags: PRD · scope-discipline · MVP · build-measure-learn · lean-startup · linear · cagan · madison-architecture · INFO-7375*
+- **Correctness:** does each out-of-scope item have a real archetype reason, not just "out of time" or "out of scope for v1"?
+- **Completeness:** problem, gap, tool description, and both MVP boundary columns all present?
+- **Scope:** one page, no roadmap sprawl — is there anything in the PRD that could only be validated in v2 or later?
+- **Brand-specific:** would building any in-scope item activate the archetype's shadow? Flag it if so.
+- **Failure-mode check:** any in-scope item justified only by "AI makes it easy" or "users asked for it"? Remove it — those are feature brainstorm reasons, not PRD reasons.
+
+**AI Use Disclosure:** two sentences — what the model produced and how you used it; one judgment it could not make (the $100,000 no, the success metric, the MVP scope decision) that required your call.
+
+---
+
+## Key Terms
+
+PRD (product requirements document) · what vs. how · problem statement · gap analysis · MVP (minimum viable product) · Build-Measure-Learn loop · validated learning · MVP boundary · scope discipline · $100,000 no · scope creep
+
+## Bridge
+
+The PRD is the contract. The next step is building what it describes — the minimum pipeline that tests the core hypothesis, no more and no less than what the MVP boundary permits.
