@@ -13,16 +13,19 @@
 > | The Assembled Creative Engineer | How the four verbs and all prior chapters come together in one person. |
 > | A Note on the Framework's Limits | Where the book's framework stops and your own judgment takes over. |
 
-
 ---
 
 In early 2009, three founders walked into Y Combinator with a ten-slide deck and a working prototype. Their company was called AirBed and Breakfast. The idea: let people rent air mattresses on the floors of strangers' apartments. Their previous fundraising had involved selling branded cereal at political conventions to keep the lights on.
 
 None of this was a strong opening.
 
-The deck was [ten slides](https://www.failory.com/pitch-deck/airbnb). Plain typography, simple bar charts, no design flourishes. But every slide carried specific work, and every slide reinforced the same argument: *the world wants this, here is the proof, we are the team to build it, here is what we need.* Paul Graham listened. Y Combinator invested $20,000. Sequoia followed. The deck raised $600,000 total. That ten-slide deck is now one of the most studied artifacts in startup pitch literature — not because of how it looked, but because of what it did.
+The deck was [ten slides](https://www.failory.com/pitch-deck/airbnb). Plain typography, simple bar charts, no design flourishes. But every slide carried specific work, and every slide reinforced the same argument: *the world wants this, here is the proof, we are the team to build it, here is what we need.* Paul Graham listened. Y Combinator invested $20,000. Sequoia followed. The deck raised $600,000 total.
 
-This chapter is about building that kind of coherence into everything you ship. Before you walk into the final presentation, you will have produced every artifact in this book: a deployed AI tool, a brand strategy, a visual identity, a portfolio, published writing. This chapter's job is to check whether all of it is saying the same thing — and to produce the final surfaces where the argument lands: a resume in two formats, a ten-slide pitch, a social presence that holds together, and a plan for what compounds after the course ends. If you have not yet deployed the portfolio from Chapter 11 or finished the brand strategy document from Chapter 8, do those first. A presentation that references a tool that does not work, or a brand that has not yet been specified, will fail the coherence test at the most visible moment.
+That ten-slide deck is now one of the most studied artifacts in startup pitch literature — not because of how it looked, but because of what it did.
+
+This chapter is about building that kind of coherence into everything you ship. Before you walk into the final presentation, you will have produced every artifact in this book: a deployed AI tool, a brand strategy, a visual identity, a portfolio, published writing. This chapter's job is to check whether all of it is saying the same thing — and to produce the final surfaces where the argument lands: a resume in two formats, a ten-slide pitch, a social presence that holds together, and a plan for what compounds after the course ends.
+
+If you have not yet deployed the portfolio from Chapter 11 or finished the brand strategy document from Chapter 8, do those first. A presentation that references a tool that does not work, or a brand that has not yet been specified, will fail the coherence test at the most visible moment.
 
 ---
 
@@ -71,13 +74,13 @@ Notice what the deck does not have: a slide about technical architecture, a slid
 
 ## The Resume — Two Versions, One Identity
 
-The resume is the artifact that travels without you. It moves through ATS systems, HR inboxes, and hiring-manager email forwards. It must survive the automated filter and then earn attention from the human reader. These are two different requirements and they call for two different formats.
+The resume is the artifact that travels without you. It moves through ATS systems, HR inboxes, and hiring-manager email forwards. It must survive the automated filter and then earn attention from the human reader. These are two different requirements, and they call for two different formats.
 
 ### Version 1: ATS-Optimized
 
 Applicant Tracking Systems parse resumes before any human reads them. They extract text, score it against keyword criteria, and decide whether you advance. They are notoriously bad at parsing unusual layouts — two-column formats, tables, graphics, unusual fonts, text embedded in images. Many ATS systems strip formatting entirely and read the raw text.
 
-The ATS-optimized version follows one rule: make it as easy as possible for software to read. Single column. No tables. No text boxes. Standard section headers — *Experience*, *Education*, *Skills*, *Projects* — use these exact words; ATS systems are trained to recognize them. Standard fonts: Times New Roman, Arial, Calibri, Georgia. Save as both PDF and .docx and submit both when the system allows. Nothing critical in headers or footers; some parsers skip them entirely.
+The ATS-optimized version follows one rule: make it as easy as possible for software to read. Single column. No tables. No text boxes. Standard section headers — *Experience, Education, Skills, Projects* — use these exact words; ATS systems are trained to recognize them. Standard fonts: Times New Roman, Arial, Calibri, Georgia. Save as both PDF and .docx and submit both when the system allows. Nothing critical in headers or footers; some parsers skip them entirely.
 
 Keywords matter. Read the job description for the role you are targeting. The words used in the description — programming languages, tools, methodologies, role titles — should appear in your resume. You are not gaming the system; you are using the vocabulary the field uses to describe the work.
 
@@ -89,7 +92,7 @@ For every bullet in your experience section: does this show what I built and wha
 
 <!-- → [TABLE: Responsibility vs. outcome bullets — five side-by-side pairs, each showing the before and after transformation — the pattern becomes learnable after three examples] -->
 
-<!-- → [TABLE: ATS-optimized format requirements — columns: requirement, why it matters — six requirements, each with a specific failure mode when the requirement is violated] -->
+<!-- → [TABLE: ATS-optimized format requirements — columns: requirement, why it matters; six requirements each with a specific failure mode when the requirement is violated] -->
 
 ### Version 2: Designer Format
 
@@ -99,7 +102,7 @@ PDF only. Legible at 100% zoom on a standard laptop screen. No more than two pag
 
 The designer version is your archetype made visible in a document. A Sage's resume is precise and information-dense with restrained typographic hierarchy. A Creator's uses layout and white space as design elements. A Rebel's might break one rule deliberately and visibly. A Caregiver's is warm and organized. The archetype should be readable in the format choices before the reader has read a word.
 
-Both versions must match your portfolio, your LinkedIn, your pitch deck. The same project descriptions. The same role narratives. The same accomplishments. The same tone. A reviewer who reads all three artifacts in sequence should encounter one person, not three slightly different people. If the resume sounds like a different person than the portfolio, either the brand strategy is not yet specific enough or the resume has not yet been revised to align with it. Fix the alignment before you submit.
+Both versions must match your portfolio, your LinkedIn, your pitch deck. The same project descriptions. The same role narratives. The same accomplishments. The same tone. A reviewer who reads all three artifacts in sequence should encounter one person, not three slightly different people in different tones trying to appeal to different audiences. If the resume sounds like a different person than the portfolio, either the brand strategy is not yet specific enough or the resume has not yet been revised to align with it. Fix the alignment before you submit.
 
 ---
 
@@ -117,11 +120,11 @@ Post cadence: once a month minimum if you are publishing from Chapter 10's conte
 
 **GitHub.** Keep your profile readme substantive. Pin your four most relevant repositories — the ones that demonstrate what you can build, at what quality. The Madison AI tool should be one of them. A viewer who sees seventeen unfinished repositories with no documentation reads a different archetype than a viewer who sees four complete repositories, each with a well-written README that explains what the project does, why it exists, and what design decisions were made.
 
-**Other platforms.** Twitter/X is optional and archetype-dependent. Sage and Hero archetypes can use it productively for technical commentary and project announcements. Caregiver and Innocent archetypes often find the platform culturally hostile; the opportunity cost of investing in it is high for these archetypes. A blog or Substack is recommended for Sage archetypes especially — the compounding effect of a monthly long-form piece over two years is substantial, not because of follower count but because the archive becomes a body of work that is discoverable and citable.
+**Other platforms.** Twitter/X is optional and archetype-dependent. Sage and Hero archetypes can use it productively for technical commentary and project announcements. Caregiver and Innocent archetypes often find the platform culturally hostile; the opportunity cost of investing in it is high. A blog or Substack is recommended for Sage archetypes especially — the compounding effect of a monthly long-form piece over two years is substantial, not because of follower count but because the archive becomes a body of work that is discoverable and citable.
 
-The unifying rule: every surface should reinforce the same brand. Same headshot. Same bio language. Same voice. A reader who encounters you on LinkedIn, then your portfolio, then your GitHub, then your writing, should find the same person at increasing depth — not four versions of you in different tones trying to appeal to different audiences.
+The unifying rule: every surface should reinforce the same brand. Same headshot. Same bio language. Same voice. A reader who encounters you on LinkedIn, then your portfolio, then your GitHub, then your writing, should find the same person at increasing depth — not four versions of you in different tones.
 
-<!-- → [TABLE: Archetype-to-platform fit — columns: archetype, recommended primary platform, secondary, avoid, cadence note — makes the choice strategic rather than default] -->
+<!-- → [TABLE: Archetype-to-platform fit — columns: archetype, recommended primary platform, secondary, avoid, cadence note] -->
 
 ![Brand-coherence surface stack — five layers from Social (shallowest) down to Portfolio (deepest), each labeled with its depth and cadence](../images/12-professional-presence-and-launch-fig-06.png)
 *Figure 12.6 — The brand-coherence surface stack*
@@ -158,13 +161,13 @@ Here is the ten-slide structure, adapted from Kawasaki and from the Airbnb patte
 
 <!-- → [TABLE: Ten-slide specification — columns: slide number, name, one-line content spec, speaking time, the single most important element] -->
 
-### Opening and closing
+### Opening and Closing
 
 Open in scene, not in introduction. The first sixty seconds are when the audience decides whether to pay attention. *"Hi, I am [name] and today I will be presenting..."* wastes those sixty seconds.
 
 *"It is 7:45 on a Tuesday morning. A marketing manager at a mid-sized B2B company opens her laptop. The first thing she does is check what happened in her competitor landscape overnight — and it takes her forty-five minutes of tab-switching across six dashboards. My tool does that in ninety seconds. Here is how."*
 
-That version earns attention. The difference between an opening that loses the room and one that earns it is almost always whether the presenter opened in scene or opened in introduction.
+That version earns attention. The difference is whether the presenter opened in scene or opened in introduction.
 
 <!-- → [TABLE: Generic vs. scene opening comparisons — three side-by-side pairs — the pattern becomes replicable after seeing it twice] -->
 
@@ -186,12 +189,12 @@ The course ends. The work continues. The compound interest of the next two years
 
 Pick five people whose work you have read in this course. Engage with one piece of their work this week in a way that shows you read it closely. Not "great piece!" — one specific thought, one question, one additional data point. Do this once a month with each of them for a year. This is the work that compounds.
 
-Write the post-course plan before the final presentation, not after. Three new portfolio additions you will build in the next quarter, three published pieces you will write, and five relationship engagements you will make. Calendar them as appointments. The Creative Engineer version of you in 2027 will be the cumulative product of a thousand small consistencies.
+Write the post-course plan before the final presentation, not after. Three new portfolio additions you will build in the next quarter, three published pieces you will write, and five relationship engagements you will make. Calendar them as appointments.
 
 ![Line chart comparing consistent monthly cadence vs. burst-then-silence over 36 months — the consistent line ends roughly three times higher](../images/12-professional-presence-and-launch-fig-10.png)
 *Figure 12.10 — Cadence dominates quality at the margin*
 
-<!-- → [TABLE: Post-course plan template — columns: commitment type (portfolio addition 1–3, published piece 1–3, relationship engagement 1–5), specific commitment, deadline, done/not done — blank for the student to fill] -->
+<!-- → [CHART: Two-line chart — x-axis: 36 months; line 1: consistent monthly publishing cadence (smoothly rising); line 2: burst-and-abandon pattern (spikes then flatlines repeatedly); same total number of pieces, dramatically different compounding trajectories] -->
 
 ---
 
@@ -222,31 +225,36 @@ The case I am making — that integrated, archetype-coherent presentations produ
 
 ---
 
-## Summary
+## AI Wayback Machine
 
-Here is what you can do now that you could not before this chapter.
+**Margaret Bourke-White** built a professional presence by deliberately crossing institutional boundaries that her field treated as fixed: first foreign photographer admitted into the Soviet Union (1930), first woman war correspondent attached to the U.S. Army Air Forces, first female photographer at *Life* magazine and the photographer of its first cover (1936), among the first journalists to document the liberation of Buchenwald. None of these crossings were accidents. Each was the result of a clear decision about which assignment to take, which to refuse, and how to make the case for the next one. The chapter's argument — that professional presence is the assembled artifact, not the byproduct of doing good work — is Bourke-White's working method, made explicit.
 
-You can explain why coherence is a stronger predictor of presentation outcomes than polish, using the Airbnb deck as the worked case. You can produce a two-version resume — ATS-optimized and designer — with outcome-oriented bullets and no fabricated numbers. You can build a ten-slide, twenty-minute, thirty-point-font pitch that opens in scene, runs specific numbers, and closes with a direct ask. You can deliver that pitch live, with timing practiced and speaker notes internalized. You can align every social-media surface with the brand strategy, so a reader who finds you anywhere encounters the same person at increasing depth. And you can plan the next quarter of compounding work in specific, calendared commitments.
+![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-bourke-white.jpg)
+*Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
 
-**The one idea that matters most:** Every element of your professional presence should reinforce the same argument. The argument is: here is the specific work I do, here is who it is for, here is why it matters, here is what I want next. The Airbnb deck made that argument with ten slides in 2009 and raised $600,000. You are making the same argument with a portfolio, a presentation, a resume, and a social presence. The mechanism is the same; the surfaces are different.
+![Margaret Bourke-White](../images/margaret-bourke-white-oe4.png)
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
-**The common mistake:** Treating the final presentation as a deliverable to complete rather than a moment to land. The deliverable is yours in either case. The moment — the sixty seconds when the audience decides whether to pay attention, the final ask that produces a yes or a no — only happens once. Practice until the mechanics are invisible, so you can be present for the moment.
+**Run this:**
 
-**The Feynman test:** Can you explain to someone who has never given a pitch why the Airbnb deck raised money despite being visually plain? If you can explain it using the coherence principle — not just "it had good numbers" but why specific numbers do the work that vague claims cannot — you understand this chapter.
+```
+Who was Margaret Bourke-White, and how does her deliberate boundary-crossing —
+choosing the assignments that built a professional presence rather than waiting
+to be assigned them — connect to the chapter's argument that the resume, the
+deck, the social-coherence stack are an *assembled artifact* you build with
+intention, not a byproduct of doing good work? Keep it to three paragraphs.
+End with the single most surprising thing about her career or ideas.
+```
 
----
+→ Search **"Margaret Bourke-White"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
-## Connections Forward
+**Now make the prompt better.** Try one of these:
 
-There is no Chapter 13. But there is a year from now, and a practice to sustain.
+- Ask it to explain why presence has to be designed rather than earned passively, in plain language
+- Ask it to compare Bourke-White's deliberate assignment choices to a Creative Engineer's portfolio-and-launch sequencing
+- Add a constraint: "Answer as if you're writing the post-course plan that turns the next twelve months into a designed presence"
 
-The question this chapter raises but cannot answer for you: what happens when the first version of the work does not land? When the presentation is good but the market is not receiving it? When the job you want is not open, when the investor you targeted is not investing in your space, when the audience you built the tool for turns out to need something different?
-
-The Creative Engineer's answer: iterate. The four-verb loop from Chapter 1 is not a one-time pass through a course. It is the loop you run again. New ideation, new build, new brand iteration, new ship.
-
-The bet this book makes closes here: for as long as building stays cheap and positioning stays hard, the Creative Engineer has a durable advantage. The signals you have produced — deployed tool, positioned brand, published writing, coherent presentation — are the costly ones. They compound. Trust the compounding.
-
-Now go ship.
+What changes? What gets better? What gets worse?
 
 ---
 
@@ -254,77 +262,53 @@ Now go ship.
 
 ### Warm-Up
 
-**W1. Coherence Properties in the Airbnb Deck**
-Identify the three coherence properties from the first section (argument coherence, specific numbers, team weight) in the Airbnb deck. For each property, name the specific slide where it is most visible and explain in one sentence what the slide does that a vague version of the same slide would not.
+**W1.** Identify the three coherence properties from the Airbnb deck analysis (argument coherence, specific numbers, team weight) in the deck's ten slides. For each property, name the specific slide where it is most visible and explain in one sentence what the slide does that a vague version of the same slide would not.
+*(Tests coherence principle comprehension — difficulty: low)*
 
-*Tests Objective 1. Difficulty: Low.*
+**W2.** Take one bullet from your current resume that is written as a responsibility statement. Rewrite it as an outcome statement. If you do not have a specific number, add a `[verify with X]` placeholder and identify exactly where you would go to find the number.
+*(Tests outcome-oriented bullet construction — difficulty: low)*
 
-**W2. Responsibility to Outcome**
-Take one bullet from your current resume that is written as a responsibility statement. Rewrite it as an outcome statement. If you do not have a specific number, add a `[verify with X]` placeholder and identify exactly where you would go to find the number.
-
-*Tests Objective 2. Difficulty: Low.*
-
-**W3. Archetype-to-Platform Alignment**
-For your archetype from Chapter 3, identify the social-media platform that fits best and the one that fits worst. In two sentences, explain why the fit ranking follows from the archetype's core motivation.
-
-*Tests Objective 5. Difficulty: Low.*
+**W3.** For your archetype from Chapter 1, identify the social-media platform that fits best and the one that fits worst. In two sentences, explain why the fit ranking follows from the archetype's core motivation.
+*(Tests archetype-to-platform alignment — difficulty: low)*
 
 ---
 
 ### Application
 
-**A1. ATS Resume Build**
-Build the ATS-optimized version of your resume. Run it through a parser tool (Jobscan or Resume Worded). Document the parse rate and identify the three fields the ATS had the most difficulty reading. Revise until no critical fields are being dropped.
+**A1.** Build the ATS-optimized version of your resume. Run it through a parser tool (Jobscan or Resume Worded). Document the parse rate and identify the three fields the ATS had the most difficulty reading. Revise until no critical fields are being dropped.
+*(Tests ATS format discipline — difficulty: medium)*
 
-*Tests Objective 2. Difficulty: Medium.*
+**A2.** Build your ten-slide final presentation using the structure from the presentation section. For each slide, write the speaker note — what you would say while the slide is on screen, in 1.5–2 minutes of spoken content. Time the full walk-through. If it exceeds twenty minutes, identify which slide is running long and edit until you are at or under twenty.
+*(Tests ten-slide pitch construction — difficulty: medium)*
 
-**A2. Ten-Slide Deck Production**
-Build your ten-slide final presentation using the structure from the presentation section. For each slide, write the speaker note (what you would say while the slide is on screen, in 1.5–2 minutes of spoken content). Time the full walk-through. If it exceeds twenty minutes, identify which slide is running long and edit until you are at or under twenty.
+**A3.** Deliver the presentation once to a classmate before the formal final. After the delivery, ask them three questions: what is the one thing this presentation is arguing; what specifically is being built; and what do you want me to do. If they cannot answer all three specifically, identify which slides are failing the coherence test and revise.
+*(Tests live coherence under audience conditions — difficulty: medium)*
 
-*Tests Objective 3. Difficulty: Medium.*
-
-**A3. Pre-Presentation Coherence Test**
-Deliver the presentation once to a classmate before the formal final. After the delivery, ask them three questions: what is the one thing this presentation is arguing; what specifically is being built; and what do you want me to do. If they cannot answer all three specifically, identify which slides are failing the coherence test and revise.
-
-*Tests Objective 4. Difficulty: Medium.*
-
-**A4. Launch Post**
-Write your launch post for LinkedIn (or Substack if your archetype calls for it). Open in a specific scene — not "I'm excited to announce." Include the portfolio URL and the AI tool URL. End with a specific ask. Post it during or immediately after the final presentation week.
-
-*Tests Objective 5. Difficulty: Medium.*
+**A4.** Write your launch post for LinkedIn (or Substack if your archetype calls for it). Open in a specific scene — not "I'm excited to announce." Include the portfolio URL and the AI tool URL. End with a specific ask. Post it during or immediately after the final presentation week.
+*(Tests launch post construction and actual publication — difficulty: medium)*
 
 ---
 
 ### Synthesis
 
-**S1. Counter-Argument on Coherence**
-The chapter argues that coherence beats polish — that a plain deck with a coherent argument outperforms a beautiful deck with ten different arguments. Design the strongest counter-argument: are there contexts where polish matters more than coherence? Name the specific context, the specific evaluator, and the specific reason polish would dominate. Then evaluate: does your counter-argument undermine the chapter's central claim, or does it identify a boundary condition where the claim does not apply? (300 words.)
+**S1.** The chapter argues that coherence beats polish — that a plain deck with a coherent argument outperforms a beautiful deck with ten different arguments. Design the strongest counter-argument: are there contexts where polish matters more than coherence? Name the specific context, the specific evaluator, and the specific reason polish would dominate. Then evaluate: does your counter-argument undermine the chapter's central claim, or does it identify a boundary condition where the claim does not apply? (300 words.)
+*(Tests coherence principle under adversarial scrutiny — difficulty: medium-high)*
 
-*Tests Objective 1. Difficulty: Medium–High.*
+**S2.** Take your brand strategy from Chapter 8 and your final presentation. Run the internal consistency check: does every slide express the same archetype and voice as the brand strategy document? Identify any slide that contradicts the strategy document — a different tone, a different claim about the audience, a different positioning sentence — and revise it to align. Document what you changed and why. (400 words.)
+*(Tests cross-artifact coherence — difficulty: high)*
 
-**S2. Brand Strategy × Presentation Coherence Check**
-Take your brand strategy from Chapter 8 and your final presentation. Run the internal consistency check: does every slide express the same archetype and voice as the brand strategy document? Identify any slide that contradicts the strategy document — a different tone, a different claim about the audience, a different positioning sentence — and revise it to align. Document what you changed and why. (400 words.)
-
-*Tests Objectives 1 and 4. Difficulty: High.*
-
-**S3. Post-Course Plan with Reasoning**
-Write your post-course plan: three portfolio additions, three published pieces, five relationship engagements, all with specific deadlines. For each commitment, explain in one sentence why it is this item specifically — why this case study and not another, why this person and not a different one. The reasoning is the exercise; the reasoning prevents the plan from being aspirational rather than actual. (300–400 words.)
-
-*Tests Objective 6. Difficulty: High.*
+**S3.** Write your post-course plan: three portfolio additions, three published pieces, five relationship engagements, all with specific deadlines. For each commitment, explain in one sentence why it is this item specifically — why this case study and not another, why this person and not a different one. The reasoning is the exercise; the reasoning prevents the plan from being aspirational rather than actual. (300–400 words.)
+*(Tests whether the student can produce a specific compounding plan rather than a list of intentions — difficulty: high)*
 
 ---
 
 ### Challenge
 
-**C1. Craft vs. Presence**
-The "Still puzzling" section names a limit of the coherence framework: some technically polished pitches read as performative, while some visibly imperfect pitches land powerfully because the speaker is unmistakably present. What distinguishes a pitch that is polished and present from one that is polished and performative? Design a rubric with at least four dimensions that a pitch coach could use to evaluate this distinction. Each dimension should produce a clear better/worse judgment when applied to a specific pitch moment. (400 words.)
+**C1.** The "Still puzzling" section names a limit of the coherence framework: some technically polished pitches read as performative, while some visibly imperfect pitches land powerfully because the speaker is unmistakably present. What distinguishes a pitch that is polished and present from one that is polished and performative? Design a rubric with at least four dimensions that a pitch coach could use to evaluate this distinction. Each dimension should produce a clear better/worse judgment when applied to a specific pitch moment. (400 words.)
+*(Open-ended — tests the limits of the coherence framework — difficulty: challenge)*
 
-*Tests the limits of the coherence framework. Difficulty: Very High.*
-
-**C2. The Durability Bet**
-The Spence signaling argument predicts that the signals you have produced — deployed tool, positioned brand, published writing, coherent presentation — are separating signals because they are still costly to produce. Suppose AI tooling advances over the next three years to the point where all of these artifacts can be produced in an afternoon with a good prompt. Which of the four verbs (Ideate, Build, Brand, Ship) would remain costly, and which would cheapen? What would the new separating signals be? (400–500 words.)
-
-*Tests the book's central bet about the durability of the costly signals the course teaches. Difficulty: Very High.*
+**C2.** The Spence signaling argument predicts that the artifacts you have produced — deployed tool, positioned brand, published writing, coherent presentation — are separating signals because they remain costly to produce. Suppose AI tooling advances over the next three years to the point where all of these artifacts can be produced in an afternoon with a good prompt. Which of the four verbs (Ideate, Build, Brand, Ship) would remain costly, and which would cheapen? What would the new separating signals be? (400–500 words.)
+*(Tests the book's central bet about signal durability — difficulty: challenge)*
 
 ---
 
@@ -425,37 +409,6 @@ convert.
 
 ---
 
-## AI Wayback Machine
-
-The ideas in this chapter didn't appear from nowhere. **Margaret Bourke-White** built a professional presence by deliberately crossing institutional boundaries that her field treated as fixed: first foreign photographer admitted into the Soviet Union (1930), first woman war correspondent attached to the U.S. Army Air Forces, first female photographer at *Life* magazine and the photographer of its first cover (1936), among the first journalists to document the liberation of Buchenwald. None of these crossings were accidents. Each was the result of a clear decision about which assignment to take, which to refuse, and how to make the case for the next one. The chapter's argument — that professional presence is the assembled artifact, not the byproduct of doing good work — is Bourke-White's working method, made explicit.
-
-![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-bourke-white.jpg)
-*Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
-
-![Margaret Bourke-White](../images/margaret-bourke-white-oe4.png)
-
-*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
-
-**Run this:**
-
-```
-Who was Margaret Bourke-White, and how does her deliberate boundary-crossing — choosing the assignments that built a professional presence rather than waiting to be assigned them — connect to the chapter's argument that the resume, the deck, the social-coherence stack are an *assembled artifact* you build with intention, not a byproduct of doing good work? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
-```
-
-→ Search **"Margaret Bourke-White"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
-
-**Now make the prompt better.** Try one of these:
-
-- Ask it to explain why presence has to be designed rather than earned passively, in plain language
-- Ask it to compare Bourke-White's deliberate assignment choices to a Creative Engineer's portfolio-and-launch sequencing
-- Add a constraint: "Answer as if you're writing the post-course plan that turns the next twelve months into a designed presence"
-
-What changes? What gets better? What gets worse?
-
----
-
----
-
 ## AI+1 — Self-as-Project on Madison
 
 **Project:** Self-as-Project — *your brand, end to end* · **capstone**
@@ -511,7 +464,7 @@ blank). Reference real prior artifacts only. Invent no results. Stop after writi
 - **Correctness:** does every asset trace to a real prior-chapter artifact?
 - **Completeness:** simulation + handoff + report template all present?
 - **Scope:** rehearsal + instrumentation — not a claim that it succeeded?
-- **Brand-specific:** does the launch express the archetype end to end (Ch 1 → Ch 12)?
+- **Brand-specific:** does the launch express the archetype end to end (Ch 1 → Ch 19)?
 - **Failure-mode (fabricated traction):** confirm the performance report has zero invented numbers.
 
 *Tags: professional-presence · pitch-deck · airbnb · kawasaki-10-20-30 · resume · ATS · launch · final-presentation · coherence · four-verb-framework · INFO-7375*
