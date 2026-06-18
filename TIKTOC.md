@@ -109,10 +109,15 @@ Not core. A learner whose chosen brand includes a product or tool runs these as 
 project's *build path*; personal-brand learners skip them. The branding concepts inside them are
 already taught in Ch 3 and applied in every chapter's CLI exercise — this track is the hands-on
 build, kept off the main spine.
+
+> **Madison is the pipeline.** The learner does **not** stand up raw n8n from scratch — that
+> hand-built-pipeline material (old Ch 5) is superseded by operating Madison, whose recipes *are*
+> the workflow/orchestration layer (n8n runs under the hood). S2/S3 are "run and wire Madison," not
+> "build your own pipeline tool."
 | # | Module | Concept it carries | Hands-on | Status |
 |---|---|---|---|---|
 | S1 | Product Requirements & Scope | scope as refusal | `madison-branding-marketing-pipeline` | HAVE (old Ch4) |
-| S2 | Data Pipelines & Workflow Automation | dependencies as contracts | n8n/Madison signal pipeline | HAVE (old Ch5) |
+| S2 | Pipelines & Workflow (on Madison) | dependencies as contracts | run a Madison signal pipeline (`intelligence-agent` / `madison-brand-news-reputation-monitor`) | HAVE (old Ch5, reframed) |
 | S3 | AI Intelligence & Multi-Agent Systems | where AI decides vs. human | `madison-marketing-intelligence-orchestrator` | HAVE (old Ch6) |
 | S4 | Interface & Deployment | interface as contract | `wrap-your-tool` scaffold | HAVE (old Ch7) |
 
