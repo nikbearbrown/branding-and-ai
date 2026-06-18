@@ -104,8 +104,9 @@ Legend — **Status:** `HAVE` existing chapter · `EXPAND` existing, widen · `N
 | 18 | Portfolio as Product | portfolio as compounding asset | `madison-brand-portfolio-dashboard` | HAVE (old Ch11) |
 | 19 | Professional Presence & Launch | launch, presence, the assembled Creative Engineer | `madison-pre-launch-simulation`, `…launch-handoff`, `…performance-reporting` | HAVE (old Ch12) |
 
-### Optional track — Ship It (Track B brands with a product/tool)
-Not core. A learner whose chosen brand includes a product or tool runs these as the running
+### Optional track — Ship It (appendix, after Ch 19) — Track B brands with a product/tool
+Placed at the **end of the book**, after the Ch 19 launch — an opt-in appendix, not a mid-book
+detour. A learner whose chosen brand includes a product or tool runs these as the running
 project's *build path*; personal-brand learners skip them. The branding concepts inside them are
 already taught in Ch 3 and applied in every chapter's CLI exercise — this track is the hands-on
 build, kept off the main spine.
