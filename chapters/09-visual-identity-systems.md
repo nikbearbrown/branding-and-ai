@@ -12,36 +12,42 @@
 > | Typography — Pair Logic and Specification | Choosing and specifying a typeface pairing that fits the archetype. |
 > | Wireframes — Encoding the Archetype Structurally | How layout structure itself communicates the brand, before any styling. |
 > | What the Visual Identity System Is Doing | Why a system of rules beats one-off design decisions. |
-> | A Note on the Framework's Limits | Where this approach stops deciding things for you. |
-
 
 ---
 
-In 2008, Pepsi paid the design firm Arnell Group to redesign its logo. The result was a modest visual change — a slight tilt of the red-and-blue swoosh, a slightly different proportioning of the circle. What got out was the 27-page internal rationale document. It invoked the Golden Ratio, the Mona Lisa, the Parthenon, Renaissance painting, the Vitruvian Man, the Theory of Relativity, and the gravitational pull of the Earth. Page after page of borrowed authority, assembled to explain a logo that moved a stripe by a few degrees.
+In 2008, Pepsi paid the design firm Arnell Group to redesign its logo. The result was a modest visual change — a slight tilt of the red-and-blue swoosh, a slightly different proportioning of the circle. What leaked was the 27-page internal rationale document. It invoked the Golden Ratio, the Mona Lisa, the Parthenon, Renaissance painting, the Vitruvian Man, the Theory of Relativity, and the gravitational pull of the Earth. Page after page of borrowed authority, assembled to explain a logo that moved a stripe by a few degrees.
 
 The document became famous as a document about having nothing to say.
 
-Here is what I think happened. Pepsi's brand had not committed to anything specific enough for the visual to express. The archetype was vague — broadly Innocent, with some Jester energy, but nothing that made any single design decision clearly right or clearly wrong. So when the designers and strategists had to justify their choices, they reached for external authority. The Mona Lisa did not authorize the logo. The logo authorized nothing. And the resulting document demonstrated, publicly, that the brand did not know what it was.
+Here is what happened. Pepsi's brand had not committed to anything specific enough for the visual to express. The archetype was vague — broadly Innocent, with some Jester energy, but nothing that made any single design decision clearly right or clearly wrong. So when the designers had to justify their choices, they reached for external authority. The Mona Lisa did not authorize the logo. The logo authorized nothing. The resulting document demonstrated, publicly, that the brand did not know what it was.
 
-Your visual work in this chapter has something to express: the archetype from Chapter 3, the strategy from Chapter 8, the tool you built across Chapters 4 through 7. The system you build will cohere because it answers to those commitments. Coherence is the standard. Craft follows with time.
+Two other cases make the same point from different angles.
+
+In 2013, Yahoo announced a "30-day logo journey" — publishing a different logo concept every day for a month before revealing the final mark. By day 30, Yahoo had demonstrated that no archetype was constraining the final choice, because the 30 daily concepts were not consistent with each other. The final logo read as committee output, because it was. Yahoo's visual identity never stabilized because the strategic substance required to anchor it was absent. The company was sold to Verizon in 2017 for less than $5 billion; at its peak it had been valued at over $100 billion.
+
+In 2009, Tropicana's repackaging was technically accomplished design — clean typography, premium photography, simplified layout. It failed because it expressed the wrong archetype. The original orange-with-straw was Innocent: pure, simple, natural, unpretentious. The new packaging expressed Lover/Ruler positioning — elevated, aspirational, refined. The visual was good. It was an excellent expression of an archetype that was not Tropicana's. Sales dropped 20% in two months. The original packaging was restored.
+
+Three failure modes. Strategy-free rationale (Pepsi). Strategy-free process (Yahoo). Wrong archetypal foundation (Tropicana). Every one of them was avoidable if the design had been required to answer to a prior strategic commitment.
+
+Your visual work in this chapter has something to express: the archetype from Chapter 3, the strategy from Chapter 6, the tool you built. The system you build will cohere because it answers to those commitments. Coherence is the standard. Craft follows with time.
+
+<!-- → [TABLE: Three failure cases — columns: brand, what was changed, the strategic failure, the archetypal mismatch, the brand consequence, the recovery action] -->
 
 ---
 
-## What "Visual Identity" Actually Means
+"Visual identity" covers six components that together tell a viewer what brand they are looking at. Most non-designers treat these as independent decisions. They are not. They are a system — each component is perceived in context with the others, and the context is the archetype.
 
-The phrase covers six components that together tell a viewer what brand they are looking at. Most non-designers treat these as independent decisions. They are not. They are a system — each component is perceived in context with the others, and the context is the archetype.
+**Logo and wordmark.** The single most-replicated mark, appearing at every scale from favicon to billboard. Three structural forms: a wordmark (the brand name, styled typographically), a symbol (a standalone graphic mark), and a lockup (symbol plus wordmark combined). For a new AI tool brand, a wordmark or wordmark-with-simple-symbol is the right starting point. Complex symbols require brand recognition that takes years to build.
 
-**Logo and wordmark.** The single most-replicated mark, appearing at every scale from favicon to billboard. A logo has three structural forms: a wordmark (the brand name, styled typographically), a symbol (a standalone graphic mark), and a lockup (symbol plus wordmark combined). For a new AI tool brand, a wordmark or a wordmark with a simple symbol is the right starting point. Complex symbols require brand recognition that takes years to build.
+**Color palette.** Primary, secondary, and neutral colors — four to six committed hex values plus their accessibility-tested variants. The palette is the highest-frequency brand signal: it appears in every pixel of every interface, every page of every document. Get it wrong and the archetype mismatch is felt on every visit.
 
-**Color palette.** Primary, secondary, and neutral colors — typically four to six committed values plus their accessibility-tested variants. The palette is the highest-frequency brand signal: it appears in every pixel of every interface, every page of every document. Get it wrong and the archetype mismatch is felt on every visit.
+**Typography.** A type system — typically one display face for headlines, one body face for running text — with weights and sizes specified for every context. Typography sets the brand's register before a word is read. A serif body face signals patience and depth. A compressed geometric sans-serif signals speed and efficiency. The choice is a brand commitment.
 
-**Typography.** A type system — typically one display face for headlines and one body face for running text — with weights and sizes specified for every context. Typography sets the brand's register before a word is read. A serif body face signals patience and depth. A compressed geometric sans-serif signals speed and efficiency. The choice is a brand commitment.
-
-**Imagery direction.** What kinds of photographs, illustrations, icons, and visual metaphors fit the brand. This is a style commitment, not a specific asset: "authentic, human, slightly rough-edged photography, no stock images" versus "flat, geometric illustration, single accent color, minimal detail."
+**Imagery direction.** What kinds of photographs, illustrations, icons, and visual metaphors fit the brand. This is a style commitment, not a specific asset: "authentic, slightly rough-edged photography, no stock images" versus "flat, geometric illustration, single accent color, minimal detail."
 
 **Layout system.** Grid, spacing, and hierarchy rules that govern how all the above components arrange on a page or screen. The layout system is what makes a brand recognizable even when no logo is visible. The New York Times' two-column body with the display quote in the third column is an identity element as recognizable as the Gothic masthead.
 
-**Motion** (where relevant for digital products). How elements appear, transition, and behave. A Sage brand's motion is deliberate, unhurried. A Hero brand's motion is dynamic, directional. For a portfolio and a deployed AI tool, motion is a secondary concern; get the first five components coherent first.
+**Motion** (where relevant for digital products). How elements appear, transition, and behave. A Sage brand's motion is deliberate, unhurried. A Hero brand's motion is dynamic, directional. For a portfolio and deployed AI tool, motion is a secondary concern — get the first five components coherent first.
 
 <!-- → [TABLE: Six identity components — columns: component name, what it contains, how it expresses the archetype, most common failure mode when strategy is absent] -->
 
@@ -49,91 +55,77 @@ The system relationship is what matters. A logo that looks fine in isolation can
 
 ---
 
-## Why Visual Decisions Need Archetypal Foundation
-
 Before building the system, I want to make the mechanism explicit — why visual elements without archetypal foundation produce the Pepsi outcome.
 
-Visual elements are perceived in context with each other. A user encountering a brand does not evaluate the logo, then separately evaluate the typeface, then separately evaluate the color. They perceive all of it simultaneously and form a single impression. That impression either coheres — the components support each other and reinforce a single message — or it conflicts. The user cannot always articulate what is wrong when components conflict, but they feel the wrongness as a vague sense that the brand is trying to be two things at once.
+Visual elements are perceived in context with each other. A user encountering a brand does not evaluate the logo, then separately evaluate the typeface, then separately evaluate the color. They perceive all of it simultaneously and form a single impression. That impression either coheres — the components reinforce a single message — or it conflicts. The user cannot always articulate what is wrong when components conflict, but they feel the wrongness as a vague sense that the brand is trying to be two things at once.
 
-Archetypes are the mechanism that makes coherence achievable. When every component answers to the same archetype, they converge toward the same impression automatically — not because each component is designed to match the others, but because each is designed to match the same underlying personality.
+Archetypes are the mechanism that makes coherence achievable. When every component answers to the same archetype, they converge toward the same impression automatically — not because each is designed to match the others, but because each is designed to match the same underlying orientation.
 
 Consider four archetypes and what their visual logic looks like in practice.
 
-A **Sage** archetype's visual language is restrained, evidence-rich, often serif-anchored, with generous whitespace and high-contrast type. The New York Times. The Economist. Stripe's documentation site — the typography, color restraint, and systematic layout all signal "we have thought about this carefully." Sages do not decorate; they clarify.
+A **Sage** archetype's visual language is restrained, evidence-rich, often serif-anchored, with generous whitespace and high-contrast type. The New York Times. The Economist. Stripe's documentation site — the typography, color restraint, and systematic layout all signal: we have thought about this carefully. Sages do not decorate; they clarify.
 
-A **Hero** archetype's visual language is bold, saturated, dynamic, often diagonal or motion-implying. Nike. Red Bull. Apple's product pages for iPhone launch campaigns. Strong contrast, athletic typography, layouts that imply momentum. Heroes do not explain; they demonstrate.
+A **Hero** archetype's visual language is bold, saturated, dynamic, often diagonal or motion-implying. Nike. Red Bull. Apple's iPhone launch campaigns. Strong contrast, athletic typography, layouts that imply momentum. Heroes do not explain; they demonstrate.
 
 A **Caregiver** archetype's visual language is warm, approachable, soft-edged, with palettes that run toward earth tones or pastels. Johnson & Johnson. Headspace. Caregivers do not challenge; they embrace.
 
 A **Magician** archetype's visual language uses jewel tones, intentional gradients, unexpected combinations that imply transformation. Early Adobe. Spotify's canvas features. The archetype implies that something ordinary will become extraordinary — the visual should feel like it is already in transition.
 
-These are not arbitrary conventions. Each is a documented response to how users form impressions of brands. When the visual matches the archetype, the brand communicates immediately, without a 27-page explanation. When it mismatches, the "BreathTaking" document happens.
+These are not arbitrary conventions. Each is a documented response pattern to how users form impressions of brands. When the visual matches the archetype, the brand communicates immediately, without a 27-page explanation. When it mismatches, the "BreathTaking" document happens.
 
-Three cases at increasing levels of damage, to make the mechanism concrete.
-
-**Pepsi, 2008 — strategy-free rationale.** The redesign produced a slightly modified logo. The leaked brief justified the change by reference to the Golden Ratio, the Mona Lisa, the Parthenon, the Theory of Relativity, and the gravitational pull of the Earth. Pepsi's archetype is broadly Innocent with Jester elements. The document tried to position the logo as Sage (classical references, mathematical proportions, physics). The archetypal mismatch between the brand's actual position and the rationale's aspirational one produced a document that was incoherent — and widely mocked. The visual change was modest; the brand damage was that Pepsi had demonstrated, publicly, that it did not know what it was.
-
-**Yahoo, 2013 — strategy-free process.** Yahoo announced a "30-day logo journey" — publishing a different logo concept every day for a month before revealing the final mark. The exercise substituted public process for private strategy. By day 30, Yahoo had demonstrated that no archetype was constraining the final choice, because the 30 daily concepts were not consistent with each other. The final logo read as committee output — which it was. Yahoo's visual identity never stabilized because the strategic substance required to anchor a visual identity was absent. The company was sold to Verizon in 2017 for less than $5 billion; at its peak it had been valued at over $100 billion.
-
-**Tropicana, 2009 — wrong archetypal foundation.** The repackaging was technically accomplished design — clean typography, premium photography, simplified layout. It failed because the design expressed the wrong archetype. The original orange-with-straw was an Innocent archetype visual: pure, simple, natural, unpretentious. The new packaging expressed Lover/Ruler premium positioning — elevated, aspirational, refined. The visual was good; it was an excellent expression of an archetype that was not Tropicana's. Sales dropped 20% in two months. The original packaging was restored.
-
-<!-- → [TABLE: Three failure cases — columns: what was changed, the strategic failure, the archetypal mismatch, the brand consequence, the recovery action] -->
-
-The pattern: visual work without strategic substance (Pepsi, Yahoo), or with the wrong strategic substance underneath (Tropicana). The chapter's discipline is to ensure neither happens to your tool's brand.
+<!-- → [DIAGRAM: Four-quadrant archetype visual logic grid — axes: warm/cool (horizontal) and restrained/expressive (vertical); Sage in restrained/cool quadrant, Caregiver in restrained/warm, Hero in expressive/cool, Magician in expressive/warm; each quadrant annotated with palette direction, type direction, and one brand example] -->
 
 ---
 
-## The Creative Brief — Translating Strategy into Design
+The creative brief is the artifact that translates brand strategy into design constraints. It is the most important document in the visual identity process because it is the only moment where strategic commitments are made explicit as design requirements before any visual work begins. Once the brief is written, every subsequent visual decision can be evaluated against it. Without the brief, decisions are made by taste — made inconsistently — and the system does not cohere.
 
-The creative brief is the document that translates brand strategy into design specifications. It is the most important artifact in the visual identity process because it is the only moment where the strategic commitments are made explicit as design constraints before any visual work begins. Once the brief is written, every subsequent visual decision can be evaluated against it. Without the brief, decisions are made by taste, which means they are made inconsistently, which means the system does not cohere.
+A complete brief has eight sections, each functioning as a constraint rather than a description.
 
-A complete creative brief has eight sections. Each section is a constraint, not a description.
-
-**Brand strategy summary.** Four to six sentences pulled from Chapter 8 — mission, archetype, audience, voice. This section exists to remind everyone working on the visual identity what the strategy is, and to make clear that the design must express the strategy, not invent a new one.
+**Brand strategy summary.** Four to six sentences pulled from Chapter 6 — mission, archetype, audience, voice. This section exists to make clear that the design must express the strategy, not invent a new one.
 
 **Project scope.** What, specifically, is being designed. For this chapter: logo direction, color palette, typography pair, mood board, website wireframe, one-page brand guidelines. Scope prevents the brief from expanding to include every possible surface.
 
-**Audience.** Named. Not "marketing professionals" — "marketing managers at small B2B SaaS companies with no dedicated analytics team who will use the tool on Monday mornings." The audience description determines what visual language will read as trustworthy and professional to the specific people the tool is for.
+**Audience.** Named and specific. Not "marketing professionals" — "marketing managers at small B2B SaaS companies with no dedicated analytics team who will use the tool on Monday mornings." The audience description determines what visual language will read as trustworthy to the specific people the tool is for.
 
-**Tone words.** Three to five adjectives that describe how the design should *feel*. The discipline here is that vague words are forbidden. *Innovative*, *modern*, *clean*, *professional* are anti-words — they describe nothing, constrain nothing, and could apply to any brand. Tone words that do work: *Restrained, evidence-forward, patient* for a Sage. *Decisive, saturated, kinetic* for a Hero. *Warm, unhurried, grounded* for a Caregiver. *Luminous, transitional, unexpected* for a Magician. Each one narrows the design space in a direction the archetype implies.
+**Tone words.** Three to five adjectives describing how the design should *feel*. The discipline here is that vague words are forbidden. *Innovative*, *modern*, *clean*, *professional* are anti-words — they describe nothing, constrain nothing, and could apply to any brand. Tone words that do work: *Restrained, evidence-forward, patient* for a Sage. *Decisive, saturated, kinetic* for a Hero. *Warm, unhurried, grounded* for a Caregiver. *Luminous, transitional, unexpected* for a Magician. Each one narrows the design space in a direction the archetype implies.
 
-**References.** Three to five examples of visual work that captures the desired direction, with a note on what specifically about each one works for this brief. "Stripe's documentation site — the way it uses whitespace to make dense technical content feel readable without dumbing it down" is a reference. "I like Stripe" is not.
+**References.** Three to five examples of visual work capturing the desired direction, each with a note on what specifically works for this brief. "Stripe's documentation site — the way it uses whitespace to make dense technical content feel readable without dumbing it down" is a reference. "I like Stripe" is not.
 
-**Anti-references.** Two to four examples of what to *avoid*, with a note on why each fails the brief. Anti-references are often more useful than references because they make the negative space explicit. A Sage brand's anti-reference might be: "Red Bull's visual identity — saturated, diagonal, high-motion energy is exactly the archetypal mismatch we need to avoid. Our users want to trust the analysis; Hero-archetype visual language implies salesmanship, not rigor."
+**Anti-references.** Two to four examples of what to avoid, each with a note on why it fails the brief. Anti-references are often more useful than references because they make the negative space explicit. A Sage brand's anti-reference might be: "Red Bull's visual identity — saturated, diagonal, high-motion energy is exactly the archetypal mismatch we need to avoid. Our users want to trust the analysis; Hero-archetype visual language implies salesmanship, not rigor."
 
-**Constraints.** Color palette inheritance from existing brand elements, platform requirements, accessibility requirements. Constraints are not restrictions on design talent; they are the conditions under which the design has to succeed.
+**Constraints.** Platform requirements, accessibility requirements, anything inherited from existing brand elements that cannot change.
 
-**Deliverables.** A specific, numbered list of what the brief expects to be produced by the end of this chapter. Clear deliverables prevent scope creep and give a concrete checklist for self-evaluation.
+**Deliverables.** A numbered list of what the brief expects to be produced. Clear deliverables prevent scope creep and give a concrete checklist for self-evaluation.
 
-The brief should be dense, one to two pages, no padding. Every sentence is a constraint. A sentence that cannot be used to evaluate a design decision should be cut.
+The brief should be dense — one to two pages, no padding. Every sentence is a constraint. A sentence that cannot be used to evaluate a design decision should be cut.
 
 <!-- → [TABLE: Creative brief section anatomy — columns: section name, the question it answers, what a weak entry looks like, what a strong entry looks like] -->
 
 ---
 
-## Color Palette — Construction and Accessibility
+Color is the highest-frequency brand signal. Every pixel of every interface carries the palette. A wrong color decision is encountered more often than any other wrong decision in the system.
 
-Color is the highest-frequency brand signal. Every pixel of every interface carries the palette. A wrong color decision is encountered more often than any other wrong decision.
+Palette construction starts from the archetype, not from personal preference.
 
-The palette construction process starts from the archetype, not from personal preference.
-
-A **Sage** palette is restrained, high-contrast, low-saturation. A Sage brand does not decorate with color; it uses color to organize information. The primary is often a near-neutral — dark slate, deep teal, ink blue. The accent is used sparingly and purposefully, not decoratively. The neutral system does the heavy lifting: a near-black for body type, a true near-white for backgrounds, one or two mid-grays for secondary information.
+A **Sage** palette is restrained, high-contrast, low-saturation. A Sage brand does not decorate with color; it uses color to organize information. The primary is often a near-neutral — dark slate, deep teal, ink blue. The accent is used sparingly and purposefully. The neutral system does the heavy lifting: a near-black for body type, a near-white for backgrounds, one or two mid-grays for secondary information.
 
 A **Hero** palette uses saturated primaries, strong contrast, motion-implying hues. The primary is often a saturated red, electric blue, or deep orange. The accent amplifies the primary rather than complementing it. The neutral system is minimal — the brand lives in the saturated zone.
 
 A **Caregiver** palette is warm, approachable, soft. Earth tones, muted greens, warm grays. Nothing that reads as aggressive, cold, or clinical. The primary often sits in a warm mid-range — terracotta, sage green, warm stone.
 
-A **Magician** palette uses jewel tones, intentional gradients, chromatic depth. Deep purples, emerald greens, midnight blues with accent colors that feel transformative. The palette implies richness.
+A **Magician** palette uses jewel tones, intentional gradients, chromatic depth. Deep purples, emerald greens, midnight blues. The palette implies richness and the possibility of change.
 
 A minimum viable palette has five components: one primary, two accents, and two neutrals (near-black and near-white). A full palette adds one or two mid-neutrals for secondary information. For each color, commit a name and a hex value. The name is for human communication; the hex is for implementation. Document both.
 
+<!-- → [TABLE: Palette construction guide by archetype — columns: archetype, primary color direction, accent direction, neutral system character, palette to avoid (anti-archetype), real-world brand example] -->
+
 ### Accessibility Testing
 
-Every text-on-background combination used in the interface must pass WCAG 2.2 AA standards at minimum. The numbers are specific and non-negotiable: normal text (below 18pt) requires a contrast ratio of 4.5:1 minimum; large text (18pt and above) and graphical objects require 3:1 minimum. Test every combination you intend to use. The WebAIM Contrast Checker takes two hex values and returns the ratio.
+Every text-on-background combination used in the interface must pass WCAG 2.2 AA standards at minimum. The numbers are specific and non-negotiable: normal text (below 18pt) requires a contrast ratio of 4.5:1; large text (18pt and above) and graphical objects require 3:1. Test every combination you intend to use. The WebAIM Contrast Checker takes two hex values and returns the ratio.
 
 Document the results in a table: color name, hex, background hex, contrast ratio, pass/fail. Every fail requires a hex adjustment — usually darkening the text color or lightening the background. Small shifts in value can bring a failing combination into compliance without changing the palette's visual character.
 
-Here is what a partial accessibility audit table looks like for a Sage-archetype palette:
+Here is what a partial accessibility audit looks like for a Sage-archetype palette:
 
 | Combination | Foreground | Background | Ratio | AA Normal | AA Large |
 |---|---|---|---|---|---|
@@ -143,13 +135,11 @@ Here is what a partial accessibility audit table looks like for a Sage-archetype
 | White text on accent | #FAFAF8 | #0D5C63 | 8.9:1 | ✓ | ✓ |
 | Caption text on white | #9CA3AF | #FAFAF8 | 2.9:1 | ✗ | ✓ |
 
-Caption text failed at normal-text size. The fix: darken the caption color to #6B7280, which returns 4.6:1 — a pass. The palette character does not change; the implementation is now compliant.
+Caption text failed at normal-text size. The fix: darken it to #6B7280, which returns 4.6:1 — a pass. The palette character does not change; the implementation is now compliant.
 
-<!-- → [TABLE: Palette construction guide by archetype — columns: archetype, primary color direction, accent direction, neutral system character, palette to avoid (anti-archetype), real-world brand example] -->
+The accessibility audit is not optional. WCAG 2.2 AA is a legal requirement in many jurisdictions for public-facing digital products, not a best-practice recommendation. Document every failure and its resolution before launch.
 
 ---
-
-## Typography — Pair Logic and Specification
 
 Typography does two jobs simultaneously. It does the legibility job — making text readable at the sizes and contexts where it appears. And it does the archetype job — signaling the brand's personality before the reader has processed a single word.
 
@@ -161,91 +151,71 @@ Most visual identity systems use two typefaces: a display face for headlines, an
 
 **Caregiver archetypes** lean toward rounded sans-serifs or warm humanist typefaces: Nunito, Mulish, Lato, Figtree. The body face matches the warmth of the display face. The combination signals: we are approachable and we are here for you.
 
-**Magician archetypes** have the most flexibility — they can use display faces with dramatic proportions, unusual character details, or intentional irregularity: Fraunces (variable, with optical sizes that shift at display scale), Playfair Display at heavy weights with tracking. The body face grounds the display face's drama in readability. The combination signals: transformation happens here.
+**Magician archetypes** have the most flexibility — they can use display faces with dramatic proportions or unusual character details: Fraunces (variable, with optical sizes that shift at display scale), Playfair Display at heavy weights. The body face grounds the display face's drama in readability. The combination signals: transformation happens here.
 
-For a course project deployed on a public portfolio, use typefaces with open licenses — Google Fonts covers all four archetypes adequately: Source Serif 4 + Inter or Lora + Source Sans 3 for Sage; DM Sans as a single-family system for Hero; Nunito + Lato or Figtree for Caregiver; Playfair Display + Source Sans 3 or Fraunces + Inter for Magician.
+For a course project deployed on a public portfolio, use typefaces with open licenses — Google Fonts covers all four archetypes: Source Serif 4 + Inter for Sage; DM Sans as a single-family system for Hero; Nunito + Lato for Caregiver; Playfair Display + Source Sans 3 for Magician.
 
-Choosing the typefaces is not enough. You need to specify how they are used. A type specification looks like this:
+Choosing the typefaces is not enough. You need to specify how they are used:
 
 - **Display / H1:** Source Serif 4, 700, 56px / 1.1 line height, −0.02em tracking.
 - **H2:** Source Serif 4, 600, 36px / 1.2.
 - **H3:** Inter, 600, 24px / 1.3.
 - **Body:** Inter, 400, 16px / 1.6.
 - **Caption / label:** Inter, 400, 13px / 1.4.
-- **UI elements (buttons, navigation):** Inter, 500, 14px / 1, 0.02em tracking.
+- **UI elements:** Inter, 500, 14px / 1, 0.02em tracking.
 
-The specification prevents the system from drifting. Without it, every new page is a new typographic decision — and the accumulated drift destroys system coherence over time.
+The specification prevents drift. Without it, every new page is a new typographic decision — and the accumulated inconsistency destroys system coherence over time.
 
-<!-- → [TABLE: Archetype typography pair guide — columns: archetype, recommended display face with Google Fonts link, recommended body face, what the pairing signals, type to avoid (anti-archetype), example brand using this pairing logic] -->
+<!-- → [TABLE: Archetype typography pair guide — columns: archetype, recommended display face, recommended body face, what the pairing signals, type to avoid, example brand using this pairing logic] -->
 
 ---
 
-## Wireframes — Encoding the Archetype Structurally
-
-The wireframe is a low-fidelity structural plan for the portfolio site you will build in Chapter 11. Its job is to specify page hierarchy, section order, layout grid, and component reuse — before any visual rendering happens.
+The wireframe is a low-fidelity structural plan for the portfolio site. Its job is to specify page hierarchy, section order, layout grid, and component reuse — before any visual rendering happens.
 
 A wireframe looks like boxes and labels. It does not look like a finished design. This is intentional. The wireframe encodes structural decisions that, once made in code, are expensive to change. Making them at the wireframe stage — where a change is a box moved on a page — is the right time.
 
-For a portfolio: Home, About, Projects, Writing, Contact. Five pages. Every page beyond five needs explicit justification; the portfolio visitor's time is finite and each additional page dilutes the focus.
+Five pages for a portfolio: Home, About, Projects, Writing, Contact. Every page beyond five needs explicit justification. The portfolio visitor's time is finite and each additional page dilutes the focus.
 
-The section order on each page is not neutral — it is an archetype expression. The home page for a Sage might run: above-the-fold hero with name and positioning sentence; selected work section with three project cards; a writing section with one featured piece; a brief bio linking to About; footer with contact and links. That order encodes a priority: *who I am and what I do* → *evidence* → *thinking* → *connection*. A Hero archetype might reorder: lead with the most impressive project (not the name), follow with a performance metrics strip, then bio, then writing.
+The section order on each page is not neutral — it is an archetype expression. The home page for a Sage might run: above-the-fold hero with name and positioning sentence; selected work section with three project cards; a writing section with one featured piece; a brief bio linking to About; footer with contact and links. That order encodes a priority: *who I am and what I do* → *evidence* → *thinking* → *connection*. A Hero archetype might reorder: lead with the most impressive project, follow with a performance metrics strip, then bio, then writing.
 
 The layout grid is the architectural decision that makes the layout feel intentional rather than arbitrary. For a text-forward Sage: 12-column grid, max width 1100px, 60-character line length for body text. For a visual-forward Hero: wider column spread, 1440px max width, more image real estate.
 
-Define components once and reuse them. A project card is used on the home page's selected work section and on the Projects page. A writing card is used on the home page and on the Writing index. The footer is identical across all pages. Defining the components at the wireframe stage means the Chapter 11 build prompt can reference them by name.
+Define components once and reuse them. A project card appears on the home page and the Projects page. A writing card appears on the home page and the Writing index. The footer is identical across all pages. Defining components at the wireframe stage means the Chapter 11 build prompt can reference them by name.
 
-The wireframe encodes the archetype in its structural rhythm even at low fidelity. A Sage wireframe has more text density, longer-form sections, fewer full-bleed images, and a layout that implies depth. The home page leads with the positioning sentence — the Sage leads with the thinking, not the image. A Hero wireframe has a large above-the-fold image, a metrics strip, short punchy section copy, and a primary CTA that implies action. A Caregiver wireframe uses softer section transitions, more white space between elements, a warmer about-section, and a contact page that emphasizes ease of reach. A Magician wireframe experiments with layout conventions — sections not full-width, typographic elements that break the grid intentionally, a home page that opens with an unexpected visual rather than the conventional name-and-title hero.
+The wireframe encodes the archetype in its structural rhythm even at low fidelity. A Sage wireframe has more text density, longer-form sections, fewer full-bleed images, and a home page that leads with the positioning sentence — the Sage leads with the thinking, not the image. A Hero wireframe has a large above-the-fold image, a metrics strip, short punchy section copy, and a primary CTA that implies action. A Caregiver wireframe uses softer section transitions, more white space between elements, and a contact page that emphasizes ease of reach. A Magician wireframe experiments with layout conventions — sections not full-width, typographic elements that break the grid intentionally, a home page that opens with an unexpected visual rather than the conventional name-and-title hero.
 
 ![Two low-fidelity home-page wireframes side by side — left: a Sage home page leading with positioning text and name, three text-forward project cards, a writing section, and a bio strip; right: a Hero home page leading with a large project image, a metrics strip, short copy, and a bold CTA.](../images/09-visual-identity-systems-fig-01.png)
 *Figure 9.1 — Sage vs. Hero home-page wireframes*
 
 ---
 
-## What the Visual Identity System Is Doing
+The visual identity system closes a design loop that opened in Chapter 6.
 
-The visual identity system closes a design loop that opened in Chapter 8.
-
-Chapter 8 produced a brand strategy — the theory of who you are and what you are for. The creative brief translated that strategy into design constraints. The palette expressed the archetype in color. The typography expressed the archetype in type. The wireframe expressed the archetype in structure. The brand guidelines document captures all of those decisions in a single reference that any future collaborator can use.
+Chapter 6 produced a brand strategy — the theory of who you are and what you are for. The creative brief translated that strategy into design constraints. The palette expressed the archetype in color. The typography expressed the archetype in type. The wireframe expressed the archetype in structure. The brand guidelines document captures all of those decisions in a single reference any future collaborator can use.
 
 The system relationship is what makes the whole more than the sum of the parts. A palette without a type system is a color mood board. A type system without a layout system is a font choice. A layout system without an archetype is a default template. The system is what happens when all components answer to the same strategic archetype.
 
-Test the system by giving the brand guidelines document to one classmate who has not been involved in your brand work. Ask them to make one design decision using the document — pick a color for a button state, choose a headline weight for a new page — and then evaluate whether their choice was archetype-aligned. If it was, the document is specific enough. If it was not, find the gap: was the tone words section too vague? Was the palette missing a variant? Was the typography specification missing a weight?
+Test the system by giving the brand guidelines document to one classmate who has not been involved in your brand work. Ask them to make one design decision using only the document — pick a color for a button state, choose a headline weight for a new page — and then evaluate whether their choice was archetype-aligned. If it was, the document is specific enough. If it was not, find the gap: was the tone words section too vague? Was the palette missing a variant? Was the typography specification missing a weight?
 
 The brand guidelines document is a living artifact. Chapter 11 will use it to build the portfolio; Chapter 12 will use it to produce the pitch deck. Every use is a test. Fix what fails.
 
 ---
 
-## A Note on the Framework's Limits
-
 I should be honest about what this chapter's argument cannot do.
 
-The causal evidence for visual identity's impact on user trust in AI tools specifically is thin. The mechanism I describe — that coherent visual identity accelerates trust formation and reduces cognitive friction — is plausible and supported by branding research, but the evidence specific to AI tools is largely anecdotal. If controlled studies showed that archetype-aligned AI tools do not outperform tools with arbitrary visual identities in user trust or retention when controlling for product quality, the chapter's emphasis would be misplaced.
+The causal evidence for visual identity's impact on user trust in AI tools specifically is thin. The mechanism I describe — that coherent visual identity accelerates trust formation and reduces cognitive friction — is plausible and supported by branding research, but the evidence specific to AI tools is largely anecdotal. If controlled studies showed that archetype-aligned AI tools do not outperform tools with arbitrary visual identities in user trust or retention when controlling for product quality, this chapter's emphasis would be misplaced.
 
-**What would change my mind:** Exactly that study.
-
-**Still puzzling:** The boundary between visual identity work that *expresses* an archetype and visual identity work that *creates* one. Some brands arrived at their archetype through the visual — the visual was so distinctive that the brand had to build itself around what the visual communicated. Apple's "Think Different" campaign may be a case: the campaign preceded the strategic clarity, and the strategy emerged from the campaign's reception. The chapter teaches strategy-first as the default. The visual-first path exists, and I do not yet have a clean rule for when it is the right choice.
+The second limit: the boundary between visual identity work that *expresses* an archetype and visual identity work that *creates* one. Some brands arrived at their archetype through the visual — the visual was so distinctive that the brand had to build itself around what the visual communicated. Apple's "Think Different" campaign may be a case: the campaign preceded the strategic clarity, and the strategy emerged from the campaign's reception. This chapter teaches strategy-first as the default. The visual-first path exists, and I do not yet have a clean rule for when it is the right choice.
 
 ---
 
-## Summary
+## What Would Change My Mind
 
-Here is what you can now do that you could not at the start of this chapter.
+A controlled study showing that archetype-aligned visual identity does not causally affect user trust or retention for an AI tool, when controlling for product quality. The evidence I have is anecdotal and survivor-biased. The three failure cases — Pepsi, Yahoo, Tropicana — are cases where the mismatch was severe enough to produce measurable damage. Smaller mismatches may be tolerated, may be invisible, or may not matter at all for AI tools specifically.
 
-You can name all six components of a visual identity system and explain how each one expresses the archetype, not just the designer's taste. You can write a creative brief that translates brand strategy into design constraints — with archetype-aligned tone words, specific references, useful anti-references, and a constrained deliverables list. You can build a color palette from the archetype outward and test every text-on-background combination against WCAG AA standards before committing to any color. You can select and specify a typography pair with full size, weight, and context specifications for every use case. You can produce a wireframe that encodes the archetype structurally, so that the system's personality is legible before any pixel is rendered.
+## Still Puzzling
 
-**The one idea that matters most:** Visual identity is downstream of brand strategy. A visual identity built without strategic substance has to borrow meaning from outside — the Mona Lisa, the gravitational field, the Golden Ratio — because there is no internal anchor. A visual identity built from strategic substance expresses commitments the brand has already made, and every component reinforces every other because they all answer to the same archetype.
-
-**The common mistake:** Choosing visual elements by aesthetic preference rather than archetypal logic. "I like dark mode" is not a brand decision. "A dark palette signals the analytical restraint that aligns with my Sage archetype and the professional context in which my tool is used" is a brand decision. Make the latter.
-
-**The Feynman test:** Pick up any single design decision from your visual system — a color choice, a typeface, a layout element — and explain in two sentences why it is there, what archetype it expresses, and what it would have to be replaced with if you switched archetypes. If you can do that for every decision in the system, the system is understood. If a decision cannot survive that test, it slipped through on preference rather than strategy.
-
----
-
-## Connections Forward
-
-Chapter 10 writes the origin story, case study, and thought-leadership piece that populate the wireframe you built here. The narrative content is what the layout system will carry — the structure you designed should be sized for the content Chapter 10 will produce.
-
-Chapter 11 builds the portfolio using this chapter's system as the design brief. The v0 or Framer prompt for the portfolio site will reference the palette hex codes, the typography specification, the wireframe section blocks, and the tone words directly. The quality of the visual system you build here determines the quality of the portfolio that Chapter 11 ships.
+When does the visual-first path work? Apple's "Think Different" is the candidate case, but it is also the most over-determined case in technology branding — exceptional creative team, exceptional media moment, exceptional products arriving right after. Separating the visual-first path from the other over-determining factors is genuinely hard. I suspect the visual-first path works only when the visual is so distinctive it creates its own interpretive frame, and fails whenever the visual is merely unusual rather than genuinely generative. But I do not have a clean account of the distinction.
 
 ---
 
@@ -253,88 +223,59 @@ Chapter 11 builds the portfolio using this chapter's system as the design brief.
 
 ### Warm-Up
 
-**W1. Archetype Reading from Visual Elements**
-For each of the following brand visual elements, identify which archetype it expresses and name one specific aspect of the element that signals that archetype:
+**W1.** For each of the following brand visual elements, identify which archetype it expresses and name one specific aspect of the element that signals that archetype: (a) The New York Times masthead — large Gothic serif, all-caps, high contrast, no decoration. (b) Red Bull's can design — saturated red and silver, diagonal energy-trail motif, bold geometric sans-serif. (c) Headspace's app icon — orange circle, soft corners, minimal detail. (d) Notion's brand identity — near-black and near-white, minimal color, humanist sans-serif, generous whitespace.
+*Tests: archetype reading from visual elements.*
+*Difficulty: Low.*
 
-- The New York Times masthead: large Gothic serif, all-caps, high contrast, no decoration.
-- Red Bull's can design: saturated red and silver, diagonal energy-trail motif, bold geometric sans-serif.
-- Headspace's app icon: orange circle, soft corners, minimal detail.
-- Notion's brand identity: near-black and near-white, minimal color, humanist sans-serif, generous whitespace.
+**W2.** The chapter identifies three anti-words that do not constrain design decisions: *innovative*, *modern*, *clean*. For each anti-word, write a replacement that is specific enough to constrain a design decision, is aligned to one archetype, and could not be applied to every brand equally. Justify each replacement in one sentence.
+*Tests: tone word discipline — the difference between decorative and constraining description.*
+*Difficulty: Low.*
 
-*Tests Objective 5. Difficulty: Low.*
-
-**W2. Tone Word Replacement**
-The chapter identifies three anti-words that do not constrain design decisions: *innovative*, *modern*, *clean*. For each anti-word, write a replacement tone word that is specific enough to constrain a design decision, is aligned to one of the archetypes, and could not be applied to every brand equally. Justify each replacement in one sentence.
-
-*Tests Objective 2. Difficulty: Low.*
-
-**W3. Accessibility Audit**
-Run an accessibility audit on the following palette combinations. Use the WCAG AA standard: 4.5:1 for normal text, 3:1 for large text. For each combination that fails, propose a hex adjustment that passes while maintaining the palette's character. (Use WebAIM Contrast Checker or equivalent.)
-
-- Body text #333333 on background #FFFFFF
-- Secondary text #888888 on background #FFFFFF
-- Accent text #4A90E2 on background #FFFFFF
-- White text #FFFFFF on button color #6C63FF
-- Caption text #AAAAAA on background #F5F5F5
-
-*Tests Objective 3. Difficulty: Low–Medium.*
-
----
+**W3.** Run an accessibility audit on the following palette combinations using WCAG AA standards (4.5:1 for normal text, 3:1 for large text). For each combination that fails, propose a hex adjustment that passes while maintaining the palette's character. Use WebAIM Contrast Checker or equivalent: (a) body text #333333 on background #FFFFFF; (b) secondary text #888888 on background #FFFFFF; (c) accent text #4A90E2 on background #FFFFFF; (d) white text #FFFFFF on button color #6C63FF; (e) caption text #AAAAAA on background #F5F5F5.
+*Tests: accessibility audit mechanics and fix logic.*
+*Difficulty: Low-medium.*
 
 ### Application
 
-**A1. Creative Brief**
-Write a complete creative brief for your AI tool's visual identity. Include all eight sections: brand strategy summary, project scope, audience, tone words (three to five, no anti-words), references (three, with specific notes), anti-references (two, with notes), constraints, and deliverables. Length: one to two pages. Test the brief by evaluating one design decision against it — pick any visual direction and argue whether it passes or fails the brief.
+**A1.** Write a complete creative brief for your AI tool's visual identity. Include all eight sections: brand strategy summary, project scope, audience, tone words (three to five, no anti-words), references (three, with specific notes), anti-references (two, with notes), constraints, and deliverables. Length: one to two pages. Test the brief by evaluating one design direction against it — pick any visual approach and argue whether it passes or fails.
+*Tests: brief construction and brief-as-evaluation-instrument.*
+*Difficulty: Medium.*
 
-*Tests Objective 2. Difficulty: Medium.*
+**A2.** Build a color palette for your AI tool's brand using your archetype as the starting point. Specify one primary, two accents, and three neutrals — name and hex for each. Run the full accessibility audit: test every combination you intend to use for text-on-background against WCAG AA. Document results in a table. Fix every failing combination.
+*Tests: palette construction from archetype and accessibility compliance.*
+*Difficulty: Medium.*
 
-**A2. Color Palette Build**
-Build a color palette for your AI tool's brand using your archetype as the starting point. Specify one primary, two accents, and three neutrals (near-black, near-white, mid-gray) — name and hex for each. Run the full accessibility audit: test every combination you intend to use for text-on-background against WCAG AA. Document results in a table. Fix every failing combination.
+**A3.** Select a typography pair for your AI tool's brand. Justify each choice in one paragraph that explicitly references your archetype and names what the typeface signals. Produce the full type specification — H1 through H3, body, caption, UI — with size, weight, and line height for each.
+*Tests: typography selection and specification.*
+*Difficulty: Medium.*
 
-*Tests Objective 3. Difficulty: Medium.*
-
-**A3. Typography Specification**
-Select a typography pair for your AI tool's brand. Justify each choice in one paragraph that explicitly references your archetype and names what the typeface signals. Produce the full type specification — H1 through H3, body, caption, UI — with size, weight, and line height for each.
-
-*Tests Objective 4. Difficulty: Medium.*
-
-**A4. Archetypal Mismatch Diagnosis**
-Find a real deployed AI product whose visual identity you believe has an archetypal mismatch — where the visual language contradicts what the product actually is or does. Describe: the product and its actual purpose, the archetype the visual identity is expressing, the archetype the product strategy actually implies, the specific components in conflict, and what a single highest-leverage change would be to reduce the mismatch.
-
-*Tests Objective 5. Difficulty: Medium.*
-
----
+**A4.** Find a real deployed AI product whose visual identity has an archetypal mismatch — where the visual language contradicts what the product actually is or does. Describe: the product and its actual purpose, the archetype the visual identity expresses, the archetype the product strategy actually implies, the specific components in conflict, and what a single highest-leverage change would be to reduce the mismatch.
+*Tests: archetypal mismatch diagnosis on a novel case.*
+*Difficulty: Medium.*
 
 ### Synthesis
 
-**S1. Pre-Launch Visual Identity Review Process**
-The chapter traces three visual-identity-without-strategy failures: Pepsi 2008 (strategy-free rationale), Yahoo 2013 (strategy-free process), Tropicana 2009 (wrong archetypal foundation). Each had a different cause and required a different fix. Design a pre-launch visual identity review process that would catch all three failure modes before launch. Apply your process to one of the three cases and show whether it would have flagged the problem.
+**S1.** The chapter traces three visual-identity-without-strategy failures: Pepsi 2008 (strategy-free rationale), Yahoo 2013 (strategy-free process), Tropicana 2009 (wrong archetypal foundation). Each had a different cause and required a different fix. Design a pre-launch visual identity review process that would catch all three failure modes before launch. Apply your process to one of the three cases and show whether it would have flagged the problem.
+*Tests: systematic reasoning about failure modes and their prevention.*
+*Difficulty: Medium-high.*
 
-*Tests Objectives 1 and 5. Difficulty: Medium–High.*
+**S2.** Produce two wireframe descriptions in structured text for the same five-page portfolio: one for a Sage archetype, one for a Hero archetype. The pages are the same (Home, About, Projects, Writing, Contact); the section order, density, and component character should differ. Annotate the structural differences that are archetypal expressions rather than personal preferences.
+*Tests: encoding archetype in layout structure, not just styling.*
+*Difficulty: High.*
 
-**S2. Comparative Wireframe**
-Produce two wireframe descriptions (in structured text or ASCII box format, not rendered Figma) for the same five-page portfolio: one for a Sage archetype, one for a Hero archetype. The pages are the same (Home, About, Projects, Writing, Contact); the section order, section density, and component character should differ. Annotate the structural differences that are archetypal expressions, not personal preferences.
-
-*Tests Objectives 5 and 6. Difficulty: High.*
-
-**S3. The Visual-First Path**
-The "Still puzzling" note identifies the visual-first path — where the visual identity creates the archetype rather than expressing it. Find one brand (not Apple's Think Different) where the visual identity preceded and shaped the strategic archetype. Describe: the visual that came first, the strategic clarity that followed, how the brand's later behavior validated or invalidated the emergent archetype, and what conditions enabled the visual-first path to work. Conclude with a rule for when the visual-first path is the right choice — and when it is a mistake.
-
-*Tests Objectives 1 and 5; stress-tests the chapter's strategy-first default. Difficulty: High.*
-
----
+**S3.** The "Still Puzzling" section identifies the visual-first path — where the visual identity creates the archetype rather than expressing it. Find one brand (not Apple's Think Different) where the visual identity preceded and shaped the strategic archetype. Describe: the visual that came first, the strategic clarity that followed, how the brand's later behavior validated or invalidated the emergent archetype, and what conditions enabled the visual-first path to work. Conclude with a proposed rule for when visual-first is the right choice — and when it is a mistake.
+*Tests: stress-testing the strategy-first default with a real countercase.*
+*Difficulty: High.*
 
 ### Challenge
 
-**C1. Accessibility as Legal Obligation**
-The WCAG 2.2 AA standards in this chapter are legal requirements in many jurisdictions for public-facing digital products, not just best practices. Research: which jurisdictions have legal accessibility requirements for web content, what standard they reference, and what the enforcement mechanism is. Then evaluate your own tool's deployed interface (from Chapter 7) against the AA standard. Document every failure. For each failure: name the specific WCAG criterion violated, propose a fix, and estimate the implementation time. Conclude with a prioritized remediation list.
+**C1.** The WCAG 2.2 AA standards in this chapter are legal requirements in many jurisdictions for public-facing digital products, not just best practices. Research: which jurisdictions have legal accessibility requirements for web content, what standard they reference, and what the enforcement mechanism is. Then evaluate your own tool's deployed interface against the AA standard. Document every failure, name the specific WCAG criterion violated, propose a fix, and estimate the implementation time. Conclude with a prioritized remediation list.
+*Tests: accessibility as legal obligation and hands-on audit of a real product.*
+*Difficulty: Very high.*
 
-*Tests Objective 3; connects accessibility standards to legal and ethical obligations. Difficulty: Very High.*
-
-**C2. Causal Study Design**
-The "What would change my mind" note concedes that causal evidence for visual identity's impact on user trust in AI tools is thin. Design a study that could establish whether archetype-aligned visual identity causally affects user trust and retention for an AI tool — as distinct from product quality. Specify: the independent variable, the dependent variable, the control for product quality, the population, the study duration, and the minimum effect size you would need. Evaluate the study's practical feasibility and ethical considerations.
-
-*Tests Objective 1; stress-tests the chapter's central causal claim. Difficulty: Very High.*
+**C2.** The "What Would Change My Mind" section concedes that causal evidence for visual identity's impact on user trust in AI tools is thin. Design a study that could establish whether archetype-aligned visual identity causally affects user trust and retention for an AI tool, as distinct from product quality. Specify: the independent variable, the dependent variable, the control for product quality, the population, the study duration, and the minimum effect size you would need. Evaluate the study's practical feasibility and ethical considerations.
+*Tests: study design and engagement with the chapter's own evidentiary limits.*
+*Difficulty: Very high.*
 
 ---
 
@@ -348,13 +289,13 @@ The "What would change my mind" note concedes that causal evidence for visual id
 
 ```
 Build a Personal Visual System for me, derived from my Personal Brand
-Strategy v1 (from Chapter 8). The deliverables here feed the portfolio
+Strategy v1 (from Chapter 6). The deliverables here feed the portfolio
 site I build in Chapter 11.
 
 Five components, each constrained by my archetype:
 
 1. CREATIVE BRIEF (1 page). Strategy-to-design translation. Sections:
-   - Brand strategy summary (3–4 sentences from Chapter 8)
+   - Brand strategy summary (3–4 sentences from Chapter 6)
    - Project scope (personal site + LinkedIn banner + resume header)
    - Audience (named and specific)
    - Tone words (3–5 archetype-aligned adjectives — "innovative" and
@@ -399,15 +340,13 @@ with all five components.
 
 **What this produces:** A complete visual identity spec ready for Chapter 11's portfolio build. The palette hex codes and typography specification become the v0 prompt's design tokens. The wireframe section blocks become the page structure.
 
-**How to adapt:** If you already have visual brand elements — a chosen typeface, a color you've used consistently — provide them as inputs and ask for an audit and alignment fix rather than a from-scratch design. The audit question: does this visual element express my archetype, or is it here because of preference?
-
-**Preview of next chapter:** Chapter 10 writes your origin story, one customer-as-hero case study, and your first published thought-leadership piece — the narrative content that the wireframe you built here is designed to carry.
+**How to adapt:** If you already have visual brand elements — a chosen typeface, a color you have used consistently — provide them as inputs and ask for an audit and alignment fix rather than a from-scratch design. The audit question: does this visual element express my archetype, or is it here because of preference?
 
 ---
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and went on to define the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue* over the next four decades. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
+The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and over the next four decades defined the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue*. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
 
 ![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/cipe-pineles.jpg)
 *Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph.*
@@ -415,7 +354,11 @@ The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became th
 **Run this:**
 
 ```
-Who was Cipe Pineles, and how does her work building cover-to-cover visual systems for *Glamour*, *Seventeen*, and *Vogue* connect to the chapter's argument that visual identity is a system of disciplined choices rather than a logo plus a palette? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
+Who was Cipe Pineles, and how does her work building cover-to-cover visual
+systems for *Glamour*, *Seventeen*, and *Vogue* connect to the chapter's
+argument that visual identity is a system of disciplined choices rather than
+a logo plus a palette? Keep it to three paragraphs. End with the single most
+surprising thing about her career or ideas.
 ```
 
 → Search **"Cipe Pineles"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
@@ -424,11 +367,9 @@ Who was Cipe Pineles, and how does her work building cover-to-cover visual syste
 
 - Ask it to explain why a visual *system* outperforms a visual *style* over time, in plain language
 - Ask it to compare Pineles's editorial-design discipline to the visual-identity rules this chapter teaches for AI products
-- Add a constraint: "Answer as if you're writing the visual-system rules for your Madison-style AI tool, governed by the archetype from Chapter 8"
+- Add a constraint: "Answer as if you're writing the visual-system rules for your Madison-style AI tool, governed by the archetype from Chapter 6"
 
 What changes? What gets better? What gets worse?
-
----
 
 ---
 
@@ -438,7 +379,7 @@ What changes? What gets better? What gets worse?
 **This chapter adds:** a visual identity system plus a coherence-and-accessibility QA pass.
 **Madison recipes:** [`madison-brand-consistency-contradiction-checker`](../madison/recipes/madison-brand-consistency-contradiction-checker.md), [`madison-qa-accessibility-audit`](../madison/recipes/madison-qa-accessibility-audit.md)
 
-> Design without strategy is the Pepsi document; the system is both present (this chapter's thesis). You make the design calls; Madison audits for contradiction and accessibility; you decide what to fix.
+> Design without strategy is the Pepsi document; the system requires both (this chapter's thesis). You make the design calls; Madison audits for contradiction and accessibility; you decide what to fix.
 
 ### Exercise 1 — When to Use AI
 - *Tabulate your visual system's six components into a spec sheet.* **Why it works:** reformatting.
