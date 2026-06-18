@@ -1,6 +1,19 @@
 # Chapter 12 — Professional Presence and Launch
 *The final deliverable is not your portfolio. It is you.*
 
+> **TL;DR:** The closing chapter assembles everything into a coherent professional presence and a launch — where the final product is you. It covers making your résumé, social media, and final presentation tell one consistent story, how to pitch, and how to keep the brand working after the launch moment passes.
+>
+> | Section | Preview |
+> |---|---|
+> | The Coherence Principle | Why every public surface must read as the same person, and what breaks when they do not. |
+> | The Resume — Two Versions, One Identity | Maintaining two résumé versions that still express one consistent identity. |
+> | Social Media as Brand-Coherence Surface | Treating social profiles as places the brand must stay consistent. |
+> | The Final Presentation | How to build and deliver a pitch that makes one argument well. |
+> | Building for After | Keeping the brand and tool working once the launch moment passes. |
+> | The Assembled Creative Engineer | How the four verbs and all prior chapters come together in one person. |
+> | A Note on the Framework's Limits | Where the book's framework stops and your own judgment takes over. |
+
+
 ---
 
 In early 2009, three founders walked into Y Combinator with a ten-slide deck and a working prototype. Their company was called AirBed and Breakfast. The idea: let people rent air mattresses on the floors of strangers' apartments. Their previous fundraising had involved selling branded cereal at political conventions to keep the lights on.

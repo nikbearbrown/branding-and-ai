@@ -1,6 +1,17 @@
 # Chapter 8 (Startup Brand Path) — Brand Strategy
 *A startup brand is not what your company builds. It is what your company consistently declines to build.*
 
+> **TL;DR:** The startup-path version of brand strategy: a startup brand is what the company consistently declines to build. This chapter covers the eight components of a startup brand, why the refusals ("negative space") are the brand, how to name a company, and how to compress it all onto one page.
+>
+> | Section | Preview |
+> |---|---|
+> | The Eight Components | The eight building blocks of a startup brand and what each one decides. |
+> | Why the Negative Space Is the Brand | How sustained refusals, more than features, give a company a recognizable identity. |
+> | Naming | Practical tests for choosing a company name that fits the brand and survives scrutiny. |
+> | The One-Page Document | Fitting the whole strategy on one page as a forcing function for real decisions. |
+> | Reverse-Engineering as a Learning Practice | Learning brand strategy by deconstructing companies you admire. |
+
+
 ---
 
 Here is a thought experiment. Suppose two companies ship identical products in the same quarter. Company A has an explicit no-list: they will not serve enterprise customers, will not build a mobile app in v1, will not market through influencer channels. Company B has no explicit no-list; they serve whoever asks, build whatever their loudest customer requests, and market in whatever channel seems available.

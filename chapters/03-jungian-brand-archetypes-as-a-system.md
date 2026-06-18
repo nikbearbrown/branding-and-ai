@@ -1,6 +1,18 @@
 # Chapter 3 — Jungian Brand Archetypes as a System
 *The constraint that makes every downstream decision decidable.*
 
+> **TL;DR:** Choosing one of twelve brand archetypes turns vague brand questions into decidable ones. This chapter explains why a committed archetype makes every later decision easier, uses three famous failures (Tropicana, Gap, New Coke) to show what happens when a brand drifts from its archetype, and walks you through picking and stress-testing your own.
+>
+> | Section | Preview |
+> |---|---|
+> | What an Archetype Actually Is | A plain-language account of the twelve recurring identities and why each one carries a built-in failure mode (its "shadow"). |
+> | Why an Archetype Is a Forcing Function | How committing to one identity makes downstream choices — features, copy, design — decidable instead of arbitrary. |
+> | Three Cases of Archetype Drift | What went wrong when Tropicana, Gap, and New Coke moved away from the identity their customers expected. |
+> | Reading Any Brand's Archetype | A five-input procedure for diagnosing the archetype of any brand from its public behavior. |
+> | Picking Your Archetype | How to choose, and honestly test, the archetype for your own brand. |
+> | A Note on the Framework's Limits | Where the archetype model stops being useful and what it cannot decide for you. |
+
+
 Here is what I find strange about brand failure. The companies that fail most publicly — Tropicana, Gap, Coca-Cola in 1985 — rarely fail because they ran out of money or made a bad product. They fail because they changed something that was working. They changed the orange on the carton, the typeface on the logo, the formula in the bottle. And their customers, who had been buying without thinking for twenty years, suddenly stopped.
 
 That seems like it should be simple to avoid. Don't change what's working. But it isn't simple, because nobody in the room understands what is actually working. They know the product works. They can measure sales. What they cannot see is the *recognition asset* — the accumulated pattern of touchpoints that lets a customer's eye snap to your product on a crowded shelf at 8 AM without engaging conscious thought. That asset is invisible until it is destroyed. And it is destroyed, specifically, by archetype drift.

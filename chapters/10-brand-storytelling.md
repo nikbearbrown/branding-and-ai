@@ -1,6 +1,18 @@
 # Chapter 10 — Brand Storytelling
 *A brand without a story is a logo on a business card. A brand telling the wrong story burns faster than no story at all.*
 
+> **TL;DR:** This chapter is about brand storytelling — and the danger that the wrong story does more damage than no story. It covers three story frameworks, how your archetype limits which stories are honest to tell, what mismatches look like, and how to build the specific narrative pieces a brand needs.
+>
+> | Section | Preview |
+> |---|---|
+> | Three Frameworks, One Constraint | Three story structures worth knowing, and the single rule they all share. |
+> | What the Archetype Commits You To | How your chosen archetype limits which stories are honest for your brand to tell. |
+> | What Mismatches Look Like | How a story that contradicts the brand reads, and why it backfires. |
+> | What Well-Told Brand Stories Look Like | The traits that separate a story that lands from one that falls flat. |
+> | Five Story Types and Where They Live | Five kinds of brand story and the channels each one belongs in. |
+> | Building the Three Deliverables | Producing the origin story, the case study, and the thought-leadership piece. |
+
+
 ---
 
 Here is a thing that keeps appearing in student portfolios. The case study section reads: "I built a pipeline in n8n that processes competitor RSS feeds using the OpenAI API and outputs a daily summary to Google Sheets." Every word of that is true. None of it is a story.

@@ -1,6 +1,18 @@
 # Chapter 4 — Product Requirements and Scope
 *The $100,000 no, and why the things you refuse to build define the product more than the things you build.*
 
+> **TL;DR:** This chapter is about scope — deciding what to build and, more importantly, what to refuse to build. It defines the product requirements document, explains what "minimum viable product" really means, and shows through the Linear case and a worked example why the things you decline (the "$100,000 no") define a product more than the things you ship.
+>
+> | Section | Preview |
+> |---|---|
+> | What a PRD Actually Is | What a product requirements document is for, and why it is a decision record rather than a wish list. |
+> | What "Minimum Viable Product" Actually Means | The real meaning of MVP — the smallest thing that tests the core bet — versus the common misreading. |
+> | Scope Discipline as Identity: The Linear Case | How the software company Linear made refusing features the core of its identity. |
+> | Reading Madison as a PRD | What the Madison framework looks like viewed as a set of scope decisions. |
+> | A Worked Example | A full PRD built step by step, including an explicit list of what it will not do. |
+> | What the PRD Is Actually Doing | Why the document's deeper job is forcing commitments before pressure arrives. |
+
+
 ---
 
 Here is a thing that happens constantly in software teams. You start building without deciding in advance what you are building. Every question that arises during development gets answered in the moment by whoever is most opinionated in the room. Should the tool support multi-user accounts? The engineer who is annoyed by the lack of them says yes and builds it. Should the output be a Google Sheet or a Notion database? The PM who uses Notion says Notion. Should the system support custom RSS feeds or only a curated list? The person who gave the last demo adds custom feeds because the prospect asked for them.

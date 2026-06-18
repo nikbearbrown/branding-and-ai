@@ -1,6 +1,19 @@
 # Chapter 7 — Interface Design and Deployment
 *The interface is not a finishing layer. It is a contract. Every session, the user checks whether you kept it.*
 
+> **TL;DR:** This chapter treats the interface as a promise the user re-checks every time they open your tool — not a coat of paint added at the end. It defines what "interface" really covers, shows three ways an interface can betray the brand, compares two fast build frameworks, and walks you through building and deploying a working one.
+>
+> | Section | Preview |
+> |---|---|
+> | What "Interface" Actually Means | The several different things the word "interface" refers to, and why each carries brand weight. |
+> | Three Faces of Misalignment | Three ways an interface can quietly contradict the brand it represents. |
+> | Three Case Studies | Real products read for how their interface kept or broke the user's trust. |
+> | Streamlit and Gradio — Choosing the Right Framework | A practical comparison of two fast ways to build an AI tool's interface. |
+> | Building the Interface | Constructing the working interface for your tool, including its empty and error states. |
+> | Deployment | Getting the tool online so other people can actually use it. |
+> | What the Interface Is Doing in the Larger Arc | How the interface fits the book's path from idea to shipped brand. |
+
+
 ---
 
 On February 6, 2023, Google announced Bard at a press event and released a promotional video. In it, Bard answered a question about the James Webb Space Telescope with three confident bullet points. The third claimed that JWST had taken the first images of a planet outside our solar system. The first exoplanet images were taken by the European Southern Observatory's Very Large Telescope in 2004, nearly two decades before JWST launched.

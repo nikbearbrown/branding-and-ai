@@ -1,6 +1,16 @@
 # Chapter 1 — The Creative Engineer
 *When the cost of building collapses, the value of knowing what to build rises.*
 
+> **TL;DR:** When AI makes software cheap to build, the value shifts to knowing *what* to build and being recognizable for it. This chapter uses a classic economics idea (costly signals) to explain why common tech credentials stopped setting people apart, then introduces the two tools the rest of the book runs on: the four-verb framework (Ideate, Build, Brand, Ship) and twelve brand archetypes.
+>
+> | Section | Preview |
+> |---|---|
+> | The Machinery: Spence's Signaling Mechanism | How an economics idea about costly signals explains why credentials like a CS degree stopped reliably setting candidates apart. |
+> | The Four Verbs | The four kinds of work — Ideate, Build, Brand, Ship — that now carry career value, and how to score yourself honestly on each. |
+> | The Twelve Archetypes | A set of twelve recognizable identities a brand can adopt to make its work legible to the people it is for. |
+> | Three Frames, One Argument | Three different angles on the same shift, all converging on one claim about where professional value now sits. |
+
+
 ---
 
 In 2022, a team of researchers at Microsoft Research ran what is, to my knowledge, the cleanest controlled experiment on AI-assisted software development yet published. The paper — Peng et al., "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot" — took ninety-five professional developers and gave them a single task: write an HTTP server in JavaScript.

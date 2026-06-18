@@ -1,6 +1,20 @@
 # Chapter 9 — Visual Identity Systems
 *Design without strategy is the Pepsi document. Strategy without design is a Word doc with good intentions. The system is what happens when both are present.*
 
+> **TL;DR:** This chapter turns brand strategy into a concrete visual system — color, type, and layout — that a stranger can read as "this brand." It explains why visual choices must follow from the archetype rather than personal taste, how to write a creative brief, and how to build an accessible palette and type system.
+>
+> | Section | Preview |
+> |---|---|
+> | What "Visual Identity" Actually Means | The six components that together signal which brand a viewer is looking at. |
+> | Why Visual Decisions Need Archetypal Foundation | Why color and type choices should follow from the brand's archetype, not preference. |
+> | The Creative Brief — Translating Strategy into Design | How to write the brief that turns strategy into clear design direction. |
+> | Color Palette — Construction and Accessibility | Building a palette that expresses the brand and meets contrast and accessibility standards. |
+> | Typography — Pair Logic and Specification | Choosing and specifying a typeface pairing that fits the archetype. |
+> | Wireframes — Encoding the Archetype Structurally | How layout structure itself communicates the brand, before any styling. |
+> | What the Visual Identity System Is Doing | Why a system of rules beats one-off design decisions. |
+> | A Note on the Framework's Limits | Where this approach stops deciding things for you. |
+
+
 ---
 
 In 2008, Pepsi paid the design firm Arnell Group to redesign its logo. The result was a modest visual change — a slight tilt of the red-and-blue swoosh, a slightly different proportioning of the circle. What got out was the 27-page internal rationale document. It invoked the Golden Ratio, the Mona Lisa, the Parthenon, Renaissance painting, the Vitruvian Man, the Theory of Relativity, and the gravitational pull of the Earth. Page after page of borrowed authority, assembled to explain a logo that moved a stripe by a few degrees.

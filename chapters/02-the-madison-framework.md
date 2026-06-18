@@ -1,6 +1,21 @@
 # Chapter 2 — The Madison Framework
 *Five roles, one pipeline, and the moment you realize architecture is brand.*
 
+> **TL;DR:** This chapter teaches you to read an AI system's architecture the way you would read a blueprint, using the open-source Madison framework as the worked example. Its core lesson: how you split an AI product into parts decides how it fails, how it is sold, and how much customers can trust it — so architecture is itself a branding decision.
+>
+> | Section | Preview |
+> |---|---|
+> | The four meanings of "agent" | Why one word means four different things in 2026, and why confusing them produces the wrong product. |
+> | What Madison is | The five specialized roles — intelligence, content, research, experience, performance — plus the layer that coordinates them. |
+> | Five roles vs. one mega-agent | Why splitting the work beats a single do-everything model on cost, on locating failures, and on having something to sell. |
+> | Cursor vs. Devin | Two real AI coding tools that show how the same technology yields opposite products depending on how much control the user keeps. |
+> | The ReAct loop | The small think–act–observe cycle running inside each role, and the three places it tends to fail. |
+> | Orchestration and humans | How the parts are wired together, and where to place a human so a costly mistake fails safely. |
+> | Architecture as a brand decision | Why engineering choices quietly decide what customers can see, name, trust, and buy. |
+>
+> *Note: this chapter is written as continuous prose; the rows above preview its main movements rather than `##` headings.*
+
+
 ---
 
 Most people approaching AI product development have a vivid sense of what they want a tool to *do* — and almost no sense of what makes one architecture different from another. They have watched demos. They have used ChatGPT. They know approximately what "agent" means the way you might know approximately what "leverage" means in finance: enough to use the word confidently, not enough to make decisions with it.

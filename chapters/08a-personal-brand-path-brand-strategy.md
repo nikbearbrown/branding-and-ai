@@ -1,6 +1,20 @@
 # Chapter 8 — Brand Strategy
 *The brand is not what you build. It is what you consistently decline to build.*
 
+> **TL;DR:** A brand is defined less by what you build than by what you consistently decline to build. Using Stripe as the model, this chapter walks the seven components of a brand strategy and the "negative space" of deliberate refusals, then has you write a one-page strategy for your own venture.
+>
+> | Section | Preview |
+> |---|---|
+> | Brand vs. marketing strategy | The difference between who you are (brand) and how you reach people (marketing), and why brand comes first. |
+> | The seven components | Mission, vision, values, value proposition, archetype, voice, and positioning — each with the job only it does. |
+> | Negative space — what you decline | Why a brand's sustained refusals, more than its features, make it recognizable (the Stripe inversion). |
+> | Archetype at the company level | How to pick the role your product's audience needs the company to play, and name its built-in failure mode. |
+> | Naming | Three tests, plus archetype fit, for choosing a startup name you will not regret. |
+> | The one-page document | Assembling the strategy on a single page and checking its parts do not contradict each other. |
+>
+> *Note: this chapter is written as continuous prose; the rows above preview its main movements rather than `##` headings.*
+
+
 ---
 
 Here is a test. Look at Stripe's marketing site, their documentation, their blog, Patrick Collison's public writing, their API changelog. Now ask: what is Stripe's brand?

@@ -1,6 +1,21 @@
 # Chapter 5 — Data Pipelines and Workflow Automation
 *Every external dependency is a contract. Every contract will change.*
 
+> **TL;DR:** This chapter reframes data pipelines as chains of agreements you do not control — every API, feed, and service can change its terms and break you. Using the Apollo/Reddit shutdown and the n8n automation tool, it teaches you to document every dependency, build fallback ("degraded") modes, and watch for contract changes before they take your product down.
+>
+> | Section | Preview |
+> |---|---|
+> | Apollo and the contract that killed it | How a well-built, popular Reddit app died overnight from a pricing change, not a code flaw. |
+> | A pipeline is a chain of contracts | Why the agreements between services, not the code, decide whether a pipeline survives. |
+> | Four kinds of data pipeline | The four pipeline types (ETL, streaming, workflow-automation, inference) and which one you will build. |
+> | Apollo as a brand story | Why, when an upstream service breaks, users blame your product — the damage flows to the smallest party. |
+> | Three survival disciplines | Document every dependency, design a fallback for each, and monitor for contract changes. |
+> | Building it in n8n | A four-node workflow that pulls, transforms, and stores real data on a schedule. |
+> | Reading Madison + breaking it on purpose | How Madison's intelligence workflow is built, and why you should trigger failures yourself before users do. |
+>
+> *Note: this chapter is written as continuous prose; the rows above preview its main movements rather than `##` headings.*
+
+
 ---
 
 On May 31, 2023, Christian Selig published a number.

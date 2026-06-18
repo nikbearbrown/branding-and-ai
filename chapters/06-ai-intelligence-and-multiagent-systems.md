@@ -1,6 +1,19 @@
 # Chapter 6 — AI Intelligence and Multi-Agent Systems
 *The hardest design decision is not which model to use — it is where the AI decides and where it does not.*
 
+> **TL;DR:** This chapter is about the hardest choice in adding AI to a product: where the AI gets to decide, and where a human must. It lays out four patterns of AI involvement, shows why that choice shapes what customers trust, what fails when systems run too autonomously, and how to write clear specifications for each AI role.
+>
+> | Section | Preview |
+> |---|---|
+> | Four Patterns of AI Intelligence | The four ways AI can sit in a workflow, from simple assistant to fully autonomous actor. |
+> | Why Architecture Is the Brand Decision | How the placement of AI decisions shapes what customers can trust about the product. |
+> | What Goes Wrong in the Autonomous Quadrant | The failure modes that appear when AI is allowed to act without human checkpoints. |
+> | The Madison Agents as a Worked Case | How Madison divides AI work across roles to keep failures locatable. |
+> | Writing Agent Specifications | How to specify an AI role's inputs, outputs, and limits so it can be built and tested. |
+> | Building the AI Layer in Your Pipeline | Adding the AI step to the pipeline from the previous chapter. |
+> | A Note on What Is Changing | Which parts of this advice are stable and which will shift as the tools evolve. |
+
+
 ---
 
 Here is a question worth sitting with before we start building anything. Why did AutoGPT cost $80 and deliver nothing, while Cursor works reliably enough that professional developers trust it with production code?

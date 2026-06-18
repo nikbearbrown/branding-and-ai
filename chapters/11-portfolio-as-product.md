@@ -1,6 +1,20 @@
 # Chapter 11 — Portfolio as Product
 *The artifact you build once and the returns that compound for a decade.*
 
+> **TL;DR:** This chapter treats your portfolio as a product that compounds — built once, generating credibility for years (as Brittany Chiang's did). It explains the three channels through which a portfolio pays off, how to curate ruthlessly, how to write a case study that does four jobs at once, and how to deploy and align it with your résumé and LinkedIn.
+>
+> | Section | Preview |
+> |---|---|
+> | Five things "portfolio" means | The five surfaces — résumé, site, GitHub, LinkedIn, portfolio-as-product — and how they should tell one story. |
+> | A portfolio is a compounding asset | The three channels — direct hiring, indirect reference, and template effects — through which a portfolio pays off over time. |
+> | Curation and negative space | Why three to six excellent projects beat ten, and how to decide what to leave out. |
+> | The centerpiece case study | How to write a case study that frames the problem, shows the work, connects to the brand, and admits its limits. |
+> | Tools to build it | v0, Framer, and hand-coded React compared for building and deploying the site. |
+> | Deploy and align | Shipping the site accessibly and making it match your résumé and LinkedIn so they read as one person. |
+>
+> *Note: this chapter is written as continuous prose; the rows above preview its main movements rather than `##` headings.*
+
+
 ---
 
 In 2017, Brittany Chiang published a redesign of her personal portfolio website. The site was clean, minimal, dark-themed — a slate-blue background, mint-green accents, monospace typography. The code was open. Over the following years, as she moved through Upstatement, Apple, Spotify, and senior engineering roles at Klaviyo, something quiet happened to that portfolio: the GitHub repo for its fourth iteration accumulated over 9,000 stars and 6,000 forks. Generations of developers used her design as the foundation of their first portfolio. Her name traveled into commit histories and footer credits of sites she had never seen, built by people she had never met.
