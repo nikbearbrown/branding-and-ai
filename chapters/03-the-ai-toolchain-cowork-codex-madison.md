@@ -372,7 +372,7 @@ with the five layer plans plus the load-bearing-layer call.
 
 The ideas in this chapter didn't appear from nowhere. **Marshall McLuhan** spent the 1960s arguing — to a public that mostly didn't yet have the vocabulary for it — that the *medium* shapes the message it carries, and that the architecture of a communication system is the message far more than any individual transmission through it. The Madison framework's central claim is the same shape, applied to AI tooling: the structural choices in the workflow (parallel ingestion branches, audit logs, the role split across the five agents) are the brand long before the marketing copy is written.
 
-![Marshall McLuhan. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/marshall-mcluhan.png)
+![Marshall McLuhan. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/marshall-mcluhan.jpg)
 *Marshall McLuhan — the media theorist whose "the medium is the message" is this chapter's claim that architecture is the brand.*
 
 **Run this:**

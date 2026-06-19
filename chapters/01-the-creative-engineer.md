@@ -215,7 +215,7 @@ Why technically excellent practitioners refuse brand work even when shown the la
 
 The ideas in this chapter didn't appear from nowhere. **Erving Goffman** was a sociologist who argued that social life is staged. In *The Presentation of Self in Everyday Life* (1959) he treated people as performers managing the impressions others form of them — controlling what shows on the "front stage" and what stays in the "back stage" — and called the whole effort *impression management*. That is exactly the work this chapter names *Brand*: once the build signal pools and your code can no longer speak for itself, what separates you is the legible identity you present — the archetype you occupy in someone else's story. Goffman's point lands hard here: the performance is not deception layered over the "real" work; it is the part that makes the work recognizable to the audience it is for.
 
-![Erving Goffman. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/erving-goffman.png)
+![Erving Goffman. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/erving-goffman.jpg)
 *Erving Goffman — the sociologist of self-presentation, whose "impression management" is what this chapter calls Brand.*
 
 **Run this:**

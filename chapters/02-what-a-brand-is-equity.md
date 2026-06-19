@@ -182,7 +182,7 @@ dimension. Leave the "level" column blank for ME to fill. Tag unsourced rows
 
 The ideas in this chapter didn't appear from nowhere. **Edward Bernays** spent the early twentieth century arguing that the most valuable thing a company owned was not its factory but the attitudes it could cultivate in the public mind. A nephew of Sigmund Freud, he helped invent the field he called "public relations" and set out its program in *Propaganda* (1928) and *Crystallizing Public Opinion* (1923): you do not sell a product, you engineer the associations and expectations that make people want it. That is precisely this chapter's thesis — that a brand is an *asset* living in someone else's head, the accumulated expectations that produce price premium, retention, and forgiveness. Bernays understood, decades before Keller drew the pyramid or Aaker named the levers, that the expensive part of a brand is the meaning lodged in minds, not the thing in the box.
 
-![Edward Bernays. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-bernays.png)
+![Edward Bernays. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-bernays.jpg)
 *Edward Bernays — the "father of public relations," who located a brand's value in the public mind, not the product.*
 
 **Run this:**

@@ -181,7 +181,7 @@ Stop after the files. Do not fabricate customer quotes or data.
 
 The ideas in this chapter didn't appear from nowhere. **John Dewey**, the American pragmatist philosopher and educator, argued in *Art as Experience* (1934) that meaning does not reside in an object or a finished work but in the *experience* a person undergoes in relating to it — a continuous, lived transaction between a person and their environment, with the most consequential being what he called "an experience": a unified episode that runs through to a felt completion. That is precisely this chapter's claim that the experience *is* the brand. A customer does not infer the brand from the positioning deck they never read; they infer it from the support chat, the onboarding email, the error message at 2 AM — the actual transactions they live through. Dewey's insistence that experience is the real unit, and that it accumulates across encounters rather than living in any single artifact, is the philosophical ground beneath journey mapping, moments of truth, and the gap between strategy and what customers actually meet.
 
-![John Dewey. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/john-dewey.png)
+![John Dewey. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/john-dewey.jpg)
 *John Dewey — the philosopher who located meaning in lived experience, not in the artifact, which is why the touchpoint outranks the strategy deck.*
 
 **Run this:**

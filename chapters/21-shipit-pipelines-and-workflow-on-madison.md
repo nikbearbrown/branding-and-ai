@@ -379,7 +379,7 @@ The ideas in this appendix didn't appear from nowhere. **Joan Robinson** develop
 ![Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joan-robinson.jpg)
 *Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
-![Joan Robinson](../images/joan-robinson-l7i.png)
+![Joan Robinson](../images/joan-robinson-l7i.jpg)
 
 *Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 

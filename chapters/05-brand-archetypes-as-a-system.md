@@ -296,7 +296,7 @@ after writing the file.
 
 The ideas in this chapter didn't appear from nowhere. **Carl Jung** was the Swiss psychiatrist who proposed that beneath each person's individual mind lies a *collective unconscious* — a shared inheritance of recurring patterns he called *archetypes*: the Mother, the Shadow, the Trickster, the Self. He developed these ideas across works including *Psychological Types* (1921) and the essays collected as *The Archetypes and the Collective Unconscious*. The chapter is built directly on this lineage: Mark and Pearson borrowed Jung's archetypes to build their twelve-brand system, and the borrowing is the reason the patterns *feel familiar* to customers below the level of conscious articulation — which is what makes archetype-based consistency accumulate into a recognition asset. Even the chapter's most useful tool comes straight from Jung: the *shadow* — the failure mode structurally embedded in each archetype's strength — is his term for the disowned part of the self that the persona refuses to show.
 
-![Carl Jung. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.png)
+![Carl Jung. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.jpg)
 *Carl Jung — the source of the archetypes and the shadow, the two ideas this chapter runs on.*
 
 **Run this:**

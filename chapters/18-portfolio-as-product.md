@@ -297,7 +297,7 @@ sending recruiters there. Self-criticism, not affirmation.
 
 The ideas in this chapter didn't appear from nowhere. **Massimo Vignelli** was the Italian-born modernist designer whose work — the 1972 New York City subway map, the American Airlines identity that lasted forty years, corporate systems for Knoll and Bloomingdale's — was governed by a single severe principle he called "the discipline of few." A handful of typefaces, a small fixed palette, a strict grid, and nothing else: he argued that constraint was what made a body of work read as one thing rather than a pile of unrelated jobs. That is this chapter's curation argument exactly. Three to six projects beat ten not because more is worse in the abstract, but because the discipline of subtraction — the negative-space rule, naming what you leave out and why — is what turns a directory of work into a portfolio with a point of view. Vignelli's portfolio compounded for decades because every piece was legibly the same designer; a Creative Engineer's compounds for the same reason.
 
-![Massimo Vignelli. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/massimo-vignelli.png)
+![Massimo Vignelli. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/massimo-vignelli.jpg)
 *Massimo Vignelli — the modernist of "the discipline of few," whose subtraction-as-method is the chapter's negative-space rule.*
 
 **Run this:**

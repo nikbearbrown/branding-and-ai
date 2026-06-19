@@ -365,7 +365,7 @@ Consistency Check Results.
 
 The ideas in this chapter didn't appear from nowhere. **Edward Chamberlin** was a Harvard economist whose *The Theory of Monopolistic Competition* (1933) broke open the textbook fiction that markets are either monopolies or fields of identical competitors. His insight was that most real firms live in between: through *product differentiation* — a distinct name, a distinct feature set, a distinct set of associations — a seller carves out a small monopoly over its own version of the product, while still competing in the larger category. That is precisely the mechanism this chapter is built on. A brand strategy is the deliberate construction of Chamberlin's differentiated position, and the negative-space list is how you defend it: the things Stripe declined to build are exactly what kept it from collapsing back into the undifferentiated payment-processor category.
 
-![Edward Chamberlin. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-chamberlin.png)
+![Edward Chamberlin. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-chamberlin.jpg)
 *Edward Chamberlin — the economist who showed that differentiation, not size, is what gives a firm a defensible position.*
 
 **Run this:**

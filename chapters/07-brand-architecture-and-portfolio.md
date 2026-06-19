@@ -150,7 +150,7 @@ The extension risk is well-documented in theory, but the actual mechanism by whi
 
 The ideas in this chapter didn't appear from nowhere. **Frederick Brooks** managed the development of IBM's System/360 and its operating system in the 1960s, then distilled the experience into *The Mythical Man-Month* (1975), the book that gave software engineering its most durable design principle: *conceptual integrity*. Brooks argued that a system reflecting one coherent set of design ideas is better to use than one packed with more features but built by many hands pulling in different directions — and that the integrity has to be imposed deliberately by an architect, because it never emerges on its own. That is exactly the choice this chapter opens with: did you *design* the system of brands, or *inherit* it? A portfolio that accumulates through acquisitions and one-off launches is Brooks's system-without-an-architect — feature-rich, internally inconsistent, and expensive to use. Brand architecture, and the pruning discipline, are how you reimpose conceptual integrity on a portfolio.
 
-![Frederick Brooks. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/frederick-brooks.png)
+![Frederick Brooks. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/frederick-brooks.jpg)
 *Frederick Brooks — the engineer who argued that a coherent system needs an architect, not just more parts.*
 
 **Run this:**

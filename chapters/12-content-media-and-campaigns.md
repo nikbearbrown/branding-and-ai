@@ -281,7 +281,7 @@ Facts I can supply for the content:
 
 The ideas in this chapter didn't appear from nowhere. **Harold Lasswell** was an American political scientist who, in the 1930s and 1940s, built the modern study of communication and propaganda — his analysis of mass persuasion in the First World War made the deliberate engineering of public opinion an object of serious study. He is best remembered for a single sentence that became the field's organizing question: communication is *"who says what, in which channel, to whom, with what effect."* That sentence is the skeleton of this entire chapter. The PESO model is *which channel*; the campaign brief's audience line is *to whom*; the one-claim message is *what*; the measurable objective and KPI are *with what effect*; and IMC is the insistence that the *who* stays one coherent voice across every channel. The flood of cheap AI content is exactly what happens when you generate the *what* without deciding the *to whom*, the *which channel*, or the *with what effect* — fluent saying with no answer to Lasswell's other four questions.
 
-![Harold Lasswell. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/harold-lasswell.png)
+![Harold Lasswell. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/harold-lasswell.jpg)
 *Harold Lasswell — whose five-part question (who / what / which channel / to whom / what effect) is the campaign brief in one sentence.*
 
 **Run this:**

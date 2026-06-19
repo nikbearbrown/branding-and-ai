@@ -132,7 +132,7 @@ Why the cultural tension lens works when it works, and fails when it fails, is n
 
 The discipline at the heart of this chapter — define your audience by what they *do*, not by who they are on paper, and let no claim into a persona unless you can tie it to observable behavior — has a deep ancestor in **B. F. Skinner**, the psychologist who built radical behaviorism. Skinner argued that a science of behavior should rest on what can be observed and measured — responses, the conditions that produce them, the consequences that reinforce them — rather than on inferred inner states you cannot verify. *The Behavior of Organisms* (1938) laid out the program. The chapter's persona rule is Skinnerian in spirit: a demographic descriptor or a vivid backstory is an unverifiable inner story; the milkshake study worked precisely because Christensen's team stopped guessing at motives and *watched what commuters did at 7 a.m.* A "verifiable behavior" with evidence behind it is exactly the kind of claim Skinner would accept — and the "plausible invention" is exactly the kind he'd reject.
 
-![B. F. Skinner. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/b-f-skinner.png)
+![B. F. Skinner. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/b-f-skinner.jpg)
 *B. F. Skinner — the behaviorist whose insistence on observable behavior over inferred states is the discipline behind a real persona.*
 
 **Run this:**

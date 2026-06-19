@@ -362,7 +362,7 @@ with all five components.
 
 The ideas in this chapter didn't appear from nowhere. **Saul Bass** was a graphic designer who, across the second half of the twentieth century, designed some of the most enduring corporate identities ever made — the AT&T globe, the Bell System bell, the United Airlines "tulip," logos for Continental and United Way — and reinvented the film title sequence with kinetic, abstract openings for *Vertigo*, *Psycho*, and *Anatomy of a Murder*. His working principle was reduction toward a single durable mark: strip a brand down to the simplest form that still carries its meaning, then let that form work at every scale and survive for decades. That is this chapter's argument about the logo and wordmark — start simple, because a complex symbol demands recognition you have not earned yet — and his title-sequence work is the chapter's point about *motion* as a brand component: how a mark appears and moves communicates as much as the mark itself. Bass also embodies the chapter's central discipline, that visual decisions must answer to the brand's strategy rather than personal flourish; he famously insisted a logo had to symbolize what the company *was*, not merely decorate it.
 
-![Saul Bass. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/saul-bass.png)
+![Saul Bass. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/saul-bass.jpg)
 *Saul Bass — the designer who reduced a brand to the simplest durable mark and made it move.*
 
 **Run this:**

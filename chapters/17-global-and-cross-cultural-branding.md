@@ -194,7 +194,7 @@ as fact. Do not reproduce blunder anecdotes. Stop after writing the file.
 
 The ideas in this chapter didn't appear from nowhere. **Margaret Mead** was the American anthropologist who did more than anyone of her generation to put a single idea into wide circulation: that the things one culture treats as universal and natural — how people come of age, what counts as normal, what a gesture or a color or a story means — are often local conventions, not human constants. Her best-known book, *Coming of Age in Samoa* (1928), argued that adolescence looked nothing like the American version once you crossed into a different set of cultural assumptions. That is precisely the move this chapter asks of a brand: to stop assuming that a tagline built on individual achievement, or an image of a wide-open landscape, carries the same meaning across a border. Mead's fieldwork method — go and observe inside the culture rather than reasoning about it from outside — is the same discipline the chapter calls the verification step: the transcreation and the risk audit must be checked by people embedded in the target market, not by a dictionary, a multilingual colleague, or a confident model.
 
-![Margaret Mead. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-mead.png)
+![Margaret Mead. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-mead.jpg)
 *Margaret Mead — the anthropologist who showed that "natural" is usually just "local," the premise beneath transcreation and the native-speaker check.*
 
 **Run this:**

@@ -258,7 +258,7 @@ The exact mechanism by which some brands successfully evolve their archetype thr
 
 **Joseph Campbell** synthesized the comparative mythology of dozens of cultures into the structural argument of *The Hero with a Thousand Faces* (1949): that human beings, across history and geography, tell the same shape of story because the shape corresponds to the experience of becoming someone capable of returning to the world with something the world needed. The chapter borrows the structure as a brand-storytelling tool — call to adventure, refusal, threshold, ordeal, return with the elixir — but Campbell's deeper claim is the one the chapter rests on: the structure works because it is true to a pattern people recognize in themselves, not because it is a clever rhetorical trick.
 
-![Joseph Campbell. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joseph-campbell.png)
+![Joseph Campbell. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/joseph-campbell.jpg)
 *Joseph Campbell — the mythologist whose monomyth gives the chapter its story architecture.*
 
 **Run this:**

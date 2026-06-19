@@ -168,7 +168,7 @@ The authenticity problem. The Tylenol case is compelling partly because J&J's st
 
 The ideas in this chapter didn't appear from nowhere. **Robert K. Merton** was the American sociologist who gave the field much of its working vocabulary — he coined "self-fulfilling prophecy," "role model," and the distinction between the *manifest* functions an institution openly claims and the *latent* functions it actually performs. The self-fulfilling prophecy is exactly the mechanism this chapter is built on: a definition of a situation, however false at the start, can cause behavior that makes it come true. A crisis narrative that runs unanswered — observers speculating, critics extrapolating, the framing set by a video and a silence — becomes the reality the brand then lives inside, regardless of the underlying facts. Merton's manifest/latent split is the other half: the Tylenol Credo worked because J&J's *stated* commitment to customers (manifest) turned out to be its *actual* operating priority under pressure (latent) — and audiences, as Merton would predict, read organizations by what they do when the prophecy is on the line, not by what they say.
 
-![Robert K. Merton. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/robert-k-merton.png)
+![Robert K. Merton. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/robert-k-merton.jpg)
 *Robert K. Merton — the sociologist of the self-fulfilling prophecy, the mechanism by which an unanswered crisis narrative becomes the brand's reality.*
 
 **Run this:**

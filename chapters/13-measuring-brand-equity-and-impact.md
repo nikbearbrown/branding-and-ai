@@ -188,7 +188,7 @@ The attribution problem is genuinely unsolved. MMM and multi-touch attribution b
 
 The ideas in this chapter didn't appear from nowhere. **W. Edwards Deming** was an American statistician and management thinker who, beginning in postwar Japan, taught manufacturers that quality comes from understanding and reducing variation in a process — and that the way to learn is the iterative Plan-Do-Study-Act cycle, tracking the right measurements over time rather than reacting to single readings. Two of his lessons are the backbone of this chapter. First, his distinction between common-cause variation (the normal noise of a stable process) and special-cause variation (a real signal that something changed) is precisely why "a number that moved is not a verdict, it is a question": most metric movement is noise, and the discipline is refusing to treat every wobble as caused by your work. Second, Deming warned against managing on figures you cannot trust — he was scathing about vanity numbers chosen because they flatter rather than because they inform a decision, which is exactly the Farris test this chapter applies. The attribution problem — did your campaign cause the November sales rise, or was it seasonality, a competitor's recall, the economy? — is Deming's common-versus-special-cause question wearing a marketer's clothes.
 
-![W. Edwards Deming. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/w-edwards-deming.png)
+![W. Edwards Deming. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/w-edwards-deming.jpg)
 *W. Edwards Deming — who taught that a moving number is usually noise, and the discipline is knowing when it is a real signal.*
 
 **Run this:**
