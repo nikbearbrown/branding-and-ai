@@ -213,24 +213,24 @@ Why technically excellent practitioners refuse brand work even when shown the la
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Thorstein Veblen** spent the 1890s at the University of Chicago working out a problem the chapter has been working on under a different name: why do humans signal? In *The Theory of the Leisure Class* (1899) Veblen named *conspicuous consumption* — the pattern of acquiring costly things specifically because their cost is observable, and therefore signals capacity to acquire them. Spence formalized the mechanism eighty years later in markets for jobs and credentials. Veblen saw it first in markets for status and class.
+The ideas in this chapter didn't appear from nowhere. **Erving Goffman** was a sociologist who argued that social life is staged. In *The Presentation of Self in Everyday Life* (1959) he treated people as performers managing the impressions others form of them — controlling what shows on the "front stage" and what stays in the "back stage" — and called the whole effort *impression management*. That is exactly the work this chapter names *Brand*: once the build signal pools and your code can no longer speak for itself, what separates you is the legible identity you present — the archetype you occupy in someone else's story. Goffman's point lands hard here: the performance is not deception layered over the "real" work; it is the part that makes the work recognizable to the audience it is for.
 
-![Thorstein Veblen, c. 1880s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/thorstein-veblen.jpg)
-*Thorstein Veblen, c. 1880s. AI-generated portrait based on a public domain photograph.*
+![Erving Goffman. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/erving-goffman.png)
+*Erving Goffman — the sociologist of self-presentation, whose "impression management" is what this chapter calls Brand.*
 
 **Run this:**
 
 ```
-Who was Thorstein Veblen, and how does his account of conspicuous consumption connect to Spence's signaling mechanism — and to the chapter's claim that *what* you signal has to change when the cost-structure of the old signal collapses? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
+Who was Erving Goffman, and how does his idea of "impression management" from The Presentation of Self in Everyday Life connect to this chapter's claim that Brand — the legible identity you present to an audience — becomes a costly signal once the build signal pools and your work can no longer speak for itself? Keep it to three paragraphs. End with the single most surprising thing about his career or ideas.
 ```
 
-→ Search **"Thorstein Veblen"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Erving Goffman"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain *conspicuous consumption* in plain language, as if you've never read economic sociology
-- Ask it to compare Veblen's leisure-class signaling to the GitHub-as-portfolio era of 2008–2020
-- Add a constraint: "Answer as if you're writing the rationale for why Brand becomes the new costly signal when Build cheapens"
+- Ask it to explain *impression management* and the front-stage / back-stage distinction in plain language, as if you've never read any sociology
+- Ask it to map Goffman's front stage onto a GitHub profile and LinkedIn bio — what is being staged, and for whom?
+- Add a constraint: "Answer as if you're writing the rationale for why curating a coherent public identity is not faking it but is the work that makes a portfolio legible"
 
 What changes? What gets better? What gets worse?
 

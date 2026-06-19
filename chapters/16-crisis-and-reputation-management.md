@@ -166,26 +166,30 @@ The authenticity problem. The Tylenol case is compelling partly because J&J's st
 
 ## AI Wayback Machine
 
-The theoretical foundation of this chapter — the idea that crisis response should be matched to the type of crisis rather than defaulting to a single response template — was developed most rigorously by **W. Timothy Coombs**, but the intellectual genealogy runs through **Kathleen Fearn-Banks** (*Crisis Communications: A Casebook Approach*, first edition 1996) and further back to **Otto Lerbinger** (*The Crisis Manager*, 1997), who was among the first to systematically categorize crisis types for communication planning purposes. The field of crisis communication as a scholarly discipline is relatively young — most of its foundational texts were published after the 1980s, partly in response to the Tylenol case and the Bhopal disaster (1984), both of which demonstrated that organizations without prepared response frameworks made decisions that made crises worse.
+The ideas in this chapter didn't appear from nowhere. **Robert K. Merton** was the American sociologist who gave the field much of its working vocabulary — he coined "self-fulfilling prophecy," "role model," and the distinction between the *manifest* functions an institution openly claims and the *latent* functions it actually performs. The self-fulfilling prophecy is exactly the mechanism this chapter is built on: a definition of a situation, however false at the start, can cause behavior that makes it come true. A crisis narrative that runs unanswered — observers speculating, critics extrapolating, the framing set by a video and a silence — becomes the reality the brand then lives inside, regardless of the underlying facts. Merton's manifest/latent split is the other half: the Tylenol Credo worked because J&J's *stated* commitment to customers (manifest) turned out to be its *actual* operating priority under pressure (latent) — and audiences, as Merton would predict, read organizations by what they do when the prophecy is on the line, not by what they say.
+
+![Robert K. Merton. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/robert-k-merton.png)
+*Robert K. Merton — the sociologist of the self-fulfilling prophecy, the mechanism by which an unanswered crisis narrative becomes the brand's reality.*
 
 **Run this:**
 
 ```
-Who is W. Timothy Coombs, and what is the core argument of Situational
-Crisis Communication Theory? How does matching the response strategy to
-the crisis type — rather than defaulting to a single approach — produce
-better brand outcomes? Keep it to three paragraphs. End with the single
-most common violation of SCCT's prescriptions that you observe in real
-corporate crisis responses.
+Who was Robert K. Merton, and what did he mean by the "self-fulfilling
+prophecy"? Explain how an unanswered crisis narrative on social media can
+become a self-fulfilling prophecy for a brand — the framing, once it
+propagates, producing the reputational damage it merely predicted. Then
+connect his manifest-vs-latent function distinction to why the Tylenol
+response worked. Keep it to three paragraphs. End with the single most
+important implication for the timing of a crisis response.
 ```
 
-→ Search **"Situational Crisis Communication Theory Coombs"** after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Robert K. Merton"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain what "mortification" means as a crisis response strategy, and why it is so rarely used despite being prescribed for high-responsibility crises
-- Ask it to compare the Tylenol response and the BP Deepwater Horizon response through the SCCT lens — same framework, opposite application
-- Add a constraint: "Answer as if you are writing the first two paragraphs of a crisis playbook for a one-person consulting brand that has just published advice that a client followed and it backfired"
+- Ask it to explain "self-fulfilling prophecy" in plain language, with a brand example that has nothing to do with crisis
+- Ask it to apply the manifest/latent distinction to the BP Deepwater Horizon response — what BP's stated values were versus what its conduct revealed
+- Add a constraint: "Answer as if you are writing the triage note for a one-person consulting brand deciding whether to post a holding statement in the next hour, where silence risks letting the prophecy set"
 
 What changes? What gets better? What gets worse?
 

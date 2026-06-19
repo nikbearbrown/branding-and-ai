@@ -148,24 +148,28 @@ The extension risk is well-documented in theory, but the actual mechanism by whi
 
 ## AI Wayback Machine
 
-Brand architecture as a formal discipline is largely a product of the 1980s and 1990s, when diversified corporations began accumulating portfolios large enough that informal naming decisions started creating expensive inconsistencies. The intellectual foundations trace to **David Aaker**, whose *Managing Brand Equity* (1991) was the first systematic treatment of brand equity as a balance-sheet asset — something that could be measured, built, damaged, and managed. Before Aaker, "brand" in most corporate contexts meant advertising and logo. After Aaker, it meant a quantifiable asset that organizational decisions should be optimized around.
+The ideas in this chapter didn't appear from nowhere. **Frederick Brooks** managed the development of IBM's System/360 and its operating system in the 1960s, then distilled the experience into *The Mythical Man-Month* (1975), the book that gave software engineering its most durable design principle: *conceptual integrity*. Brooks argued that a system reflecting one coherent set of design ideas is better to use than one packed with more features but built by many hands pulling in different directions — and that the integrity has to be imposed deliberately by an architect, because it never emerges on its own. That is exactly the choice this chapter opens with: did you *design* the system of brands, or *inherit* it? A portfolio that accumulates through acquisitions and one-off launches is Brooks's system-without-an-architect — feature-rich, internally inconsistent, and expensive to use. Brand architecture, and the pruning discipline, are how you reimpose conceptual integrity on a portfolio.
+
+![Frederick Brooks. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/frederick-brooks.png)
+*Frederick Brooks — the engineer who argued that a coherent system needs an architect, not just more parts.*
 
 **Run this:**
 
 ```
-Who is David Aaker, and what was the core argument in Managing Brand Equity (1991)?
-How did his framing change how corporations thought about their brand portfolios?
-Keep it to three paragraphs. End with the single most surprising implication of
-treating brand equity as a measurable asset.
+Who is Frederick Brooks, and what did he mean by "conceptual integrity" in
+The Mythical Man-Month (1975)? Connect it to this chapter's claim that a brand
+portfolio is either designed as a coherent system or inherited as an incoherent
+accumulation. Keep it to three paragraphs. End with the single biggest cost a
+system pays when it has no architect imposing conceptual integrity.
 ```
 
-→ Search **"David Aaker brand equity"** after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Fred Brooks Mythical Man-Month"** after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain what *brand equity* actually means quantitatively — what you are measuring when you measure it
-- Ask it to contrast Aaker's asset-based view of brand with Kapferer's identity-based view and explain which is more useful for a personal brand
-- Add a constraint: "Answer as if you are explaining to a founder why their portfolio architecture decision is actually a balance-sheet decision"
+- Ask it to explain "conceptual integrity" in plain language, as a rule for deciding whether to add a brand to a portfolio
+- Ask it to map Brooks's argument onto this chapter's claim that *pruning* — removing brands — usually increases total portfolio value
+- Add a constraint: "Answer as if you're advising a company auditing an inherited portfolio of 40 brands, deciding which to keep"
 
 What changes? What gets better? What gets worse?
 

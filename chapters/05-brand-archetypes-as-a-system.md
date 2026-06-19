@@ -292,6 +292,34 @@ after writing the file.
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Carl Jung** was the Swiss psychiatrist who proposed that beneath each person's individual mind lies a *collective unconscious* — a shared inheritance of recurring patterns he called *archetypes*: the Mother, the Shadow, the Trickster, the Self. He developed these ideas across works including *Psychological Types* (1921) and the essays collected as *The Archetypes and the Collective Unconscious*. The chapter is built directly on this lineage: Mark and Pearson borrowed Jung's archetypes to build their twelve-brand system, and the borrowing is the reason the patterns *feel familiar* to customers below the level of conscious articulation — which is what makes archetype-based consistency accumulate into a recognition asset. Even the chapter's most useful tool comes straight from Jung: the *shadow* — the failure mode structurally embedded in each archetype's strength — is his term for the disowned part of the self that the persona refuses to show.
+
+![Carl Jung. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/carl-jung.png)
+*Carl Jung — the source of the archetypes and the shadow, the two ideas this chapter runs on.*
+
+**Run this:**
+
+```
+Who was Carl Jung, and how do his concepts of archetypes and the shadow connect
+to this chapter's claim that a brand archetype is a forcing function whose
+strength carries a built-in failure mode (its shadow)? Keep it to three
+paragraphs. End with the single most surprising thing about his career or ideas.
+```
+
+→ Search **"Carl Jung"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, the difference between Jung's *psychological* archetypes and the *brand* archetypes Mark and Pearson built from them
+- Ask it to apply Jung's idea of the shadow to one of the three drift cases — Tropicana, Gap, or New Coke
+- Add a constraint: "Answer as if you are explaining why an archetype's shadow is not an accident but the same commitment that makes the archetype recognizable, taken too far"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## Key Terms
 
 brand archetype · Mark/Pearson system · archetype shadow · recognition asset · forcing function · category-error drift · shadow drift · Innocent · Sage · Hero · Outlaw · Magician · Everyman · Caregiver · Lover · Jester · Ruler · Explorer · Creator

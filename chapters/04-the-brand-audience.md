@@ -130,24 +130,28 @@ Why the cultural tension lens works when it works, and fails when it fails, is n
 
 ## AI Wayback Machine
 
-The segmentation-targeting-positioning spine is most associated with Philip Kotler, who formalized and popularized it across decades of editions of *Marketing Management* (first edition 1967). But the intellectual ancestry runs to **Wendell Smith**, whose 1956 paper "Product Differentiation and Market Segmentation as Alternative Marketing Strategies" in the *Journal of Marketing* is the first rigorous treatment of segmentation as a strategic choice rather than a descriptive observation. Smith's paper appeared in the same decade as Spence's signaling work was being conceptualized — two economists, both trying to understand how markets actually clear when information is asymmetric and preferences are heterogeneous.
+The discipline at the heart of this chapter — define your audience by what they *do*, not by who they are on paper, and let no claim into a persona unless you can tie it to observable behavior — has a deep ancestor in **B. F. Skinner**, the psychologist who built radical behaviorism. Skinner argued that a science of behavior should rest on what can be observed and measured — responses, the conditions that produce them, the consequences that reinforce them — rather than on inferred inner states you cannot verify. *The Behavior of Organisms* (1938) laid out the program. The chapter's persona rule is Skinnerian in spirit: a demographic descriptor or a vivid backstory is an unverifiable inner story; the milkshake study worked precisely because Christensen's team stopped guessing at motives and *watched what commuters did at 7 a.m.* A "verifiable behavior" with evidence behind it is exactly the kind of claim Skinner would accept — and the "plausible invention" is exactly the kind he'd reject.
+
+![B. F. Skinner. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/b-f-skinner.png)
+*B. F. Skinner — the behaviorist whose insistence on observable behavior over inferred states is the discipline behind a real persona.*
 
 **Run this:**
 
 ```
-Who was Wendell Smith, and what was the argument in his 1956 paper on market
-segmentation? How does his framing differ from how segmentation is typically
-taught today? Keep it to three paragraphs. End with the single most surprising
-thing about the paper's reception or influence.
+Who was B. F. Skinner, and how does his radical behaviorism — the insistence on
+observable behavior over inferred inner states — connect to this chapter's rule
+that a real persona rests on a verifiable behavioral claim backed by evidence,
+not on a plausible-but-invented backstory? Keep it to three paragraphs. End with
+the single most surprising thing about his career or ideas.
 ```
 
-→ Search **"Wendell Smith market segmentation 1956"** after you run this. See what the model got right, got wrong, or left out.
+→ Search **"B. F. Skinner"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain the difference between *product differentiation* (Smith's alternative strategy) and *segmentation* — and when each is the right choice
-- Ask it to apply Smith's original framing to a modern platform company and describe what "segmentation" would mean in that context
-- Add a constraint: "Answer as if you are explaining why a founder who wants to serve 'everyone' is actually making a product-differentiation argument, not a segmentation argument"
+- Ask it to explain *radical behaviorism* and the difference between an observable behavior and an inferred mental state in plain language
+- Ask it to apply Skinner's observe-the-behavior stance to the milkshake JTBD study — what would Skinner say the researchers got right?
+- Add a constraint: "Answer as if you are explaining why a persona claim tagged 'needs evidence' is a hypothesis, not a fact, until someone observes the behavior"
 
 What changes? What gets better? What gets worse?
 

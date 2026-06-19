@@ -178,6 +178,36 @@ dimension. Leave the "level" column blank for ME to fill. Tag unsourced rows
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Edward Bernays** spent the early twentieth century arguing that the most valuable thing a company owned was not its factory but the attitudes it could cultivate in the public mind. A nephew of Sigmund Freud, he helped invent the field he called "public relations" and set out its program in *Propaganda* (1928) and *Crystallizing Public Opinion* (1923): you do not sell a product, you engineer the associations and expectations that make people want it. That is precisely this chapter's thesis — that a brand is an *asset* living in someone else's head, the accumulated expectations that produce price premium, retention, and forgiveness. Bernays understood, decades before Keller drew the pyramid or Aaker named the levers, that the expensive part of a brand is the meaning lodged in minds, not the thing in the box.
+
+![Edward Bernays. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-bernays.png)
+*Edward Bernays — the "father of public relations," who located a brand's value in the public mind, not the product.*
+
+**Run this:**
+
+```
+Who was Edward Bernays, and how does his idea that companies cultivate
+associations and expectations in the public mind connect to this chapter's claim
+that a brand is an asset living in someone else's head — the accumulated
+expectations that produce price premium, retention, and forgiveness? Keep it to
+three paragraphs. End with the single most surprising thing about his career or
+ideas.
+```
+
+→ Search **"Edward Bernays"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, the difference between selling a product's features and engineering the associations around it
+- Ask it to map Bernays's "associations in the public mind" onto Aaker's *brand associations* dimension and Keller's *imagery* level
+- Add a constraint: "Answer as if you are explaining why goodwill on a balance sheet is the dollar value of expectations Bernays would have called manufactured"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## Key Terms
 
 brand equity · intangible asset · goodwill · price premium · CBBE pyramid (salience / performance / imagery / judgments / feelings / resonance) · Aaker dimensions (awareness / perceived quality / associations / loyalty) · brand identity vs. image · royalty-relief valuation · ISO 10668

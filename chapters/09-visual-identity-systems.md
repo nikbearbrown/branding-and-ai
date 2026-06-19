@@ -360,28 +360,29 @@ with all five components.
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and over the next four decades defined the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue*. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
+The ideas in this chapter didn't appear from nowhere. **Saul Bass** was a graphic designer who, across the second half of the twentieth century, designed some of the most enduring corporate identities ever made — the AT&T globe, the Bell System bell, the United Airlines "tulip," logos for Continental and United Way — and reinvented the film title sequence with kinetic, abstract openings for *Vertigo*, *Psycho*, and *Anatomy of a Murder*. His working principle was reduction toward a single durable mark: strip a brand down to the simplest form that still carries its meaning, then let that form work at every scale and survive for decades. That is this chapter's argument about the logo and wordmark — start simple, because a complex symbol demands recognition you have not earned yet — and his title-sequence work is the chapter's point about *motion* as a brand component: how a mark appears and moves communicates as much as the mark itself. Bass also embodies the chapter's central discipline, that visual decisions must answer to the brand's strategy rather than personal flourish; he famously insisted a logo had to symbolize what the company *was*, not merely decorate it.
 
-![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/cipe-pineles.jpg)
-*Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph.*
+![Saul Bass. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/saul-bass.png)
+*Saul Bass — the designer who reduced a brand to the simplest durable mark and made it move.*
 
 **Run this:**
 
 ```
-Who was Cipe Pineles, and how does her work building cover-to-cover visual
-systems for *Glamour*, *Seventeen*, and *Vogue* connect to the chapter's
-argument that visual identity is a system of disciplined choices rather than
-a logo plus a palette? Keep it to three paragraphs. End with the single most
-surprising thing about her career or ideas.
+Who was Saul Bass, and how does his approach to corporate logos (the AT&T globe,
+the Bell System mark) and film title sequences connect to this chapter's argument
+that a visual identity is a system of disciplined choices — start with a simple
+mark, let it work at every scale, and make motion express the same archetype?
+Keep it to three paragraphs. End with the single most surprising thing about his
+career or ideas.
 ```
 
-→ Search **"Cipe Pineles"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Saul Bass"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain why a visual *system* outperforms a visual *style* over time, in plain language
-- Ask it to compare Pineles's editorial-design discipline to the visual-identity rules this chapter teaches for AI products
-- Add a constraint: "Answer as if you're writing the visual-system rules for your Madison-style AI tool, governed by the archetype from Chapter 6"
+- Ask it to explain, in plain language, why a *simple* mark survives longer than a complex one — and why a new brand should start simple
+- Ask it to connect Bass's title-sequence work to this chapter's treatment of *motion* as a visual identity component for digital products
+- Add a constraint: "Answer as if you're deciding between a wordmark and a complex symbol for a brand-new AI tool, governed by the archetype from Chapter 6"
 
 What changes? What gets better? What gets worse?
 

@@ -190,6 +190,36 @@ as fact. Do not reproduce blunder anecdotes. Stop after writing the file.
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Margaret Mead** was the American anthropologist who did more than anyone of her generation to put a single idea into wide circulation: that the things one culture treats as universal and natural — how people come of age, what counts as normal, what a gesture or a color or a story means — are often local conventions, not human constants. Her best-known book, *Coming of Age in Samoa* (1928), argued that adolescence looked nothing like the American version once you crossed into a different set of cultural assumptions. That is precisely the move this chapter asks of a brand: to stop assuming that a tagline built on individual achievement, or an image of a wide-open landscape, carries the same meaning across a border. Mead's fieldwork method — go and observe inside the culture rather than reasoning about it from outside — is the same discipline the chapter calls the verification step: the transcreation and the risk audit must be checked by people embedded in the target market, not by a dictionary, a multilingual colleague, or a confident model.
+
+![Margaret Mead. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/margaret-mead.png)
+*Margaret Mead — the anthropologist who showed that "natural" is usually just "local," the premise beneath transcreation and the native-speaker check.*
+
+**Run this:**
+
+```
+Who was Margaret Mead, and what was the central argument of her cross-cultural
+anthropology — that much of what one culture treats as natural and universal is
+actually local convention? Connect this to why a brand cannot "translate" its
+way into a new market: meaning, humor, and emotional resonance are cultural, not
+linguistic. Keep it to three paragraphs. End with the single most surprising
+thing about her work or career.
+```
+
+→ Search **"Margaret Mead"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, why something "natural" in one culture can be a convention you have to verify in another
+- Ask it to connect Mead's fieldwork method to the chapter's claim that a transcreation must be checked by someone embedded in the target market, not by the model
+- Add a constraint: "Answer as if you are warning a glocalization team about treating Hofstede's dimensions as a script for individuals rather than a population tendency"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## Key Terms
 
 standardization vs. adaptation · glocalization · Hofstede cultural dimensions · power distance · individualism vs. collectivism · translation vs. localization vs. transcreation · core vs. expression · cross-cultural verification

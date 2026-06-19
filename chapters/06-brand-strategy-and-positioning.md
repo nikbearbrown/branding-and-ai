@@ -363,29 +363,29 @@ Consistency Check Results.
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Bill Bernbach** co-founded DDB in 1949 and over the next two decades built the work that defined what disruptive-startup brand could look like — *Think Small* for Volkswagen, *We Try Harder* for Avis, *You Don't Have to Be Jewish to Love Levy's*. Each campaign worked the same move: name the thing the incumbent's brand refused to acknowledge — the car is small, we are #2, the bread is Jewish — and turn the refusal into the position. Bernbach's central practice — writing brand strategy from the audience's existing skepticism rather than from the company's preferred self-image — is this chapter's working method. The Stripe inversion is an instance of it. The negative-space list is the deliberate version of it.
+The ideas in this chapter didn't appear from nowhere. **Edward Chamberlin** was a Harvard economist whose *The Theory of Monopolistic Competition* (1933) broke open the textbook fiction that markets are either monopolies or fields of identical competitors. His insight was that most real firms live in between: through *product differentiation* — a distinct name, a distinct feature set, a distinct set of associations — a seller carves out a small monopoly over its own version of the product, while still competing in the larger category. That is precisely the mechanism this chapter is built on. A brand strategy is the deliberate construction of Chamberlin's differentiated position, and the negative-space list is how you defend it: the things Stripe declined to build are exactly what kept it from collapsing back into the undifferentiated payment-processor category.
 
-![Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/bill-bernbach.jpg)
-*Bill Bernbach, c. 1960s. AI-generated portrait based on a public domain photograph.*
+![Edward Chamberlin. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/edward-chamberlin.png)
+*Edward Chamberlin — the economist who showed that differentiation, not size, is what gives a firm a defensible position.*
 
 **Run this:**
 
 ```
-Who was Bill Bernbach, and how do his disruptive-startup campaigns
-(*Think Small*, *We Try Harder*) connect to the chapter's argument
-that a startup brand strategy is built from what the incumbent refuses
-to say — and that the *refusal* is the position? Keep it to three
-paragraphs. End with the single most surprising thing about his career
-or ideas.
+Who was Edward Chamberlin, and how does his theory of monopolistic
+competition — that product differentiation gives a firm a small monopoly
+over its own version of a product — connect to this chapter's argument
+that a startup builds a defensible brand by what it consistently declines
+to build? Keep it to three paragraphs. End by naming the single biggest
+risk a firm runs when its differentiation is shallow.
 ```
 
-→ Search **"Bill Bernbach DDB"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Edward Chamberlin"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain why startup brands win by *naming* the thing the incumbent refuses to admit, in plain language
-- Ask it to compare Bernbach's *Think Small* to the Stripe inversion analyzed in this chapter
-- Add a constraint: "Answer as if you're writing the positioning paragraph for a startup competing against an entrenched incumbent"
+- Ask it to explain "monopolistic competition" in plain language, as if to a founder who has never taken an economics course
+- Ask it to map Chamberlin's product differentiation onto the Stripe inversion analyzed in this chapter — what is Stripe's "small monopoly," and which refusals protect it?
+- Add a constraint: "Frame differentiation as a constraint the firm chooses to keep paying for, since the chapter argues a brand is defined by what it declines"
 
 What changes? What gets better? What gets worse?
 

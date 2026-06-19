@@ -177,6 +177,37 @@ Stop after the files. Do not fabricate customer quotes or data.
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **John Dewey**, the American pragmatist philosopher and educator, argued in *Art as Experience* (1934) that meaning does not reside in an object or a finished work but in the *experience* a person undergoes in relating to it — a continuous, lived transaction between a person and their environment, with the most consequential being what he called "an experience": a unified episode that runs through to a felt completion. That is precisely this chapter's claim that the experience *is* the brand. A customer does not infer the brand from the positioning deck they never read; they infer it from the support chat, the onboarding email, the error message at 2 AM — the actual transactions they live through. Dewey's insistence that experience is the real unit, and that it accumulates across encounters rather than living in any single artifact, is the philosophical ground beneath journey mapping, moments of truth, and the gap between strategy and what customers actually meet.
+
+![John Dewey. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/john-dewey.png)
+*John Dewey — the philosopher who located meaning in lived experience, not in the artifact, which is why the touchpoint outranks the strategy deck.*
+
+**Run this:**
+
+```
+Who was John Dewey, and how does his argument in Art as Experience — that
+meaning lives in the experience a person undergoes, not in the finished
+object — connect to this chapter's claim that "the experience is the brand"
+and that customers infer a brand from touchpoints (support chats, onboarding
+emails, error messages) rather than from a positioning statement? Keep it to
+three paragraphs and end with the single most surprising thing about his
+ideas.
+```
+
+→ Search **"John Dewey"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, the difference between *having* an experience and Dewey's idea of *an* experience — a complete one
+- Connect it to a specific moment of truth from this chapter (the first support interaction, the onboarding flow) and ask what Dewey would say a brand should design for
+- Add a constraint tied to the chapter's central tension: "Answer as if you are advising a brand whose warm marketing voice goes cold in its operational touchpoints"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## Key Terms
 
 brand experience · touchpoint · customer journey map · service blueprint (front-stage / back-stage) · experience economy (Pine/Gilmore) · moments of truth (ZMOT / FMOT / SMOT) · brand constants vs. variables · omnichannel consistency

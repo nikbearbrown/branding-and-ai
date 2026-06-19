@@ -279,29 +279,29 @@ Facts I can supply for the content:
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **David Ogilvy** founded Ogilvy & Mather in 1948 and spent the next four decades making the argument that advertising only works when it is grounded in research, says one specific thing clearly, and respects the audience's intelligence. His campaigns for Rolls-Royce (*At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock*), Hathaway shirts, and Schweppes were effective because they made a single, specific, verifiable claim and then got out of the way. Ogilvy's dictum — "tell the truth, but make the truth fascinating" — is this chapter's argument translated from 1950s Madison Avenue to 2026 AI-assisted content strategy. The flood of cheap generic content is the precise opposite of what Ogilvy described as effective: it makes no specific claim, respects no specific audience, and tells no particular truth.
+The ideas in this chapter didn't appear from nowhere. **Harold Lasswell** was an American political scientist who, in the 1930s and 1940s, built the modern study of communication and propaganda — his analysis of mass persuasion in the First World War made the deliberate engineering of public opinion an object of serious study. He is best remembered for a single sentence that became the field's organizing question: communication is *"who says what, in which channel, to whom, with what effect."* That sentence is the skeleton of this entire chapter. The PESO model is *which channel*; the campaign brief's audience line is *to whom*; the one-claim message is *what*; the measurable objective and KPI are *with what effect*; and IMC is the insistence that the *who* stays one coherent voice across every channel. The flood of cheap AI content is exactly what happens when you generate the *what* without deciding the *to whom*, the *which channel*, or the *with what effect* — fluent saying with no answer to Lasswell's other four questions.
 
-![David Ogilvy, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/david-ogilvy.jpg)
-*David Ogilvy, c. 1960s. AI-generated portrait based on a public domain photograph.*
+![Harold Lasswell. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/harold-lasswell.png)
+*Harold Lasswell — whose five-part question (who / what / which channel / to whom / what effect) is the campaign brief in one sentence.*
 
 **Run this:**
 
 ```
-Who was David Ogilvy, and how does his argument that effective advertising
-makes one specific, verifiable claim — rather than a list of features or
-generic benefits — connect to the chapter's argument that AI-generated
-content at volume is not a strategy because it cannot supply the judgment
-of what is worth saying? Keep it to three paragraphs. End with the single
-most surprising thing about his career or ideas.
+Who was Harold Lasswell, and how does his communication model — "who says
+what, in which channel, to whom, with what effect" — map onto this chapter's
+campaign brief (audience, message, channel mix, measurement) and the PESO
+model? Explain why AI-generated content at volume answers only the "what"
+and ignores the other four questions. Keep it to three paragraphs and end
+with the single most surprising thing about his career or ideas.
 ```
 
-→ Search **"David Ogilvy"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Harold Lasswell"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain the difference between an advertising claim and a brand promise, in plain language
-- Ask it to compare Ogilvy's "one claim clearly stated" discipline to the IMC principle in this chapter
-- Add a constraint: "Answer as if you're writing the editorial policy for a Sage-archetype AI tool's content calendar"
+- Ask it to restate Lasswell's five-part question in plain language a small-business owner planning their first campaign could use
+- Connect it to the Stripe Atlas example in this chapter: map each of Lasswell's five elements onto what Stripe actually did
+- Add a constraint tied to the chapter's central tension: "Answer as if you're warning a brand that is treating AI content volume as a strategy — which of Lasswell's five questions has it skipped?"
 
 What changes? What gets better? What gets worse?
 

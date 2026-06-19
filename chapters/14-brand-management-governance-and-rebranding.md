@@ -174,6 +174,37 @@ Do not redesign any asset. Stop after writing both files.
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Elinor Ostrom**, who in 2009 became the first woman to win the Nobel Memorial Prize in Economic Sciences, spent decades studying how communities govern shared resources — fisheries, forests, irrigation systems — without either privatizing them or handing them to a central authority. Her book *Governing the Commons* (1990) showed that durable shared resources are held together not by a rulebook handed down from above but by *living institutions*: rules the users themselves can monitor, graduated responses to small violations, low-cost ways to resolve disputes, and rules that get revised as conditions change. That is exactly the argument of this chapter. A brand is a commons — many hands touch it, no single PDF can police it — and it survives not through a static brand book on a shelf but through living guidelines: a system people can actually find and use, a steward who reads the flags rather than approving every slide, and a decision record that lets the rules evolve. Ostrom's most relevant finding for the steward: the most resilient systems are the ones whose own users can adjust the rules when drift turns out to be the system trying to become something new.
+
+![Elinor Ostrom. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/elinor-ostrom.png)
+*Elinor Ostrom — the scholar of how communities govern a shared resource without a top-down rulebook, which is what brand stewardship at scale actually is.*
+
+**Run this:**
+
+```
+Who was Elinor Ostrom, and how do her design principles for governing a
+commons in Governing the Commons — rules the users can monitor, graduated
+sanctions, low-cost conflict resolution, and rules that the users themselves
+can revise — connect to this chapter's argument that a brand is kept coherent
+not by a static brand book but by "living guidelines," a steward, and a
+decision record? Keep it to three paragraphs and end with the single most
+surprising thing about her work.
+```
+
+→ Search **"Elinor Ostrom"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, why a shared resource governed by its own users can outlast one governed by a central rulebook
+- Connect it to a specific case from this chapter (the off-system teal grabbed for a 4 PM slide, or a visual language drifting younger for two years) and ask what Ostrom would say about whether to enforce the rule or revise it
+- Add a constraint tied to the chapter's central tension: "Answer as if you are advising a brand steward deciding whether a repeated departure across fifteen assets is drift to correct or a signal that the system should change"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## Key Terms
 
 brand governance · living guidelines · brand stewardship · DAM (digital asset management) · design system · decision record · drift vs. intentional variation · refresh vs. rebrand · equity migration · equity stranding

@@ -128,6 +128,36 @@ The protection checklist is simple. Have you run the USPTO search and its phonet
 
 ---
 
+## AI Wayback Machine
+
+The ideas in this chapter didn't appear from nowhere. **Lawrence Lessig** is a legal scholar — at Stanford and later Harvard — who became one of the most influential thinkers on intellectual property in the internet age, co-founding Creative Commons in 2001 and arguing in books like *Code and Other Laws of Cyberspace* (1999) that "code is law": the technical architecture of a system regulates behavior as powerfully as any statute. His central concern was where the boundaries of ownership should sit — what a name, a work, or an idea can legitimately exclude others from using, and what it cannot. That is the exact terrain this chapter walks. A trademark is a state-granted right to exclude others from a name *in a specific class* — not a right to own a word outright — and the *Abercrombie* spectrum is, at bottom, an argument about how much exclusivity the law should grant: none for the generic word everyone needs, the most for the fanciful word no one needed before you invented it. Lessig's lifelong question — how far ownership should reach before it starts choking the commons it depends on — is the question underneath every clearance decision.
+
+![Lawrence Lessig. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/lawrence-lessig.png)
+*Lawrence Lessig — the scholar who asked where the right to exclude should stop and the shared commons should begin.*
+
+**Run this:**
+
+```
+Who is Lawrence Lessig, and what is his core argument about intellectual
+property and the boundaries of ownership? Connect it to this chapter's claim
+that a trademark is a narrow right to exclude others from a name within a
+specific class — not ownership of a word — and that generic terms can never
+be owned at all. Keep it to three paragraphs. End with the single biggest
+tension between protecting a name and keeping language usable by everyone.
+```
+
+→ Search **"Lawrence Lessig"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+
+**Now make the prompt better.** Try one of these:
+
+- Ask it to explain, in plain language, why the law refuses to let anyone own a *generic* term like "Software" for a software company
+- Ask it to connect Lessig's "code is law" idea to this chapter's point that a domain registry and a trademark register are two separate legal systems that can conflict
+- Add a constraint: "Answer as if you're advising a founder on why a strong, defensible trademark is also a narrow one — tie it to the legibility-versus-exclusivity trade-off in this chapter"
+
+What changes? What gets better? What gets worse?
+
+---
+
 ## LLM Exercises
 
 ### Exercise 1 — When to Use AI

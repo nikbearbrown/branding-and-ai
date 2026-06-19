@@ -295,29 +295,30 @@ sending recruiters there. Self-criticism, not affirmation.
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Charles and Ray Eames** built their portfolio across furniture, film, exhibitions, photography, and graphic design — the molded plywood chair, the Lounge Chair, the *Powers of Ten* short film, the IBM World's Fair pavilion, the Eames House itself — over four decades from 1941 onward. The portfolio reads as a single body of work, despite covering categories that have nothing to do with each other, because every piece is governed by the same design philosophy: rigorous problem framing, materials honestly used, the human experience as the unit of measurement. The chapter's argument that the portfolio is a *product* — a coherent artifact that compounds over time, not a directory of unrelated projects — is the Eames operating principle, applied to the Creative Engineer's first decade.
+The ideas in this chapter didn't appear from nowhere. **Massimo Vignelli** was the Italian-born modernist designer whose work — the 1972 New York City subway map, the American Airlines identity that lasted forty years, corporate systems for Knoll and Bloomingdale's — was governed by a single severe principle he called "the discipline of few." A handful of typefaces, a small fixed palette, a strict grid, and nothing else: he argued that constraint was what made a body of work read as one thing rather than a pile of unrelated jobs. That is this chapter's curation argument exactly. Three to six projects beat ten not because more is worse in the abstract, but because the discipline of subtraction — the negative-space rule, naming what you leave out and why — is what turns a directory of work into a portfolio with a point of view. Vignelli's portfolio compounded for decades because every piece was legibly the same designer; a Creative Engineer's compounds for the same reason.
 
-![Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/charles-and-ray-eames.jpg)
-*Charles and Ray Eames, c. 1950s. AI-generated portrait based on a public domain photograph.*
+![Massimo Vignelli. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/massimo-vignelli.png)
+*Massimo Vignelli — the modernist of "the discipline of few," whose subtraction-as-method is the chapter's negative-space rule.*
 
 **Run this:**
 
 ```
-Who were Charles and Ray Eames, and how does their portfolio — varied across
-furniture, film, and exhibition design but unified by a single design
-philosophy — connect to the chapter's argument that the portfolio is itself
-a product, with one coherent thesis underneath every artifact? Keep it to
-three paragraphs. End with the single most surprising thing about their
-career or ideas.
+Who was Massimo Vignelli, and what did he mean by "the discipline of few"?
+Explain how a deliberately constrained body of work — few typefaces, a fixed
+palette, a strict grid — reads as one coherent thing rather than a directory
+of unrelated jobs. Connect this to the chapter's claim that a portfolio of
+three to six projects, ruthlessly curated, compounds more than a wall of ten.
+Keep it to three paragraphs. End with the single most surprising thing about
+his career or ideas.
 ```
 
-→ Search **"Charles and Ray Eames"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"Massimo Vignelli"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain how a portfolio across unrelated mediums can still cohere, in plain language
-- Ask it to compare the Eameses' *Powers of Ten* to a Creative Engineer's case-study writing
-- Add a constraint: "Answer as if you're writing the connecting thesis statement for a Creative Engineer's first ten-piece portfolio"
+- Ask it to explain "the discipline of few" in plain language, with one example outside graphic design
+- Ask it to connect Vignelli's NYC subway map controversy to the negative-space rule — what he chose to leave off, and what it cost
+- Add a constraint: "Answer as if you're writing the curation rationale for a Creative Engineer choosing three projects out of ten for a portfolio"
 
 What changes? What gets better? What gets worse?
 

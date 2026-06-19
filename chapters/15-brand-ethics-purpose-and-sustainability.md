@@ -257,29 +257,30 @@ supply chain data, or AI ethics documentation you actually have]
 
 ## AI Wayback Machine
 
-The ideas in this chapter didn't appear from nowhere. **Rachel Carson** published *Silent Spring* in 1962, documenting the environmental damage caused by pesticide use in terms that non-specialist readers could understand and act on. The book did not make a generic claim about environmental responsibility. It made specific, documented claims about specific chemicals and their measurable effects — and it made them with enough precision that the chemical industry's counter-arguments could be evaluated on their merits. The book is the ur-text of the claim-proof discipline in environmental communication: the reason it changed policy was precisely because it could be checked. Generic alarm cannot be checked and does not compel action. Specific, documented evidence can be checked — and when the checks confirm the evidence, it is much harder to dismiss.
+The ideas in this chapter didn't appear from nowhere. **William Nordhaus** is an American economist who won the Nobel Memorial Prize in Economic Sciences in 2018 for integrating climate change into long-run economic analysis. He built the DICE model (the Dynamic Integrated Climate-Economy model), which forces an environmental claim to be made precise: it ties carbon emissions to measurable damages and to the cost of abatement, so that "we are acting on climate" stops being a slogan and becomes a quantified, checkable accounting of what a given action actually costs and what it actually achieves. That is the discipline at the heart of this chapter. Nordhaus's central tool — the social cost of carbon, a specific dollar figure attached to a tonne of emissions — is the economic version of the claim-proof map: it refuses the generic gesture and demands a number you can defend. His work is also the analytical backbone of why the EU's ECGT Directive bans offset-based "climate neutral" claims: Nordhaus showed that paying for the appearance of action (an offset) is not the same as reducing emissions in your own value chain, and the accounting has to distinguish the two. A purpose you won't pay for is a slogan; Nordhaus spent a career insisting that the world put the actual price on the table.
 
-![Rachel Carson, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/rachel-carson.jpg)
-*Rachel Carson, c. 1960s. AI-generated portrait based on a public domain photograph.*
+![William Nordhaus. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/william-nordhaus.png)
+*William Nordhaus — who put a defensible price on a tonne of carbon, the economic version of pairing every green claim with checkable proof.*
 
 **Run this:**
 
 ```
-Who was Rachel Carson, and how does *Silent Spring*'s method — making
-specific, documented, verifiable claims rather than generic environmental
-alarm — connect to the chapter's argument that every ethics or
-sustainability brand claim must be paired with evidence that can be checked?
-Keep it to three paragraphs. End with the single most surprising thing about
-her career or ideas.
+Who is William Nordhaus, and what is the "social cost of carbon" in his
+DICE climate-economy model? How does his insistence on attaching a specific,
+defensible dollar figure to emissions — rather than making a generic claim
+about acting on climate — connect to this chapter's argument that every
+sustainability claim must be paired with verifiable proof, and to the EU
+ECGT ban on offset-based "climate neutral" claims? Keep it to three
+paragraphs and end with the single most surprising thing about his work.
 ```
 
-→ Search **"Rachel Carson"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
+→ Search **"William Nordhaus"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain why "specific and verifiable" is a higher standard than "technically true," in plain language
-- Ask it to compare Carson's documentation discipline to the EU ECGT Directive's substantiation requirement
-- Add a constraint: "Answer as if you're writing the evidence standards section of a brand ethics policy for an AI tool company"
+- Ask it to explain the "social cost of carbon" in plain language a small-business owner could use to evaluate a supplier's green claim
+- Connect it to a specific case from this chapter: apply Nordhaus's reduction-versus-offset distinction to the "Conscious Collection" and the offset-based "carbon neutral" examples
+- Add a constraint tied to the chapter's central tension: "Answer as if you're writing the evidence standards for an AI tool company that wants to claim its model inference is 'carbon neutral'"
 
 What changes? What gets better? What gets worse?
 

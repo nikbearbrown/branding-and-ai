@@ -186,26 +186,30 @@ The attribution problem is genuinely unsolved. MMM and multi-touch attribution b
 
 ## AI Wayback Machine
 
-The measurement framework underlying this chapter — the idea that brand is a quantifiable asset with measurable dimensions — traces directly to **David Aaker's** *Managing Brand Equity* (1991), introduced in Chapter 7. But the specific operationalization of brand equity into trackable metrics owes equally to **Kevin Lane Keller**, whose *Strategic Brand Management* (first edition 1998) developed the Customer-Based Brand Equity (CBBE) pyramid and provided the theoretical structure that brand tracking studies are designed to measure. Keller and Aaker were colleagues at Berkeley and Stanford respectively, and their frameworks developed in dialogue with each other through the 1990s. The tracking study is Keller's CBBE pyramid with a time axis attached.
+The ideas in this chapter didn't appear from nowhere. **W. Edwards Deming** was an American statistician and management thinker who, beginning in postwar Japan, taught manufacturers that quality comes from understanding and reducing variation in a process — and that the way to learn is the iterative Plan-Do-Study-Act cycle, tracking the right measurements over time rather than reacting to single readings. Two of his lessons are the backbone of this chapter. First, his distinction between common-cause variation (the normal noise of a stable process) and special-cause variation (a real signal that something changed) is precisely why "a number that moved is not a verdict, it is a question": most metric movement is noise, and the discipline is refusing to treat every wobble as caused by your work. Second, Deming warned against managing on figures you cannot trust — he was scathing about vanity numbers chosen because they flatter rather than because they inform a decision, which is exactly the Farris test this chapter applies. The attribution problem — did your campaign cause the November sales rise, or was it seasonality, a competitor's recall, the economy? — is Deming's common-versus-special-cause question wearing a marketer's clothes.
+
+![W. Edwards Deming. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](../images/w-edwards-deming.png)
+*W. Edwards Deming — who taught that a moving number is usually noise, and the discipline is knowing when it is a real signal.*
 
 **Run this:**
 
 ```
-Who is Kevin Lane Keller, and what is the Customer-Based Brand Equity (CBBE)
-pyramid? How does it connect to the brand tracking metrics covered in this
-chapter — awareness, consideration, preference, and association? Keep it to
-three paragraphs. End with the single most surprising implication of treating
-brand equity as something built bottom-up from awareness rather than top-down
-from strategy.
+Who was W. Edwards Deming, and what did he mean by the difference between
+common-cause and special-cause variation in a process? How does that
+distinction connect to this chapter's argument that "a number that moved is
+not a verdict, it is a question" and to the attribution problem — that a
+metric rising rarely proves your brand work caused it? Keep it to three
+paragraphs and end with the single most surprising thing about his career or
+ideas.
 ```
 
-→ Search **"Kevin Lane Keller brand equity pyramid"** after you run this. See what the model got right, got wrong, or left out.
+→ Search **"W. Edwards Deming"** on Wikipedia after you run this. See what the model got right, got wrong, or left out.
 
 **Now make the prompt better.** Try one of these:
 
-- Ask it to explain what "brand resonance" means at the top of the CBBE pyramid and why it is so rare
-- Ask it to apply the CBBE pyramid to a personal brand — what would each level look like for an individual rather than a product?
-- Add a constraint: "Answer as if you are explaining to a founder why their brand's NPS score is not a measure of brand equity in Keller's sense"
+- Ask it to explain common-cause versus special-cause variation in plain language, using a brand tracking score that ticks up one quarter
+- Connect it to a specific example from this chapter: apply Deming's question to the claim that a September campaign caused a 22% October sales rise
+- Add a constraint tied to the chapter's central tension: "Answer as if you are warning a brand team against reporting an NPS bump to leadership as proof the campaign worked"
 
 What changes? What gets better? What gets worse?
 
