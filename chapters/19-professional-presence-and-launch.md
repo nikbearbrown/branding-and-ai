@@ -41,10 +41,11 @@ The Airbnb deck worked because of three properties that had nothing to do with i
 
 <!-- → [TABLE: Three coherence properties — columns: property, what it looks like when present, what it looks like when absent, where it applies beyond the deck (LinkedIn, resume, portfolio, follow-up)] -->
 
+![Three coherence properties shown present versus absent — argument coherence, specific numbers, and team weight — each tagged as applying beyond the deck to LinkedIn, résumé, portfolio, and follow-up](../images/19-professional-presence-and-launch-fig-02.png)
+
 These three properties are not pitch-deck properties. They are presentation properties. They apply to your LinkedIn headline, your resume bullets, your portfolio case studies, and the email you send the morning after an interview. The Airbnb deck is the worked case for a principle that runs across every surface in your professional presence.
 
-![The Airbnb argument chain — ten slide boxes connected by 'implies' arrows, showing one continuous logical chain rather than ten independent facts](../images/12-professional-presence-and-launch-fig-02.png)
-*Figure 12.2 — The Airbnb argument chain*
+![The Airbnb argument chain — ten slide boxes connected by 'implies' arrows, showing one continuous logical chain rather than ten independent facts](../images/19-professional-presence-and-launch-fig-01.png)
 
 Read the deck slide by slide, because you will build your own version.
 
@@ -126,8 +127,7 @@ The unifying rule: every surface should reinforce the same brand. Same headshot.
 
 <!-- → [TABLE: Archetype-to-platform fit — columns: archetype, recommended primary platform, secondary, avoid, cadence note] -->
 
-![Brand-coherence surface stack — five layers from Social (shallowest) down to Portfolio (deepest), each labeled with its depth and cadence](../images/12-professional-presence-and-launch-fig-06.png)
-*Figure 12.6 — The brand-coherence surface stack*
+![The brand-coherence surface stack — five layers from social/LinkedIn (shallowest) down to portfolio (deepest), each with its read-depth and cadence, and a same-person spine of shared headshot, bio language, and voice running through all five](../images/19-professional-presence-and-launch-fig-04.png)
 
 ---
 
@@ -161,6 +161,8 @@ Here is the ten-slide structure, adapted from Kawasaki and from the Airbnb patte
 
 <!-- → [TABLE: Ten-slide specification — columns: slide number, name, one-line content spec, speaking time, the single most important element] -->
 
+![The ten-slide pitch slide by slide — title, problem, solution, how it works, demo, brand position, validation, roadmap, you-as-the-team, and the ask along a sequence axis, with the brand-position and team slides flagged as the persuasion-doing ones students skip](../images/19-professional-presence-and-launch-fig-03.png)
+
 ### Opening and Closing
 
 Open in scene, not in introduction. The first sixty seconds are when the audience decides whether to pay attention. *"Hi, I am [name] and today I will be presenting..."* wastes those sixty seconds.
@@ -191,8 +193,7 @@ Pick five people whose work you have read in this course. Engage with one piece 
 
 Write the post-course plan before the final presentation, not after. Three new portfolio additions you will build in the next quarter, three published pieces you will write, and five relationship engagements you will make. Calendar them as appointments.
 
-![Line chart comparing consistent monthly cadence vs. burst-then-silence over 36 months — the consistent line ends roughly three times higher](../images/12-professional-presence-and-launch-fig-10.png)
-*Figure 12.10 — Cadence dominates quality at the margin*
+![Cadence dominates quality at the margin — two lines over 36 months, consistent monthly publishing rising to roughly three times the height of a burst-and-abandon pattern that spikes then flatlines](../images/19-professional-presence-and-launch-fig-05.png)
 
 <!-- → [CHART: Two-line chart — x-axis: 36 months; line 1: consistent monthly publishing cadence (smoothly rising); line 2: burst-and-abandon pattern (spikes then flatlines repeatedly); same total number of pieces, dramatically different compounding trajectories] -->
 
@@ -208,8 +209,7 @@ The final presentation is not a school deliverable. It is the first Ship of the 
 
 <!-- → [TABLE: Four-verb loop summary — columns: verb, chapters, primary artifact produced, signal it creates] -->
 
-![The four-verb loop — Ideate, Build, Brand, Ship arranged in a circle with arrows back to the start, labeled with the chapters where each verb happened](../images/12-professional-presence-and-launch-fig-11.png)
-*Figure 12.11 — The four-verb loop*
+![The four-verb loop — Ideate, Build, Brand, Ship arranged in a closed circle with a return arrow to the start, each verb labeled with the chapters where it happened, its primary artifact, and the signal it creates](../images/19-professional-presence-and-launch-fig-06.png)
 
 ---
 

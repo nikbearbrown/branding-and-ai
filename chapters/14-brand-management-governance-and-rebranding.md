@@ -18,6 +18,8 @@ Here is how a brand falls apart slowly. Nobody makes the decision to destroy it.
 
 The earlier chapters were about creation. This chapter is about the other half — the daily, operational discipline of keeping a brand coherent as it scales, and the harder judgment of when to deliberately change it. One of those problems is essentially a logistics problem with a judgment layer on top. The other is one of the riskiest decisions a brand team can make.
 
+![How a brand falls apart slowly: a sequence of harmless, uncorrected acts accumulating into incoherence, with no single event the culprit.](../images/14-brand-management-governance-and-rebranding-fig-01.png)
+
 ## Guidelines That Live
 
 The standard artifact of brand governance is the brand book: a PDF, often beautifully designed, encoding the colors, the typefaces, the logo usage rules, the voice principles. It is produced with care and then mostly not used. The reasons are predictable. The book is not available at the moment of decision. It is not searchable in the way someone needs when they are building a slide at 4 PM and need to know whether this shade of teal is in-system. It does not show examples of wrong usage alongside right usage. It does not contain the actual assets, only representations of them.
@@ -27,6 +29,8 @@ The standard artifact of brand governance is the brand book: a PDF, often beauti
 The operational components of a living guidelines system have three layers. The first is the **Digital Asset Management (DAM)** system: a single source of truth for brand assets, organized so that a designer, a marketer, or a vendor can find the current logo, the current color codes, the current voice examples in under a minute. If the assets are not findable in under a minute, the system will not be used. The second layer is the **design system**: component libraries, templates, and documented patterns that make it easier to stay on-brand than to go off-brand. The path of least resistance should be the on-system path. The third layer is the **decision record**: documented examples of edge cases that have been resolved, so that when the same question comes up again, there is an answer rather than another discussion.
 
 The common failure mode is investing heavily in the first layer (the DAM) and treating the other two as optional refinements. The design system is what makes consistency scale past the point where any individual can review every artifact. The decision record is what prevents the same governance conversation from happening twelve times.
+
+![The three-layer living guidelines system: a DAM single source of truth, a design system making on-brand the path of least resistance, and a decision record of resolved edge cases — each annotated with what fails when it is missing.](../images/14-brand-management-governance-and-rebranding-fig-02.png)
 
 <!-- → [DIAGRAM: Three-layer living guidelines system — DAM (assets, findable in under a minute), design system (components, templates, on-system is easiest path), decision record (resolved edge cases) — with annotation showing what fails when each layer is missing] -->
 
@@ -40,6 +44,8 @@ At scale, stewardship shifts from review to system design. The steward's job is 
 
 Artificial intelligence earns a genuine role here. At the scale where manual consistency review is no longer feasible, a model can audit assets for off-system colors, flag copy that drifts from the documented voice, identify uses of deprecated logos. These are pattern-recognition tasks across large volumes of material — exactly where models are useful. The output is a flags list, not a decisions list. The steward reads the flags and decides what they mean.
 
+![Stewardship at three scales: how the consistency mechanism, failure mode, and AI role change as the brand grows from one person to ten to a hundred-plus.](../images/14-brand-management-governance-and-rebranding-fig-03.png)
+
 <!-- → [TABLE: Stewardship at three scales — one person (consistency through personal coherence), ten people (shared system + periodic review), hundred+ people (automated audit + steward decides flags); columns: scale, consistency mechanism, failure mode, AI role] -->
 
 ## Drift vs. Intentional Variation
@@ -51,6 +57,8 @@ Drift is what happens when variation breaks the system rather than expressing it
 The discipline is to flag all variation — everything that departs from the documented system — and then decide, case by case, which is intentional and which is drift. This requires two things the AI audit cannot provide. The first is the decision: only someone with system ownership can determine whether a departure was authorized. The second is the pattern: a single departure might be intentional; the same departure appearing across fifteen assets over three months is a signal that something has shifted.
 
 This is the judgment layer that sits on top of the automated audit. The audit produces a complete list of departures. The steward reads that list looking for one-off decisions (which may be fine) and patterns (which require a response). The response to a pattern is not necessarily to enforce the original system — sometimes the drift reveals that the system needs to update. A brand whose visual language has been drifting younger for two years because designers keep making that choice independently might be telling you something about what the system should formally become.
+
+![Drift vs. intentional variation: identical-looking outputs distinguished by who authorized the departure and whether one instance or a repeated pattern across many assets.](../images/14-brand-management-governance-and-rebranding-fig-04.png)
 
 <!-- → [TABLE: Drift vs. intentional variation — columns: signal, what it looks like in the audit flags, how to distinguish, what response is appropriate; rows covering single instance, repeated pattern, and pattern-as-system-signal] -->
 
@@ -66,6 +74,8 @@ The illegitimate trigger that causes the most damage is the new executive who wa
 
 The cautionary cases are the same ones from the archetype chapter: Tropicana in 2009, Gap in 2010, New Coke in 1985. Read through the lens of governance, each of these is a failure of the refresh/rebrand decision. Tropicana's new packaging was a refresh that erased the recognition cues without replacing them. Gap's logo change was a refresh that moved the brand to a different part of the archetype spectrum. New Coke was a rebrand of the product itself, driven by competitive anxiety rather than genuine repositioning need. In all three cases, the decision to change was made without adequate accounting for what the existing brand had already built in customers' minds.
 
+![The refresh-vs-rebrand decision spectrum: from evolution (core identity holds) to revolution (new identity by design), with legitimate triggers placed along it and the illegitimate new-executive-preference trigger flagged.](../images/14-brand-management-governance-and-rebranding-fig-05.png)
+
 <!-- → [TABLE: Refresh vs. rebrand decision matrix — rows: trigger type (merger, repositioning, outgrown identity, damage control, new executive preference); columns: appropriate response on the spectrum, equity risk level, key question to ask before proceeding, historical example if applicable] -->
 
 ## The Migration Risk
@@ -78,6 +88,8 @@ Migration management is the set of practices that carry equity across rather tha
 
 The rule is simple to state and difficult to apply: change the expression, preserve the recognized core, and bring the audience with you. The difficulty is knowing, specifically, which elements of the existing brand are carrying the equity and which are incidental. That judgment requires more than intuition — it requires the equity audit work of the earlier chapters, applied as a pre-change diagnostic.
 
+![The equity-migration stranding-risk spectrum: from full rebrand (all recognition cues abandoned, high stranding risk) to full refresh (core cues preserved, low risk), each point annotated with what is preserved and what the customer must relearn.](../images/14-brand-management-governance-and-rebranding-fig-06.png)
+
 <!-- → [DIAGRAM: Equity migration spectrum — left: full rebrand (all recognition cues abandoned, high stranding risk); right: full refresh (core cues preserved, low stranding risk); middle: common hybrid approaches; annotation on each showing what is preserved and what the customer is asked to relearn] -->
 
 ## Worked Example: Govern Your Brand
@@ -89,6 +101,8 @@ The living guidelines work starts with a diagnostic question: at the moment a te
 The consistency audit is the systematic application of the guidelines to the brand's existing assets. The goal is not to find and punish deviation. It is to get a clear picture of where the brand is coherent and where it has drifted, so that decisions about what to fix can be made deliberately rather than through accumulated small corrections. AI does this work at scale — running the audit across dozens of assets, flagging departures — but the steward reads every flag and makes the call: intentional variation or drift, and if drift, worth correcting or evidence that the system needs to update.
 
 The refresh-or-rebrand memo is a forcing function: if the audit reveals deep incoherence — not localized drift but a brand that has been moving in a direction for long enough that it no longer resembles what was designed — the memo makes that visible and requires a decision. Not a decision by the brand team alone, but a decision that involves the people who own the business's strategic direction. Governance is the function that surfaces these decisions. It does not make them unilaterally.
+
+![The governance workflow: an AI audit produces a flags list, the steward reviews each flag, and routes it to one of three branches — document intentional variation, correct drift, or update the system for a pattern of drift — with the AI+1 boundary marked.](../images/14-brand-management-governance-and-rebranding-fig-07.png)
 
 <!-- → [DIAGRAM: Governance workflow — AI audit produces flags list → steward reviews each flag → three branches: (1) intentional variation, document and close; (2) drift, correct against system; (3) pattern of drift, update the system — with annotation showing the AI+1 boundary: AI produces the flags, human routes every flag] -->
 

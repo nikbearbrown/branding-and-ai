@@ -28,7 +28,11 @@ The resolution most global brands have arrived at is neither pole. It is **gloca
 
 The trade-off is real and does not dissolve. Standardization buys efficiency and a consistent global identity that accrues recognition across markets. Adaptation buys local resonance at higher coordination cost. The decision is not made once for the whole brand; it is made per element, and the elements that hold global and the elements that flex local require a clear rationale for each.
 
+![Standardize, adapt, or glocalize compared in three columns — each strategy with what it buys and what it costs, and McDonald's as the worked glocalization column](../images/17-global-and-cross-cultural-branding-fig-01.png)
+
 <!-- → [TABLE: Standardize vs. adapt decision by brand element — rows: brand name, visual identity, tagline, product formulation, channel mix, pricing, imagery, humor; columns: typically holds global, typically localizes, deciding question — makes the per-element logic concrete] -->
+
+![The keep-global / localize split element by element — brand name, visual identity, tagline, formulation, channels, pricing, imagery, and humor, each marked global or local with the deciding question that settles it](../images/17-global-and-cross-cultural-branding-fig-02.png)
 
 ## The Cultural Lens
 
@@ -50,6 +54,8 @@ Marieke de Mooij's research on cross-cultural advertising applies Hofstede's fra
 
 <!-- → [TABLE: Hofstede dimensions applied to brand decisions — columns: dimension, high-score tendency, low-score tendency, brand-message implication, example of a message that works differently by score — with the caveat row at the bottom: "population tendency, not individual script"] -->
 
+![Hofstede's six dimensions as a brand-message lens — high-score and low-score tendencies and the messaging implication for each, with a standing caveat that these are population tendencies, not individual scripts](../images/17-global-and-cross-cultural-branding-fig-03.png)
+
 ## Translation vs. Transcreation
 
 There are three escalating levels of effort in adapting brand language for a new market.
@@ -63,6 +69,8 @@ There are three escalating levels of effort in adapting brand language for a new
 The failure mode is skipping transcreation in favor of translation and then being surprised when the result is grammatically correct and emotionally inert — or, worse, funny or offensive in ways nobody anticipated. The specific reason transcreation fails at the literal translation level is that brand language accumulates connotations in one cultural context that do not transfer. Humor is the most reliable victim: a joke depends on a specific set of shared assumptions about what is surprising, what is transgressive, and what is true. Those assumptions are cultural. A joke that works in São Paulo is not a joke in Seoul; it is just a sentence.
 
 <!-- → [DIAGRAM: Three levels of language adaptation as a nested diagram — Translation (outer ring: words), Localization (middle ring: words + context), Transcreation (inner ring: words + context + emotional intent) — with annotation showing what each level preserves and what it adds] -->
+
+![Three nested levels of language adaptation — translation (words) on the outer ring, localization (words plus context) in the middle, and transcreation (words plus context plus emotional intent) at the core where brand work happens](../images/17-global-and-cross-cultural-branding-fig-04.png)
 
 ## What Stays Global
 
@@ -80,6 +88,8 @@ The working test: if someone in Market A and someone in Market B described what 
 
 <!-- → [DIAGRAM: Core vs. expression in a global brand — concentric circles: innermost (purpose/archetype/fundamental promise — global, fixed), middle (visual identity, voice principles — mostly global with adaptation), outer (language, imagery, references, channel, seasonal — adapts per market) — with annotation showing the "too rigid" and "too loose" failure modes] -->
 
+![Core holds, expression flexes — concentric zones from a fixed global core (purpose, archetype, promise) out to a fully-adapting rim (language, imagery, channel), with the too-rigid and too-loose failure modes flagged on opposite sides](../images/17-global-and-cross-cultural-branding-fig-05.png)
+
 ## The Blunder File
 
 Cross-cultural branding has a famous catalog of failures: names that mean something unfortunate in another language, campaigns that violated a deeply held local norm, color choices that signaled mourning rather than celebration, slogans that became punchlines. These cases get repeated in marketing courses and business books because they are memorable and because the lesson — test your brand elements with native speakers before committing — is genuinely important.
@@ -91,6 +101,8 @@ The principle these stories are meant to illustrate is real: literal translation
 The practical lesson is the same whether a given anecdote is true or not: test brand elements — name, tagline, imagery, color associations — with native speakers who are actual members of the target market, not with dictionaries or with multilingual colleagues who are not embedded in that culture. The gap between "grammatically correct" and "culturally resonant" is wide enough that it routinely surprises native speakers of the source language.
 
 <!-- → [TABLE: Cross-cultural testing checklist — rows: brand element to test (name, tagline, colors, imagery, humor, numerical/symbolic associations); columns: what to test for, who to involve, what a red flag looks like, verification standard] -->
+
+![Cross-cultural testing checklist — name, tagline, colors, imagery, humor, and symbolic associations, each with what to test for, who to involve, the red flag to watch, and the verification standard of embedded native speakers over dictionaries](../images/17-global-and-cross-cultural-branding-fig-06.png)
 
 ## Worked Example: A Market-Entry Plan
 
@@ -105,6 +117,8 @@ The third stage is the risk audit: name, colors, imagery, numerical associations
 The AI+1 line in this chapter is the clearest since the trademark chapter: AI generates and drafts at volume, flags patterns, and asks better questions. Cultural judgment — whether an adaptation is authentic or tone-deaf, whether a flagged risk is real or theoretical, whether the transcreated version actually feels like the brand in the target market — lives in communities, not in models. That judgment is the +1.
 
 <!-- → [DIAGRAM: Three-stage market-entry plan workflow — Stage 1: keep-global/localize split (AI + Hofstede lens → rationale per element); Stage 2: transcreation (AI drafts → native speaker verifies); Stage 3: risk audit (AI flags name/color/imagery risks → native verifies each flag) — AI+1 boundary marked between AI draft and native verification at each stage] -->
+
+![The three-stage market-entry plan with the AI+1 boundary — split, transcreation, and risk audit flowing left to right, with a dashed line through every stage where AI drafts and flags above and native cultural judgment verifies below](../images/17-global-and-cross-cultural-branding-fig-07.png)
 
 ---
 

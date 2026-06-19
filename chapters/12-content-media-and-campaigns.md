@@ -22,6 +22,8 @@ The cost of producing a competent paragraph, image, or video has genuinely colla
 
 What rises in value when content gets cheap is exactly what AI cannot supply: the decision about what is worth saying, the verification that it is true, the judgment that it sounds like you and not like a brand-speak approximation of you. This chapter is about the planning layer above the copy — the discipline that makes the thousand-post thought experiment a trap and the ten-post strategy a compounding asset.
 
+![The flood and the filter: as AI makes content nearly free, the scarce thing becomes editorial judgment — deciding what is worth saying, verifying it is true, and making it sound like you.](../images/12-content-media-and-campaigns-fig-01.png)
+
 Before this chapter lands, you need the brand strategy from Chapter 6 and the archetype commitment that runs through it. Content without a clear archetype and voice is the exact thing the flood is made of. The planning discipline here assumes you have already answered the strategic questions. What follows is the operational layer that translates strategy into coordinated publication.
 
 ---
@@ -40,6 +42,8 @@ Gini Dietrich's PESO model names four kinds of media that every brand navigates,
 
 **Owned media** is the surface you control completely — your website, your blog, your email list, your podcast, your documentation. Nobody can deplatform you from your own domain. Nobody can change the algorithm on your email list. Owned media builds slowly because you cannot buy distribution — you earn it by producing content people seek out and subscribe to — but what you build is durable in a way that rented channels (paid) and borrowed audiences (shared) are not.
 
+![The PESO model: paid, earned, shared, and owned media as four peer channels with distinct economics, linked by arrows showing the power lies in integration, not any single quadrant.](../images/12-content-media-and-campaigns-fig-02.png)
+
 <!-- → [DIAGRAM: PESO model — four quadrants or four linked circles: Paid (bottom-left, transactional, controlled message), Earned (top-right, credible, uncontrolled), Shared (bottom-right, scalable, audience-controlled), Owned (top-left, durable, fully controlled); arrows between all four showing how each feeds the others; caption: "The power is in integration, not in any single quadrant."] -->
 
 The power of the model is not in the categories themselves — any media buyer knows the distinction between paid and editorial. The power is in what the model reveals about integration. A piece of owned content — a well-researched blog post with original data — can earn press coverage, which spreads on shared channels, which makes paid amplification of the best-performing version worth the cost. Or: a paid campaign drives traffic to owned content, some of which earns links and reviews, building organic search authority that reduces the paid cost over time. Each channel feeds the others. A campaign that uses only one PESO channel leaves three of the four on the table.
@@ -51,6 +55,8 @@ The failure mode is treating each channel as independent. The brand with a diffe
 The discipline for preventing that failure has a name: Integrated Marketing Communications, or IMC. Don Schultz, who developed the framework at Northwestern, observed that the fragmented channel landscape of the 1980s was producing brands that said different things in different contexts — not because of deliberate positioning, but because each department owned its channel and optimized independently. The ad team had its message. The PR team had its story. The direct-mail team had its offer. The customer rarely experienced them as a coherent whole.
 
 IMC is the organizational insistence that every channel is one synchronized voice. The specific message adapts to the channel — a tweet is not a press release, and neither is a display ad — but the underlying claim, the archetype, and the brand voice are identical across all of them. The campaign is the unit that enforces this.
+
+![IMC vs. fragmentation: on the left, one message radiating to four channel-adapted expressions; on the right, four channels each saying a different thing — unrelated publishing programs that happen to share a logo.](../images/12-content-media-and-campaigns-fig-03.png)
 
 Think about what a well-run IMC campaign looks like in practice. Stripe launched Stripe Atlas in 2016 as a tool for international founders to incorporate U.S. companies. The launch did not consist of separate announcements across separate channels. The owned content was a detailed explainer aimed at the developer-and-builder audience Stripe had cultivated for six years. The earned coverage came from publications covering startup infrastructure, not general business press. The shared amplification happened in developer communities and founder forums because the product genuinely solved a problem those communities discussed. There was no Stripe Atlas television campaign, no broad display advertising, no celebrity partnership. The channels were chosen because they were where the specific audience was, and the message was consistent across all of them: here is something that was unnecessarily hard, and we have made it simple.
 
@@ -76,6 +82,8 @@ A campaign brief answers six questions in sequence. Each question constrains the
 
 **Measurement.** One primary KPI per objective, plus the tracking mechanism. If the objective is developer signups, the KPI is developer signup conversion rate on the campaign landing page, tracked with UTM parameters across channels. If the objective is press mentions, the KPI is press mention count in target publications, tracked with a media monitoring tool. The measurement structure should be set before the campaign launches, not after, because measurement set after the fact will unconsciously favor the metrics that show favorable results.
 
+![The campaign brief as six questions in sequence — objective, audience, message, channel mix, budget, measurement — each constraining the next; a one-page brief is finished.](../images/12-content-media-and-campaigns-fig-04.png)
+
 <!-- → [TABLE: Campaign brief anatomy — columns: section, the question it answers, example from a Sage-archetype developer tool, common failure mode. One row per section.] -->
 
 A brief that fits on one page is finished. A brief that runs to three pages has not yet made its decisions. The brief is not the campaign plan; it is the constraint document that makes the campaign plan coherent.
@@ -91,6 +99,8 @@ Suppose the brief is written. Now you need to decide how the budget and content 
 The error most small brands make is optimizing for reach when they need frequency. A campaign that achieves one impression with 10,000 people will almost never produce as much behavior change as a campaign that achieves five impressions with 2,000 people — even at the same total cost — when the goal is conversions rather than awareness. The media mix should be set with this trade-off explicit.
 
 For a developer tool with an existing audience and a conversion objective — getting known users to sign up for a new feature — the right mix is high frequency in owned (email series, in-product messaging) and shared channels (community posts, developer forums) where the existing audience already lives, with minimal paid spend. For a launch into a new audience segment, the right mix flips: broader paid reach to introduce the product, owned content to capture the interested, earned media to add credibility to both.
+
+![Reach vs. frequency by goal: awareness favors high reach and low frequency, conversion favors high frequency and low reach, plotted as a trade-off at fixed budget — with conversion's high-frequency region highlighted as the one small brands under-use.](../images/12-content-media-and-campaigns-fig-05.png)
 
 <!-- → [CHART: Reach vs. frequency trade-off — two curves on the same axes: "awareness goal" showing high reach/low frequency as optimal; "conversion goal" showing high frequency/low reach as optimal; both curves crossing at a mid-point; annotated with the spend implication of each.] -->
 
@@ -110,9 +120,13 @@ Channel mix, derived from audience and objective: owned content is the primary i
 
 The measurement: demo requests attributed to campaign traffic via UTM parameters on the owned content landing page.
 
+![The worked Sage-archetype campaign: one message — auditable AI, not a black box — flowing through owned, earned, shared, and paid channels in a connected sequence, each feeding the next.](../images/12-content-media-and-campaigns-fig-06.png)
+
 Now Madison enters — not as the decision-maker but as the drafting engine. The campaign construction recipe produces the brief structure. The copy generation recipe drafts four content pieces: the long-form owned piece, a LinkedIn thread, a newsletter pitch email to two editorial contacts, and a short paid ad variant. Every specific factual claim in the draft is tagged [VERIFY] — tool performance statistics, customer outcome claims, comparison to specific competitors. The founder checks every tag against actual product data before a word goes out.
 
 The output Madison cannot produce: the judgment that the tone is authentic, that the technical explanation is accurate, that the comparison claim is fair, that the case study client would recognize themselves in their own story. That is the +1. The AI produced the volume and the structure; the human produced the truth and the voice.
+
+![The AI+1 split: on the left, what AI produces — the brief structure, four content drafts, every factual claim auto-tagged for verification; on the right, the human +1 — authentic tone, accurate claims, fair comparison, a story the client would recognize.](../images/12-content-media-and-campaigns-fig-07.png)
 
 <!-- → [TABLE: Worked campaign plan — columns: PESO channel, specific tactic, message adaptation, reach vs. frequency goal, how it connects to the next channel, KPI. One row per channel in the example.] -->
 

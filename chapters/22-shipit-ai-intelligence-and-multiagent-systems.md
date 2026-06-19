@@ -37,6 +37,8 @@ Your archetype from earlier chapters becomes directly relevant here: the archite
 
 <!-- → [TABLE: Four patterns — columns: name, who controls the next step, representative tools/products, best used when, primary failure mode. Rows: single call, chained calls, tool-using agent, multi-agent.] -->
 
+![The four patterns of AI intelligence compared as peers: single LLM call, chained calls, tool-using agent, and multi-agent system, each with who controls the next step, representative tools, best use, and primary failure mode.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-01.png)
+
 If you used an OpenAI or Claude node anywhere in your Appendix S2 pipeline, you already have Pattern 1 — a prompt in, a response out, the pipeline moves on. This appendix is about deciding when and whether to move toward Patterns 2, 3, or 4, and what you are actually buying at each step up.
 
 Pattern 4 has its own internal spectrum worth naming. **Autonomous agents** give each agent the ability to decide its own next step within a goal — the user provides a high-level objective, the agents decompose it, plan sub-tasks, execute them, and loop until done. AutoGPT and BabyAGI operate this way. These systems are maximally flexible and, for exactly the same reason, maximally unpredictable. **Orchestrated multi-agent systems** let a workflow — a graph or state machine — decide which agent runs when; the agents do specialized work and the orchestrator handles flow control. CrewAI Flows and LangGraph operate this way. They require upfront design work and reward that investment with debuggability, cost-predictability, and consistent user experience. **Conversational multi-agent systems** have agents communicate with each other until they collectively converge on a result — Microsoft AutoGen's original pattern. More structured than autonomous, less predictable than orchestrated.
@@ -44,6 +46,8 @@ Pattern 4 has its own internal spectrum worth naming. **Autonomous agents** give
 Madison lives firmly in the orchestrated quadrant. The five layers — Intelligence, Content, Research, Experience, Performance — are specialized agents; the n8n orchestration layer decides which runs when. The user of a Madison-powered tool sees neither the agents nor the orchestrator. They request marketing intelligence; they receive marketing intelligence. The system's internal structure is invisible to them, by design.
 
 <!-- → [FIGURE: Two-axis grid — "Agent Decision Autonomy (Low → High)" and "Orchestrator Control (Low → High)" — showing autonomous agents (high autonomy/low orchestrator), orchestrated multi-agent (low autonomy/high orchestrator), conversational multi-agent (middle), and the single-call/chained patterns outside the grid. Madison marked in orchestrated quadrant.] -->
+
+![The autonomy/orchestration grid: a two-axis map plotting agent decision autonomy against orchestrator control, locating autonomous agents, conversational multi-agent, and orchestrated multi-agent systems, with Madison marked in the orchestrated quadrant.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-02.png)
 
 One more thing about the four patterns before moving on. The naming convention in agent specifications is not cosmetic. When CrewAI requires you to write a `role`, a `goal`, and a `backstory` for each agent, it is not asking for personality flourishes. It is forcing you to specify each agent's job clearly enough that the LLM can operate within it. An agent without a clear role wanders. It interprets its task as broadly as possible, calls tools that were not intended for it, produces outputs that satisfy the prompt but fail the downstream requirement. The titles — *Market Strategy Consultant*, *Competitive Intelligence Analyst* — act as activation prompts. The LLM has training data that associates "Competitive Intelligence Analyst" with specific behaviors: sourcing claims, noting uncertainty, producing structured comparisons. The role primes that behavior. This is one of the few cases where naming something correctly actually changes how it performs.
 
@@ -57,6 +61,8 @@ Same LLM. Same task. Wildly different brand experiences.
 
 Architecture A's brand is *transparency*. When it works well, this feels collaborative and alive. When it fails — when the agent loops, gets confused, or returns something wrong — the failure is equally visible. Architecture B's brand is *competence*. When it works well, this feels professional and frictionless. When it fails, the failure is opaque: a missing report, an error message, no visible path to understanding why. Neither is universally correct. A research-collaboration tool benefits from Architecture A — the user wants to direct the agent, to feel the collaboration happening. An enterprise reporting tool benefits from Architecture B — the user wants a deliverable, not a process.
 
+![Architecture A versus Architecture B as a brand experience: the autonomous, transparent flow where the user watches the reasoning trace, set beside the orchestrated, competent flow where a structured brief yields a finished report, each with its when-it-works and when-it-fails lines.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-03.png)
+
 Now run the archetype check: does my architecture express my archetype, or does it express my archetype's shadow?
 
 A Sage brand promises authoritative, trustworthy output. The Sage's shadow is dogmatism — the overconfident system that will not admit what it does not know. A Sage tool should probably favor Architecture B with explicit "I cannot verify" guards written into each agent's specification. The failure mode to watch for: a Sage tool that produces wrong answers with high confidence. That is the archetype's shadow in code.
@@ -66,6 +72,8 @@ A Creator brand amplifies originality. The Creator's shadow is perfectionism —
 An Explorer brand is organized around discovery and autonomy. The Explorer's shadow is aimlessness — no destination, no coherent result. An Explorer tool is a high-risk candidate for Architecture A: the autonomy feels on-brand, but the agent that explores forever and delivers nothing is the Explorer's shadow in literal form. AutoGPT was, implicitly, an Explorer brand with an unmanaged shadow.
 
 <!-- → [TABLE: Archetype-architecture mapping — columns: archetype, recommended architecture tendency, shadow expressed as AI failure mode, what to watch for in production. Rows: Sage, Creator, Explorer, Hero, Caregiver.] -->
+
+![Archetype-to-architecture mapping for Sage, Creator, Explorer, Hero, and Caregiver brands: the recommended architecture tendency, the archetype's shadow expressed as an AI failure mode, and what to watch for in production.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-04.png)
 
 The Cursor/Devin distinction maps onto this directly. Cursor augments: the developer is in the loop, the IDE suggests, the control loop is tight, and when Cursor produces bad code the developer sees it immediately and corrects it. The failure surface is small and the cost of failure is low. Devin automates: the developer hands off a task and waits, the control loop is loose, and when Devin produces a bad approach the failure may be discovered after significant downstream work has been built on a bad foundation. A tool that augments should be architected for tight feedback loops. A tool that automates should be architected for reliability — every step validated before the next step runs, and the system failing loudly and locally when something goes wrong.
 
@@ -79,15 +87,21 @@ Errors compound geometrically. A 10% error rate at each step means that after te
 
 <!-- → [CHART: Line chart — probability of error-free output against agent steps from 0 to 40, with a 10% per-step error line and a 5% per-step error line, annotated at 10, 20, and 40 steps to show the compounding effect.] -->
 
+![Compounding error: the probability of an error-free chain decaying across agent steps, with a 10%-per-step curve collapsing to roughly 35%, 12%, and 1.5% at steps 10, 20, and 40, shown against a slower 5%-per-step curve.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-05.png)
+
 **Cost runaway.** Each step in an autonomous agent calls a model. Each call costs money. An agent without a hard step ceiling can make arbitrarily many calls in pursuit of a goal it cannot reach or cannot recognize as reached. The $80 AutoGPT sessions delivering nothing are the canonical examples. Production systems require three controls that early autonomous frameworks did not install by default: a maximum step count, a per-execution cost ceiling, and a circuit breaker that halts the agent if it has called the same tool with the same inputs more than N times. These are not sophisticated engineering. They are basic hygiene.
 
 **Trust collapse on visible failure.** A user who watches an autonomous agent loop for forty minutes and produce nothing has not merely experienced a technical failure. They have watched the brand fail in real time, in front of them, with their money on the meter. Research on user trust in automation systems consistently shows that visible failure is more damaging to long-term trust than opaque failure, particularly when the user has been told to trust the system. The 2023 AutoGPT failure wave did not just hurt AutoGPT — it made users cautious about autonomous agents as a category. The failure distributed across the brand landscape of every product that used the word "autonomous."
+
+![The three autonomous-agent failure modes: compounding error, cost runaway, and trust collapse on visible failure, each with its mechanism, plus the three production controls that prevent cost runaway: a max step count, a per-execution cost ceiling, and a repeated-call circuit breaker.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-06.png)
 
 The orchestrated quadrant trades these failure modes for different ones. **Rigidity**: the system can only do what the orchestrator was told it can do. A user request that does not fit any pre-defined flow is an edge case the system handles badly. **Hidden failures**: when something goes wrong, the user does not see why. The developer needs to maintain log visibility into intermediate steps, because the user sees only that the report is wrong, not which agent produced the bad intermediate output. **Specification cost**: each agent must be designed — named, role-defined, goal-specified, tooled, guarded. This is the price of predictability, and also the thing that makes the system improvable. A specific agent producing bad output is a specific thing to fix, rather than a diffuse tendency of a self-directing system to wander.
 
 There is no architecture that wins on every dimension. The disciplined engineer chooses where on the spectrum the product should sit and designs each failure mode *on purpose*.
 
 <!-- → [TABLE: Trade-off comparison — columns: autonomous agents, orchestrated multi-agent, chained calls. Rows: predictability, debugging surface, specification cost, failure visibility, cost control.] -->
+
+![The trade-off matrix comparing autonomous agents, orchestrated multi-agent systems, and chained calls across predictability, debugging surface, specification cost, failure visibility, and cost control, showing no architecture wins on every dimension.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-08.png)
 
 ---
 
@@ -119,6 +133,8 @@ Eight lines. Three things are happening worth naming precisely.
 When this architecture fails, it fails locally. One agent's output is wrong — a structured JSON field is null, a competitor's market share is labeled "unverifiable" — and the developer can trace the failure to a specific agent, a specific tool call, a specific input. Compare to AutoGPT's failure mode: the agent wandered, the error is distributed across forty steps, the debugging surface is the entire execution trace. Local failure is the architectural reward for orchestration's specification cost.
 
 <!-- → [FIGURE: Annotated competitor_analyst agent — left: the raw code; right: annotations explaining what each component does and which failure mode it prevents.] -->
+
+![Anatomy of the competitor_analyst agent: the CrewAI specification annotated to show how the role activates training-data associations, the goal carries an anti-hallucination discipline, the backstory encodes a brand commitment, and allow_delegation=False is the orchestration commitment in code, so failures stay local.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-07.png)
 
 ---
 
@@ -164,6 +180,8 @@ This specification will not eliminate hallucination. No specification does. But 
 
 <!-- → [FIGURE: Three versions of the same agent output — Pattern 1 (abstention), Pattern 2 (null fields), Pattern 3 (confidence labeling) — showing how each handles an unavailable piece of information differently.] -->
 
+![Three anti-hallucination patterns handling the same unavailable data point, weakest to strongest: Pattern 1 permission to abstain, Pattern 2 structured null fields with a note, and Pattern 3 confidence labeling, with Pattern 2 marked as the recommended starting point.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-09.png)
+
 ---
 
 Before writing any code or configuring any n8n node, make the architectural decision explicitly. Write it down. One of these four:
@@ -185,6 +203,8 @@ The reference implementation is the n8n workflow in `pantry/madison/Intelligence
 These two patterns — wrapping AI steps in deterministic neighbors, and validating AI output before downstream use — are the minimum viable discipline for production AI pipelines. They apply regardless of which pattern you chose.
 
 <!-- → [FIGURE: The Appendix S2 pipeline with the AI layer added — showing the new AI step inserted between deterministic steps, a validation node after it, and an error-handler branch off the validation node.] -->
+
+![The AI layer inside a deterministic pipeline: a left-to-right flow from Fetch to AI step to Format to Validate to Write, with a branch off Validate routing to an error handler when the schema is invalid, so the error is surfaced rather than propagated.](../images/22-shipit-ai-intelligence-and-multiagent-systems-fig-10.png)
 
 <!-- → [TABLE: Decision statement to consequence map — rows: single call, chained, tool-using, multi-agent. Columns: decision statement template, what it enables downstream, failure mode to mitigate before launch.] -->
 

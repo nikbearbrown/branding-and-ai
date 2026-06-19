@@ -1,0 +1,60 @@
+<!--
+  Core holds, expression flexes
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 05
+  Type: structural schematic
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-05">
+  <title id="fig-title-17-05">Core holds, expression flexes</title>
+  <desc>Concentric zones: innermost purpose/archetype/promise is global and fixed; middle visual identity and voice principles adapt lightly; outer language, imagery, references, channel adapt per market. Two failure modes: too rigid and too loose.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="05"
+      figure-title="Core holds, expression flexes"
+      figure-slug="core-holds-expression-flexes"
+      figure-type="structural schematic" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Core holds, expression flexes</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The rule that anchors glocalization: the core stays global, the expression localizes per market.</text>
+
+  <!-- concentric zones centered 300,270 -->
+  <circle cx="300" cy="270" r="170" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <circle cx="300" cy="270" r="115" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <circle cx="300" cy="270" r="62" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+
+  <text x="300" y="148" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Expression — adapts per market</text>
+  <text x="300" y="163" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">language, imagery, references, channel, seasonal</text>
+
+  <text x="300" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Mostly global, light adaptation</text>
+  <text x="300" y="215" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">visual identity, voice principles</text>
+
+  <text x="300" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Core — global,</text>
+  <text x="300" y="277" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">fixed</text>
+  <text x="300" y="292" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">purpose · archetype</text>
+  <text x="300" y="303" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">promise</text>
+
+  <!-- failure callouts -->
+  <line x1="130" y1="270" x2="60" y2="270" stroke="#D4D4D4" stroke-width="0.75"/>
+  <rect x="32" y="300" width="180" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Too rigid</text>
+  <text x="44" y="337" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Holding expression fixed too:</text>
+  <text x="44" y="351" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">tone-deaf, faking local</text>
+  <text x="44" y="365" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">references it does not know.</text>
+
+  <line x1="470" y1="270" x2="540" y2="270" stroke="#D4D4D4" stroke-width="0.75"/>
+  <rect x="488" y="300" width="180" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="500" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Too loose</text>
+  <text x="500" y="337" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Flexing the core too:</text>
+  <text x="500" y="351" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">incoherent, a different</text>
+  <text x="500" y="365" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">brand in every market.</text>
+
+  <text x="32" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Test: would a person in Market A and one in Market B describe what this brand stands for the same way?</text>
+  <text x="32" y="446" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">If yes, the core is holding.</text>
+</svg>

@@ -41,6 +41,8 @@ Six variables. This is the complete palette. Requests for additional colors go b
 
 **Red** is the one active color. It signals: brand, emphasis, interactive state, the primary data series in any chart. It is never decorative. It never encodes negative or danger in data visualization contexts — red is brand, not state.
 
+> **Greyscale-first rule (hard gate).** A figure is built and finished entirely in greyscale — ink, neutral grays, hairlines — *first*. Red is added only afterward, and only when you can name, in one sentence, the single thing the reader must look at first. If you cannot name it, the figure has no accent: it ships fully greyscale. Red is opt-in emphasis, never the default. Most figures need no red at all. Apply red to exactly one element per figure — the moment a second mark is red, emphasis has become decoration, which is forbidden. When in doubt, leave it grey.
+
 **Secondary** is for supporting text — captions, source lines, axis tick labels, footnotes. 7.5:1 on white. AAA. Use everywhere body copy would be too heavy.
 
 **Border** is for hairlines only. 1px rules between sections, card borders, table dividers, axis lines. Never for text.
@@ -65,6 +67,8 @@ When charts use these colors:
 | Callout / annotation accent | `--color-ochre` | Borders and underlines, not fill |
 
 Red encodes the brand and the primary series. Red never encodes "danger," "negative," or "alert" in charts. Use `--color-secondary` or `--color-ink` for data-state indicators.
+
+The "Primary series → red" row is conditional, not mandatory — it applies *only* when a figure has one series that must dominate (per the Greyscale-first rule above). A chart where all series are peers gets ink + grays and no red. Comparison charts, neutral distributions, process diagrams, and reference figures are normally fully greyscale.
 
 ### Accessibility
 

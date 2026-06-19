@@ -1,0 +1,109 @@
+<!--
+  Each archetype's native story shape
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-03">
+  <title id="fig-title-10-03">Each archetype's native story shape</title>
+  <desc>A reference matrix mapping six brand archetypes to the story shape native to each, an exemplar brand, and what misfires when the shape is borrowed by the wrong archetype.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="03"
+      figure-title="Each archetype's native story shape"
+      figure-slug="archetype-native-story-shape"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Each archetype's native story shape</text>
+
+  <!-- Header row -->
+  <rect x="32" y="56" width="120" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="152" y="56" width="180" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="332" y="56" width="140" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="472" y="56" width="196" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="160" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Native story shape</text>
+  <text x="340" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Exemplar</text>
+  <text x="480" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Misfires if borrowed</text>
+
+  <!-- Rows -->
+  <!-- Row data via repeated blocks -->
+  <!-- y starts at 90, height 52 -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Row 1 Hero -->
+    <rect x="32" y="90" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="90" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="90" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="90" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="120" font-weight="700">Hero</text>
+    <text x="160" y="120">Hero's Journey</text>
+    <text x="340" y="120">Nike</text>
+    <text x="480" y="114" fill="#545454">customer effort and</text>
+    <text x="480" y="128" fill="#545454">growth carry every ad</text>
+
+    <!-- Row 2 Sage -->
+    <rect x="32" y="142" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="142" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="142" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="142" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="172" font-weight="700">Sage</text>
+    <text x="160" y="166">Methodology /</text>
+    <text x="160" y="180">Quest</text>
+    <text x="340" y="172">Stripe docs</text>
+    <text x="480" y="166" fill="#545454">a Jester shape reads</text>
+    <text x="480" y="180" fill="#545454">as trying too hard</text>
+
+    <!-- Row 3 Outlaw -->
+    <rect x="32" y="194" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="194" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="194" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="194" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="224" font-weight="700">Outlaw</text>
+    <text x="160" y="224">Rebellion</text>
+    <text x="340" y="224">Patagonia</text>
+    <text x="480" y="218" fill="#545454">others borrowing it</text>
+    <text x="480" y="232" fill="#545454">read as co-optation</text>
+
+    <!-- Row 4 Caregiver -->
+    <rect x="32" y="246" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="246" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="246" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="246" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="276" font-weight="700">Caregiver</text>
+    <text x="160" y="270">Service /</text>
+    <text x="160" y="284">Transformation</text>
+    <text x="340" y="276">care brands</text>
+    <text x="480" y="270" fill="#545454">a Jester service story</text>
+    <text x="480" y="284" fill="#545454">reads as insincere</text>
+
+    <!-- Row 5 Magician -->
+    <rect x="32" y="298" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="298" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="298" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="298" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="328" font-weight="700">Magician</text>
+    <text x="160" y="322">Transformation</text>
+    <text x="160" y="336">with mystery</text>
+    <text x="340" y="328">Disney</text>
+    <text x="480" y="322" fill="#545454">needs a real revelation</text>
+    <text x="480" y="336" fill="#545454">or the story has no act 2</text>
+
+    <!-- Row 6 Jester -->
+    <rect x="32" y="350" width="120" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="350" width="180" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="332" y="350" width="140" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="472" y="350" width="196" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="380" font-weight="700">Jester</text>
+    <text x="160" y="380">Inversion</text>
+    <text x="340" y="380">Old Spice</text>
+    <text x="480" y="374" fill="#545454">a sincere Service story</text>
+    <text x="480" y="388" fill="#545454">reads as insincere</text>
+  </g>
+</svg>

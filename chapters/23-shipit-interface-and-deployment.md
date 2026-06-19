@@ -39,6 +39,8 @@ All four layers have to be coherent with each other and with the underlying syst
 
 <!-- → [TABLE: Four interface layers — columns: layer number, layer name, what it includes, most common engineering mistake, failure mode when misaligned with system — shows the full taxonomy before the misalignment discussion applies it] -->
 
+![The four interface layers stacked from visual surface to interaction model to deployment surface to brand surface — each naming what it includes and its common engineering mistake, with the brand surface marked as where the Bard failure lived.](../images/23-shipit-interface-and-deployment-fig-01.png)
+
 ## Three Faces of Misalignment
 
 Before building the interface, you need to understand the failure modes precisely enough to design against them. There are three structural forms of interface-brand misalignment. Each has a different cause and a different fix.
@@ -61,6 +63,8 @@ The fix is tone-matching: read the system's actual outputs, then design the inte
 
 <!-- → [TABLE: Three misalignment types — columns: type, definition, how engineers produce it, what users experience, specific fix — consolidates the taxonomy before the case studies apply it] -->
 
+![The three faces of interface-brand misalignment — confidence, capability, and tone — each panel giving the definition, how engineers cause it, what users experience, and the fix, with confidence misalignment marked as the most common failure.](../images/23-shipit-interface-and-deployment-fig-02.png)
+
 ## Three Case Studies
 
 These three cases represent the three misalignment types at scale, and each reveals how fast the brand consequence arrives.
@@ -81,6 +85,8 @@ Microsoft's post-mortem acknowledged the team had not anticipated this in testin
 
 <!-- → [TABLE: Three case studies mapped to three misalignment types — columns: product/event, misalignment type, interface promise, system reality, brand consequence — directed comparison makes the three cases immediately comparable] -->
 
+![Three case studies mapped to the three misalignments — Bard (confidence), Snapchat (tone), Tay (capability) — each row carrying the interface promise, the system reality, and the brand consequence.](../images/23-shipit-interface-and-deployment-fig-03.png)
+
 ## Streamlit and Gradio — Choosing the Right Framework
 
 You will not be hand-coding a frontend for this version of your tool. The two correct tools for AI tool prototypes at this stage are Streamlit and Gradio. Choosing between them is itself an interface decision — the framework shapes the interaction model.
@@ -99,6 +105,8 @@ The mismatch to avoid: an orchestrated multi-agent system deployed behind a Grad
 
 <!-- → [TABLE: Streamlit vs. Gradio selection guide — columns: criterion, Streamlit, Gradio; rows: user's primary job, interaction model implied, architecture fit, deployment platform, which pipeline types fit each — makes the decision a lookup rather than a debate] -->
 
+![The Streamlit-versus-Gradio selection guide: do work (Streamlit) versus try the model (Gradio), compared across user's primary job, interaction model implied, architecture fit, deployment platform, and pipeline fit — with the mismatch to avoid, an orchestrated system behind a free-form Gradio box.](../images/23-shipit-interface-and-deployment-fig-04.png)
+
 ## Building the Interface
 
 "Minimum viable interface" is not the same as "minimum effort interface." Minimum effort produces a bare form that works but makes no commitments. Minimum viable produces the smallest interface that accurately represents what the tool does, makes the right commitments, and does not make the wrong ones.
@@ -114,6 +122,8 @@ Three components every minimum viable AI tool interface needs.
 What the minimum viable interface should not have: features your system does not reliably support, input types the system cannot handle, capability claims in the copy the system cannot keep.
 
 <!-- → [DIAGRAM: Minimum viable interface — three required components as labeled boxes (Input affordance matches system scope, Visible processing state, Output surface with confidence representation) and three prohibited components (Features system can't reliably support, Input types system can't handle, Capability claims system can't keep) — required on left, prohibited on right, with the alignment audit as the gate between design and deploy] -->
+
+![The minimum viable interface: three required components — input affordance matching system scope, visible processing state, output surface representing confidence — beside three prohibited ones, with the alignment audit as the gate that must be passed between design and deploy.](../images/23-shipit-interface-and-deployment-fig-05.png)
 
 ### The Alignment Audit
 
@@ -141,6 +151,8 @@ Five claims. Three needed fixes before the tool was aligned. None of the fixes r
 
 <!-- → [TABLE: Alignment audit worked example — columns: claim as written, system reality, pass/fail, specific fix applied — five rows from the sentiment analysis pipeline; illustrates the two-column format in action] -->
 
+![The alignment audit worked on the sentiment pipeline: five interface claims, the system reality for each, pass or fail, and the specific fix applied — three of five needed narrowing, none required changing the system.](../images/23-shipit-interface-and-deployment-fig-06.png)
+
 ## Deployment
 
 Deployment is not the interesting part of this appendix, but it is the gate. The deliverable is a URL that someone other than you can visit and use. Getting there requires four concrete steps.
@@ -153,6 +165,8 @@ Deployment is not the interesting part of this appendix, but it is the gate. The
 
 **Step 4: Test the deployed URL before you share it.** Run through your own tool as a user who has never seen it. Do the inputs work? Does the processing state show? Does the output render correctly? Does the error state trigger when the system fails? The deployment environment is not your development environment; behavior can differ.
 
+![Deployment in four steps — choose a host, write a clean requirements.txt, handle secrets correctly, and test the deployed URL as a first-time user — each annotated with its most common failure, ending at a public URL someone else can use.](../images/23-shipit-interface-and-deployment-fig-07.png)
+
 ### The README as Interface
 
 The README is not documentation. It is the last interface layer — the one the user encounters when they are trying to understand what they just used, or before they decide whether to use it at all.
@@ -160,6 +174,8 @@ The README is not documentation. It is the last interface layer — the one the 
 A portfolio-quality README has six elements. First, what the tool does — one paragraph, no marketing language. What it takes as input, what it produces as output, who it is for. Second, how to use it — step-by-step, with the assumption that the user has never seen the tool before. Third, what its limits are — explicit. What the tool does not do. What kinds of input it handles poorly. What the confidence of the output is. This is the README-level alignment audit. Fourth, the architecture diagram — a figure showing the pipeline: inputs, processing steps, outputs, external services. A hand-drawn diagram photographed and embedded is fine; the content matters more than the rendering. Fifth, the technology stack — what the tool is built with: Streamlit or Gradio, which LLM API, n8n or direct code, storage layer. Sixth, the deployed URL — at the top, before anything else. The user should not have to read four paragraphs to find the link.
 
 <!-- → [TABLE: README quality checklist — six rows, one per element; columns: element name, what it should contain, common failure mode, self-grading question — makes the README a structured artifact, not a freeform document] -->
+
+![The README as the last interface layer: six elements in reading order — deployed URL at the top, then what it does, how to use it, limits, architecture diagram, and tech stack — each with what it should contain and how it fails.](../images/23-shipit-interface-and-deployment-fig-08.png)
 
 ## What the Interface Is Doing in the Larger Arc
 

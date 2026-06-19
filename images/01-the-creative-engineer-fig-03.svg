@@ -1,35 +1,51 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
-  </marker>
-</defs>
-<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
-<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Separating vs. Pooling Equilibrium</text>
-<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A signal works only when its cost differs by type. When tooling makes the signal cheap for everyone, separation collapses into pooling.</text>
-<rect x="56" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
-<text x="72" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">SEPARATING EQUILIBRIUM</text>
-<line x1="72" y1="108" x2="312" y2="108" stroke="#8a8480" stroke-width="0.75"/>
-<text x="72" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">High-productivity candidate</text>
-<text x="72" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low (relative to ability)</text>
-<text x="72" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Sends the signal</text>
-<text x="72" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Low-productivity candidate</text>
-<text x="72" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: high (relative to ability)</text>
-<text x="72" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Cannot afford the signal</text>
-<text x="72" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Employer</text>
-<text x="72" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Observes the signal — and learns who is who</text>
-<text x="192" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">The signal sorts. Hiring works.</text>
-<rect x="372" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
-<text x="388" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">POOLING EQUILIBRIUM</text>
-<line x1="388" y1="108" x2="628" y2="108" stroke="#8a8480" stroke-width="0.75"/>
-<text x="388" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">High-productivity candidate</text>
-<text x="388" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low</text>
-<text x="388" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Sends the signal</text>
-<text x="388" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Low-productivity candidate</text>
-<text x="388" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low (AI tooling)</text>
-<text x="388" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Also sends the signal</text>
-<text x="388" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Employer</text>
-<text x="388" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Observes the signal — and learns nothing</text>
-<text x="508" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">The signal pools. Hiring stops working from this signal.</text>
-<text x="350.0" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">When the cost-structure of a signal collapses, the signal collapses with it. The fix is not a louder signal — it is a different signal.</text>
+<!--
+  The GitHub signal collapse, 2004-2024
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 03
+  Type: timeline
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-03">
+  <title id="fig-title-01-03">The GitHub signal collapse, 2008–2024</title>
+  <desc>Timeline showing how fast the build signal pooled: GitHub launches 2008, Copilot 2021, Peng et al. 2023, and 82 percent of developers using AI by 2024.</desc>
+  <rect x="0" y="0" width="720" height="320" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The compression of the signal collapse</text>
+
+  <!-- axis -->
+  <line x1="60" y1="190" x2="680" y2="190" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- markers; spacing tightens 2021->2024 to show acceleration -->
+  <!-- 2008 GitHub -->
+  <line x1="100" y1="190" x2="100" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="100" cy="190" r="5" fill="#787878"/>
+  <text x="100" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2008</text>
+  <text x="100" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">GitHub launches</text>
+  <text x="100" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">repo = costly signal</text>
+
+  <!-- 2021 Copilot -->
+  <line x1="430" y1="190" x2="430" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="430" cy="190" r="5" fill="#787878"/>
+  <text x="430" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2021</text>
+  <text x="430" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">Copilot launches</text>
+
+  <!-- 2023 Peng -->
+  <line x1="540" y1="190" x2="540" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="540" cy="190" r="5" fill="#787878"/>
+  <text x="540" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2023</text>
+  <text x="540" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">Peng et al. (56%)</text>
+
+  <!-- 2024 82% (RED focal) -->
+  <line x1="640" y1="190" x2="640" y2="170" stroke="#121212" stroke-width="1"/>
+  <circle cx="640" cy="190" r="7" fill="#C8102E"/>
+  <text x="640" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2024</text>
+  <text x="640" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212" text-anchor="middle">82% use AI</text>
+  <text x="640" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">signal pooled</text>
+
+  <!-- acceleration bracket -->
+  <line x1="430" y1="262" x2="640" y2="262" stroke="#121212" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="535" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">three years from tool to population</text>
+
+  <text x="32" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: PENG ET AL. (2023); 2024 STACK OVERFLOW DEVELOPER SURVEY</text>
 </svg>

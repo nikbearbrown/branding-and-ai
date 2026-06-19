@@ -32,6 +32,8 @@ Convergence does not mean uniformity. A résumé and a portfolio website serve d
 
 <!-- → [TABLE: Five portfolio artifacts — columns: artifact, primary audience, reading speed, optimization goal, what alignment looks like across artifacts. One row per artifact.] -->
 
+![Five things "portfolio" means — résumé, portfolio website, GitHub profile, LinkedIn profile, and portfolio-as-product, each with its audience, reading speed, and optimization goal, the fifth binding the other four into one story](../images/18-portfolio-as-product-fig-01.png)
+
 ---
 
 Before we talk about any technical tooling, I want to install the deep principle that changes what you build.
@@ -50,6 +52,8 @@ The design implication is this: building a portfolio that only performs in Chann
 
 <!-- → [FIGURE: Three compounding channels — central portfolio box on the left, three directed connectors fanning out to labeled cards. Channel 1 short and visible. Channel 2 long, dashed, highlighted as the high-compounding arrow. Channel 3 branching and autonomous, operating without the portfolio owner's involvement.] -->
 
+![Three compounding channels fanning out from a central portfolio — direct hiring (short and visible), indirect reference (the long, highlighted high-compounding path), and template effects (branching autonomously into forks and footer credits)](../images/18-portfolio-as-product-fig-02.png)
+
 ---
 
 A portfolio's power comes as much from what is absent as from what is present. The negative-space rule from Chapter 6 applies directly here: what you decline to include defines the product's point of view as clearly as what you include.
@@ -65,6 +69,8 @@ The negative-space rule in practice: for every project on the portfolio, name on
 What does not belong: a screenshot wall of every project. A skills section listing fifty technologies as icons. Personal hobbies unrelated to the archetype. Long lists of job titles and dates — that is the résumé's job. Testimonials from people the audience has never heard of. A "currently learning X" list that implies the thing is not yet learned. Each of these reduces signal-to-noise in a context where the visitor has two to five minutes. Every item that is not archetype-reinforcing is a tax on their attention.
 
 <!-- → [TABLE: Project curation decision matrix — columns: selection criterion, what it means, how to apply it, common failure mode when ignored. Rows: archetype alignment, positioning relevance, technical depth signal, recency, exclusion rule.] -->
+
+![Curation and the negative-space rule — five selection criteria with how to apply each and the failure mode when ignored, plus the operational test: include 3–6 projects and for each name one you left out and why](../images/18-portfolio-as-product-fig-03.png)
 
 ---
 
@@ -86,6 +92,8 @@ Length: 800 to 1,500 words. With visuals: a hero screenshot at the top, the arch
 
 <!-- → [TABLE: Case study anatomy — columns: function, what it contains, what it signals to the reader, common failure mode when omitted, approximate word count. Four rows.] -->
 
+![The centerpiece case study doing four jobs at once — frame the problem, show the technical work and metrics, connect to the brand, and be honest about limits, each with what it signals and the failure mode when omitted](../images/18-portfolio-as-product-fig-04.png)
+
 ---
 
 Three tools get you to a deployed portfolio at a fraction of the time hand-coded React would take, and each makes different tradeoffs worth understanding before you choose.
@@ -101,6 +109,8 @@ Hand-coded React — using Chiang's open-source v4 as a reference or starting fr
 For visual assets, the current generation of image models can generate portfolio-quality visuals in minutes. The constraint that matters is consistency: choose one model and stay with it across all generated assets. Midjourney's painterly aesthetic and Flux's photorealistic style do not mix coherently on the same page. Your archetype picks the aesthetic; one model expresses it consistently.
 
 <!-- → [TABLE: v0 vs Framer vs hand-coded React — one column per tool, rows covering: control level, deployment path, technical signal sent, visual control, best fit use case, time to deployed draft.] -->
+
+![v0 vs. Framer vs. hand-coded React compared across control level, deployment path, technical signal, visual control, best-fit use case, and time to a deployed draft — no recommended tool, since the choice depends on archetype](../images/18-portfolio-as-product-fig-05.png)
 
 ---
 
@@ -133,6 +143,8 @@ Experience descriptions: each role gets two to three sentences on what you built
 The cumulative effect: a recruiter who looks at your LinkedIn, clicks through to your portfolio, and reads your résumé encounters the same archetype from three angles.
 
 <!-- → [TABLE: LinkedIn optimization — columns: element, default state and its failure signal, archetype-aligned version. Rows: headline, about section, featured section, experience descriptions, skills.] -->
+
+![LinkedIn optimization, default versus archetype-aligned — headline, about, featured, experience, and skills shown as before/after, contrasting the generic default state with the positioning-driven version](../images/18-portfolio-as-product-fig-06.png)
 
 ---
 

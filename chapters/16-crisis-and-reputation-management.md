@@ -36,6 +36,8 @@ That is no longer true. A video of a United Airlines passenger being dragged off
 
 <!-- → [CHART: Timeline of the United Airlines April 2017 crisis — x-axis: hours from incident; key events marked: video posted, first 1M views, competitor booking surge, CEO statement released, second statement released; shows the gap between incident and response against the propagation speed] -->
 
+![Years to build, hours to lose: a timeline of the United Airlines April 2017 crisis on an hours-from-incident axis, marking the video posted, first million views, competitor booking activity, and the CEO's delayed statements, showing how the company lost the first day of the narrative against the speed of propagation.](../images/16-crisis-and-reputation-management-fig-01.png)
+
 The asymmetry creates a discipline problem. Building brand equity requires patience — you cannot rush the accumulation. Protecting brand equity in a crisis requires speed — you cannot wait for the full picture. These two modes of operation require different organizational reflexes, and most organizations train extensively for the slow accumulation and almost never for the fast response.
 
 The purpose of a crisis playbook is to solve this problem institutionally: by making the slow decisions in advance, so that the fast moment is execution rather than judgment.
@@ -58,6 +60,8 @@ Coombs identifies three crisis clusters based on responsibility attribution.
 
 <!-- → [TABLE: SCCT crisis types and response strategies — three rows: victim / accidental / preventable; columns: crisis type, example, public responsibility attribution, appropriate response strategy, strategies that backfire, example of each strategy done well and done badly] -->
 
+![SCCT: matching response to crisis type — a matrix of three crisis clusters ordered by rising responsibility attribution (victim → accidental → preventable), each with an example, the public responsibility it carries, the appropriate strategy (deny/bolster, diminish, rebuild/mortification), and the strategy that backfires.](../images/16-crisis-and-reputation-management-fig-02.png)
+
 The strategic error that ruins most corporate crisis responses is applying the wrong strategy to the crisis type. This happens because high-responsibility crises are the most threatening — they involve the largest liability, the most severe reputational risk, the greatest pressure from legal counsel to minimize disclosed responsibility. The instinct is to treat a preventable crisis as if it were accidental: to explain context, to note extenuating factors, to avoid the words "we were wrong." That instinct, understandable as it is, is precisely backward. Audiences are sophisticated readers of organizational behavior under pressure. A low-responsibility strategy applied to a high-responsibility crisis signals that the organization is protecting itself rather than its stakeholders, and that signal is often more damaging than the original crisis.
 
 William Benoit's **Image Repair Theory** maps the full palette of available responses: denial (it did not happen, or we did not do it), evasion of responsibility (we did not intend the harm, someone else is responsible), reducing offensiveness (the harm was not as severe as it appears), corrective action (we are fixing the problem), and mortification (we accept responsibility and apologize). These are not equally available in all crisis situations. In a preventable crisis, denial is not a viable response — the facts will surface, and the denial will become an additional crisis on top of the original one. Mortification, combined with genuine corrective action, is the only path that gives the brand a reasonable chance of recovery.
@@ -73,6 +77,8 @@ The company's Credo — a statement of values written by Robert Wood Johnson II 
 They were real. The recovery followed from that reality.
 
 <!-- → [TABLE: Tylenol response decision sequence — timeline: day 1 (scope of problem), day 2 (nationwide recall decision), day 3 (CEO public communication), week 2 (tamper-evident packaging proposal), month 3 (relaunch), year 1 (market share recovery); columns: decision, alternatives available, cost, brand signal sent] -->
+
+![The Tylenol standard, action first then words: a left-to-right decision sequence — scope the problem, pull 31 million bottles nationwide ($100M), communicate openly, invent tamper-evident packaging, relaunch — with the market-share recovery arc (35% to 8% to above pre-crisis) noted along the bottom, the pivotal irreversible action preceding the messaging.](../images/16-crisis-and-reputation-management-fig-03.png)
 
 The contrast case is instructive. In 2010, BP's Deepwater Horizon well blew out in the Gulf of Mexico, killing eleven workers and releasing approximately 4.9 million barrels of crude oil into the Gulf over 87 days. The crisis was clearly preventable — internal documents subsequently revealed that safety concerns had been raised and overridden in the interest of cost and schedule. BP's CEO Tony Hayward made a series of responses that became case studies in how not to handle a high-responsibility crisis. "The Gulf of Mexico is a very big ocean" minimized the harm. "I'd like my life back" centered the CEO's experience over the victims' and the affected communities'. The response strategy — diminish, contextualize, manage perception — was precisely wrong for a crisis in which public responsibility attribution was high and rising.
 
@@ -100,6 +106,8 @@ Holding statements should be written for each crisis category in the playbook �
 
 <!-- → [TABLE: Crisis playbook structure — four-section table: section | what it contains | who owns it | when it is used; sections: monitoring/thresholds, severity triage, holding statements, escalation path] -->
 
+![The crisis playbook's four components: stacked bands for monitoring and alert thresholds, severity triage (which SCCT type is this?), pre-drafted holding statements per crisis category, and the escalation path (who decides, speaks, and approves), each annotated with its contents, owner, and when used — the slow decisions made before the fire so the live moment is execution.](../images/16-crisis-and-reputation-management-fig-04.png)
+
 ---
 
 ## Speed vs. Wrong-Speed
@@ -111,6 +119,8 @@ Speed matters because silence cedes the narrative. When an organization does not
 Wrong-fast is when the instinct to respond quickly produces a statement before the organization understands the situation. A defensive statement issued before the facts are known will be shown to be false when the facts emerge. A minimizing statement issued before the scale of the harm is known will look tone-deaf when the scale becomes public. A denial issued before the organization has verified the denial is supportable will become, when it cannot be sustained, an additional crisis layered on top of the original.
 
 The holding statement resolves the speed-versus-accuracy tension. It is fast — it can be posted within the first hour — and it commits to nothing that cannot be sustained. "We are investigating" is true as long as you are actually investigating. "Customer safety is our priority" is true as long as your subsequent actions are consistent with it. The holding statement buys the time needed to get the real response right.
+
+![Speed vs. wrong-speed: three response postures contrasted on the axes of speed and accuracy — silence cedes the narrative, a wrong-fast defensive statement is falsified when facts emerge, and the holding statement sits at the intersection of fast and accurate, resolving the tension by committing to nothing unsustainable.](../images/16-crisis-and-reputation-management-fig-05.png)
 
 The practical threshold for when to post the holding statement versus when to wait for the full response depends on propagation speed. For a story spreading on social media: post the holding statement within the first two hours. For a story in a trade publication that has not yet reached mass media: you may have a day. For breaking broadcast news: the holding statement should already be queued. The playbook sets these thresholds by crisis severity level so that the live decision is mechanical rather than improvised.
 
@@ -139,6 +149,8 @@ The holding statement template for a preventable crisis: "I've become aware of [
 Note the differences. The accidental holding statement investigates and promises a response. The preventable holding statement accepts responsibility immediately, without qualification. The SCCT framework determines which template is pulled, and that determination is made at the triage stage, not in the live response moment.
 
 <!-- → [TABLE: Personal brand crisis playbook — three rows: accidental (content error), accidental-to-preventable (systematic bad advice), preventable (personal conduct); columns: scenario, SCCT type, monitoring threshold, holding statement template, escalation path, recovery timeline estimate] -->
+
+![Personal-brand crisis scenarios mapped to SCCT: a matrix of three scenarios for the technical-education brand — content error (accidental → diminish), systematic bad advice (accidental escalating to preventable → diminish then rebuild), and personal conduct (preventable → mortification) — with each scenario's monitoring threshold, holding-statement posture, and escalation note, showing how triage selects the template before anything is written.](../images/16-crisis-and-reputation-management-fig-06.png)
 
 ---
 

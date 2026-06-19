@@ -33,6 +33,8 @@ Your visual work in this chapter has something to express: the archetype from Ch
 
 <!-- → [TABLE: Three failure cases — columns: brand, what was changed, the strategic failure, the archetypal mismatch, the brand consequence, the recovery action] -->
 
+![Three strategy-free redesign failures compared — Pepsi 2008 (strategy-free rationale), Yahoo 2013 (strategy-free process), and Tropicana 2009 (wrong archetypal foundation) — each with what changed, the consequence, and the recovery, unified by the common diagnosis: design without prior strategic commitment.](../images/09-visual-identity-systems-fig-02.png)
+
 ---
 
 "Visual identity" covers six components that together tell a viewer what brand they are looking at. Most non-designers treat these as independent decisions. They are not. They are a system — each component is perceived in context with the others, and the context is the archetype.
@@ -50,6 +52,8 @@ Your visual work in this chapter has something to express: the archetype from Ch
 **Motion** (where relevant for digital products). How elements appear, transition, and behave. A Sage brand's motion is deliberate, unhurried. A Hero brand's motion is dynamic, directional. For a portfolio and deployed AI tool, motion is a secondary concern — get the first five components coherent first.
 
 <!-- → [TABLE: Six identity components — columns: component name, what it contains, how it expresses the archetype, most common failure mode when strategy is absent] -->
+
+![The six visual identity components as a hub-and-spoke system around a central node — visual identity read against the archetype — with logo/wordmark, color palette, typography, imagery direction, layout system, and motion (secondary) each connected to the archetype to show they are perceived in context, not independently.](../images/09-visual-identity-systems-fig-03.png)
 
 The system relationship is what matters. A logo that looks fine in isolation can clash with the wrong typography. A palette beautiful in print can fail accessibility on screen. A layout that works for long-form reading can feel slow for a task-oriented tool. The visual identity is the rulebook that prevents each component from making choices the others cannot support.
 
@@ -74,6 +78,8 @@ A **Magician** archetype's visual language uses jewel tones, intentional gradien
 These are not arbitrary conventions. Each is a documented response pattern to how users form impressions of brands. When the visual matches the archetype, the brand communicates immediately, without a 27-page explanation. When it mismatches, the "BreathTaking" document happens.
 
 <!-- → [DIAGRAM: Four-quadrant archetype visual logic grid — axes: warm/cool (horizontal) and restrained/expressive (vertical); Sage in restrained/cool quadrant, Caregiver in restrained/warm, Hero in expressive/cool, Magician in expressive/warm; each quadrant annotated with palette direction, type direction, and one brand example] -->
+
+![A four-quadrant archetype visual-logic grid with warm-to-cool on the horizontal axis and restrained-to-expressive on the vertical: Sage (restrained/cool, NYT and Economist), Caregiver (restrained/warm, Headspace and J&J), Hero (expressive/cool, Nike and Red Bull), and Magician (expressive/warm, Adobe and Spotify), each annotated with palette and type direction.](../images/09-visual-identity-systems-fig-04.png)
 
 ---
 
@@ -101,6 +107,8 @@ The brief should be dense — one to two pages, no padding. Every sentence is a 
 
 <!-- → [TABLE: Creative brief section anatomy — columns: section name, the question it answers, what a weak entry looks like, what a strong entry looks like] -->
 
+![The creative brief's eight sections as ordered constraint blocks — brand strategy summary, project scope, audience, tone words, references, anti-references, constraints, and deliverables — each labeled with the question it answers, with the discipline note that tone words forbid the anti-words innovative, modern, clean, and professional, framed as "every sentence is a constraint."](../images/09-visual-identity-systems-fig-05.png)
+
 ---
 
 Color is the highest-frequency brand signal. Every pixel of every interface carries the palette. A wrong color decision is encountered more often than any other wrong decision in the system.
@@ -119,6 +127,8 @@ A minimum viable palette has five components: one primary, two accents, and two 
 
 <!-- → [TABLE: Palette construction guide by archetype — columns: archetype, primary color direction, accent direction, neutral system character, palette to avoid (anti-archetype), real-world brand example] -->
 
+![A four-row matrix mapping each archetype — Sage, Hero, Caregiver, Magician — to its primary color direction, accent character, neutral system, and display and body typeface examples, rendering the archetype-as-constraint logic for both palette and type as word-described directions rather than rendered hues.](../images/09-visual-identity-systems-fig-07.png)
+
 ### Accessibility Testing
 
 Every text-on-background combination used in the interface must pass WCAG 2.2 AA standards at minimum. The numbers are specific and non-negotiable: normal text (below 18pt) requires a contrast ratio of 4.5:1; large text (18pt and above) and graphical objects require 3:1. Test every combination you intend to use. The WebAIM Contrast Checker takes two hex values and returns the ratio.
@@ -136,6 +146,8 @@ Here is what a partial accessibility audit looks like for a Sage-archetype palet
 | Caption text on white | #9CA3AF | #FAFAF8 | 2.9:1 | ✗ | ✓ |
 
 Caption text failed at normal-text size. The fix: darken it to #6B7280, which returns 4.6:1 — a pass. The palette character does not change; the implementation is now compliant.
+
+![A contrast-ratio audit of the Sage palette's five text-on-background combinations (17.4, 4.6, 8.9, 8.9, and 2.9 to 1) shown as horizontal bars against the AA reference lines of 4.5:1 for normal text and 3:1 for large text, with the single failing combination — caption at 2.9:1 — flagged and its fix noted (darken to pass at 4.6:1).](../images/09-visual-identity-systems-fig-06.png)
 
 The accessibility audit is not optional. WCAG 2.2 AA is a legal requirement in many jurisdictions for public-facing digital products, not a best-practice recommendation. Document every failure and its resolution before launch.
 
@@ -167,6 +179,8 @@ Choosing the typefaces is not enough. You need to specify how they are used:
 The specification prevents drift. Without it, every new page is a new typographic decision — and the accumulated inconsistency destroys system coherence over time.
 
 <!-- → [TABLE: Archetype typography pair guide — columns: archetype, recommended display face, recommended body face, what the pairing signals, type to avoid, example brand using this pairing logic] -->
+
+![A vertical type-scale ladder for the Sage specification — Display/H1 (56/1.1), H2 (36/1.2), H3 (24/1.3), Body (16/1.6), Caption (13/1.4), and UI (14) — each rung labeled with face, weight, size, and line height and sized proportionally to show the hierarchy, demonstrating that specification prevents drift.](../images/09-visual-identity-systems-fig-08.png)
 
 ---
 

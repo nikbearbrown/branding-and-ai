@@ -27,6 +27,8 @@ The Kosmyna EEG study makes this visible: up to 55% reduction in functional brai
 
 The implication: cognitive struggle is not the price of learning. It is the mechanism of learning. AI that removes the struggle removes the mechanism. AI that makes the struggle more productive — better feedback, better calibration, better questions — accelerates learning without removing its cause.
 
+![The Frictional mechanism: a causal chain from prediction error to dopamine firing and BDNF upregulation to strengthened synapses to durable memory, set against the AI-shortcut path where removing friction breaks the trigger so no consolidation and no durable learning occur.](../images/97-fundamental-themes-fig-02.png)
+
 **The Frictional principle:** The struggle is the point. AI should make the struggle more productive, not eliminate it.
 
 ---
@@ -67,6 +69,8 @@ The answer requires a taxonomy — not a vague claim that "some things are irred
 ## The Irreducibly Human Taxonomy
 
 AI has decisively won Tier 1. For everything else, the situation is more complicated — and the complication is precisely what the books in this series teach.
+
+![The Irreducibly Human taxonomy as a tier ladder from machine territory upward: Tier 1 Pattern and Association (machines win), Tier 2 Embodied and Sensorimotor (constrained by physics), Tier 4 Metacognitive and Supervisory (AI weak), Tier 5 Causal and Counterfactual (AI unreliable), Tier 6 Collective and Distributed (AI absent), Tier 7 Existential and Wisdom (AI absent), with the phase-gate boundary drawn between Tier 1 and Tier 4.](../images/97-fundamental-themes-fig-03.png)
 
 ---
 
@@ -202,6 +206,8 @@ Generate structure, retrieve information, adjust complexity, produce calibrated 
 **Humans do human things (Tiers 4–7):**
 Audit AI outputs for plausibility (Tier 4), formulate the right problem (Tier 4), perform the identification layer of causal analysis (Tier 5), hold and defend a position in productive disagreement (Tier 6), exercise institutional judgment (Tier 6), know what question is worth asking (Tier 7), be accountable for consequential decisions (Tier 7).
 
+![The division of labor split at the phase gate: the left panel lists what AI does at Tier 1 — generate structure, retrieve information, adjust complexity, give calibrated feedback, draft routine communications, flag errors, execute estimation, format and organize — and the right panel lists what humans do at Tiers 4 to 7 — plausibility audit, problem formulation, the causal identification layer, holding a position, institutional judgment, knowing what question is worth asking, and accountability.](../images/97-fundamental-themes-fig-04.png)
+
 Neither replaces the other. The teacher who uses AI for preparation does more teaching. The student who uses AI for scaffolding learns more deeply. The researcher who uses AI for literature navigation does more original research. The engineer who uses AI for estimation — after doing the identification layer herself — produces more defensible conclusions. The human cognitive work is not diminished; it is clarified, amplified, and freed from the Tier 1 work that was occupying it.
 
 **The phase gate follows from the taxonomy:** The gate is at the boundary between what AI can do (Tier 1) and what requires human cognition (Tiers 4–7). AI stops at the gate not because it is distrusted but because the cognitive work on the other side of the gate is the work that produces the human capability that makes AI safe to use.
@@ -215,6 +221,8 @@ Neither replaces the other. The teacher who uses AI for preparation does more te
 **Phase gates** are the operational level: specify exactly where AI stops and human work begins; make the specification explicit; enforce it; the gate is the Frictional principle made actionable, and it sits at the Tier 1 / Tier 4 boundary.
 
 **Humans + AI** is the design level: AI handles Tier 1 so humans can do Tiers 4–7; the system amplifies human capability at the tiers that are irreducibly human, rather than replacing the cognitive events that constitute them.
+
+![The unified argument as a nested three-level stack: Frictional at the biological level (struggle triggers the neural events that constitute learning), Phase gates at the operational level (specify where AI stops and human work begins), and Humans + AI at the design level (AI does Tier 1 so humans do Tiers 4 to 7), with the phase gate sitting at the Tier 1 / Tier 4 boundary.](../images/97-fundamental-themes-fig-01.png)
 
 The books in this series apply this argument to different contexts and different tiers:
 
@@ -253,6 +261,8 @@ This is the Irreducibly Human taxonomy applied to employment economics. The Tier
 
 The credential matters less. The demonstrated capability matters more. This is the market telling educators what to teach.
 
+![The 56% wage premium and the hiring shift: a bar chart of the AI-skill wage premium rising from 25% in 2023 to 56% in 2024, alongside the practical-AI-skills premium of 19 to 23% against the credentials-alone premium of 9 to 11%, with a note that AI-skill jobs grew 7.5% while total postings fell 11.3%.](../images/97-fundamental-themes-fig-06.png)
+
 ---
 
 ### The Wrong Arrow and the Right One
@@ -264,6 +274,8 @@ The wrong arrow also delivers the wrong product. A LegalTech engineer is an engi
 The right arrow runs: *your domain + AI superpowers*. The domain identity is preserved. The AI capability is added on top. The lawyer still practices. The teacher still teaches. The designer still designs. AI handles what AI does well in that domain. The human handles the Tier 4–7 work that AI cannot — the judgment, the plausibility audit, the causal argument, the relationship, the accountability.
 
 This arrow holds for every domain. It produces an entry in every row of the curriculum matrix. It is what the 56% premium is actually paying for.
+
+![The wrong arrow and the right one: the wrong arrow runs from your domain to becoming a technologist (Lawyer to LegalTech Engineer) and has nowhere to land for many domains, while the right arrow runs from your domain plus AI superpowers, preserving domain identity and adding AI capability on top — what the 56% premium actually pays for.](../images/97-fundamental-themes-fig-05.png)
 
 ---
 
@@ -425,6 +437,8 @@ A Boondoggle Score is a conductor's score with two simultaneous parts — the Mi
 
 Between every Claude task and every human task is a **handoff condition**: not "looks good" but a specific, testable condition that must be true about Claude's output before the next step begins. This is what gives the separation teeth.
 
+![The Boondoggle Score as two parallel tracks in dependency order: the Minion Part holds Claude's copy-pasteable prompts with full constraints from the SDD, the Gru Part holds the human's supervisory actions labeled Plausibility Auditing, Problem Formulation, Tool Orchestration, Interpretive Judgment, and Executive Integration, and between the tracks sits a handoff-condition gate — a specific testable condition that must hold before the next step begins.](../images/97-fundamental-themes-fig-08.png)
+
 ---
 
 ### Why the Separation Matters
@@ -477,6 +491,8 @@ AI removes the struggle that triggers learning. The phase gate specifies where t
 **The creative version:** Brutalist removes the technical barrier so the artist can focus on the creative judgment that was always the point. AI handles Tier 1 execution. The human keeps Tier 4–7 authorship. The work remains theirs.
 
 **The engineering version:** Boondoggling is conducting. Claude solves faster than any human — that gap will not close. What will not change is that Claude cannot verify against domain reality, cannot reformulate the wrong problem, and cannot supply accountability when the system ships. The Boondoggle Score makes the division explicit: Claude runs the Minion Part, the human runs the Gru Part, and every handoff has a condition that must be met before the next step begins. Anyone can use Claude Code. Boondogglers conduct it.
+
+![One framework, four applications: a hub-and-spoke map with the Irreducibly Human taxonomy and phase gate at the center, and four spokes to peer instantiations — AI+1 (employment economics and the 56% premium), Brutalist (creative production), Boondoggling (software engineering), and Frictional (the empirical foundation).](../images/97-fundamental-themes-fig-07.png)
 
 ---
 

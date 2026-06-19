@@ -36,6 +36,8 @@ A marketing strategy answers: *how do we reach our audience?* Channels, messages
 
 A brand strategy answers: *who are we, for whom, and what will we never compromise?* It is the constraint set that makes the marketing strategy coherent. Without it, marketing decisions are made in isolation — the ad targets everyone, the message says nothing specific, the product ships features for every customer who asks. The company loses shape as it grows.
 
+![Brand strategy versus marketing strategy — brand answers "who are we, for whom, and what will we never compromise?" while marketing answers "how do we reach our audience?", with marketing shown as downstream of brand.](../images/06-brand-strategy-and-positioning-fig-01.png)
+
 Seven components, each doing a job the others cannot.
 
 **Mission** is what the company exists to do. One sentence, specific and testable. *Increase the GDP of the internet* is testable: you could, in principle, measure it. *Make payments easier* is not — easier than what, for whom, by how much? The mission's job is to resolve ambiguity when the team faces a decision about what to build next. If a proposed feature increases the GDP of the internet, build it. The mission should also be technology-agnostic: if payment APIs eventually become a commoditized input, the mission survives.
@@ -52,13 +54,13 @@ Seven components, each doing a job the others cannot.
 
 **Positioning** is where the company sits relative to competitors, substitutes, and — most importantly — the *actual* alternatives the customer considers. This last part is where most founders go wrong. For Stripe in 2010, the actual alternative was not PayPal; it was *writing your own payment integration* or *not building the feature that required payments at all*. Positioning against the actual alternative produces a completely different strategy than positioning against a named competitor.
 
-<!-- → [TABLE: Seven brand components — columns: component, one-line definition, Stripe example, what breaks without it. One row per component.] -->
+![The seven brand components — Mission, Vision, Values, UVP, Archetype, Voice, and Positioning — each with the job only it does, a Stripe example, and what breaks without it.](../images/06-brand-strategy-and-positioning-fig-02.png)
 
 Each component constrains the others. The mission defines the scope of the vision. The values define what the company will not do to achieve the vision. The UVP defines what the product does that competitors will not, and should be consistent with the values. The archetype defines how all of it is expressed, consistent with the voice. The positioning defines who the audience is, consistent with the archetype. When the components contradict each other — mission broad but UVP narrow, archetype Sage but voice aggressive, positioning "for everyone" but values implying deep specialization — the brand is incoherent. Incoherent brands do not scale. Every new decision forces a choice between contradictory commitments.
 
 The document this chapter asks you to produce is one page. One page is a constraint, not a convenience. If your strategy does not fit on one page, you have not made enough decisions. You are still listing options rather than committing to positions.
 
-<!-- → [FIGURE: Dependency chain — seven brand components stacked vertically with downward arrows, Negative Space appearing at the bottom as the downstream consequence of all seven.] -->
+![The dependency chain — the seven brand components stacked with downward constraint arrows, with Negative Space at the base as the downstream consequence of all seven.](../images/06-brand-strategy-and-positioning-fig-03.png)
 
 ---
 
@@ -80,7 +82,7 @@ They declined marketing-style content. The official Stripe blog is technical. Th
 
 Each of these declinations is consistent with the Sage archetype. And here is the structural point: it is the *consistency*, sustained over fifteen years, that produced the legibility. Any single refusal could have been a one-time choice. The pattern is the brand.
 
-<!-- → [FIGURE: The Stripe inversion — two columns of equal weight: what Stripe built on the left, what Stripe declined on the right. Both sides load-bearing.] -->
+![The Stripe inversion — what Stripe built on the left and what Stripe declined on the right, both columns load-bearing, with the pattern of refusals shown as the brand.](../images/06-brand-strategy-and-positioning-fig-04.png)
 
 Your brand strategy document requires at least five items in the negative-space list — specific things the company will not do that a competitor at your stage might. Each item needs to pass four criteria.
 
@@ -94,7 +96,7 @@ Your brand strategy document requires at least five items in the negative-space 
 
 The useful test: show your draft negative-space list to someone who has not read the rest of your strategy. Ask them to infer your archetype from the list alone. If they guess correctly, the list is working.
 
-<!-- → [TABLE: Negative-space criteria — columns: criterion, what passes, what fails, Stripe example. Rows: specific, archetype-consistent, costly, testable over time.] -->
+![The four negative-space criteria every no-list item must pass — Specific, Archetype-consistent, Costly, and Testable over time — each with what passes, what fails, and a Stripe example.](../images/06-brand-strategy-and-positioning-fig-05.png)
 
 ---
 
@@ -108,7 +110,7 @@ The archetype is not a description of the company's personality. It is a descrip
 
 Apply four questions to your tool's audience: What do they *fear*? What do they *want to achieve*? What do they *distrust*? What do they *reward*? Developers reward demonstrated competence. Consumers reward emotional resonance. Enterprises reward reliability and risk reduction. The reward structure points toward the archetype.
 
-<!-- → [TABLE: Audience types and archetype fit — columns: audience type, what they fear, what they want, what they distrust, what they reward, archetype fit. Rows: developers, first-time founders in hostile markets, buyers in incumbent-dominated markets.] -->
+![Audience types and archetype fit — developers, first-time founders in hostile markets, and buyers in incumbent-dominated markets — mapped by what they fear, want, distrust, and reward, resolving to a Sage, Caregiver, or Rebel fit.](../images/06-brand-strategy-and-positioning-fig-06.png)
 
 Every archetype has a shadow — the failure mode produced by taking its strength too far. The Sage's shadow is dogmatism: so committed to depth and rigor that the company becomes rigid, iterates too slowly, or dismisses feedback that contradicts its model of the world. Stripe's API versioning policy — maintaining every API version indefinitely rather than deprecating old ones — is a kind of rigor that is also a burden. It serves developers who built on old versions; it also makes the codebase substantially more complex. The shadow is the cost of the strength.
 
@@ -128,7 +130,7 @@ Then add a fourth test that standard frameworks omit: archetype alignment. A nam
 
 Sage names tend to be precise, slightly understated, functional in connotation: Stripe, Linear, Notion, Vercel, Supabase. None of them is excited. Each implies capability and precision. Hero names tend to be energetic and action-forward: Salesforce, Crowdstrike, Cloudflare. Caregiver names tend toward warmth: Calm, Headspace. Magician names tend toward transformation and scale: Palantir, Anthropic, OpenAI. A name that fights its archetype is fighting itself.
 
-<!-- → [TABLE: Archetype naming patterns — four columns: archetype, naming tendency, examples in the wild, connotations to avoid; rows covering at least six archetypes (Sage, Hero, Caregiver, Magician, Rebel, Creator)] -->
+![Archetype naming patterns across six archetypes — Sage, Hero, Caregiver, Magician, Rebel, and Creator — showing each one's naming tendency, real-world examples, and connotations to avoid.](../images/06-brand-strategy-and-positioning-fig-08.png)
 
 <!-- → [TABLE: Company names and archetype fit — columns: company name, archetype, why the name fits, what would violate it. Rows: Stripe, Notion, Basecamp, Calm.] -->
 
@@ -156,7 +158,7 @@ Plus: name with trademark and domain status, and tagline — one sentence, arche
 
 Before you finalize, run the coherence check on every adjacent component pair. Mission and UVP: does the UVP describe a way of doing what the mission says? Values and negative space: can you trace each no-list entry to a specific value? Archetype and voice: does the voice sound like something this archetype would produce? Positioning and UVP: does the UVP differentiate from the actual alternatives named in the positioning? If any pair contradicts, revise until it does not.
 
-<!-- → [FIGURE: Circular consistency check — seven brand components in a ring, each adjacent pair connected by an arrow labeled with its consistency question.] -->
+![The circular coherence check — the seven brand components arranged in a ring, each adjacent pair joined by an arrow carrying its consistency question, with a contradiction on any edge deferring the conflict to a worse moment.](../images/06-brand-strategy-and-positioning-fig-07.png)
 
 The document is a hypothesis — first versions always are — but the hypothesis needs to be internally consistent to function as a decision-making tool. A strategy document with internal contradictions does not constrain decisions; it merely defers the contradictions until they surface under pressure, at the worst possible moment.
 

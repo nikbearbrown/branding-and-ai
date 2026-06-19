@@ -40,6 +40,8 @@ The reverse also happens. A brand-building campaign — a documentary series, a 
 
 <!-- → [CHART: Two-axis time series — x-axis is time (0 to 24 months); one line shows performance metric (fast-moving, volatile); one line shows brand metric (slow-moving, smoothly rising); the gap between when brand investment begins and when performance responds is labeled "the patience gap"] -->
 
+![The patience gap: a fast, volatile performance metric and a slow, smoothly rising brand metric plotted on a shared 0–24 month axis, with the interval between when brand investment begins and when performance finally responds marked as the patience gap.](../images/13-measuring-brand-equity-and-impact-fig-01.png)
+
 Measure both. Know which you are reading at any given moment.
 
 ---
@@ -59,6 +61,8 @@ The standard metrics a tracking study watches are three pairs.
 The standard tracking cadence for a mature brand is quarterly. For a brand in active repositioning — like the Jaguar case from Chapter 10 — monthly tracking during the transition period is defensible. For an early-stage personal or startup brand, bi-annual may be the right cadence: more frequent than that and you are measuring noise rather than signal, because equity moves too slowly to show real change in less than six months.
 
 <!-- → [TABLE: Brand tracking metrics reference — columns: metric, what it measures, survey question that captures it, interpretation caution, cadence; five rows: unaided awareness, aided awareness, consideration, preference, association strength/sentiment] -->
+
+![Brand tracking metrics reference: a five-row table covering unaided awareness, aided awareness, consideration, preference, and association strength/sentiment, with columns for what each metric measures, the survey question that captures it, and its interpretation caution.](../images/13-measuring-brand-equity-and-impact-fig-02.png)
 
 Kevin Lane Keller's brand audit framework connects tracking data back to the strategic questions: is the brand building the right associations? Is it differentiated from competitors? Is it consistent over time? The brand tracking study is the operational implementation of the audit cycle — not a one-time diagnosis, but a continuous monitoring system.
 
@@ -88,6 +92,8 @@ The practical guidance: track NPS as one lagging signal among several. Compare i
 
 <!-- → [INFOGRAPHIC: NPS calculation diagram — the 0–10 scale with promoter/passive/detractor zones marked, the subtraction formula, and callout boxes flagging: single-item problem, cultural calibration problem, compression problem, correlation problem] -->
 
+![The NPS calculation and its four limits: a 0–10 recommend-likelihood scale segmented into detractor, passive, and promoter zones with the promoters-minus-detractors formula, surrounded by callouts naming the single-item, cultural-calibration, information-compression, and correlation problems.](../images/13-measuring-brand-equity-and-impact-fig-03.png)
+
 ---
 
 ## The Attribution Problem
@@ -112,6 +118,8 @@ The honest position to hold when reading brand metrics: a number that moved is e
 
 <!-- → [DIAGRAM: Attribution problem visualization — a customer journey timeline with observable touchpoints (ads, website visits, email opens) marked in one color and unobservable touchpoints (word-of-mouth, billboard, in-store display) marked in another; shows the gap that multi-touch attribution cannot see] -->
 
+![The attribution problem: a customer-journey timeline ending in conversion, with observable touchpoints (ad click, website visit, email open) on the line and unobservable touchpoints (billboard, friend's recommendation, review read months earlier) shown as ghosts below, marking the brand-building activity that multi-touch attribution cannot see.](../images/13-measuring-brand-equity-and-impact-fig-04.png)
+
 ---
 
 ## Vanity vs. Value
@@ -127,6 +135,8 @@ A **value metric** connects to a decision or a dollar. Qualified conversion rate
 The vanity/value distinction is not fixed by metric type. Impressions can be a value metric if the decision they inform is about reach among a specific target — "are we achieving effective reach against our defined target audience?" In that context, impressions against the defined audience segment is a meaningful number. Impressions in a deck being used to justify the budget spent is vanity. The context and the decision being informed matter as much as the metric itself.
 
 <!-- → [TABLE: Vanity vs. value metric examples — columns: metric name, typically vanity because, can be value when, decision it would inform if value; eight to ten rows covering impressions, follower count, pageviews, NPS, conversion rate, retention, price premium, referral rate] -->
+
+![Vanity vs. value metrics sorted by the Farris test: a two-column classification placing raw impressions, follower count, pageviews, and video plays as vanity on the left and qualified conversion, retention, price premium, and referral rate as value on the right, divided by the question of whether the number would change any decision.](../images/13-measuring-brand-equity-and-impact-fig-05.png)
 
 The practical discipline for a measurement plan: for each metric on the list, write one sentence answering the Farris test. "If this number rose by 20% next quarter, I would [specific action]." If you cannot complete the sentence with a specific action, remove the metric from the plan. You will have fewer metrics. The ones remaining will be worth tracking.
 
@@ -157,6 +167,8 @@ What remains after the Farris filter:
 The plan has six metrics. Each has a source. Each has a cadence. Each has a decision it informs. The baselines are blank — every one of these will read "not yet measured" until the first data point is collected. The temptation to fill in a plausible number — "awareness is probably around 15%, let's use that as the baseline" — is exactly the fabrication risk the chapter warns against. A fabricated baseline corrupts every subsequent comparison. The honest baseline is blank.
 
 <!-- → [TABLE: Sample measurement plan — columns: metric | brand/performance | source | cadence | baseline (BLANK) | target (BLANK) | decision it informs; six rows from the worked example] -->
+
+![A measurement plan with honest baselines: six surviving metrics after the Farris filter, with columns for brand/performance, source, cadence, decision informed, and a baseline column reading "not yet measured" in every row to enforce the discipline that a fabricated baseline corrupts every later comparison.](../images/13-measuring-brand-equity-and-impact-fig-06.png)
 
 When AI tools help build this plan, they are useful at exactly one stage: drafting the structure. An AI assistant can generate a proposed metric list from a brand description, flag which metrics are vanity under the Farris test, and format the plan table. What it cannot do is supply the baselines. It will try — if asked "what's a typical unaided awareness baseline for a new educational brand?" it will produce a number, probably with a range and a source citation, and the number will be plausible enough that it is tempting to use. Do not use it. The baseline is the number you measure, not the number a model estimated from training data about other brands. The comparison you will be making in eighteen months is against your actual starting point, not a hypothetical one.
 

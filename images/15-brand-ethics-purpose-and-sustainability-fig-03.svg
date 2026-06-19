@@ -1,0 +1,95 @@
+<!--
+  Claim categories and their evidence standards
+  Book: Branding and AI
+  Chapter: 15-brand-ethics-purpose-and-sustainability
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/15-brand-ethics-purpose-and-sustainability-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-03">
+  <title id="fig-title-15-03">Claim categories and their evidence standards</title>
+  <desc>A matrix of six claim categories across three families — environmental (carbon, materials), social (labor, diversity), and AI ethics (bias, safety) — with an example claim, the required evidence type, who can certify it, and what cannot substantiate typically means for each.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="15-brand-ethics-purpose-and-sustainability" figure-number="03"
+      figure-title="Claim categories and their evidence standards"
+      figure-slug="claim-categories-evidence-standards"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/15-brand-ethics-purpose-and-sustainability-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">What counts as evidence depends on the claim's category</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Environmental claims need measurement; social claims need documentation; AI-ethics claims need published audits.</text>
+
+  <!-- header -->
+  <rect x="32" y="72" width="636" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Category</text>
+  <text x="186" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Example claim</text>
+  <text x="360" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Required evidence</text>
+  <text x="556" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Who certifies</text>
+
+  <!-- separators -->
+  <line x1="178" y1="72" x2="178" y2="416" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="352" y1="72" x2="352" y2="416" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="548" y1="72" x2="548" y2="416" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- 6 rows, 52px each from y=104 -->
+  <!-- env carbon -->
+  <rect x="32" y="104" width="636" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Environmental —</text>
+  <text x="40"  y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">carbon</text>
+  <text x="186" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"40% lower emissions"</text>
+  <text x="360" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">figures from a recognized</text>
+  <text x="360" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">accounting standard</text>
+  <text x="556" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">audited accountant</text>
+
+  <!-- env materials -->
+  <rect x="32" y="156" width="636" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Environmental —</text>
+  <text x="40"  y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">materials</text>
+  <text x="186" y="185" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"recycled content"</text>
+  <text x="360" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">composition from a</text>
+  <text x="360" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">certified supplier</text>
+  <text x="556" y="185" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">materials certifier</text>
+
+  <!-- social labor -->
+  <rect x="32" y="208" width="636" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Social —</text>
+  <text x="40"  y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">labor</text>
+  <text x="186" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"fair-wage supply chain"</text>
+  <text x="360" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">supplier code with</text>
+  <text x="360" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">enforcement records</text>
+  <text x="556" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">social auditor</text>
+
+  <!-- social diversity -->
+  <rect x="32" y="260" width="636" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Social —</text>
+  <text x="40"  y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">diversity</text>
+  <text x="186" y="289" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"diverse workforce"</text>
+  <text x="360" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">workforce data from an</text>
+  <text x="360" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">audited HR report</text>
+  <text x="556" y="289" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">HR audit</text>
+
+  <!-- ai bias -->
+  <rect x="32" y="312" width="636" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI ethics —</text>
+  <text x="40"  y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">bias</text>
+  <text x="186" y="341" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"bias-audited model"</text>
+  <text x="360" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">published audit: traits</text>
+  <text x="360" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">tested, set, results</text>
+  <text x="556" y="341" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">third-party assessor</text>
+
+  <!-- ai safety -->
+  <rect x="32" y="364" width="636" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="386" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI ethics —</text>
+  <text x="40"  y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">safety</text>
+  <text x="186" y="393" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"human-in-the-loop"</text>
+  <text x="360" y="386" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">architecture doc: where</text>
+  <text x="360" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">the human sits, what authority</text>
+  <text x="556" y="393" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">design + red-team</text>
+
+  <text x="32" y="434" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">"Cannot substantiate" usually means: the claim is a feeling or an aspiration with no measurement, document, or audit behind it.</text>
+</svg>

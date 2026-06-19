@@ -32,7 +32,11 @@ The what versus how distinction is cleaner in theory than in practice. A few exa
 
 The distinction matters because when the *how* ends up in the PRD, it gets treated as a requirement. Engineers build against it. When the implementation needs to change — and it always needs to change — the PRD becomes a source of false constraints. You end up defending a technology choice that was never actually a product requirement.
 
+![The what-versus-how boundary the PRD must hold: clean "what" statements beside the same statements contaminated with smuggled-in "how" decisions like SendGrid, GPT-4o-mini, and temperature 0.2.](../images/20-shipit-product-requirements-and-scope-fig-02.png)
+
 The one-page PRD has four sections. Each answers one question.
+
+![Anatomy of the one-page PRD: its four sections — Problem, Gap, Tool, and MVP Boundary — each carrying the single question it answers and its characteristic failure mode.](../images/20-shipit-product-requirements-and-scope-fig-01.png)
 
 <!-- → [TABLE: PRD section anatomy — four rows: Problem, Gap, Tool, MVP Boundary; columns: section, question it answers, common failure mode, weak example, strong example] -->
 
@@ -89,6 +93,8 @@ What good looks like:
 
 That out list has eight items. Each one is a thing a reasonable user would want and a reasonable engineer would want to build. Each one is a door that will not be opened in v1. The discipline that produced the list is exactly the $100,000 no.
 
+![The MVP boundary as an in/out ledger: five in-scope items beside eight named exclusions, with the $100,000 no pinned at the head of the out-of-scope column — the refusal is the act of design.](../images/20-shipit-product-requirements-and-scope-fig-04.png)
+
 ## What "Minimum Viable Product" Actually Means
 
 The word *minimum* in *minimum viable product* is where most students go wrong. Minimum sounds like it means "the least possible." It does not mean that. It means "the smallest thing that produces validated learning."
@@ -122,6 +128,8 @@ The loop looks like this:
 
 <!-- → [DIAGRAM: Build-Measure-Learn loop — three-node circular diagram (Build → Measure → Learn → Build); annotate each node with its PRD connection; outer arc labeled "PRD updated — a living document"] -->
 
+![The Build-Measure-Learn loop as a closed cycle — Build, Measure, Learn — each node annotated with its PRD connection, with the Learn step highlighted as the MVP's actual purpose and an outer arc marking the PRD as a living document.](../images/20-shipit-product-requirements-and-scope-fig-03.png)
+
 The MVP boundary is what keeps the loop tight. A PRD that puts too much in v1 takes six months to ship. You learn nothing for six months. The competitor who shipped a worse product four months ago has already run three learn cycles and is now on v4. You are still on v1.
 
 The discipline is uncomfortable because it means shipping something that is clearly incomplete. You know the product needs multi-user accounts. You know it should have a Slack integration. You know the dashboard should be better than a Google Sheet. But until you have validated that someone will pay for the core thing — the daily scored news summary — none of the additions matter. Ship the core thing. Validate. Then add the layer.
@@ -149,6 +157,8 @@ The brand consequence of these commitments is specific: Linear has become the pr
 This is the phenomenon worth seeing as a product designer: *scope discipline compounds*. Each time you refuse a feature that would compromise the core, you are not just keeping the product smaller. You are preserving the coherence of the experience that made the product worth using. Over time, the coherence becomes the product's identity. The identity becomes the brand. The brand attracts more users who value that specific coherence, which deepens it further.
 
 <!-- → [CHART: Two line series over time — "scope discipline held" line rising, "feature requests accepted" line falling; y-axis is coherence index 0–100; annotate the disciplined line's refusal points; label where the two lines diverge as the product's brand identity differentiating] -->
+
+![Two divergent trajectories of a coherence index over release cycles: the disciplined product holds and rises while the feature-accepting product erodes, with refusal points marked and the divergence labeled as the moment the gap becomes brand identity.](../images/20-shipit-product-requirements-and-scope-fig-05.png)
 
 The inverse is also true. Each time you accept a feature that compromises the core — usually because a specific customer asked for it and was willing to pay — you are spending coherence for cash. The transaction feels rational in the moment. Over time, the accumulated incoherence drives away the users who came for the discipline. You do not notice until your original user base has quietly moved on.
 
@@ -202,6 +212,8 @@ MVP boundary: In scope — 10 RSS feeds, deduplication, sentiment scoring, daily
 
 <!-- → [TABLE: Weak-vs-strong PRD comparison — three rows matching the worked example's three rewrite iterations; columns: section, weak version, failure mode, strong version — the progression from wish to spec made scannable] -->
 
+![The PRD rewrite ladder: three iterations across problem statement, tool description, and out-list, each showing the weak version, its failure mode, and the strong version — the progression from wish to spec.](../images/20-shipit-product-requirements-and-scope-fig-06.png)
+
 That is the PRD. One page. Four sections. A defensible out list. A named $100,000 no. An engineer can build from it. A user can evaluate it. A product manager can test it against the Build-Measure-Learn loop.
 
 ## What the PRD Is Actually Doing
@@ -219,6 +231,8 @@ The $100,000 no is the mechanism that prevents scope creep through the rest of t
 > A PRD is a contract with future-you: a record of the decisions you made when you were thinking clearly, preserved for the moment when you are thinking under pressure. The pressure will come. The contract is what keeps you from agreeing to things you will regret.
 
 <!-- → [DIAGRAM: PRD as connective tissue — four boxes in a horizontal row: Archetype (feeds problem statement), Architecture (feeds tool description), MVP Boundary (feeds Build-Measure-Learn loop), $100,000 No (gates scope creep in subsequent chapters) — arrows showing each connection, with annotation showing what breaks if each connection is missing] -->
+
+![The PRD as connective tissue: Archetype feeds the problem statement, Architecture feeds the tool description, the MVP Boundary feeds the Build-Measure-Learn loop, and the $100,000 No gates scope creep — each arrow annotated with what breaks if the link is missing.](../images/20-shipit-product-requirements-and-scope-fig-07.png)
 
 <!-- → [FIGURE: One-page PRD template — four section cards (Problem, Gap, Tool, MVP Boundary), each with guiding question, crossed-out weak version, and strong version; sidebar card for $100,000 no aligned to the MVP Boundary section] -->
 

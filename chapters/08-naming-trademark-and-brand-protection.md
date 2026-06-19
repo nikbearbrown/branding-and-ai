@@ -34,6 +34,8 @@ A **company registration** is an entity name filed with a state. It means a stat
 
 <!-- → [TABLE: Three rights side by side — columns: right, what it grants, what it does NOT grant, who issues it, what clearance looks like — makes the separateness concrete] -->
 
+![Trademark, domain, and company registration shown as three independent columns — each with what it grants, what it does not grant, and who issues it — making clear that only the trademark requires a lawyer to clear and that "I bought the domain so I own the name" is the dangerous error.](../images/08-naming-trademark-and-brand-protection-fig-01.png)
+
 ## The Strength Spectrum
 
 Here is the counterintuitive heart of trademark law. The same property that makes a name immediately understandable — the fact that it describes what the product does — is precisely what makes it hardest to protect. And the same property that makes a name feel opaque and arbitrary at first encounter is what makes it the most defensible legal asset.
@@ -52,11 +54,15 @@ US trademark law articulates this as the *Abercrombie* spectrum, named for a 197
 
 <!-- → [DIAGRAM: The Abercrombie spectrum as a horizontal scale — left to right from Generic to Fanciful, with protectability increasing and initial clarity decreasing; example marks plotted at each position] -->
 
+![The Abercrombie strength spectrum as a horizontal scale with five stops — generic (Software), descriptive (Cold and Creamy), suggestive (Netflix), arbitrary (Apple), and fanciful (Kodak) — where protectability rises and initial legibility falls from left to right, generic marks are never protectable, and protection without secondary meaning begins at suggestive.](../images/08-naming-trademark-and-brand-protection-fig-02.png)
+
 The lesson cuts against intuition in a specific way. When founders sit down to name something, they naturally gravitate toward names that communicate — names that tell customers what the product does. This is the descriptive end of the spectrum. Those names are the weakest from a legal standpoint and the most likely to be lost in a crowd of similar descriptors. The names that feel most original — arbitrary and fanciful — cost more to teach, because customers cannot infer meaning from them, but once taught they are defensible assets. "Apple" had to earn its meaning. Now no one else in the computer business can use it.
 
 This is the design philosophy of the naming decision: you are trading off legibility against exclusivity. The more immediately legible the name, the less exclusively yours it is.
 
 <!-- → [TABLE: The trade-off table — columns: spectrum position, legibility (high/low), protectability (high/low), time-to-teach, example — shows the trade-off is real and consistent across the spectrum] -->
+
+![The legibility–exclusivity trade-off shown as paired opposing bars at each spectrum position: legibility is highest at the generic end and protectability highest at the fanciful end, the two crossing to show that the more legible a name is, the less exclusively yours it can be.](../images/08-naming-trademark-and-brand-protection-fig-03.png)
 
 ## Likelihood of Confusion
 
@@ -69,6 +75,8 @@ Two marks do not have to look identical to trigger infringement. "Slickcraft" an
 This is the specific reason a clean exact-match search is not the same as being cleared. Searching for your exact string and finding nothing tells you only that your exact string is not registered. It tells you nothing about phonetic variants, visual similarities, translation equivalents, or related marks in adjacent classes. A name that passes an exact-match search and fails a likelihood-of-confusion analysis will still generate a cease-and-desist.
 
 <!-- → [TABLE: Likelihood-of-confusion factors — columns: factor, what it asks, why it matters, example — rows covering similarity, relatedness, channels, buyer sophistication, mark strength] -->
+
+![A hub-and-spoke diagram of the likelihood-of-confusion test — would a reasonable consumer be confused about source? — with spokes to similarity of marks, relatedness of goods, channels of trade, buyer sophistication, strength of the existing mark, and reported actual confusion, noting via Slickcraft/Speedcraft and Polaroid/Polacolor that an exact match is not required.](../images/08-naming-trademark-and-brand-protection-fig-04.png)
 
 ## Clearance Before Commitment
 
@@ -84,6 +92,8 @@ Fourth, and this is the step that is not optional: consult a trademark attorney 
 
 <!-- → [TABLE: Clearance checklist — four steps as rows, columns: step, what it catches, what it misses, who runs it, rough cost] -->
 
+![A cost-ordered clearance flowchart of four rising-stakes stages: search the USPTO register with phonetic and visual variants, check domain availability across .com/.io/.ai, run a web search for unregistered common-law use, and consult a trademark attorney — with the attorney step flagged as the non-optional gate.](../images/08-naming-trademark-and-brand-protection-fig-05.png)
+
 ## What AI Can and Cannot Clear
 
 There is a sharp line in this chapter, and it runs between two things that feel similar but are legally different.
@@ -98,6 +108,8 @@ The AI+1 line in this chapter is the sharpest in the book: AI owns the generatio
 
 <!-- → [DIAGRAM: Two-column split — left: "AI can do this" (generate candidates, classify spectrum, flag obvious conflicts, check domain availability); right: "AI cannot do this" (run USPTO search, assess likelihood of confusion, clear a mark, give legal advice) — the line between the columns is the AI+1 boundary] -->
 
+![A two-column split divided by the AI+1 boundary: on the left, what AI can do — generate candidates, classify them on the spectrum, flag cross-language issues, and check obvious domain availability; on the right, what AI cannot do — run the live USPTO search, assess likelihood of confusion, clear a mark, or give legal advice.](../images/08-naming-trademark-and-brand-protection-fig-06.png)
+
 ## Worked Example: Name and Protect
 
 For a running-project brand, the naming exercise has three passes.
@@ -111,6 +123,8 @@ The third pass is commitment: pick one, run it through counsel, register the mar
 The protection checklist is simple. Have you run the USPTO search and its phonetic variants? Have you secured the domain you will actually use? Have you filed the entity? Have you filed or begun the trademark application? Each of these is a separate checkbox, and none of them substitutes for the others.
 
 <!-- → [DIAGRAM: Three-pass naming funnel — Pass 1 (Generative): 40 candidates → Pass 2 (Screening): 3–5 shortlisted, labeled with who does the work (AI + archetype filter); Pass 3 (Commitment): 1 name → counsel → registration; annotation marking the AI+1 boundary between Pass 2 and Pass 3] -->
+
+![A three-pass naming funnel narrowing left to right: Pass 1 Generative produces about 40 candidates where AI does genuine work, Pass 2 Screening shortlists 3–5 through an archetype filter and preliminary scans, and Pass 3 Commitment takes 1 name through counsel to register the mark, secure the domain, and file the entity — with the AI+1 boundary marked between screening and commitment.](../images/08-naming-trademark-and-brand-protection-fig-07.png)
 
 ---
 

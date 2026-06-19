@@ -30,6 +30,8 @@ The discipline of experience design, applied to brand, is the attempt to make ev
 
 <!-- → [DIAGRAM: The gap between brand strategy (top) and brand experience (bottom) — strategy layer: positioning, archetype, visual identity; experience layer: ad, email, support chat, onboarding, cancellation flow; arrows showing where the gap opens and where equity leaks] -->
 
+![A two-layer diagram of the strategy–experience gap: the top layer is what the company knows (positioning, archetype, visual identity) and the bottom is what the customer actually meets (ad, onboarding email, support chat, error message, cancellation flow), with alignment arrows and a flagged equity-leak point at the un-designed operational touchpoint.](../images/11-brand-experience-and-touchpoints-fig-01.png)
+
 ## Goods, Services, Experiences
 
 To understand why brand experience has become the primary competitive battleground, it helps to understand the economic shift that made it so.
@@ -44,6 +46,8 @@ Artificial intelligence accelerates this dynamic. As AI makes it cheaper and fas
 
 <!-- → [DIAGRAM: Pine/Gilmore value ladder — commodity → good → service → experience — with premium and differentiation markers at each stage; annotation showing where AI compression accelerates the move toward experience as the remaining differentiator] -->
 
+![The Pine and Gilmore value ladder as four ascending steps rising in price and differentiation — commodity (coffee beans, cents) to good (ground coffee, a dollar or two) to service (café service) to experience (the Starbucks staging) — annotated to show AI compressing goods and services toward parity, leaving experience as the remaining differentiator.](../images/11-brand-experience-and-touchpoints-fig-02.png)
+
 ## Mapping the Journey
 
 A customer journey map is a tool for making the whole contact surface visible at once. The premise is simple: a customer does not arrive at your brand fully formed. They move through stages — first becoming aware that something like your brand exists, then considering whether it fits what they need, then purchasing, then onboarding, then using over time, then either leaving or advocating to others. At each stage, specific touchpoints are doing the brand's work (or failing to).
@@ -55,6 +59,8 @@ For each stage, the map asks: what is the touchpoint (the specific contact — t
 George Lynn Shostack's service blueprinting method adds a second layer the journey map often omits: the back-stage. For every front-stage touchpoint — every contact the customer actually has — there is a set of back-stage operations that must execute for the front-stage to work. The map shows where those operational dependencies exist, which matters because a brand promise made at the front stage is only as good as the operations behind it. A promise of fast resolution in the support chat is a front-stage brand claim. Whether there is actually a back-stage system that can resolve tickets fast is an operational fact. The gap between the two is where brand promises die.
 
 <!-- → [TABLE: Customer journey map template — rows: stage (awareness through advocacy); columns: touchpoint, customer emotional state, brand's job, back-stage dependency, current performance vs. archetype — shows the full structure] -->
+
+![A staged customer journey map across seven stages — awareness, consideration, purchase, onboarding, use, renewal, advocacy — with the front stage (touchpoint, brand's job, emotional state) above a line of visibility and representative back-stage operational dependencies below, showing that a front-stage promise is only as good as the back-stage operation behind it.](../images/11-brand-experience-and-touchpoints-fig-03.png)
 
 The map's value is not the map itself. It is the moment when you lay out every touchpoint and can see, for the first time, where the brand is strong, where it is absent, and where two adjacent touchpoints are communicating contradictory things. A warm, human-voiced marketing email followed by a cold, formal support confirmation is a seam. Customers feel seams before they can name them.
 
@@ -70,6 +76,8 @@ The map reveals where these moments are. The design work is to find them and ove
 
 <!-- → [DIAGRAM: Customer journey arc with moments of truth marked as peaks — ZMOT before first contact, FMOT at first decision point, SMOT at first use, plus brand-specific moments (first support interaction, renewal) annotated with relative design investment recommended vs. typical] -->
 
+![The customer journey as a horizontal arc with moments of truth marked as peaks — ZMOT (pre-purchase research), FMOT (the shelf decision), SMOT (first use), and the software equivalents of first support interaction and renewal — each showing recommended versus typical design investment to surface the common error: over-spending on the acquisition ad and under-investing in onboarding.](../images/11-brand-experience-and-touchpoints-fig-04.png)
+
 ## Consistency Across Channels
 
 A brand is consistent when it feels like itself everywhere a customer encounters it. This does not mean uniform. A billboard and a help documentation page are not the same medium, cannot carry the same amount of information, and have different reader expectations. Holding the brand across both does not mean making them look and sound identical. It means holding the *core* — the archetype, the voice, the promise — while flexing the *expression* to fit the medium.
@@ -84,6 +92,8 @@ Omnichannel consistency is not an aesthetic aspiration. It is an equity protecti
 
 <!-- → [TABLE: Brand constants vs. variables — rows: archetype, voice/tone, visual identity, formality, length, channel-specific conventions; columns: constant (never changes) vs. variable (adapts) — with example of how a Sage brand expresses each in three different channels: homepage, support chat, error message] -->
 
+![Brand constants versus variables in two columns — constants that never change across channels (archetype commitments, tone of voice, visual identity) and variables that adapt to the medium (length, formality, personality density, visual density, channel conventions) — with a three-cell strip showing one Sage brand holding its constants while flexing across homepage, support chat, and error message.](../images/11-brand-experience-and-touchpoints-fig-05.png)
+
 ## Worked Example: Map and Build a Touchpoint
 
 For a running-project brand, this chapter adds two things: a complete journey map and one built touchpoint — an AI concierge or journey assistant — that must hold the brand's archetype even when things go wrong.
@@ -93,6 +103,8 @@ The journey map exercise requires honest answers to an uncomfortable question: w
 The touchpoint build is more demanding than the map. An AI concierge — a conversational layer that helps customers navigate the journey — is a high-leverage test of brand consistency because it operates across multiple stages and must hold the brand's voice in conditions the marketing copy never imagined. What does the concierge say when it cannot answer the question? What does it say when the user is frustrated? What does it say when it has failed and it knows it?
 
 These failure states are where the archetype is tested. A Sage concierge that encounters something it cannot answer should respond with intellectual honesty — "I don't have a reliable answer to that, and here is where you can find one" — not deflection or generic reassurance. A Caregiver concierge that encounters a frustrated user should meet the frustration with genuine acknowledgment before pivoting to resolution. The happy path is easy. The failure path is where the archetype either holds or it does not.
+
+![A state diagram for an AI concierge branching from the happy path into empty, error, frustrated-user, and "cannot answer" failure states, each annotated with the on-archetype response standard (a Sage answering with intellectual honesty, a Caregiver acknowledging frustration before resolving), with the "cannot answer" honesty node flagged as where the archetype holds or breaks.](../images/11-brand-experience-and-touchpoints-fig-06.png)
 
 Designing the failure states before building the tool is not optional. It is the design work.
 

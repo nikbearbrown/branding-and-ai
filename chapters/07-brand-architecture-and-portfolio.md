@@ -38,11 +38,15 @@ At the other end: the **house of brands**. A portfolio of independent brands, ea
 
 <!-- → [DIAGRAM: Brand Relationship Spectrum — horizontal axis from Branded House (left) to House of Brands (right), with Apple and FedEx on the left, P&G and Unilever on the right, and four labeled intermediate positions along the spectrum; gives readers the spatial layout before sub-brands and endorsements are introduced] -->
 
+![The brand relationship spectrum: a horizontal axis running from branded house (Apple, FedEx) through sub-brand and endorsed brand to house of brands (P&G, Unilever), with shared equity and efficiency rising toward the left and risk containment rising toward the right.](../images/07-brand-architecture-and-portfolio-fig-01.png)
+
 The house of brands solves the risk containment problem. If Axe has a brand image crisis, Dove is unaffected — the two brands do not share equity in the consumer's mind, so the failure does not propagate. The parent can also target each brand with surgical precision: Tide for heavy-duty cleaning, Dawn for dishes, Mr. Clean for surfaces. Each brand speaks to a specific use occasion without diluting the others.
 
 The cost is economic. Each brand in a house of brands must be built essentially from scratch. You cannot transfer the equity from Tide to a new P&G product launch — consumers will not know the connection exists. Every new brand requires its own advertising investment, its own identity development, its own distribution strategy. The house of brands is extraordinarily expensive to operate at scale. P&G and Unilever can afford it because they have the volume to amortize those costs across enormous businesses. Most organizations cannot.
 
 The choice between these poles is a theory about how equity and risk should flow through your organization. A branded house bets that shared reputation is more valuable than risk containment. A house of brands bets that precise targeting and risk isolation are worth the additional investment. Neither is universally correct — the right answer depends on how correlated your offerings are, how different your target audiences are, and how much you can afford to invest in brand-building per offering.
+
+![Branded house versus house of brands, compared side by side: the branded house bets shared reputation beats containment so equity compounds but risk propagates (Samsung Note 7), while the house of brands isolates risk and targets precisely at the cost of building each brand from scratch.](../images/07-brand-architecture-and-portfolio-fig-02.png)
 
 ---
 
@@ -62,6 +66,8 @@ The test for deciding between sub-brand and endorsed brand is simple: how much d
 
 <!-- → [TABLE: Sub-brand vs. Endorsed Brand — three-column comparison: structure name | equity borrowed from parent | degree of independent identity | example — with Apple/iPhone for sub-brand and Marriott/Courtyard for endorsed; gives readers a decision tool] -->
 
+![Sub-brand versus endorsed brand, showing the orientation reversal: in a sub-brand the master leads and a small qualifier attaches (Apple to iPhone) with equity flowing down, while in an endorsed brand the child leads large and the parent appears as a small "by" credit (Courtyard by Marriott) passing only a trust signal up.](../images/07-brand-architecture-and-portfolio-fig-03.png)
+
 ---
 
 ## Extension and Its Risk
@@ -78,6 +84,8 @@ The extension decision requires two questions. First: is the extension *relevant
 
 <!-- → [INFOGRAPHIC: Extension risk diagram — two axes: fit with parent brand (low to high) and effect on parent associations (blurs to reinforces); four quadrants with example extensions placed in each; helps readers visualize why some extensions work and others dilute] -->
 
+![The extension risk matrix: fit with the parent's core associations runs low to high horizontally and effect on those associations runs from blurs to reinforces vertically, with the low-fit, blurs quadrant (Apple into groceries or insurance) flagged as the danger zone where extensions dilute the parent.](../images/07-brand-architecture-and-portfolio-fig-04.png)
+
 ---
 
 ## Co-branding and Ingredients
@@ -89,6 +97,8 @@ Not all brand relationships are internal. Two independent brands can combine the
 **Ingredient branding** makes a component brand visible inside a finished product. Intel Inside is the canonical example: "Intel Inside" stickers on PCs were a direct-to-consumer campaign by a component manufacturer that had no natural consumer touchpoint. Gore-Tex tags on outerwear signal a specific performance property — waterproofing and breathability — that the garment brand may not be able to credibly signal on its own. Ingredient branding works when the component has associations that the finished product manufacturer cannot independently claim, and when consumers are sophisticated enough to know what the component does.
 
 Both structures carry symmetric risk. You inherit your partner's reputation — and your partner's crises. When a co-brand partner faces a scandal or product failure, the association you built becomes a liability. The financial crisis that hit various luxury brands' collaborative partners in 2008 dragged down collaborating fashion houses that had done nothing wrong. Choosing a co-brand partner is choosing which risks to take on board.
+
+![Co-branding and ingredient branding compared: co-branding joins two equal consumer-brand nodes through a shared value proposition (Nike and Apple, Supreme and Louis Vuitton), while ingredient branding embeds a visible component brand inside a finished product (Intel Inside, Gore-Tex) — both structures making you inherit the partner's reputation and crises.](../images/07-brand-architecture-and-portfolio-fig-05.png)
 
 ---
 
@@ -103,6 +113,8 @@ The most significant portfolio moves are often subtractions. Unilever's "Brand I
 The pruning discipline for your portfolio — whether corporate or personal — is the same as the segmentation discipline for your audience: every brand must earn its place by carrying distinct, valuable associations that a different brand in the portfolio cannot carry. If two of your offerings are targeting the same audience, resolving the same tension, and building the same associations, one of them is redundant. Redundancy is expensive, even when each individual offering is good.
 
 <!-- → [CHART: Portfolio value vs. number of brands — schematic curve showing value rising with early portfolio additions and declining with excess additions; illustrates the pruning argument without requiring specific data] -->
+
+![A schematic inverted-U curve of total portfolio value against number of brands: value rises with early additions to a concentration optimum, then declines into a bloat tail of free-riding and depreciating equity — illustrated by Unilever's prune from roughly 1,600 brands to 400.](../images/07-brand-architecture-and-portfolio-fig-06.png)
 
 ---
 
@@ -119,6 +131,8 @@ The decision turns on two questions. First: how correlated are the audiences? If
 The architecture map I produce for my own brand is a table with four columns: the offering, its relationship to the master brand (branded / sub-brand / endorsed / independent), the equity it borrows, and the overlap risk it creates. Once the map is visible, the prune candidates are usually obvious — the offerings that are neither building distinct equity nor making the master brand more coherent.
 
 <!-- → [TABLE: Personal brand architecture map — four columns: offering | relationship to master brand | equity borrowed | overlap/dilution risk — with four rows from the worked example; gives readers a template for their own portfolio mapping exercise] -->
+
+![A personal brand architecture map for Nik Bear Brown, with four offerings — newsletter, course, consulting, and an open-source library — each tagged by its relationship to the master brand, the equity it borrows, and its overlap risk, with the library pulled out as an endorsed or independent brand because it reaches a different audience.](../images/07-brand-architecture-and-portfolio-fig-07.png)
 
 ---
 

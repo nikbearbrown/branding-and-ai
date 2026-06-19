@@ -32,7 +32,7 @@ If your product is good, you think, why would you *voluntarily* exclude anyone? 
 
 The empirical consequences are predictable. An undefined audience dilutes the message — you say something broad enough for all, which moves none. It wastes budget — you pay to reach people who will never convert. And it corrupts the product roadmap — every feature request looks equally valid because you have no principled basis for deciding whose request matters most. Choosing an audience is choosing whom to disappoint. That refusal is not a limitation. It is what makes the brand legible.
 
-<!-- → [INFOGRAPHIC: Three failure modes of "everyone" audience — diluted message, wasted budget, corrupted roadmap — each with a one-line consequence; placed here to make the cost concrete before the solution is introduced] -->
+![The three failure modes of an "everyone" audience — diluted message, wasted budget, and corrupted roadmap — each converging on a brand that becomes illegible.](../images/04-the-brand-audience-fig-01.png)
 
 ---
 
@@ -42,13 +42,15 @@ The canonical spine from marketing theory is **STP**: Segmentation, Targeting, P
 
 **Segmentation** is the act of dividing a market into groups with genuinely different needs. The bases available to you are demographic (age, income, occupation), geographic (region, urban/rural density), behavioral (purchase frequency, loyalty, usage occasion), psychographic (values, lifestyle, personality type), and needs-based (what the person is actually trying to accomplish). Each basis gives you a different cut through the same population.
 
+![The five bases of segmentation branching from a single market — demographic, geographic, behavioral, psychographic, and needs-based — with demographics flagged as where most people wrongly stop and needs-based as what defines a true segment.](../images/04-the-brand-audience-fig-03.png)
+
 Here is the most common mistake: stopping at demographics. "Women 25–34" is a description. It is not a segment. The women in that description want dozens of different things — they have different jobs, different anxieties, different purchasing criteria. What makes a group a *segment* is a shared need, not a shared demographic. Two people with nothing demographically in common can belong to the same segment if they are trying to solve the same problem.
 
 **Targeting** is choosing which segment to serve. This is a strategic bet with two inputs: fit (does the segment's need connect to what you actually do well?) and winnability (can you reach this segment, and can you be meaningfully better for them than what they currently use?). A segment that is a perfect fit but unreachable is not a target. A reachable segment where you offer nothing distinctive is not a target either.
 
 **Positioning** — which Chapter 6 develops fully — is claiming a specific place in the target's mind: what you are, who you are for, and why you over the alternatives. Positioning is built on top of targeting. You cannot position for "everyone" because there is no mental slot for "everything."
 
-<!-- → [DIAGRAM: STP sequence — three horizontal boxes: Segmentation → Targeting → Positioning — with brief descriptor inside each and arrows showing the dependency; placed immediately after the definition to show the logical flow before the JTBD complication arrives] -->
+![The STP sequence — Segmentation, Targeting, and Positioning as three dependent stages, with each step building on the one before it.](../images/04-the-brand-audience-fig-02.png)
 
 The STP model was formalized in the mid-twentieth century when marketing data was largely demographic and survey-based — the tools available shaped the bases of segmentation. Needs-based segmentation became more tractable as behavioral data (purchase history, clickstream, usage logs) became available. JTBD is the conceptual refinement that comes from taking needs-based segmentation seriously all the way down.
 
@@ -64,7 +66,7 @@ The power of JTBD for audience work is that it cuts across demographics in a way
 
 For your own brand, the JTBD question is: what does your audience *hire* your work to do? Not "what do they get" — that is the feature. But what does having your work accomplish for them, in the context of the moment they turn to you? A technical writer might segment by job title (software engineers) and find the audience too diffuse. But if the real job is "I need to look competent in front of a nontechnical executive in forty-eight hours," that job is specific enough to design for — and specific enough that the person who needs it will recognize it instantly when your brand addresses it.
 
-<!-- → [INFOGRAPHIC: JTBD milkshake case study — timeline showing the original segmentation failure, the observational reframe, the job identified ("commute + satiety"), and the design changes; keeps the case study from reading as anecdote and makes the methodology visible] -->
+![The milkshake reframe as a four-stage method — demographic segmentation fails, direct observation of purchase patterns, the real job identified ("tolerable commute plus satiety until lunch"), and the resulting design changes.](../images/04-the-brand-audience-fig-04.png)
 
 ---
 
@@ -78,7 +80,7 @@ Dove's "Real Beauty" campaign worked on the same structure. The functional produ
 
 For audience work, the implication is this: once you have identified a segment by need or JTBD, ask one more question. What cultural tension does this group live with that no brand in your space is currently resolving? The answer narrows your positioning from "we do X" to "we do X for people who feel Y about the world" — and the second formulation is dramatically more magnetic to the right people.
 
-<!-- → [TABLE: Three brand examples — Nike, Dove, Patagonia — columns: functional product, cultural tension addressed, positioning phrase; makes Holt's argument concrete across cases before the reader applies it to their own brand] -->
+![The cultural lens across three brands — Nike, Dove, and Patagonia — showing each one's functional product, the cultural tension it addresses, and the positioning shift from "we do X" to "we do X for people who feel Y."](../images/04-the-brand-audience-fig-05.png)
 
 ---
 
@@ -94,7 +96,7 @@ The rule I use: every non-trivial claim in a persona earns a status tag. *Confir
 
 This is the exact point where AI assistance is most useful and most dangerous. AI can draft persona scaffolds from your archetype and any qualitative data you provide — pulling structure, flagging tensions, generating hypotheses. What it cannot do is decide that any particular claim is true. That decision requires evidence, and evidence requires contact with real humans. The +1 in the AI+1 frame is the researcher who goes to find out.
 
-<!-- → [TABLE: Confirmed vs. Needs Evidence vs. Inferred — three-column schema with example persona claims in each column; gives readers a working tool for auditing any persona the AI drafts] -->
+![Persona claim status as three columns — Confirmed, Needs Evidence, and Inferred — each with an example claim, and a rule that a persona dominated by Needs-Evidence claims is a hypothesis, not a research artifact.](../images/04-the-brand-audience-fig-06.png)
 
 ---
 
@@ -112,7 +114,7 @@ Now I draft two personas. I bring in everything I know about this audience — f
 
 The personas I submit to strategy are not the ones Madison drafted. They are the ones I can defend.
 
-<!-- → [TABLE: Two-persona scaffold — columns: persona name | job-to-be-done | cultural tension | verifiable behavior | evidence status — filled with Jordan and Alex from the worked example; gives readers a template they can copy for their own brand] -->
+![A two-persona scaffold filled with Jordan and Alex from the worked example — columns for persona, job-to-be-done, cultural tension, verifiable behavior, and evidence status — as a reusable template.](../images/04-the-brand-audience-fig-07.png)
 
 ---
 

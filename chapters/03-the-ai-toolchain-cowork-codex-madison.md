@@ -43,6 +43,8 @@ These four meanings are not in conflict. They are different levels of abstractio
 
 What matters for the product you are building is knowing which meaning you are operating in — because meaning three and meaning four produce completely different failure modes. An autonomous system that hallucinates partway through a twelve-step task has corrupted its own output by the time you notice. A role-in-pipeline that hallucinates at step three fails loudly, immediately, at a known location. You can fix it. You can tell a customer exactly what broke. The architecture is the difference between a recoverable error and a silent disaster.
 
+![Figure 3.1 — The four meanings of "agent" in 2026: function plus prompt, LLM with tools and a loop (ReAct), autonomous over a horizon (Devin), and specialized role in a system (Madison) — each with its example product, architectural implication, and dominant failure mode.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-01.png)
+
 <!-- → [TABLE: Four meanings of "agent" — columns: meaning number, informal label, example product, what it implies architecturally, dominant failure mode. Row for each meaning in this section.] -->
 
 ---
@@ -67,6 +69,8 @@ If you are a working marketer reading that list, something should feel familiar.
 
 That borrowing is not accidental, and it is not trivial. Organizations learned to divide marketing this way because the functions have genuinely different information needs, different output cadences, and different success metrics. An Intelligence function needs fresh data every morning. A Content function needs a brief and brand guidelines. A Performance function needs experiment results and statistical patience. Designing agents along the same boundaries means each can be optimized for its specific job without knowing how the others work internally. The orchestration layer handles the connective tissue.
 
+![Figure 3.2 — Madison's five specialized roles — Intelligence, Content, Research, Experience, Performance — each a named role with defined input and output, coordinated through a central Orchestration layer, with Performance closing the feedback loop.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-02.png)
+
 Now I want to show you what the alternative looks like — because the choice of five layers over one is the most consequential architectural decision Madison makes, and understanding why it is the right choice will carry you through most of what you need to know about building with AI.
 
 Suppose you designed Madison as a single large model with a long prompt and access to every data source. On a demo, this works. In production, three things break, in sequence.
@@ -76,6 +80,8 @@ Token costs become unsustainable. Every time the system runs, it re-reads all av
 Failure modes blur. When the system gives a wrong answer — a miscategorized sentiment, a misaligned headline, a broken recommendation — you cannot locate the fault. Did the model misread the news? Build a flawed persona? Draft a tone-deaf message? In a mega-agent, the answer is somewhere in the model, which is not actionable. You cannot fix what you cannot find.
 
 The product has no surfaces. From the customer's perspective, the mega-agent is a black box. Nothing to name. Nothing to version. Nothing to sell separately or improve in isolation. No feature roadmap. No pricing tier. No partner integration. The architecture is also an invisibility trap.
+
+![Figure 3.3 — Five roles vs. one mega-agent, the same capability as two architectures: five labeled, inspectable, named layers through an orchestration node versus one opaque mega-agent whose token costs balloon, failure modes blur, and product surfaces vanish.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-03.png)
 
 <!-- → [FIGURE: Side-by-side diagram — left: five labeled agent boxes connected through a central orchestration node with labeled input/output arrows; right: one opaque "mega-agent" box annotated "no surfaces, no fault location." Caption: the same capability, two different architectures, two different products.] -->
 
@@ -98,6 +104,8 @@ A senior developer choosing between them is not comparing capability benchmarks.
 Madison's choice of a five-layer orchestrated pipeline puts it on the Cursor end of this spectrum. Not because autonomy is inherently wrong. Because marketing decisions that go wrong in the wild are expensive in ways that a sandboxed coding task is not. A tone-deaf campaign post, a mispriced offer, a misread sentiment trend — these have real costs that are asymmetric and difficult to reverse. The architecture encodes a theory of risk.
 
 When you choose your own architecture, you are choosing a theory of risk. That choice deserves to be made explicitly, not inherited from a tutorial.
+
+![Figure 3.4 — The control–delegation spectrum: Cursor at the augmentation end (user in full control) and Devin at the delegation end (system autonomous), with Madison placed left-of-center — each position encoding a brand stance and a theory of risk.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-04.png)
 
 <!-- → [FIGURE: Horizontal spectrum from "user in full control / augmentation" (left) to "system autonomous, human reviews outcomes / delegation" (right). Cursor at left, Devin at right, Madison left-of-center highlighted. Each endpoint annotated with brand position and recovery model.] -->
 
@@ -141,6 +149,8 @@ OBSERVATION: Dashboard updated. Job complete.
 
 Each cycle is thought-action-observation. The LLM is not just calling APIs — it is reasoning about *why* it is calling them and *what to do* with what comes back. That is what distinguishes this from meaning one (a function with a prompt). The same loop structure runs in every Madison layer, with different tools and different reasoning prompts. The Research Agent reasons about survey data and acts on clustering calls. The Content Agent reasons about brand voice parameters and acts on generation calls. The Performance Agent reasons about experiment results and acts on Thompson sampling allocation calls.
 
+![Figure 3.5 — One complete ReAct cycle for the Intelligence Agent's morning run: THOUGHT to ACTION to OBSERVATION and back, populated with the news-scoring trace (870 articles to 87 deduped to scored to dashboard), with the observation-to-thought feedback arrow that distinguishes a true agent loop from a plain prompt.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-05.png)
+
 <!-- → [FIGURE: One complete ReAct cycle for the Intelligence Agent — four nodes in a loop: THOUGHT → ACTION → OBSERVATION → THOUGHT. The feedback arrow from OBSERVATION back to THOUGHT highlighted. Annotated with the actual content from the news-scoring trace above.] -->
 
 Understanding the loop also teaches you exactly where it fails — and there are three distinct failure modes, each requiring a different design response.
@@ -152,6 +162,8 @@ An *action failure* is when the tool call fails, returns an error, or returns da
 An *observation failure* is the most dangerous category. The tool returns a plausible-looking but incorrect result, the model's reasoning does not catch it, and the loop propagates the error downstream. This is why the Performance layer in Madison matters disproportionately to its apparent function. It is not just measuring outcomes. It is closing a feedback loop that can catch errors the upstream layers never detected — because eventually real-world performance tells the truth, even when every intermediate step looked correct.
 
 If you are designing your own agent loop, these three failure modes give you a design checklist. Make action failures loud. Make observation failures recoverable. Put at least one layer in the system whose explicit job is questioning whether the other layers were right.
+
+![Figure 3.6 — The three ReAct failure modes and their fixes: reasoning failure (does the wrong thing — add a guard), action failure (tool errors or silently hallucinates — make it loud), and observation failure (plausible-but-wrong result propagates — the most dangerous, caught downstream by the Performance layer).](../images/03-the-ai-toolchain-cowork-codex-madison-fig-06.png)
 
 ---
 
@@ -167,11 +179,15 @@ The trade-off is between predictability and flexibility. Graph-based orchestrati
 
 Madison chose predictability — and this is the correct choice for a system that needs to run at 7 a.m. every day, write clean data to a stable schema, and feed a dashboard a marketing director is going to stake decisions on. The operational question is not "can this system handle a task I didn't anticipate?" It is "can this system be trusted to execute a known task correctly, day after day, without surprising anyone?"
 
+![Figure 3.7 — Graph-based vs. conversation-based orchestration: n8n/LangGraph (predictable, every path defined, failures locatable, auditable) against AutoGen (flexible, agents self-organize, but failures hard to isolate) — Madison chose graph for predictability.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-07.png)
+
 <!-- → [TABLE: Graph-based vs. conversation-based orchestration — columns: property, graph-based (n8n/LangGraph), conversation-based (AutoGen). Rows: failure locatability, handling of novel task sequences, auditability, debugging surface, best fit use case.] -->
 
 The core technologies Madison deploys reflect the same commitment. GPT-4o and BERT for language tasks. PCA and clustering for data analysis. Thompson sampling and contextual bandits for content optimization. Neo4j and RDF for knowledge graph work. Each is a production choice, not a novelty demonstration. Neo4j because graph databases represent relationships between brand entities naturally — a brand is not a table, it is a network of associations. Thompson sampling because it handles the exploration-exploitation trade-off in multi-armed bandit experiments better than naive approaches, accumulating evidence before committing. These choices compound: each one makes the system more legible to the engineer maintaining it and more trustworthy to the customer paying for it.
 
 One design choice worth naming explicitly before we move on: where humans sit in the pipeline. Madison includes human-in-the-loop validation as an explicit architectural feature, not an afterthought. Consequential decisions — what content to publish, how to allocate campaign budget, what persona to deploy in a customer interaction — are reviewed by a human before execution. This is the right call for marketing work in 2026. The downside of a bad autonomous marketing decision is severe and difficult to reverse; the upside of eliminating the human review step is modest. Where you place humans in your own pipeline is not a philosophical question about autonomy. It is a risk-engineering question. Find the decisions in your system where a wrong answer is expensive and hard to correct. Put humans there. Automate everything else.
+
+![Figure 3.8 — Human-in-the-loop as risk engineering: most pipeline steps auto-execute, but consequential decisions — publish content, allocate budget, deploy a persona — pass through a human gate before execution; gate where a wrong answer is expensive and hard to reverse, automate the rest.](../images/03-the-ai-toolchain-cowork-codex-madison-fig-08.png)
 
 ---
 

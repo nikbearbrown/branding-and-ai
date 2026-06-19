@@ -7,6 +7,8 @@ finished in 71 minutes; the control group took 161. That 56% collapse in the cos
 is no longer the ability to build. It is knowing **what** to build and making that work
 **legible** to the people it is for.
 
+![Figure I.1 — The Copilot productivity collapse: the control group took 161 minutes to write the same HTTP server that the Copilot group finished in 71, a 56% reduction in build time that anchors the book's argument.](../images/00-introduction-fig-01.png)
+
 That is a branding problem. *Branding and AI* teaches brand strategy for technical
 practitioners whose credentials no longer separate them — and it teaches you to do the work
 with AI as your tool, not your replacement.
@@ -19,6 +21,8 @@ through Spence's signaling mechanism, names the four verbs that now carry career
 Engineer* recognizable: archetype, scope, pipelines, interface, positioning, visual
 identity, storytelling, portfolio, and launch. Every chapter opens on a **brand decision**,
 then uses AI to execute it.
+
+![Figure I.2 — The four verbs that now carry career value — Ideate, Build, Brand, Ship — in sequence, with Build de-emphasized to mark where the signal collapse occurred.](../images/00-introduction-fig-02.png)
 
 ## What This Book Is Not
 
@@ -34,6 +38,8 @@ branding task through Madison and then exercise the judgment AI cannot: committi
 archetype, approving a voice, signing off a position, accepting a persona as real, clearing
 a claim. Anything the agent generates — a persona, a metric, a citation — is a draft that
 needs an evidence check.
+
+![Figure I.3 — AI+1, the division of labor: the agent drafts (reformatting, drafting, pattern-spotting) while you, the +1, own the accountable judgments — committing an archetype, approving a voice, signing off a position, clearing a claim.](../images/00-introduction-fig-03.png)
 
 ## Madison: the AI you run
 
@@ -61,6 +67,8 @@ exercises are runnable; no other clone required. Madison is the *tool*; this boo
 - **Chapter 11 — Portfolio as Product.** *The artifact you build once whose returns compound.*
 - **Chapter 12 — Professional Presence and Launch.** *The final deliverable is you.*
 
+![Figure I.4 — How the book is organized: the twelve chapters as a compounding sequence from the Chapter 1 signal baseline to the Chapter 12 launch, with the Chapter 8 fork (8a personal / 8b startup) where the reader chooses a path.](../images/00-introduction-fig-04.png)
+
 ## How to Read This Book
 
 Read in order if the field is new; the chapters compound — your Chapter 1 signal baseline
@@ -68,6 +76,8 @@ feeds your Chapter 3 audience, which feeds your Chapter 4 scope, and so on to th
 launch. At Chapter 8, pick the path that fits — personal (8a) or startup (8b) — and carry it
 to the end. Each chapter closes with a five-part **AI+1** block that advances your own brand
 by running the mapped Madison recipe (see `madison/README.md`).
+
+![Figure I.5 — The Self-as-Project thread that runs end to end: each chapter's artifact feeds the next, from the Chapter 1 signal baseline through audience and scope to the Chapter 12 launch, which returns to you.](../images/00-introduction-fig-05.png)
 
 ## A Note About AI
 

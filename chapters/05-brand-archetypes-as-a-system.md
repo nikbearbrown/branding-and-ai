@@ -36,7 +36,7 @@ The word *archetype* is doing at least four different jobs in current usage, and
 
 *Brand archetypes* are what this chapter is about: the twelve-archetype system formalized by Margaret Mark and Carol Pearson in *The Hero and the Outlaw* (McGraw-Hill, 2001). These are claims about how brands organize identity and how customers form recognition.
 
-<!-- → [TABLE: Side-by-side of all four usages — columns: name, what it is a claim about, primary use, source framework — makes the disambiguation concrete and scannable] -->
+![Four uses of the word "archetype" — Jungian psychological, personality typology, genre, and brand — compared by what each is a claim about, its primary use, and its source framework, with the brand row set off as this chapter's subject.](../images/05-brand-archetypes-as-a-system-fig-01.png)
 
 Mark and Pearson trace their system to Jung — their twelve archetypes share names with Jungian patterns — but the work itself is brand strategy, not psychology. The connection to Jung is useful for exactly one reason: it explains why the patterns feel *familiar*. The Innocent, the Hero, the Outlaw, the Caregiver — customers recognize these patterns at a level below conscious articulation. That pre-conscious recognition is what makes the archetype system more than a naming scheme. It is the reason consistency built around an archetype accumulates into something customers can feel without being able to describe.
 
@@ -66,7 +66,7 @@ Here are the twelve, each with its core motivation and its shadow. The shadow ma
 
 **Creator** — Motivation: imagination, expression, originality. Shadow: perfectionism. The Creator brand says make something that was not there before. When it drifts, it becomes so invested in its own craft it forgets the audience. *(Lego, Adobe, Pixar.)*
 
-<!-- → [DIAGRAM: Visual map of all twelve archetypes arranged around two axes — perhaps Order/Freedom and Self/Social — with archetype names, core motivations, and shadow labels visible] -->
+![The twelve brand archetypes mapped on two axes — Order versus Freedom and Self versus Social — with each name placed by quadrant tendency and a one-word core motivation beneath it.](../images/05-brand-archetypes-as-a-system-fig-02.png)
 
 Before going further, a warning about the names. They will mislead you if you take them literally.
 
@@ -78,7 +78,7 @@ Before going further, a warning about the names. They will mislead you if you ta
 
 When you read these names, read the motivation. Not the dictionary definition.
 
-<!-- → [INFOGRAPHIC: Three-panel contrast — literal reading of Hero, Outlaw, Caregiver on the left (struck through) vs. brand-strategy reading on the right — makes the name/meaning gap visceral] -->
+![The name-versus-meaning gap for Hero, Outlaw, and Caregiver — the literal dictionary reading struck through on the left against the brand-strategy meaning on the right for each.](../images/05-brand-archetypes-as-a-system-fig-03.png)
 
 ---
 
@@ -96,7 +96,7 @@ The Sage archetype made those decisions. Not perfectly, not finally — there is
 
 This is what I mean when I say an archetype is a forcing function. It is not a brand asset in the sense of a logo or a tagline. It is the constraint that makes all the other brand assets cohere.
 
-<!-- → [FIGURE: Decision tree — one brand decision (e.g., "What tone should error messages use?") resolved differently for five different archetypes — shows the forcing function concretely, Sage vs. Jester vs. Hero vs. Caregiver vs. Ruler] -->
+![The archetype as a forcing function — one decision, "What tone should the error message use?", resolved differently across five archetypes: Sage, Jester, Hero, Caregiver, and Ruler.](../images/05-brand-archetypes-as-a-system-fig-04.png)
 
 The deeper reason an archetype matters is recognition. A customer does not experience your brand once. They experience it hundreds of times — a tweet, a Google result, a friend's recommendation, a product review, a push notification, a packaging design at the grocery store. Each of those experiences is a data point. If the data points are consistent, the customer builds a *model* of who the brand is. That model is the recognition asset — the thing that makes a customer, when standing in the juice aisle at 8 AM, reach for your product without thinking.
 
@@ -118,7 +118,7 @@ The Caregiver's shadow is martyrdom: a Caregiver brand that drifts develops a to
 
 The shadow is useful to you in exactly one way: it tells you where to watch. When you pick an archetype, you also pick your most likely failure mode. Knowing which shadow is yours means you know which early-warning signs to monitor.
 
-<!-- → [TABLE: All twelve archetypes — columns: archetype, core strength, shadow, structural relationship between the two — shows the pattern is not arbitrary] -->
+![Strength and its shadow across six representative archetypes — Innocent, Sage, Hero, Caregiver, Ruler, and Creator — showing each core strength, its shadow, and how the strength curdles into the shadow.](../images/05-brand-archetypes-as-a-system-fig-05.png)
 
 ---
 
@@ -160,7 +160,7 @@ There is also a shadow reading of New Coke. The Innocent's shadow is denial. Coc
 
 Three companies. Three archetype drifts. Three rollbacks. The pattern is consistent: when a brand's archetype shifts away from the one its customers have built a recognition model around, customers do not migrate to the new brand. They stop recognizing the brand entirely. The specific direction of the drift varies. The shape of the failure is the same.
 
-<!-- → [TABLE: Comparison across all three cases — columns: brand, original archetype, drift direction (category error or shadow), customer rejection mechanism, days to rollback — the pattern becomes unmistakable side by side] -->
+![Three cases of archetype drift side by side — Tropicana, Gap, and New Coke — comparing original archetype, drift direction, customer rejection mechanism, and days to rollback, with Gap's six days the fastest documented major rollback.](../images/05-brand-archetypes-as-a-system-fig-06.png)
 
 ---
 
@@ -180,9 +180,11 @@ Here is the analytical procedure for identifying a brand's archetype from its ob
 
 Five inputs. Name the archetype that accounts for all five. If you cannot reconcile all five with a single archetype, you have found either a genuine hybrid — common in mature brands — or evidence of drift in progress.
 
+![Reading any brand's archetype — five inputs (tagline, visual language, refusals, customer treatment, crisis behavior) converging on one conclusion, with a failure to reconcile flagging a hybrid or drift in progress.](../images/05-brand-archetypes-as-a-system-fig-07.png)
+
 Once you have identified the archetype, you can predict the failure mode. Name the archetype, name the shadow, look for early signals that the shadow is activating, and name the consequence if it fully activates. Consider LinkedIn as a working example. As of this writing, LinkedIn presents as a Sage brand: the trusted source of professional wisdom, the place experts go to establish authority. The Sage's shadow is dogmatism. Early signals of the shadow activating would include a shift in tone toward prescriptive content, amplification of authority signaling over genuine insight, and a product design that rewards performance of expertise rather than expression of it. Whether LinkedIn is currently activating its shadow is a question you can evaluate yourself by reading five minutes of its feed with this frame in mind. The prediction is not that the shadow *will* activate. The prediction is that *if* LinkedIn fails as a brand, this is the most likely shape of that failure.
 
-<!-- → [DIAGRAM: Worked shadow analysis applied step by step — four labeled stages: identify archetype → name shadow → look for early-warning signals → state the predicted failure mode — using LinkedIn as the example] -->
+![A worked shadow analysis for LinkedIn — four stages from identifying the archetype (Sage) to naming the shadow (dogmatism), watching for early-warning signals, and stating the predicted failure mode if the brand fails.](../images/05-brand-archetypes-as-a-system-fig-08.png)
 
 ---
 
@@ -198,7 +200,7 @@ The archetype that fits should satisfy three tests.
 
 **The stress test.** Suppose your tool grows ten times larger. Suppose a well-funded competitor enters your market and executes your archetype better than you do. Does your archetype still fit? Does it still differentiate you? The archetype that survives all three tests is the one to commit to.
 
-<!-- → [INFOGRAPHIC: Three-panel checklist — Authenticity (mirror icon), Differentiation (compass icon), Stress (×10 gauge icon) — each with the pass question and what failure looks like] -->
+![Picking your archetype — three tests as panels: Authenticity (does it match how you behave unperformed?), Differentiation (does it stand apart in your competitive set?), and Stress (does it hold at 10x scale and against a better-funded copy?), each with its pass question and failure signature.](../images/05-brand-archetypes-as-a-system-fig-09.png)
 
 Your archetype goes dormant during the build sequence. You will not be talking about archetypes while writing feature specs and user stories. But the archetype will quietly shape your decisions: what you scope, what you cut, what you name the tool, how you describe it in the README. A Sage tool does not have a gamified onboarding sequence. An Outlaw tool does not have a corporate pricing page. A Caregiver tool does not use high-contrast alerts that feel like warnings. These are archetype decisions disguised as product decisions.
 

@@ -1,0 +1,59 @@
+<!--
+  The legibility-exclusivity trade-off
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 03
+  Type: bar/quant chart (schematic)
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-03">
+  <title id="fig-title-08-03">The legibility-exclusivity trade-off</title>
+  <desc>For each spectrum position, two opposing schematic bars: legibility is high at the generic end and protectability is high at the fanciful end. The two cross, showing the more legible the name the less exclusively yours it is.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Legibility and protectability run in opposite directions across the spectrum</text>
+
+  <!-- plot region -->
+  <rect x="80" y="64" width="540" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="80" y1="204" x2="620" y2="204" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <line x1="80" y1="344" x2="620" y2="344" stroke="#121212" stroke-width="1"/>
+
+  <!-- five positions; each has legibility (dark gray, above center going up) and protectability (light gray) -->
+  <!-- center baseline at y=204; legibility bars grow up, protectability bars grow up too but in second sub-column -->
+  <!-- We'll draw paired vertical bars per position -->
+  <g>
+    <!-- positions x-centers: 150 245 340 435 530 -->
+    <!-- Generic: legibility max, protect 0 -->
+    <rect x="120" y="84" width="26" height="120" fill="#545454"/>
+    <rect x="152" y="200" width="26" height="4" fill="#ADADAD"/>
+    <!-- Descriptive -->
+    <rect x="215" y="114" width="26" height="90" fill="#545454"/>
+    <rect x="247" y="174" width="26" height="30" fill="#ADADAD"/>
+    <!-- Suggestive -->
+    <rect x="310" y="144" width="26" height="60" fill="#545454"/>
+    <rect x="342" y="124" width="26" height="80" fill="#ADADAD"/>
+    <!-- Arbitrary -->
+    <rect x="405" y="174" width="26" height="30" fill="#545454"/>
+    <rect x="437" y="94" width="26" height="110" fill="#ADADAD"/>
+    <!-- Fanciful -->
+    <rect x="500" y="190" width="26" height="14" fill="#545454"/>
+    <rect x="532" y="84" width="26" height="120" fill="#ADADAD"/>
+  </g>
+
+  <!-- position labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <text x="159" y="362">Generic</text>
+    <text x="254" y="362">Descriptive</text>
+    <text x="349" y="362">Suggestive</text>
+    <text x="444" y="362">Arbitrary</text>
+    <text x="539" y="362">Fanciful</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="80" y="386" width="14" height="14" fill="#545454"/>
+  <text x="100" y="397" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Legibility (clarity to a new customer)</text>
+  <rect x="340" y="386" width="14" height="14" fill="#ADADAD"/>
+  <text x="360" y="397" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Protectability (legal exclusivity)</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Schematic: bars show relative high/low, not measured values. The two profiles cross between suggestive and arbitrary.</text>
+</svg>

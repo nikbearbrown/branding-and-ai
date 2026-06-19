@@ -28,6 +28,8 @@ This is why a brand is an asset and not a decoration. An asset is something that
 
 The entire business of brand management, at its root, is the management of that asset — building it, protecting it, measuring it, and occasionally harvesting it. Everything else is instrumental to that.
 
+![Figure 2.1 — A brand is an asset: three behavioral mechanisms — price premium, retention, and forgiveness — that turn accumulated expectations into future cash flow.](../images/02-what-a-brand-is-equity-fig-01.png)
+
 <!-- → [TABLE: side-by-side behavioral signals of brand equity — price premium, retention rate, forgiveness/recovery data — with a real brand example for each row] -->
 
 ## What the Pyramid Tells You About How the Asset Is Built
@@ -43,6 +45,8 @@ The third level is where brand work starts to feel qualitatively different: **ju
 The top level — **resonance** — is where the compounding asset actually lives. Resonance means genuine loyalty and attachment, the kind where customers seek out the brand rather than just accepting it, where they feel a sense of community with other users, where they evangelize. Apple's installed base is a resonance story. Harley-Davidson's tattoo culture is a resonance story. Resonance is rare. It cannot be bought directly. It is the output of doing every level below it well, consistently, over time.
 
 The pyramid's core lesson: awareness is the floor, not the goal. The asset that produces premium and retention and forgiveness isn't built at the salience level — it's built by climbing to resonance. Most of this book is, in one form or another, about that climb.
+
+![Figure 2.2 — Keller's customer-based brand equity pyramid: salience at the floor, performance and imagery, judgments and feelings, and resonance at the apex where compound equity accumulates and purchased awareness stalls below.](../images/02-what-a-brand-is-equity-fig-02.png)
 
 <!-- → [DIAGRAM: Keller CBBE pyramid — four levels labeled with brief descriptors; annotation showing where "purchased awareness" stalls vs. where compound equity accumulates] -->
 
@@ -60,6 +64,8 @@ Keller gives you the shape of the asset. David Aaker, in *Managing Brand Equity*
 
 The diagnostic move Aaker gives you: map your brand on all four dimensions and find the weakest one. Intervening on a strong dimension produces little; intervening on the weak one produces the most lift.
 
+![Figure 2.3 — Aaker's four levers of brand equity — awareness, perceived quality, associations, and loyalty — as a diagnostic grid showing what high and low look like and the question to ask of each, so you can find and fix the weakest dimension.](../images/02-what-a-brand-is-equity-fig-03.png)
+
 <!-- → [TABLE: Aaker's four dimensions — column headers: dimension, definition, what high looks like, what low looks like, diagnostic question to ask] -->
 
 ## Three Words People Confuse
@@ -74,7 +80,11 @@ Brand identity, brand image, and brand equity are used interchangeably in most b
 
 Brand work, when it's working, is the management of the distance between identity and image. When a company says "premium" and customers experience "overpriced," that's a gap — equity is leaking. When a company projects "innovative" and customers encode "unreliable," that's a gap with a different leak. The job is to close gaps that matter and understand why they exist.
 
+![Figure 2.4 — Identity vs. image vs. equity: what a brand projects (sender side) is transmitted across a gap to what actually lands (receiver side); when the gap is small and the image favorable, equity results — the gap is where equity leaks.](../images/02-what-a-brand-is-equity-fig-04.png)
+
 Jean-Noël Kapferer's identity prism is a useful diagnostic tool on the identity side: it maps a brand's physique, personality, relationship, culture, self-image, and reflection as a hexagon, forcing explicit articulation of each dimension. The image-side counterpart is qualitative research. The equity measurement is what we'll get to next.
+
+![Figure 2.5 — Kapferer's identity prism: the six facets — physique, personality, and culture on the sender side; self-image, reflection, and relationship on the receiver side — that force explicit articulation of a brand's identity.](../images/02-what-a-brand-is-equity-fig-05.png)
 
 <!-- → [DIAGRAM: Kapferer identity prism — hexagon with six labeled facets; left side labeled "sender" (physique, personality, culture), right side labeled "receiver" (self-image, reflection, relationship); annotation showing how the gap between projected identity and perceived image is where equity leaks] -->
 
@@ -94,6 +104,8 @@ The valuations differ substantially across methods for the same brand. That's no
 
 The practical lesson for brand managers: use the valuation methods to understand the *logic* of where brand value comes from (the Interbrand method is especially transparent about this), not to get a single authoritative number. The number matters mostly in M&A, where someone has to actually write a check.
 
+![Figure 2.6 — Three ways to value a brand: Interbrand, Kantar BrandZ, and Brand Finance compared on methodology, data input, what the number represents, and known limitation, with ISO 10668 as the arbitration standard for methods that disagree by design.](../images/02-what-a-brand-is-equity-fig-06.png)
+
 <!-- → [TABLE: side-by-side comparison of Interbrand, Kantar BrandZ, Brand Finance — rows: primary methodology, main data input, what the resulting number represents, known limitation] -->
 
 ## The Equity Audit
@@ -105,6 +117,8 @@ The audit has two layers that shouldn't be collapsed. The first layer is gatheri
 The failure mode in AI-assisted audits is letting the output of the first layer do the work of the second. Sentiment is not equity. A brand can have positive sentiment at the salience level and still have no resonance. A brand can have negative press and still have the deepest loyalty in its category — Harley-Davidson's owners have complained about quality for fifty years and still tattoo the logo on their arms. Grading the signal requires the models. The models require a human who understands them.
 
 That division is what I want you to carry out of this chapter, because it's the pattern that repeats across every AI-assisted brand task: machine gathers, human judges.
+
+![Figure 2.7 — The equity audit, the pattern that repeats across the book: AI gathers the signal (associations, sentiment, competitor read), then a human-gate; the +1 grades that signal against the models — which Keller level, which weakest Aaker lever, which identity-image gap.](../images/02-what-a-brand-is-equity-fig-07.png)
 
 ---
 

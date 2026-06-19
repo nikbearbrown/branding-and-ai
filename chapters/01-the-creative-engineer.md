@@ -43,8 +43,8 @@ Spence called the good state a *separating equilibrium*: signals successfully se
 
 <!-- → [INFOGRAPHIC: Two-column schematic — separating equilibrium (signal sorts high from low productivity) vs. pooling equilibrium (signal stops distinguishing); use simple candidate-pool diagrams with arrows showing employer inference] -->
 
-![Two-column schematic showing separating equilibrium where the signal sorts versus pooling equilibrium where it does not](../images/01-the-creative-engineer-fig-03.png)
-*Figure 1.3 — Separating vs. pooling equilibrium*
+![Two-column schematic showing separating equilibrium where the signal sorts versus pooling equilibrium where it does not](../images/01-the-creative-engineer-fig-02.png)
+*Figure 1.2 — Separating vs. pooling equilibrium*
 
 For roughly twenty years, "I have a working app on GitHub" was a separating signal for software engineers. Think about what it actually cost to produce that signal in 2010. You needed to know version control, a language, a framework, a deployment environment. You needed to debug something that broke at 11pm. You needed to persist through the project long enough to have something worth showing. The entire effort might span six weekends of genuine work. That cost correlated with productive engineering capacity. Recruiters used GitHub the way they used GPA — as a noisy but real proxy.
 
@@ -52,8 +52,8 @@ Now apply the Peng et al. result. The activation cost of producing a working app
 
 When 82% of developers are using AI assistance, a GitHub repository no longer tells a recruiter whether they are looking at someone who built the project over six weekends of craft or someone who scaffolded it in a Tuesday afternoon with an LLM. The signal did not vanish. It *pooled*. Everyone produces it, so it stops sorting.
 
-![Horizontal timeline of the GitHub signal collapse, 2004 to 2024 — GitHub launches, Copilot launches, Peng et al. study, Stack Overflow 82% survey](../images/01-the-creative-engineer-fig-04.png)
-*Figure 1.4 — The compression of the signal collapse*
+![Horizontal timeline of the GitHub signal collapse, 2004 to 2024 — GitHub launches, Copilot launches, Peng et al. study, Stack Overflow 82% survey](../images/01-the-creative-engineer-fig-03.png)
+*Figure 1.3 — The compression of the signal collapse*
 
 <!-- → [CHART: Timeline — 2004 (GitHub launches), 2021 (Copilot launches), 2023 (Peng et al. study published), 2024 (82% Stack Overflow survey); shows how fast the collapse compressed] -->
 
@@ -73,8 +73,8 @@ The Creative Engineer is an engineer who has noticed that the costly signals hav
 
 <!-- → [INFOGRAPHIC: Four-verb sequence — Ideate → Build → Brand → Ship — with Build visually de-emphasized or marked as "cheapened" to show where the signal collapse occurred] -->
 
-![The four verbs in sequence — Ideate, Build (greyed as the cheapened verb), Brand, Ship — with the cheapening of Build visually marked](../images/01-the-creative-engineer-fig-05.png)
-*Figure 1.5 — The four verbs of the Creative Engineer*
+![The four verbs in sequence — Ideate, Build (greyed as the cheapened verb), Brand, Ship — with the cheapening of Build visually marked](../images/01-the-creative-engineer-fig-04.png)
+*Figure 1.4 — The four verbs of the Creative Engineer*
 
 **Ideate** is the hardest move, and the one generative AI cannot yet do for you. Generative tools are excellent at producing solutions. Given a specification, they will build it. What they cannot do is decide whether the specification is worth building. Talking to potential users, finding a real gap, refusing to build the wrong thing — this requires human judgment operating in the world. The failure mode I see most often: students pick a technology they want to learn, build a project around the technology, and then try to retrofit a user need onto the artifact. The result is a technically competent thing that nobody wanted. The project demonstrates Build. It does not demonstrate Ideate.
 
@@ -90,6 +90,9 @@ The Creative Engineer is an engineer who has noticed that the costly signals hav
 | **Build** | No complete, functional projects in any public repository | At least one complete, deployed project; partial portfolio with some finished work alongside abandoned repos | Multiple complete projects with documented technical decisions; production-grade deployment visible; code is readable by a stranger |
 | **Brand** | No consistent positioning; bio is generic or absent; no recognizable voice or audience across artifacts | Some consistency in tone or topic area; bio names a specialization; writing samples suggest an emerging voice | Coherent public identity across platforms; a specific audience is identifiable from the work; a stranger could describe your positioning without prompting |
 | **Ship** | No public-facing deployment; projects exist only as repos or class submissions | At least one project live at a public URL; limited evidence of actual users beyond the builder | Deployed product with real users; documented iteration based on use; public metrics, testimonials, or engagement visible |
+
+![Figure 1.5 — The four-verb scoring rubric: each verb (Ideate, Build, Brand, Ship) scored 1 (no evidence), 3 (some evidence), or 5 (clear public artifact), so a reader can locate themselves before choosing an archetype.](../images/01-the-creative-engineer-fig-05.png)
+*Figure 1.5 — The four-verb scoring rubric*
 
 <!-- → [TABLE: Four-verb scoring rubric — placed immediately after the verb definitions so readers can self-assess before moving to archetypes] -->
 
@@ -108,8 +111,8 @@ In December 2022, Anthropic published Bai et al., "Constitutional AI: Harmlessne
 
 <!-- → [TABLE: Anthropic vs. OpenAI brand differentiation — audience, positioning, flagship signal, market captured; placed here to anchor the firm-level illustration before returning to individual career strategy] -->
 
-![Side-by-side mockup of Anthropic's and OpenAI's homepage hero sections, showing identical capability framed for two different audiences](../images/01-the-creative-engineer-fig-08.png)
-*Figure 1.8 — Anthropic / OpenAI brand differentiation*
+![Figure 1.6 — Anthropic vs. OpenAI brand differentiation: two competitors with near-identical technical work and opposite brand positions, compared on primary audience, positioning, flagship signal, and market captured.](../images/01-the-creative-engineer-fig-06.png)
+*Figure 1.6 — Anthropic / OpenAI brand differentiation*
 
 The same mechanism — explicit audience, differentiated positioning, chosen archetype — determines which slice of the market can recognize you, want you, and hire you. Not a company. A career.
 
@@ -144,8 +147,8 @@ What the framework does *not* do: it does not tell you which archetype to choose
 
 <!-- → [INFOGRAPHIC: Twelve-archetype wheel arranged in three groups of four — ego-driven, soul-driven, self-driven — with shadow failure mode visible for each; readers use this to locate their provisional archetype] -->
 
-![The twelve-archetype wheel arranged in three groups of four — ego-driven, soul-driven, self-driven](../images/01-the-creative-engineer-fig-10.png)
-*Figure 1.10 — The twelve archetypes, grouped by orientation*
+![Figure 1.7 — The twelve Jungian archetypes grouped by orientation into three sets of four — ego-driven, soul-driven, and self-driven — each tagged with its core drive, used to locate a provisional archetype.](../images/01-the-creative-engineer-fig-07.png)
+*Figure 1.7 — The twelve archetypes, grouped by orientation*
 
 Here is the method for reading yourself into the framework. It is evidence-based, not introspective — you are not trying to decide what you wish you were. You are looking at the work you have already produced and finding the pattern.
 
@@ -168,8 +171,8 @@ Engineer B has four repositories, all complete. Two have README files that read 
 
 <!-- → [TABLE: Two engineer profiles read against the archetype framework — illustrates how evidence-based archetype identification works before readers apply it to themselves] -->
 
-![Two GitHub profile mockups — Engineer A reads as Rebel; Engineer B reads as Everyman](../images/01-the-creative-engineer-fig-12.png)
-*Figure 1.12 — Two GitHub profiles, two archetypes*
+![Figure 1.8 — Two GitHub profiles read from evidence: Engineer A (17 repos, 14 unfinished, API critiques, no tutorials) reads as Rebel; Engineer B (4 complete repos, tutorial READMEs, 200 Stack Overflow answers) reads as Everyman, each with its shadow.](../images/01-the-creative-engineer-fig-08.png)
+*Figure 1.8 — Two GitHub profiles, two archetypes*
 
 ---
 
@@ -185,8 +188,8 @@ And the Spence layer underneath both explains why any of this matters. If buildi
 
 <!-- → [INFOGRAPHIC: Three-level stack — Spence Mechanism (why the market is shifting) → Four-Verb Framework (what the new portfolio must demonstrate) → Archetype System (how to execute Brand); shows the logical dependency between the three frames] -->
 
-![Three-level stack — Spence Mechanism (why), Four-Verb Framework (what), Archetype System (how)](../images/01-the-creative-engineer-fig-13.png)
-*Figure 1.13 — Three frames, one argument*
+![Figure 1.9 — Three frames, one argument: the dependency stack from the Spence mechanism (why the market shifted) to the four-verb framework (what the portfolio must demonstrate) to the archetype system (how to execute Brand).](../images/01-the-creative-engineer-fig-09.png)
+*Figure 1.9 — Three frames, one argument*
 
 | Framework | Question It Answers | What Breaks Without It |
 |---|---|---|

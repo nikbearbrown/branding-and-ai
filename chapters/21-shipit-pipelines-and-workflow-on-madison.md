@@ -33,6 +33,8 @@ Between every component in your pipeline — every API call, every database writ
 
 This is the frame to hold for everything in this appendix. The four pipeline types, the n8n walkthrough, the error-handling mechanics — all of it is in service of a single practical skill: designing for the day a contract changes, rather than pretending it will not.
 
+![A pipeline as a chain of contracts: source, API, transform, and store nodes connected by edges, each edge labeled with its agreement — shape, cost, rate limit, terms of service — and stamped as owned by someone else, subject to change.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-01.png)
+
 Before this appendix makes full sense, you need basic comfort with web APIs — you should have made at least one API call in code and encountered a rate limit or authentication error. If you have not, spend an hour with the [Open-Meteo weather API](https://open-meteo.com/) before continuing. It requires no authentication and returns clean JSON. The concepts here will make more sense after you have felt an API break under you.
 
 ---
@@ -51,6 +53,8 @@ The Madison Intelligence Agent is a workflow-automation pipeline with an inferen
 
 <!-- → [TABLE: Four pipeline categories — columns: type, tools, throughput/frequency, typical use case, used in Madison? Rows: ETL, Stream, Workflow automation, Inference.] -->
 
+![The four kinds of data pipeline compared — ETL, stream-processing, workflow-automation, and inference — across tools, throughput, typical use, and whether Madison uses them, with workflow-automation and inference marked as the two the reader will build.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-02.png)
+
 ---
 
 Now back to Apollo — because the taxonomy is only useful if you can read a failure through it.
@@ -66,6 +70,8 @@ There is also an asymmetry worth sitting with. Reddit — the upstream actor tha
 Most builders do not have Selig's transparency or Selig's existing audience. When your pipeline breaks because an upstream service changes its terms, your users do not see "upstream contract failure." They see "this tool stopped working." The brand damage flows to the name on the front page. Which is yours.
 
 <!-- → [TABLE: Apollo damage asymmetry — columns: actor, type of damage, duration. Rows: Reddit (upstream), Apollo (downstream), Christian Selig (personally).] -->
+
+![The Apollo damage asymmetry: Reddit upstream absorbs diffuse reputational damage, Apollo downstream absorbs concentrated product-killing damage, and Christian Selig personally emerges strengthened — damage flows downhill to the smallest, most dependent party.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-03.png)
 
 The same pattern ran at Twitter in February 2023, when the platform deprecated its free API tier and introduced new pricing starting at $100 per month for severely limited access — with an enterprise tier at $42,000 per month for the research access that academics had previously used at no cost. Hundreds of third-party tools broke overnight. At Heroku in November 2022, the free dyno tier ended, and thousands of student projects and side tools went offline. Three different industries, three different upstream actors, the same pattern: platform makes a unilateral change, downstream products break, downstream users blame the tool rather than the platform, brand damage flows to the smallest actors in the chain.
 
@@ -83,7 +89,11 @@ Three disciplines answer that question. They are the point. The tooling is imple
 
 <!-- → [TABLE: Three pipeline disciplines — columns: discipline, what it catches, how to implement in n8n. Rows: document the contract, design a degraded mode, monitor the contract.] -->
 
+![The three survival disciplines — document the contract, design a degraded mode, monitor the contract — each card showing what it catches and how to implement it in n8n, with the tooling framed as implementation and the three disciplines as the point.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-04.png)
+
 <!-- → [TABLE: Degraded mode taxonomy — columns: mode name, what it does, minimum implementation, when to use it. Rows: informative failure, partial degradation, fallback source, graceful staleness.] -->
+
+![The degraded mode taxonomy as a ladder of increasing robustness: informative failure, partial degradation, fallback source, and graceful staleness — each rung annotated with its minimum implementation and when to use it.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-05.png)
 
 ---
 
@@ -100,6 +110,8 @@ Three core concepts.
 The most important property n8n gives you is that each node is *independently replaceable*. In a single Python script that makes ten API calls and writes to a database, the dependencies are interwoven. Swapping one API for another may require touching half the file. Testing one step requires running the whole script. When a contract changes, the failure point is not obviously localized. In an n8n workflow, every dependency is a node with a clearly defined input and output. When OpenAI raises its prices, you swap the OpenAI node for a Claude node. When Reddit's API breaks your ingestion step, you swap the Reddit node for an RSS-feed node — without touching the transformation or output nodes. The visual graph forces the contracts to be explicit, which means you can reason about them before they fail and isolate them when they do.
 
 <!-- → [FIGURE: Side-by-side — Python script with interwoven dependency calls on the left, n8n workflow with each contract as a separately labeled, replaceable node on the right. Caption: same pipeline, two representations; one makes the contracts visible.] -->
+
+![The same pipeline in two representations: a monolithic Python script with contracts hidden inside interwoven dependency calls on the left, versus an n8n workflow where every contract is a separately labeled, independently replaceable node on the right — one makes the contracts visible.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-06.png)
 
 Setting up n8n takes two commands if you have Docker:
 
@@ -156,6 +168,8 @@ return cleaned.map(c => ({ json: c }));
 
 Run the workflow manually. Open the sheet. Verify that rows appeared. If they did, you have a working pipeline. Four nodes, three contracts, one verifiable output.
 
+![The four-node build pipeline: Schedule Trigger, HTTP Request for the RSS feed, a Code node to transform and deduplicate, and a Google Sheets write — each node annotated with its documented contract. Four nodes, three contracts, one verifiable output.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-07.png)
+
 ---
 
 Now open `pantry/madison/Intelligence-Agent/n8n_workflow.json` — either in a text editor or imported into your n8n instance — and trace the data flow. You are not looking for the node count. You are looking for the design decisions.
@@ -171,6 +185,8 @@ An OpenAI node sends each new item's title and description to GPT-4o-mini with a
 Two output nodes: one that appends scored items to the main content sheet, one that writes a run-log entry with a timestamp and item count. The run log answers the question your monitoring system needs to be able to ask: did the pipeline run today? Not "is the pipeline currently running" — that is a different question — but "did it execute successfully at 7 a.m.?"
 
 <!-- → [FIGURE: Madison Intelligence Agent workflow architecture — schedule trigger, parallel ingestion branches, deduplication node, LLM scoring node, dual output nodes. Caption: each design choice labeled with the failure mode it addresses.] -->
+
+![The Madison Intelligence Agent architecture: a six-hour schedule trigger feeding parallel ingestion branches (RSS, Google News API, Reddit) that converge at a deduplication node, then GPT-4o-mini scoring, then dual output nodes for the content sheet and run log — each choice labeled with the failure mode it addresses.](../images/21-shipit-pipelines-and-workflow-on-madison-fig-08.png)
 
 <!-- → [TABLE: Madison design choices — columns: design choice, failure mode it addresses, what happens without it. Rows: parallel branches, seen-URL store, run log, six-hour schedule.] -->
 

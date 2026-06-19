@@ -38,6 +38,8 @@ This behavioral test also explains why purpose-washing is more damaging than sil
 
 <!-- → [TABLE: Purpose vs. purpose-washing — columns: characteristic, real purpose (Patagonia example), purpose-washing (Conscious Collection example), the behavioral test. Rows: whether the commitment costs something, whether it changes core decisions, how it performs under public scrutiny, regulatory risk level.] -->
 
+![Purpose vs. purpose-washing: side-by-side panels contrasting Patagonia's costly, core-changing commitments against a fast-fashion "Conscious Collection" that signals concern without cost, compared across whether it costs something, changes core decisions, performs under scrutiny, and its regulatory risk level.](../images/15-brand-ethics-purpose-and-sustainability-fig-01.png)
+
 The practical implication: only claim the values you can demonstrate. If your brand has a genuine sustainability practice — certified materials, documented supply chain, measurable emissions reduction — claim it with proof. If you have aspirations toward sustainability that are not yet practices, say so honestly or say nothing. Silence is not a failure of brand integrity. A claim you cannot substantiate is.
 
 ---
@@ -46,9 +48,13 @@ The claim-proof map is the operational tool that enforces this discipline. Every
 
 The status column is the honest reckoning. "Cannot substantiate" is not a failure of the brand; it is a failure of the claim. The fix is to remove the claim, not to manufacture the evidence.
 
+![The claim–proof map: a four-column table pairing each claim with the evidence required, the evidence actually held, and a status of HAVE, NEED, or CANNOT SUBSTANTIATE — where "cannot substantiate" is the signal to cut the claim rather than manufacture proof.](../images/15-brand-ethics-purpose-and-sustainability-fig-02.png)
+
 What counts as verifiable evidence depends on the claim's category. Environmental claims require measurement — carbon emissions figures from a recognized accounting standard, water usage from an audited supply chain report, materials composition from a certified supplier. Social claims require documentation — pay equity analysis, workforce diversity data from an audited HR report, supplier code of conduct with enforcement records. AI ethics claims — increasingly common for AI tool brands — require either published technical documentation (bias audit results, model card data, red-teaming reports) or third-party assessment.
 
 <!-- → [TABLE: Claim types and their evidence standards — columns: claim category, example claim, required evidence type, who can certify it, what "cannot substantiate" typically means. Rows: environmental (carbon), environmental (materials), social (labor), social (diversity), AI ethics (bias), AI ethics (safety).] -->
+
+![Claim categories and their evidence standards: a matrix across environmental, social, and AI-ethics families showing each category's example claim, the required evidence type, who can certify it, and what "cannot substantiate" typically means — measurement for environmental, documentation for social, published audits for AI ethics.](../images/15-brand-ethics-purpose-and-sustainability-fig-03.png)
 
 The claim-proof map serves two functions that are easy to conflate. It is a brand integrity tool: it forces the team to verify every public commitment before publication. And it is now, in an increasing number of jurisdictions, a compliance tool: regulators can ask to see the substantiation behind any environmental claim, and the map is the documentation that answers that request.
 
@@ -70,6 +76,8 @@ The teachable point is durable regardless of the specific dates: unsubstantiated
 
 <!-- → [TABLE: Greenwashing regulatory comparison — columns: jurisdiction, governing rule, effective date, banned claim types, enforcement mechanism, penalty exposure. Rows: EU (ECGT), US (FTC Green Guides), US state (California). Flagged for verify: specific dates and enforcement details.] -->
 
+![Greenwashing is now regulated: a comparison table of the EU (ECGT — bans generic green claims and offset-based "climate neutral," applying 27 September 2026), US federal (FTC Green Guides under Section 5), and US state (California moving faster on recyclable/compostable labeling), with governing rule, effective date, banned claim types, and enforcement for each.](../images/15-brand-ethics-purpose-and-sustainability-fig-04.png)
+
 ---
 
 Three instruments exist for making purpose legible to external audiences — for translating the internal discipline of real commitments into external signals that customers, investors, and employees can evaluate.
@@ -81,6 +89,8 @@ Three instruments exist for making purpose legible to external audiences — for
 **B Corp certification** is third-party verification by B Lab that a company meets standards of social and environmental performance, accountability, and transparency. `[verify: current B Lab certification standards — B Lab announced revised standards in 2023]` B Corp is meaningfully harder to obtain than a CSR press release, and the periodic recertification process creates a baseline of accountability. Its limits: the certification is a floor, not a ceiling; some B Corps operate in sectors with high inherent negative externalities; and the standards, while rigorous compared to self-reporting, are set by B Lab rather than a regulatory body.
 
 The honest summary: all three are signals worth scrutinizing, none is proof of purpose, and all are better than no signal. The brand ethics discipline is to use these frameworks as documentation infrastructure for the claim-proof map — if you have a B Corp certification, it provides verified evidence for certain categories of claims — rather than as substitutes for the discipline itself.
+
+![CSR, ESG, and B Corp as signals that invite scrutiny: three bands ordered by increasing third-party rigor — voluntary, unverified CSR programs; standardized but unharmonized ESG disclosure where reporting is not the same as performing; and B Lab's harder-won B Corp verification, a floor not a ceiling — each shown with what it signals and its named limit.](../images/15-brand-ethics-purpose-and-sustainability-fig-05.png)
 
 ---
 
@@ -95,6 +105,8 @@ This produces the asymmetry I mentioned earlier. A brand that claims nothing and
 The structural implication is that values claims require ongoing behavioral verification. It is not enough to make the claim once and maintain the documentation. The brand must continuously produce the behaviors that the claim predicted — or, when circumstances change and the behavior cannot be maintained, disclose the change and revise the claim before the audience discovers the gap. Proactive disclosure of limitation is almost always less damaging than discovered hypocrisy.
 
 <!-- → [DIAGRAM: Trust asymmetry — two scenarios plotted on the same axes (time horizontal, audience trust vertical): (1) brand makes no values claims, has a scandal — trust drops to a recoverable level; (2) brand makes values claims, has the same scandal — trust drops further and recovery is slower; the gap between the two lines is labeled "the cost of hypocrisy."] -->
+
+![The cost of hypocrisy: two trust trajectories dropping at the same scandal event — a brand that made no values claim falls to a recoverable level and climbs back, while a brand that claimed to lead on the very thing it violated falls further and recovers slower — with the gap between their ending levels marked as the cost of hypocrisy.](../images/15-brand-ethics-purpose-and-sustainability-fig-06.png)
 
 This is where the "Still Puzzling" question lives for me. The research evidence on purpose-driven brands — that they outperform on customer loyalty, employee retention, and long-term financial returns — is real but heavily subject to selection bias. The brands we study as successful purpose-driven brands survived long enough and performed well enough to be studied. The brands that staked a values position, failed to maintain it, and damaged their trust permanently are not generating Harvard Business School case studies. The relationship between purpose and performance is almost certainly positive for brands that can maintain the behavioral commitment — and almost certainly negative for brands that make the claim without the commitment.
 

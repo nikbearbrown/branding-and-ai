@@ -40,7 +40,7 @@ The literature on story structure is enormous. For brand work, three frameworks 
 
 This sounds obvious. It is not. Most technical founders default to stories where the brand is the hero. The founders fought through hard problems, built something remarkable, overcame the obstacles of the early market. These stories are true and sometimes compelling for raising capital. They are weak for selling to customers, because the customer cannot identify with a story whose hero is someone else.
 
-![A side-by-side comparison of the brand-as-hero framing vs. the customer-as-hero framing — same product, two story shapes.](../images/10-brand-storytelling-fig-01.png)
+![A side-by-side comparison of the brand-as-hero framing vs. the customer-as-hero framing — same product, two story shapes, with the customer cast as hero and the brand as guide.](../images/10-brand-voice-and-storytelling-fig-02.png)
 *Figure 10.1 — Brand-as-hero vs. customer-as-hero: the same product, two story shapes*
 
 <!-- → [FIGURE: Two-panel comparison — left panel shows brand-as-hero story structure with brand as protagonist; right panel shows customer-as-hero with customer as protagonist and brand in guide role; same tool, opposite orientations] -->
@@ -51,7 +51,7 @@ When you sit down to write a case study, you are working at Miller's level. But 
 
 The archetype is the constraint that runs across all three levels. It is not a fourth framework. It is the filter on what story shapes are available to your brand.
 
-![A nested-ring diagram with Campbell as the outermost ring, Booker in the middle, Miller inside, and Archetype at the center.](../images/10-brand-storytelling-fig-07.png)
+![A nested-ring diagram with Campbell as the outermost ring, Booker in the middle, Miller inside, and Archetype at the center as the constraint that filters which plots are available.](../images/10-brand-voice-and-storytelling-fig-01.png)
 *Figure 10.7 — The three storytelling frameworks as telescoping rings*
 
 <!-- → [FIGURE: Concentric ring diagram — outermost ring: Campbell (universal story architecture); middle ring: Booker (seven basic plots); inner ring: Miller (customer-as-hero application); center filled circle: Archetype (the filter on available plots)] -->
@@ -76,6 +76,8 @@ A **Jester archetype** tells Inversion stories — stories that flip the expecte
 
 The constraint is not that your archetype can only tell one kind of story. It is that story shapes requiring a different archetype's commitments will misfire. An Innocent telling a Rebellion story reads as co-optation. A Sage telling a Jester story reads as trying too hard. A Jester telling a sincere Service story reads as insincere. The audience does not articulate these mismatches in framework terms — they just feel the falseness.
 
+![A matrix mapping six archetypes — Hero, Sage, Outlaw, Caregiver, Magician, Jester — to the story shape native to each, an exemplar brand, and what misfires if the shape is borrowed by the wrong archetype.](../images/10-brand-voice-and-storytelling-fig-03.png)
+
 <!-- → [TABLE: Archetype-to-story-shape reference — twelve rows, one per archetype; columns: archetype, native story shapes, why the shape fits, story shapes to avoid, failure mode when avoided shape is attempted] -->
 
 ---
@@ -89,6 +91,8 @@ Before the cases, name the failure mechanism precisely. An archetype-narrative m
 **Pathway 2: The story positions the brand in a role inconsistent with its archetype.** Miller's customer-as-hero framing makes this visible: the brand's position in the story — hero, guide, mentor — carries archetypal weight. An Everyman brand that positions itself as a transformative force is claiming to transcend the ordinary. The Everyman's promise is *you belong here, as you are* — not transcendence. The positioning claim contradicts the brand's foundational commitment.
 
 **Pathway 3: The story's cultural content is accessible only to archetypes the brand does not inhabit.** Some subject matter belongs, in cultural terms, to specific archetypes. Social movements belong to the Outlaw. Grief and care belong to the Caregiver. Mastery and achievement belong to the Hero. An Innocent brand entering social-movement content is borrowing content it has no claim to. The borrowing reads as exploitation regardless of intent.
+
+![A matrix of the three archetype–narrative mismatch failure pathways — wrong emotional register, archetype-inconsistent role, and borrowed cultural content — each paired with what goes wrong and the diagnostic question to ask before publishing.](../images/10-brand-voice-and-storytelling-fig-04.png)
 
 <!-- → [TABLE: Three failure pathways — columns: pathway number, name, what goes wrong, diagnostic question to ask before publishing, example brand that activated it] -->
 
@@ -108,7 +112,7 @@ The third failure: the Hero's Journey requires genuine stakes. The hero must ris
 
 Pepsi pulled the ad within 24 hours. The company's apology stated it had been trying to project a global message of unity, peace, and understanding. The apology confirmed the mechanism: the *intent* was Innocent (unity, peace) but the *story shape* was Hero, and the *cultural content* belonged to the Outlaw. Three mismatches, one catastrophe.
 
-![A breakdown diagram of the Pepsi ad's three-layer mismatch.](../images/10-brand-storytelling-fig-03.png)
+![A breakdown diagram of the Pepsi ad's three-layer mismatch — story shape attempted (Hero's Journey), brand's actual archetype (Innocent), and cultural content borrowed (Outlaw) pulling apart.](../images/10-brand-voice-and-storytelling-fig-05.png)
 *Figure 10.3 — The Pepsi ad's three-layer mismatch*
 
 <!-- → [FIGURE: Three-layer mismatch diagram for the Pepsi case — three rows labeled "Story Shape Attempted" (Hero's Journey), "Brand's Actual Archetype" (Innocent), "Cultural Content Borrowed From" (Outlaw); arrows showing the three-way divergence] -->
@@ -135,6 +139,8 @@ The additional complication: the new vehicles the rebrand was intended to introd
 
 [*Note: This account is drawn from public coverage through mid-2025. Primary source documentation for specific audience metrics and internal brand decision-making should be verified against trade press and company statements before use in formal analysis.*]
 
+![A cross-case comparison matrix of Pepsi, Bud Light, and Jaguar — each row showing the brand's actual archetype, the story shape it attempted, the pathways activated, and the outcome — revealing one shared structural failure.](../images/10-brand-voice-and-storytelling-fig-06.png)
+
 <!-- → [TABLE: Cross-case mismatch comparison — five rows for Pepsi, Bud Light, Jaguar, and two blank rows for student cases; columns: brand, actual archetype, story shape attempted, failure pathway(s) activated, audience response, time to correction] -->
 
 ### The Pattern
@@ -156,9 +162,6 @@ A well-told brand story has three properties that can be checked before it is pu
 **Property 2: The customer is the hero; the brand is the guide.** The customer wakes up with a problem. The brand does not solve the problem — the customer solves the problem. The brand provides clarity about the problem, a plan for addressing it, and the tools to execute the plan. The customer takes action. The customer is transformed. Yoda does not go to the Death Star. Luke does.
 
 **Property 3: The stakes are real and specific.** "Our tool saves time" is not a stake. "Marketing teams at mid-size B2B companies were spending eight hours per week on competitive monitoring; after three months with the tool, that time dropped to forty-five minutes and the head of marketing used the recaptured hours to launch a new campaign strategy" is a stake. The specificity is not decorative — it is what makes the transformation visible and believable. Abstract stakes signal that the writer does not actually know what changed for the customer.
-
-![A before/after comparison of the same case study written two ways — left: brand-as-hero with abstract stakes; right: customer-as-hero with specific transformation.](../images/10-brand-storytelling-fig-04.png)
-*Figure 10.4 — The same case study, two ways*
 
 <!-- → [FIGURE: Two-panel before/after comparison — left panel shows brand-as-hero case study draft with abstract stakes; right panel shows customer-as-hero revision with specific user, specific problem, specific transformation; same project, opposite orientations] -->
 
@@ -206,6 +209,8 @@ The evidence from content marketing research is consistent: cadence beats volume
 
 For each planned piece, write one sentence answering: *what story shape is this, and does that shape fit my archetype?* If you cannot answer that question, the piece is not ready to be planned — it is still being figured out.
 
+![Cadence beats volume: two audience-growth trajectories over 36 months at the same total piece count — a steady monthly cadence compounding into a rising curve versus a burst-and-abandon sawtooth that collapses near zero.](../images/10-brand-voice-and-storytelling-fig-08.png)
+
 <!-- → [CHART: Two line charts — left panel: steady rising audience curve over 36 months (consistent monthly cadence); right panel: sawtoothed flat audience curve (burst-and-abandon); same total number of pieces, opposite trajectories] -->
 
 ---
@@ -230,7 +235,7 @@ The *transformation*: what specifically changed? Numbers where available. Timeli
 
 The *meta-lesson*: what does this case study teach beyond "our tool works"? What does this case teach about the problem domain, the approach, the kind of transformation that is possible?
 
-![A visual template of the six case study elements arranged as a narrative arc.](../images/10-brand-storytelling-fig-06.png)
+![A visual template of the six case study elements — customer, problem, what they tried, approach, transformation, meta-lesson — arranged as a rising-and-resolving narrative arc with the customer as protagonist throughout.](../images/10-brand-voice-and-storytelling-fig-07.png)
 *Figure 10.6 — The six case study elements as a narrative arc*
 
 <!-- → [FIGURE: Six-element narrative arc — problem establishes stakes, "what they tried" creates the gap, approach enters as guide, transformation is the arc's peak, meta-lesson closes; arranged as a rising-and-resolving structure with the customer as protagonist throughout] -->
